@@ -1,1 +1,34 @@
 # 获取上游模型列表
+
+管理接口渠道管理
+
+# 获取上游模型列表
+
+👨💼 需要管理员权限（Admin）
+
+loading...
+
+
+/`api`/`channel`/`fetch_models`/`{id}`
+
+Send
+
+Path
+
+## [Path Parameters](#path-parameters)
+
+id\*integer
+
+## [Response Body](#response-body)
+
+### 200
+
+cURLJavaScriptGoPythonJavaC#
+
+```
+curl -X GET "https://loading/api/channel/fetch_models/0"
+```
+
+200
+
+Empty

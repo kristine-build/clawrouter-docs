@@ -1,1 +1,38 @@
 # 用户登录
+
+管理接口用户登陆注册
+
+# 用户登录
+
+🔓 无需鉴权
+
+loading...
+
+
+/`api`/`user`/`login`
+
+Send
+
+Body
+
+## [Request Body](#request-body)
+
+application/json
+
+username?string
+
+password?string
+
+## [Response Body](#response-body)
+
+### 200
+
+cURLJavaScriptGoPythonJavaC#
+
+```
+curl -X POST "https://loading/api/user/login" \  -H "Content-Type: application/json" \  -d '{}'
+```
+
+200
+
+Empty

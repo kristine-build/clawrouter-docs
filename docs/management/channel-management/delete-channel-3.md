@@ -1,1 +1,34 @@
 # 删除渠道
+
+管理接口渠道管理
+
+# 删除渠道
+
+👨💼 需要管理员权限（Admin）
+
+loading...
+
+
+/`api`/`channel`/`{id}`
+
+Send
+
+Path
+
+## [Path Parameters](#path-parameters)
+
+id\*integer
+
+## [Response Body](#response-body)
+
+### 200
+
+cURLJavaScriptGoPythonJavaC#
+
+```
+curl -X DELETE "https://loading/api/channel/0"
+```
+
+200
+
+Empty

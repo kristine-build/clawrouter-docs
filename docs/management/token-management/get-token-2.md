@@ -1,1 +1,34 @@
 # 获取指定令牌
+
+管理接口令牌管理
+
+# 获取指定令牌
+
+🔐 需要登录（User权限）
+
+loading...
+
+
+/`api`/`token`/`{id}`
+
+Send
+
+Path
+
+## [Path Parameters](#path-parameters)
+
+id\*integer
+
+## [Response Body](#response-body)
+
+### 200
+
+cURLJavaScriptGoPythonJavaC#
+
+```
+curl -X GET "https://loading/api/token/0"
+```
+
+200
+
+Empty

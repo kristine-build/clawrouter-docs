@@ -1,1 +1,28 @@
 # Telegram登录
+
+管理接口OAuth
+
+# Telegram登录
+
+🔓 无需鉴权（OAuth回调）
+
+loading...
+
+
+/`api`/`oauth`/`telegram`/`login`
+
+Send
+
+## [Response Body](#response-body)
+
+### 200
+
+cURLJavaScriptGoPythonJavaC#
+
+```
+curl -X GET "https://loading/api/oauth/telegram/login"
+```
+
+200
+
+Empty

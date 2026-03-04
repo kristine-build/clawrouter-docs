@@ -1,1 +1,28 @@
 # 获取用户可用模型
+
+管理接口用户管理
+
+# 获取用户可用模型
+
+🔐 需要登录（User权限）
+
+loading...
+
+
+/`api`/`user`/`models`
+
+Send
+
+## [Response Body](#response-body)
+
+### 200
+
+cURLJavaScriptGoPythonJavaC#
+
+```
+curl -X GET "https://loading/api/user/models"
+```
+
+200
+
+Empty

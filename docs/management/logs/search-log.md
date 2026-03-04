@@ -1,1 +1,34 @@
 # 搜索日志
+
+管理接口日志
+
+# 搜索日志
+
+👨💼 需要管理员权限（Admin）
+
+loading...
+
+
+/`api`/`log`/`search`
+
+Send
+
+Query
+
+## [Query Parameters](#query-parameters)
+
+keyword?string
+
+## [Response Body](#response-body)
+
+### 200
+
+cURLJavaScriptGoPythonJavaC#
+
+```
+curl -X GET "https://loading/api/log/search"
+```
+
+200
+
+Empty

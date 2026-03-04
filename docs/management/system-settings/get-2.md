@@ -1,1 +1,28 @@
 # 获取上游倍率
+
+管理接口系统设置
+
+# 获取上游倍率
+
+👑 需要超级管理员权限（Root）
+
+loading...
+
+
+/`api`/`ratio_sync`/`fetch`
+
+Send
+
+## [Response Body](#response-body)
+
+### 200
+
+cURLJavaScriptGoPythonJavaC#
+
+```
+curl -X POST "https://loading/api/ratio_sync/fetch"
+```
+
+200
+
+Empty

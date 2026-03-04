@@ -1,1 +1,34 @@
 # 搜索个人日志
+
+管理接口日志
+
+# 搜索个人日志
+
+🔐 需要登录（User权限）
+
+loading...
+
+
+/`api`/`log`/`self`/`search`
+
+Send
+
+Query
+
+## [Query Parameters](#query-parameters)
+
+keyword?string
+
+## [Response Body](#response-body)
+
+### 200
+
+cURLJavaScriptGoPythonJavaC#
+
+```
+curl -X GET "https://loading/api/log/self/search"
+```
+
+200
+
+Empty

@@ -1,1 +1,42 @@
 # 添加渠道
+
+管理接口渠道管理
+
+# 添加渠道
+
+👨💼 需要管理员权限（Admin）
+
+loading...
+
+
+/`api`/`channel`/
+
+Send
+
+Body
+
+## [Request Body](#request-body)
+
+application/json
+
+mode?string
+
+Value in`"single" | "batch" | "multi_to_single"`
+
+channel?object
+
+Unresolved $ref: #/definitions/224188811
+
+## [Response Body](#response-body)
+
+### 200
+
+cURLJavaScriptGoPythonJavaC#
+
+```
+curl -X POST "https://loading/api/channel/" \  -H "Content-Type: application/json" \  -d '{}'
+```
+
+200
+
+Empty

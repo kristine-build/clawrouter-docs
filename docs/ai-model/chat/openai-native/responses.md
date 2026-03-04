@@ -1,1 +1,114 @@
 # Responses格式
+
+AI 模型接口聊天（Chat）原生OpenAI格式
+
+# Responses格式
+
+OpenAI Responses API，用于创建模型响应。
+支持多轮对话、工具调用、推理等功能。
+
+loading...
+
+
+/`v1`/`responses`
+
+Send
+
+Authorization
+
+Body
+
+## [Authorization](#authorization)
+
+BearerAuth
+
+AuthorizationBearer <token>
+
+使用 Bearer Token 认证。
+格式: `Authorization: Bearer sk-xxxxxx`
+
+In: `header`
+
+## [Request Body](#request-body)
+
+application/json
+
+model\*string
+
+input?string|array<object>
+
+输入内容，可以是字符串或消息数组
+
+instructions?string
+
+max\_output\_tokens?integer
+
+temperature?number
+
+top\_p?number
+
+stream?boolean
+
+tools?array<object>
+
+tool\_choice?string|object
+
+reasoning?object
+
+previous\_response\_id?string
+
+truncation?string
+
+Value in`"auto" | "disabled"`
+
+## [Response Body](#response-body)
+
+### 200 application/json
+
+cURLJavaScriptGoPythonJavaC#
+
+```
+curl -X POST "https://loading/v1/responses" \  -H "Content-Type: application/json" \  -d '{    "model": "string"  }'
+```
+
+200
+
+```
+{
+  "id": "string",
+  "object": "response",
+  "created_at": 0,
+  "status": "completed",
+  "model": "string",
+  "output": [
+    {
+      "type": "string",
+      "id": "string",
+      "status": "string",
+      "role": "string",
+      "content": [
+        {
+          "type": "string",
+          "text": "string"
+        }
+      ]
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "total_tokens": 0,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 0,
+      "audio_tokens": 0,
+      "image_tokens": 0
+    },
+    "completion_tokens_details": {
+      "text_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0
+    }
+  }
+}
+```

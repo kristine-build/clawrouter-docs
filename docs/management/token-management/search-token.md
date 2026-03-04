@@ -1,1 +1,34 @@
 # 搜索令牌
+
+管理接口令牌管理
+
+# 搜索令牌
+
+🔐 需要登录（User权限）
+
+loading...
+
+
+/`api`/`token`/`search`
+
+Send
+
+Query
+
+## [Query Parameters](#query-parameters)
+
+keyword?string
+
+## [Response Body](#response-body)
+
+### 200
+
+cURLJavaScriptGoPythonJavaC#
+
+```
+curl -X GET "https://loading/api/token/search"
+```
+
+200
+
+Empty

@@ -1,1 +1,28 @@
 # 删除已禁用渠道
+
+管理接口渠道管理
+
+# 删除已禁用渠道
+
+👨💼 需要管理员权限（Admin）
+
+loading...
+
+
+/`api`/`channel`/`disabled`
+
+Send
+
+## [Response Body](#response-body)
+
+### 200
+
+cURLJavaScriptGoPythonJavaC#
+
+```
+curl -X DELETE "https://loading/api/channel/disabled"
+```
+
+200
+
+Empty

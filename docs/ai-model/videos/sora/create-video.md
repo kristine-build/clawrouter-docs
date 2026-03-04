@@ -1,1 +1,128 @@
 # 创建视频
+
+AI 模型接口视频（Videos）Sora格式
+
+# 创建视频
+
+OpenAI 兼容的视频生成接口。
+
+参考文档: <https://platform.openai.com/docs/api-reference/videos/create>
+
+loading...
+
+
+/`v1`/`videos`
+
+Send
+
+Authorization
+
+Body
+
+## [Authorization](#authorization)
+
+BearerAuth
+
+AuthorizationBearer <token>
+
+使用 Bearer Token 认证。
+格式: `Authorization: Bearer sk-xxxxxx`
+
+In: `header`
+
+## [Request Body](#request-body)
+
+multipart/form-data
+
+model?string
+
+模型/风格 ID
+
+prompt?string
+
+文本描述提示词
+
+image?string
+
+图片输入 (URL 或 Base64)
+
+duration?number
+
+视频时长（秒）
+
+width?integer
+
+视频宽度
+
+height?integer
+
+视频高度
+
+fps?integer
+
+视频帧率
+
+seed?integer
+
+随机种子
+
+n?integer
+
+生成视频数量
+
+response\_format?string
+
+响应格式
+
+user?string
+
+用户标识
+
+metadata?object
+
+扩展参数 (如 negative\_prompt, style, quality\_level 等)
+
+## [Response Body](#response-body)
+
+### 200 application/json
+
+### 400 application/json
+
+cURLJavaScriptGoPythonJavaC#
+
+```
+curl -X POST "https://loading/v1/videos"
+```
+
+200400
+
+```
+{
+  "id": "string",
+  "object": "string",
+  "model": "string",
+  "status": "string",
+  "progress": 0,
+  "created_at": 0,
+  "seconds": "string",
+  "completed_at": 0,
+  "expires_at": 0,
+  "size": "string",
+  "error": {
+    "message": "string",
+    "code": "string"
+  },
+  "metadata": {}
+}
+```
+
+```
+{
+  "error": {
+    "message": "string",
+    "type": "string",
+    "param": "string",
+    "code": "string"
+  }
+}
+```

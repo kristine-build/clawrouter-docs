@@ -1,1 +1,28 @@
 # 绑定微信
+
+管理接口OAuth
+
+# 绑定微信
+
+🔓 无需鉴权
+
+loading...
+
+
+/`api`/`oauth`/`wechat`/`bind`
+
+Send
+
+## [Response Body](#response-body)
+
+### 200
+
+cURLJavaScriptGoPythonJavaC#
+
+```
+curl -X GET "https://loading/api/oauth/wechat/bind"
+```
+
+200
+
+Empty

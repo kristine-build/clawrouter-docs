@@ -1,1 +1,40 @@
 # 管理用户状态
+
+管理接口用户管理
+
+# 管理用户状态
+
+👨💼 需要管理员权限（Admin）
+
+loading...
+
+
+/`api`/`user`/`manage`
+
+Send
+
+Body
+
+## [Request Body](#request-body)
+
+application/json
+
+id?integer
+
+action?string
+
+Value in`"disable" | "enable" | "delete" | "promote" | "demote"`
+
+## [Response Body](#response-body)
+
+### 200
+
+cURLJavaScriptGoPythonJavaC#
+
+```
+curl -X POST "https://loading/api/user/manage" \  -H "Content-Type: application/json" \  -d '{}'
+```
+
+200
+
+Empty

@@ -1,1 +1,28 @@
 # 获取关于信息
+
+管理接口系统
+
+# 获取关于信息
+
+🔓 无需鉴权
+
+loading...
+
+
+/`api`/`about`
+
+Send
+
+## [Response Body](#response-body)
+
+### 200
+
+cURLJavaScriptGoPythonJavaC#
+
+```
+curl -X GET "https://loading/api/about"
+```
+
+200
+
+Empty

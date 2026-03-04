@@ -1,1 +1,28 @@
 # 开始注册Passkey
+
+管理接口用户管理
+
+# 开始注册Passkey
+
+🔐 需要登录（User权限）
+
+loading...
+
+
+/`api`/`user`/`passkey`/`register`/`begin`
+
+Send
+
+## [Response Body](#response-body)
+
+### 200
+
+cURLJavaScriptGoPythonJavaC#
+
+```
+curl -X POST "https://loading/api/user/passkey/register/begin"
+```
+
+200
+
+Empty

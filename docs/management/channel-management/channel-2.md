@@ -1,1 +1,28 @@
 # 修复渠道能力
+
+管理接口渠道管理
+
+# 修复渠道能力
+
+👨💼 需要管理员权限（Admin）
+
+loading...
+
+
+/`api`/`channel`/`fix`
+
+Send
+
+## [Response Body](#response-body)
+
+### 200
+
+cURLJavaScriptGoPythonJavaC#
+
+```
+curl -X POST "https://loading/api/channel/fix"
+```
+
+200
+
+Empty
