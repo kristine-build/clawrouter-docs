@@ -1,0 +1,39 @@
+> Migrated from NewAPI docs. Content will be adapted for ClawRouter.
+
+# 获取首页内容 | New API
+
+管理接口系统
+
+# 获取首页内容
+
+复制 Markdown打开
+
+🔓 无需鉴权
+
+loading...
+
+GET
+
+/`api`/`home_page_content`
+
+Send
+
+## [Response Body](#response-body)
+
+### 200
+
+cURLJavaScriptGoPythonJavaC#
+
+```
+curl -X GET "https://loading/api/home_page_content"
+```
+
+200
+
+Empty
+
+这篇文档对您有帮助吗？
+
+有帮助没帮助
+
+最后更新于
