@@ -1,0 +1,1007 @@
+{
+  "API 参考 > AI 模型接口 > 图像 (Images) > OpenAI聊天格式 (POST)": {
+    "matched_file": null,
+    "confidence": 0.2635,
+    "reason": "low confidence: filename=0.000, h1=0.000, path=0.235, ancestor_bonus=0.160, method=post matched"
+  },
+  "API 参考 > AI 模型接口 > 图像 (Images) > 原生Gemini格式 > Gemini原生格式 (POST)": {
+    "matched_file": null,
+    "confidence": 0.1822,
+    "reason": "low confidence: filename=0.000, h1=0.000, path=0.222, ancestor_bonus=0.080, method=post matched"
+  },
+  "API 参考 > AI 模型接口 > 图像 (Images) > 原生OpenAI格式 > 生成图像 (POST)": {
+    "matched_file": "zh__docs__api__ai-model__images__openai__post-v1-images-generations__生成图像-new-api__87ad0fa8.md",
+    "confidence": 0.6202,
+    "reason": "matched: filename=0.077, h1=1.000, path=0.294, ancestor_bonus=0.080, method=post matched"
+  },
+  "API 参考 > AI 模型接口 > 图像 (Images) > 原生OpenAI格式 > 编辑图像 (POST)": {
+    "matched_file": "zh__docs__api__ai-model__images__openai__post-v1-images-edits__编辑图像-new-api__1bee126d.md",
+    "confidence": 0.6202,
+    "reason": "matched: filename=0.077, h1=1.000, path=0.294, ancestor_bonus=0.080, method=post matched"
+  },
+  "API 参考 > AI 模型接口 > 图像 (Images) > 通义千问OpenAI格式 > 生成图像 (POST)": {
+    "matched_file": null,
+    "confidence": 0.0925,
+    "reason": "low confidence: filename=0.000, h1=0.000, path=0.125, ancestor_bonus=0.000, method=post matched"
+  },
+  "API 参考 > AI 模型接口 > 图像 (Images) > 通义千问OpenAI格式 > 编辑图像 (POST)": {
+    "matched_file": null,
+    "confidence": 0.0925,
+    "reason": "low confidence: filename=0.000, h1=0.000, path=0.125, ancestor_bonus=0.000, method=post matched"
+  },
+  "API 参考 > AI 模型接口 > 实时语音 (Realtime) > 原生OpenAI格式 (GET)": {
+    "matched_file": "zh__docs__api__ai-model__realtime__createrealtimesession__原生openai格式-new-api__8b7b4403.md",
+    "confidence": 0.5786,
+    "reason": "matched: filename=0.100, h1=1.000, path=0.286, ancestor_bonus=0.160, method=get not found"
+  },
+  "API 参考 > AI 模型接口 > 审查 (Moderations) > 原生OpenAI格式 (POST)": {
+    "matched_file": "zh__docs__api__ai-model__moderations__createmoderation__原生openai格式-new-api__888665fa.md",
+    "confidence": 0.5786,
+    "reason": "matched: filename=0.100, h1=1.000, path=0.286, ancestor_bonus=0.160, method=post not found"
+  },
+  "API 参考 > AI 模型接口 > 嵌入 (Embeddings) > 原生Gemini格式 (POST)": {
+    "matched_file": "zh__docs__api__ai-model__embeddings__createengineembedding__原生gemini格式-new-api__b6bd1911.md",
+    "confidence": 0.5786,
+    "reason": "matched: filename=0.100, h1=1.000, path=0.286, ancestor_bonus=0.160, method=post not found"
+  },
+  "API 参考 > AI 模型接口 > 嵌入 (Embeddings) > 原生OpenAI格式 (POST)": {
+    "matched_file": "zh__docs__api__ai-model__embeddings__createembedding__原生openai格式-new-api__4ce76862.md",
+    "confidence": 0.5786,
+    "reason": "matched: filename=0.100, h1=1.000, path=0.286, ancestor_bonus=0.160, method=post not found"
+  },
+  "API 参考 > AI 模型接口 > 未实现 (Unimplemented) > 微调 (Fine-tuning) > 列出微调任务 (GET)": {
+    "matched_file": null,
+    "confidence": 0.0911,
+    "reason": "low confidence: filename=0.000, h1=0.000, path=0.111, ancestor_bonus=0.000, method=get matched"
+  },
+  "API 参考 > AI 模型接口 > 未实现 (Unimplemented) > 微调 (Fine-tuning) > 创建微调任务 (POST)": {
+    "matched_file": null,
+    "confidence": 0.0911,
+    "reason": "low confidence: filename=0.000, h1=0.000, path=0.111, ancestor_bonus=0.000, method=post matched"
+  },
+  "API 参考 > AI 模型接口 > 未实现 (Unimplemented) > 微调 (Fine-tuning) > 取消微调任务 (POST)": {
+    "matched_file": null,
+    "confidence": 0.0911,
+    "reason": "low confidence: filename=0.000, h1=0.000, path=0.111, ancestor_bonus=0.000, method=post matched"
+  },
+  "API 参考 > AI 模型接口 > 未实现 (Unimplemented) > 微调 (Fine-tuning) > 获取微调任务事件 (GET)": {
+    "matched_file": null,
+    "confidence": 0.0911,
+    "reason": "low confidence: filename=0.000, h1=0.000, path=0.111, ancestor_bonus=0.000, method=get matched"
+  },
+  "API 参考 > AI 模型接口 > 未实现 (Unimplemented) > 微调 (Fine-tuning) > 获取微调任务详情 (GET)": {
+    "matched_file": null,
+    "confidence": 0.0911,
+    "reason": "low confidence: filename=0.000, h1=0.000, path=0.111, ancestor_bonus=0.000, method=get matched"
+  },
+  "API 参考 > AI 模型接口 > 未实现 (Unimplemented) > 文件 (Files) > 上传文件 (POST)": {
+    "matched_file": "zh__docs__api__ai-model__unimplemented__files__createfile__上传文件-未实现-new-api__a97b2763.md",
+    "confidence": 0.4408,
+    "reason": "matched: filename=0.083, h1=0.500, path=0.375, ancestor_bonus=0.220, method=post not found"
+  },
+  "API 参考 > AI 模型接口 > 未实现 (Unimplemented) > 文件 (Files) > 列出文件 (GET)": {
+    "matched_file": "zh__docs__api__ai-model__unimplemented__files__listfiles__列出文件-未实现-new-api__0fdef3e8.md",
+    "confidence": 0.4408,
+    "reason": "matched: filename=0.083, h1=0.500, path=0.375, ancestor_bonus=0.220, method=get not found"
+  },
+  "API 参考 > AI 模型接口 > 未实现 (Unimplemented) > 文件 (Files) > 删除文件 (DELETE)": {
+    "matched_file": "zh__docs__api__ai-model__unimplemented__files__deletefile__删除文件-未实现-new-api__0403d464.md",
+    "confidence": 0.5708,
+    "reason": "matched: filename=0.083, h1=0.500, path=0.375, ancestor_bonus=0.220, method=delete matched"
+  },
+  "API 参考 > AI 模型接口 > 未实现 (Unimplemented) > 文件 (Files) > 获取文件信息 (GET)": {
+    "matched_file": "zh__docs__api__ai-model__unimplemented__files__retrievefile__获取文件信息-未实现-new-api__1e4f19cc.md",
+    "confidence": 0.4408,
+    "reason": "matched: filename=0.083, h1=0.500, path=0.375, ancestor_bonus=0.220, method=get not found"
+  },
+  "API 参考 > AI 模型接口 > 未实现 (Unimplemented) > 文件 (Files) > 获取文件内容 (GET)": {
+    "matched_file": "zh__docs__api__ai-model__unimplemented__files__downloadfile__获取文件内容-未实现-new-api__1420762c.md",
+    "confidence": 0.4408,
+    "reason": "matched: filename=0.083, h1=0.500, path=0.375, ancestor_bonus=0.220, method=get not found"
+  },
+  "API 参考 > AI 模型接口 > 模型 (Models) > 列出模型 > 原生Gemini格式 (GET)": {
+    "matched_file": "zh__docs__api__ai-model__models__list__listmodelsgemini__原生gemini格式-new-api__49a6ce5b.md",
+    "confidence": 0.4914,
+    "reason": "matched: filename=0.091, h1=1.000, path=0.250, ancestor_bonus=0.080, method=get not found"
+  },
+  "API 参考 > AI 模型接口 > 模型 (Models) > 列出模型 > 原生OpenAI格式 (GET)": {
+    "matched_file": "zh__docs__api__ai-model__models__list__listmodels__原生openai格式-new-api__c7766c18.md",
+    "confidence": 0.4914,
+    "reason": "matched: filename=0.091, h1=1.000, path=0.250, ancestor_bonus=0.080, method=get not found"
+  },
+  "API 参考 > AI 模型接口 > 聊天 (Chat) > 原生Claude格式 (POST)": {
+    "matched_file": "zh__docs__api__ai-model__chat__createmessage__原生claude格式-new-api__32072057.md",
+    "confidence": 0.5786,
+    "reason": "matched: filename=0.100, h1=1.000, path=0.286, ancestor_bonus=0.160, method=post not found"
+  },
+  "API 参考 > AI 模型接口 > 聊天 (Chat) > 原生Gemini格式 > Gemini媒体识别 (POST)": {
+    "matched_file": null,
+    "confidence": 0.0958,
+    "reason": "low confidence: filename=0.000, h1=0.000, path=0.158, ancestor_bonus=0.000, method=post matched"
+  },
+  "API 参考 > AI 模型接口 > 聊天 (Chat) > 原生Gemini格式 > Gemini文本聊天 (POST)": {
+    "matched_file": null,
+    "confidence": 0.0958,
+    "reason": "low confidence: filename=0.000, h1=0.000, path=0.158, ancestor_bonus=0.000, method=post matched"
+  },
+  "API 参考 > AI 模型接口 > 聊天 (Chat) > 原生OpenAI格式 > ChatCompletions格式 (POST)": {
+    "matched_file": "zh__docs__api__ai-model__chat__openai__createchatcompletion__chatcompletions格式-new-api__1f721286.md",
+    "confidence": 0.4914,
+    "reason": "matched: filename=0.091, h1=1.000, path=0.250, ancestor_bonus=0.080, method=post not found"
+  },
+  "API 参考 > AI 模型接口 > 聊天 (Chat) > 原生OpenAI格式 > Responses格式 (POST)": {
+    "matched_file": "zh__docs__api__ai-model__chat__openai__createresponse__responses格式-new-api__791dfa47.md",
+    "confidence": 0.4914,
+    "reason": "matched: filename=0.091, h1=1.000, path=0.250, ancestor_bonus=0.080, method=post not found"
+  },
+  "API 参考 > AI 模型接口 > 补全 (Completions) > 原生OpenAI格式 (POST)": {
+    "matched_file": "zh__docs__api__ai-model__completions__createcompletion__原生openai格式-new-api__4dbfcb8b.md",
+    "confidence": 0.5786,
+    "reason": "matched: filename=0.100, h1=1.000, path=0.286, ancestor_bonus=0.160, method=post not found"
+  },
+  "API 参考 > AI 模型接口 > 视频 (Videos) > Sora格式 > 创建视频 (POST)": {
+    "matched_file": "zh__docs__api__ai-model__videos__sora__createvideo__创建视频-new-api__88acfd87.md",
+    "confidence": 0.4914,
+    "reason": "matched: filename=0.091, h1=1.000, path=0.250, ancestor_bonus=0.080, method=post not found"
+  },
+  "API 参考 > AI 模型接口 > 视频 (Videos) > Sora格式 > 获取视频任务状态 (GET)": {
+    "matched_file": "zh__docs__api__ai-model__videos__sora__getvideo__获取视频任务状态-new-api__28022ca1.md",
+    "confidence": 0.6214,
+    "reason": "matched: filename=0.091, h1=1.000, path=0.250, ancestor_bonus=0.080, method=get matched"
+  },
+  "API 参考 > AI 模型接口 > 视频 (Videos) > Sora格式 > 获取视频内容 (GET)": {
+    "matched_file": "zh__docs__api__ai-model__videos__sora__getvideocontent__获取视频内容-new-api__2ad24b31.md",
+    "confidence": 0.6214,
+    "reason": "matched: filename=0.091, h1=1.000, path=0.250, ancestor_bonus=0.080, method=get matched"
+  },
+  "API 参考 > AI 模型接口 > 视频 (Videos) > 创建视频生成任务 (POST)": {
+    "matched_file": "zh__docs__api__ai-model__videos__createvideogeneration__创建视频生成任务-new-api__24ad2bd7.md",
+    "confidence": 0.5786,
+    "reason": "matched: filename=0.100, h1=1.000, path=0.286, ancestor_bonus=0.160, method=post not found"
+  },
+  "API 参考 > AI 模型接口 > 视频 (Videos) > 即梦格式 > 即梦视频生成 (POST)": {
+    "matched_file": null,
+    "confidence": 0.0925,
+    "reason": "low confidence: filename=0.000, h1=0.000, path=0.125, ancestor_bonus=0.000, method=post matched"
+  },
+  "API 参考 > AI 模型接口 > 视频 (Videos) > 可灵格式 > Kling 图生视频 (POST)": {
+    "matched_file": null,
+    "confidence": 0.0918,
+    "reason": "low confidence: filename=0.000, h1=0.000, path=0.118, ancestor_bonus=0.000, method=post matched"
+  },
+  "API 参考 > AI 模型接口 > 视频 (Videos) > 可灵格式 > Kling 文生视频 (POST)": {
+    "matched_file": null,
+    "confidence": 0.0918,
+    "reason": "low confidence: filename=0.000, h1=0.000, path=0.118, ancestor_bonus=0.000, method=post matched"
+  },
+  "API 参考 > AI 模型接口 > 视频 (Videos) > 可灵格式 > 获取 Kling 图生视频任务状态 (GET)": {
+    "matched_file": null,
+    "confidence": 0.1758,
+    "reason": "low confidence: filename=0.000, h1=0.000, path=0.158, ancestor_bonus=0.080, method=get matched"
+  },
+  "API 参考 > AI 模型接口 > 视频 (Videos) > 可灵格式 > 获取 Kling 文生视频任务状态 (GET)": {
+    "matched_file": null,
+    "confidence": 0.1758,
+    "reason": "low confidence: filename=0.000, h1=0.000, path=0.158, ancestor_bonus=0.080, method=get matched"
+  },
+  "API 参考 > AI 模型接口 > 视频 (Videos) > 获取视频生成任务状态 (GET)": {
+    "matched_file": "zh__docs__api__ai-model__videos__getvideogeneration__获取视频生成任务状态-new-api__a5d92ec6.md",
+    "confidence": 0.7086,
+    "reason": "matched: filename=0.100, h1=1.000, path=0.286, ancestor_bonus=0.160, method=get matched"
+  },
+  "API 参考 > AI 模型接口 > 重排序 (Rerank) > 文档重排序 (POST)": {
+    "matched_file": "zh__docs__api__ai-model__rerank__creatererank__文档重排序-new-api__d50d8dad.md",
+    "confidence": 0.5786,
+    "reason": "matched: filename=0.100, h1=1.000, path=0.286, ancestor_bonus=0.160, method=post not found"
+  },
+  "API 参考 > AI 模型接口 > 音频 (Audio) > 原生Gemini格式 (POST)": {
+    "matched_file": "zh__docs__api__ai-model__audio__geminirelayv1beta-383836364__原生gemini格式-new-api__04afcc5e.md",
+    "confidence": 0.573,
+    "reason": "matched: filename=0.091, h1=1.000, path=0.267, ancestor_bonus=0.160, method=post not found"
+  },
+  "API 参考 > AI 模型接口 > 音频 (Audio) > 原生OpenAI格式 > 文本转语音 (POST)": {
+    "matched_file": "zh__docs__api__ai-model__audio__openai__createspeech__文本转语音-new-api__58cfed05.md",
+    "confidence": 0.4914,
+    "reason": "matched: filename=0.091, h1=1.000, path=0.250, ancestor_bonus=0.080, method=post not found"
+  },
+  "API 参考 > AI 模型接口 > 音频 (Audio) > 原生OpenAI格式 > 音频翻译 (POST)": {
+    "matched_file": "zh__docs__api__ai-model__audio__openai__createtranslation__音频翻译-new-api__cc653cd5.md",
+    "confidence": 0.4914,
+    "reason": "matched: filename=0.091, h1=1.000, path=0.250, ancestor_bonus=0.080, method=post not found"
+  },
+  "API 参考 > AI 模型接口 > 音频 (Audio) > 原生OpenAI格式 > 音频转录 (POST)": {
+    "matched_file": "zh__docs__api__ai-model__audio__openai__createtranscription__音频转录-new-api__9765273b.md",
+    "confidence": 0.4914,
+    "reason": "matched: filename=0.091, h1=1.000, path=0.250, ancestor_bonus=0.080, method=post not found"
+  },
+  "管理接口 > OAuth > Discord OAuth登录 (GET)": {
+    "matched_file": "zh__docs__api__management__oauth__oauth-discord-get__discord-oauth登录-new-api__35bf6a83.md",
+    "confidence": 0.6764,
+    "reason": "matched: filename=0.200, h1=1.000, path=0.364, ancestor_bonus=0.080, method=get matched"
+  },
+  "管理接口 > OAuth > GitHub OAuth登录 (GET)": {
+    "matched_file": "zh__docs__api__management__oauth__oauth-github-get__github-oauth登录-new-api__ba5d5e0f.md",
+    "confidence": 0.6764,
+    "reason": "matched: filename=0.200, h1=1.000, path=0.364, ancestor_bonus=0.080, method=get matched"
+  },
+  "管理接口 > OAuth > LinuxDO OAuth登录 (GET)": {
+    "matched_file": "zh__docs__api__management__oauth__oauth-linuxdo-get__linuxdo-oauth登录-new-api__b49ffc14.md",
+    "confidence": 0.6764,
+    "reason": "matched: filename=0.200, h1=1.000, path=0.364, ancestor_bonus=0.080, method=get matched"
+  },
+  "管理接口 > OAuth > OIDC登录 (GET)": {
+    "matched_file": "zh__docs__api__management__oauth__oauth-oidc-get__oidc登录-new-api__6ad82689.md",
+    "confidence": 0.6273,
+    "reason": "matched: filename=0.100, h1=1.000, path=0.273, ancestor_bonus=0.080, method=get matched"
+  },
+  "管理接口 > OAuth > Telegram登录 (GET)": {
+    "matched_file": "zh__docs__api__management__oauth__oauth-telegram-login-get__telegram登录-new-api__8f81a184.md",
+    "confidence": 0.6214,
+    "reason": "matched: filename=0.091, h1=1.000, path=0.250, ancestor_bonus=0.080, method=get matched"
+  },
+  "管理接口 > OAuth > 微信OAuth登录 (GET)": {
+    "matched_file": "zh__docs__api__management__oauth__oauth-wechat-get__微信oauth登录-new-api__9d4cae14.md",
+    "confidence": 0.6273,
+    "reason": "matched: filename=0.100, h1=1.000, path=0.273, ancestor_bonus=0.080, method=get matched"
+  },
+  "管理接口 > OAuth > 生成OAuth State (GET)": {
+    "matched_file": "zh__docs__api__management__oauth__oauth-state-get__生成oauth-state-new-api__8d87afa2.md",
+    "confidence": 0.6764,
+    "reason": "matched: filename=0.200, h1=1.000, path=0.364, ancestor_bonus=0.080, method=get matched"
+  },
+  "管理接口 > OAuth > 绑定Telegram (GET)": {
+    "matched_file": "zh__docs__api__management__oauth__oauth-telegram-bind-get__绑定telegram-new-api__fcdf0d85.md",
+    "confidence": 0.6214,
+    "reason": "matched: filename=0.091, h1=1.000, path=0.250, ancestor_bonus=0.080, method=get matched"
+  },
+  "管理接口 > OAuth > 绑定微信 (GET)": {
+    "matched_file": "zh__docs__api__management__oauth__oauth-wechat-bind-get__绑定微信-new-api__9435d117.md",
+    "confidence": 0.6214,
+    "reason": "matched: filename=0.091, h1=1.000, path=0.250, ancestor_bonus=0.080, method=get matched"
+  },
+  "管理接口 > OAuth > 绑定邮箱 (GET)": {
+    "matched_file": "zh__docs__api__management__oauth__oauth-email-bind-get__绑定邮箱-new-api__d1032f5c.md",
+    "confidence": 0.6214,
+    "reason": "matched: filename=0.091, h1=1.000, path=0.250, ancestor_bonus=0.080, method=get matched"
+  },
+  "管理接口 > default > 使用兑换码 (POST)": {
+    "matched_file": null,
+    "confidence": 0.0883,
+    "reason": "low confidence: filename=0.000, h1=0.000, path=0.083, ancestor_bonus=0.000, method=post matched"
+  },
+  "管理接口 > 两步验证 > 启用2FA (POST)": {
+    "matched_file": "zh__docs__api__management__two-factor-auth__user-2fa-enable-post__启用2fa-new-api__1631001b.md",
+    "confidence": 0.5211,
+    "reason": "matched: filename=0.071, h1=1.000, path=0.125, ancestor_bonus=0.000, method=post matched"
+  },
+  "管理接口 > 两步验证 > 禁用2FA (POST)": {
+    "matched_file": "zh__docs__api__management__two-factor-auth__user-2fa-disable-post__禁用2fa-new-api__dce16f2f.md",
+    "confidence": 0.5211,
+    "reason": "matched: filename=0.071, h1=1.000, path=0.125, ancestor_bonus=0.000, method=post matched"
+  },
+  "管理接口 > 两步验证 > 获取2FA状态 (GET)": {
+    "matched_file": "zh__docs__api__management__two-factor-auth__user-2fa-status-get__获取2fa状态-new-api__1bab2029.md",
+    "confidence": 0.5211,
+    "reason": "matched: filename=0.071, h1=1.000, path=0.125, ancestor_bonus=0.000, method=get matched"
+  },
+  "管理接口 > 两步验证 > 获取2FA统计 (GET)": {
+    "matched_file": "zh__docs__api__management__two-factor-auth__user-2fa-stats-get__获取2fa统计-new-api__40bc7673.md",
+    "confidence": 0.5211,
+    "reason": "matched: filename=0.071, h1=1.000, path=0.125, ancestor_bonus=0.000, method=get matched"
+  },
+  "管理接口 > 两步验证 > 设置2FA (POST)": {
+    "matched_file": "zh__docs__api__management__two-factor-auth__user-2fa-setup-post__设置2fa-new-api__a2bc8f89.md",
+    "confidence": 0.5211,
+    "reason": "matched: filename=0.071, h1=1.000, path=0.125, ancestor_bonus=0.000, method=post matched"
+  },
+  "管理接口 > 两步验证 > 重新生成备用码 (POST)": {
+    "matched_file": "zh__docs__api__management__two-factor-auth__user-2fa-backup_codes-post__重新生成备用码-new-api__8cfd5666.md",
+    "confidence": 0.5184,
+    "reason": "matched: filename=0.067, h1=1.000, path=0.118, ancestor_bonus=0.000, method=post matched"
+  },
+  "管理接口 > 令牌管理 > 创建令牌 (POST)": {
+    "matched_file": "zh__docs__api__management__token-management__token-post__创建令牌-new-api__856abb1e.md",
+    "confidence": 0.5426,
+    "reason": "matched: filename=0.111, h1=1.000, path=0.182, ancestor_bonus=0.000, method=post matched"
+  },
+  "管理接口 > 令牌管理 > 删除令牌 (DELETE)": {
+    "matched_file": "zh__docs__api__management__token-management__token-id-delete__删除令牌-new-api__f4d7d2af.md",
+    "confidence": 0.5367,
+    "reason": "matched: filename=0.100, h1=1.000, path=0.167, ancestor_bonus=0.000, method=delete matched"
+  },
+  "管理接口 > 令牌管理 > 批量删除令牌 (POST)": {
+    "matched_file": "zh__docs__api__management__token-management__token-batch-post__批量删除令牌-new-api__95b42ca8.md",
+    "confidence": 0.5367,
+    "reason": "matched: filename=0.100, h1=1.000, path=0.167, ancestor_bonus=0.000, method=post matched"
+  },
+  "管理接口 > 令牌管理 > 搜索令牌 (GET)": {
+    "matched_file": "zh__docs__api__management__token-management__token-search-get__搜索令牌-new-api__438e4e76.md",
+    "confidence": 0.5367,
+    "reason": "matched: filename=0.100, h1=1.000, path=0.167, ancestor_bonus=0.000, method=get matched"
+  },
+  "管理接口 > 令牌管理 > 更新令牌 (PUT)": {
+    "matched_file": "zh__docs__api__management__token-management__token-put__更新令牌-new-api__eb6ae6f0.md",
+    "confidence": 0.5426,
+    "reason": "matched: filename=0.111, h1=1.000, path=0.182, ancestor_bonus=0.000, method=put matched"
+  },
+  "管理接口 > 令牌管理 > 获取令牌使用情况 (GET)": {
+    "matched_file": "zh__docs__api__management__token-management__usage-token-get__获取令牌使用情况-new-api__62315c76.md",
+    "confidence": 0.5367,
+    "reason": "matched: filename=0.100, h1=1.000, path=0.167, ancestor_bonus=0.000, method=get matched"
+  },
+  "管理接口 > 令牌管理 > 获取所有令牌 (GET)": {
+    "matched_file": "zh__docs__api__management__token-management__token-get__获取所有令牌-new-api__ddea2568.md",
+    "confidence": 0.5426,
+    "reason": "matched: filename=0.111, h1=1.000, path=0.182, ancestor_bonus=0.000, method=get matched"
+  },
+  "管理接口 > 令牌管理 > 获取指定令牌 (GET)": {
+    "matched_file": "zh__docs__api__management__token-management__token-id-get__获取指定令牌-new-api__1a0aa05d.md",
+    "confidence": 0.5367,
+    "reason": "matched: filename=0.100, h1=1.000, path=0.167, ancestor_bonus=0.000, method=get matched"
+  },
+  "管理接口 > 任务 > 获取个人Midjourney任务 (GET)": {
+    "matched_file": "zh__docs__api__management__tasks__mj-self-get__获取个人midjourney任务-new-api__2d070e15.md",
+    "confidence": 0.5317,
+    "reason": "matched: filename=0.091, h1=1.000, path=0.154, ancestor_bonus=0.000, method=get matched"
+  },
+  "管理接口 > 任务 > 获取个人任务 (GET)": {
+    "matched_file": "zh__docs__api__management__tasks__task-self-get__获取个人任务-new-api__48510f3a.md",
+    "confidence": 0.5317,
+    "reason": "matched: filename=0.091, h1=1.000, path=0.154, ancestor_bonus=0.000, method=get matched"
+  },
+  "管理接口 > 任务 > 获取所有Midjourney任务 (GET)": {
+    "matched_file": "zh__docs__api__management__tasks__mj-get__获取所有midjourney任务-new-api__4caba6fc.md",
+    "confidence": 0.5367,
+    "reason": "matched: filename=0.100, h1=1.000, path=0.167, ancestor_bonus=0.000, method=get matched"
+  },
+  "管理接口 > 任务 > 获取所有任务 (GET)": {
+    "matched_file": "zh__docs__api__management__tasks__task-get__获取所有任务-new-api__35db33aa.md",
+    "confidence": 0.5367,
+    "reason": "matched: filename=0.100, h1=1.000, path=0.167, ancestor_bonus=0.000, method=get matched"
+  },
+  "管理接口 > 供应商 > 创建供应商 (POST)": {
+    "matched_file": "zh__docs__api__management__vendors__vendors-post__创建供应商-new-api__74640776.md",
+    "confidence": 0.5426,
+    "reason": "matched: filename=0.111, h1=1.000, path=0.182, ancestor_bonus=0.000, method=post matched"
+  },
+  "管理接口 > 供应商 > 删除供应商 (DELETE)": {
+    "matched_file": "zh__docs__api__management__vendors__vendors-id-delete__删除供应商-new-api__c34f21f4.md",
+    "confidence": 0.5367,
+    "reason": "matched: filename=0.100, h1=1.000, path=0.167, ancestor_bonus=0.000, method=delete matched"
+  },
+  "管理接口 > 供应商 > 搜索供应商 (GET)": {
+    "matched_file": "zh__docs__api__management__vendors__vendors-search-get__搜索供应商-new-api__bfb78b86.md",
+    "confidence": 0.5367,
+    "reason": "matched: filename=0.100, h1=1.000, path=0.167, ancestor_bonus=0.000, method=get matched"
+  },
+  "管理接口 > 供应商 > 更新供应商 (PUT)": {
+    "matched_file": "zh__docs__api__management__vendors__vendors-put__更新供应商-new-api__f1b643ce.md",
+    "confidence": 0.5426,
+    "reason": "matched: filename=0.111, h1=1.000, path=0.182, ancestor_bonus=0.000, method=put matched"
+  },
+  "管理接口 > 供应商 > 获取所有供应商 (GET)": {
+    "matched_file": "zh__docs__api__management__vendors__vendors-get__获取所有供应商-new-api__ceab67f1.md",
+    "confidence": 0.5426,
+    "reason": "matched: filename=0.111, h1=1.000, path=0.182, ancestor_bonus=0.000, method=get matched"
+  },
+  "管理接口 > 供应商 > 获取指定供应商 (GET)": {
+    "matched_file": "zh__docs__api__management__vendors__vendors-id-get__获取指定供应商-new-api__d2fe9486.md",
+    "confidence": 0.5367,
+    "reason": "matched: filename=0.100, h1=1.000, path=0.167, ancestor_bonus=0.000, method=get matched"
+  },
+  "管理接口 > 充值 > Creem Webhook (POST)": {
+    "matched_file": "zh__docs__api__management__payment__creem-webhook-post__creem-webhook-new-api__3ba6fbcb.md",
+    "confidence": 0.585,
+    "reason": "matched: filename=0.200, h1=1.000, path=0.250, ancestor_bonus=0.000, method=post matched"
+  },
+  "管理接口 > 充值 > Stripe Webhook (POST)": {
+    "matched_file": "zh__docs__api__management__payment__stripe-webhook-post__stripe-webhook-new-api__86354afa.md",
+    "confidence": 0.585,
+    "reason": "matched: filename=0.200, h1=1.000, path=0.250, ancestor_bonus=0.000, method=post matched"
+  },
+  "管理接口 > 充值 > 发起Creem支付 (POST)": {
+    "matched_file": "zh__docs__api__management__payment__user-creem-pay-post__发起creem支付-new-api__bc3c80d9.md",
+    "confidence": 0.5276,
+    "reason": "matched: filename=0.083, h1=1.000, path=0.143, ancestor_bonus=0.000, method=post matched"
+  },
+  "管理接口 > 充值 > 发起Stripe支付 (POST)": {
+    "matched_file": "zh__docs__api__management__payment__user-stripe-pay-post__发起stripe支付-new-api__beb46b28.md",
+    "confidence": 0.5276,
+    "reason": "matched: filename=0.083, h1=1.000, path=0.143, ancestor_bonus=0.000, method=post matched"
+  },
+  "管理接口 > 充值 > 发起易支付 (POST)": {
+    "matched_file": "zh__docs__api__management__payment__user-pay-post__发起易支付-new-api__a8366005.md",
+    "confidence": 0.5317,
+    "reason": "matched: filename=0.091, h1=1.000, path=0.154, ancestor_bonus=0.000, method=post matched"
+  },
+  "管理接口 > 充值 > 易支付回调 (GET)": {
+    "matched_file": "zh__docs__api__management__payment__user-epay-notify-get__易支付回调-new-api__c00262d8.md",
+    "confidence": 0.5276,
+    "reason": "matched: filename=0.083, h1=1.000, path=0.143, ancestor_bonus=0.000, method=get matched"
+  },
+  "管理接口 > 充值 > 获取Stripe支付金额 (POST)": {
+    "matched_file": "zh__docs__api__management__payment__user-stripe-amount-post__获取stripe支付金额-new-api__a7d06e04.md",
+    "confidence": 0.5276,
+    "reason": "matched: filename=0.083, h1=1.000, path=0.143, ancestor_bonus=0.000, method=post matched"
+  },
+  "管理接口 > 充值 > 获取充值信息 (GET)": {
+    "matched_file": "zh__docs__api__management__payment__user-topup-info-get__获取充值信息-new-api__2e5cd4f4.md",
+    "confidence": 0.5276,
+    "reason": "matched: filename=0.083, h1=1.000, path=0.143, ancestor_bonus=0.000, method=get matched"
+  },
+  "管理接口 > 充值 > 获取支付金额 (POST)": {
+    "matched_file": "zh__docs__api__management__payment__user-amount-post__获取支付金额-new-api__399f4b1b.md",
+    "confidence": 0.5317,
+    "reason": "matched: filename=0.091, h1=1.000, path=0.154, ancestor_bonus=0.000, method=post matched"
+  },
+  "管理接口 > 充值 > 获取用户充值记录 (GET)": {
+    "matched_file": "zh__docs__api__management__payment__user-topup-self-get__获取用户充值记录-new-api__5efb40c1.md",
+    "confidence": 0.5276,
+    "reason": "matched: filename=0.083, h1=1.000, path=0.143, ancestor_bonus=0.000, method=get matched"
+  },
+  "管理接口 > 兑换码 > 创建兑换码 (POST)": {
+    "matched_file": "zh__docs__api__management__redemption__redemption-post__创建兑换码-new-api__ce536652.md",
+    "confidence": 0.5426,
+    "reason": "matched: filename=0.111, h1=1.000, path=0.182, ancestor_bonus=0.000, method=post matched"
+  },
+  "管理接口 > 兑换码 > 删除兑换码 (DELETE)": {
+    "matched_file": "zh__docs__api__management__redemption__redemption-id-delete__删除兑换码-new-api__b656eae4.md",
+    "confidence": 0.5367,
+    "reason": "matched: filename=0.100, h1=1.000, path=0.167, ancestor_bonus=0.000, method=delete matched"
+  },
+  "管理接口 > 兑换码 > 删除无效兑换码 (DELETE)": {
+    "matched_file": "zh__docs__api__management__redemption__redemption-invalid-delete__删除无效兑换码-new-api__15fce1d9.md",
+    "confidence": 0.5367,
+    "reason": "matched: filename=0.100, h1=1.000, path=0.167, ancestor_bonus=0.000, method=delete matched"
+  },
+  "管理接口 > 兑换码 > 搜索兑换码 (GET)": {
+    "matched_file": "zh__docs__api__management__redemption__redemption-search-get__搜索兑换码-new-api__2587d444.md",
+    "confidence": 0.5367,
+    "reason": "matched: filename=0.100, h1=1.000, path=0.167, ancestor_bonus=0.000, method=get matched"
+  },
+  "管理接口 > 兑换码 > 更新兑换码 (PUT)": {
+    "matched_file": "zh__docs__api__management__redemption__redemption-put__更新兑换码-new-api__f83f1cff.md",
+    "confidence": 0.5426,
+    "reason": "matched: filename=0.111, h1=1.000, path=0.182, ancestor_bonus=0.000, method=put matched"
+  },
+  "管理接口 > 兑换码 > 获取所有兑换码 (GET)": {
+    "matched_file": "zh__docs__api__management__redemption__redemption-get__获取所有兑换码-new-api__4525ef6e.md",
+    "confidence": 0.5426,
+    "reason": "matched: filename=0.111, h1=1.000, path=0.182, ancestor_bonus=0.000, method=get matched"
+  },
+  "管理接口 > 兑换码 > 获取指定兑换码 (GET)": {
+    "matched_file": "zh__docs__api__management__redemption__redemption-id-get__获取指定兑换码-new-api__0598a20e.md",
+    "confidence": 0.5367,
+    "reason": "matched: filename=0.100, h1=1.000, path=0.167, ancestor_bonus=0.000, method=get matched"
+  },
+  "管理接口 > 分组 > 创建预填分组 (POST)": {
+    "matched_file": "zh__docs__api__management__groups__prefill_group-post__创建预填分组-new-api__1e380309.md",
+    "confidence": 0.5317,
+    "reason": "matched: filename=0.091, h1=1.000, path=0.154, ancestor_bonus=0.000, method=post matched"
+  },
+  "管理接口 > 分组 > 删除预填分组 (DELETE)": {
+    "matched_file": "zh__docs__api__management__groups__prefill_group-id-delete__删除预填分组-new-api__425d1947.md",
+    "confidence": 0.5276,
+    "reason": "matched: filename=0.083, h1=1.000, path=0.143, ancestor_bonus=0.000, method=delete matched"
+  },
+  "管理接口 > 分组 > 更新预填分组 (PUT)": {
+    "matched_file": "zh__docs__api__management__groups__prefill_group-put__更新预填分组-new-api__4483ab92.md",
+    "confidence": 0.5317,
+    "reason": "matched: filename=0.091, h1=1.000, path=0.154, ancestor_bonus=0.000, method=put matched"
+  },
+  "管理接口 > 分组 > 获取所有分组 (GET)": {
+    "matched_file": "zh__docs__api__management__groups__group-get__获取所有分组-new-api__544c6792.md",
+    "confidence": 0.5367,
+    "reason": "matched: filename=0.100, h1=1.000, path=0.167, ancestor_bonus=0.000, method=get matched"
+  },
+  "管理接口 > 分组 > 获取预填分组 (GET)": {
+    "matched_file": "zh__docs__api__management__groups__prefill_group-get__获取预填分组-new-api__5e2db417.md",
+    "confidence": 0.5317,
+    "reason": "matched: filename=0.091, h1=1.000, path=0.154, ancestor_bonus=0.000, method=get matched"
+  },
+  "管理接口 > 安全验证 > 获取验证状态 (GET)": {
+    "matched_file": "zh__docs__api__management__security-verification__verify-status-get__获取验证状态-new-api__dc8dee2c.md",
+    "confidence": 0.5276,
+    "reason": "matched: filename=0.083, h1=1.000, path=0.143, ancestor_bonus=0.000, method=get matched"
+  },
+  "管理接口 > 安全验证 > 通用安全验证 (POST)": {
+    "matched_file": "zh__docs__api__management__security-verification__verify-post__通用安全验证-new-api__3aa3adf4.md",
+    "confidence": 0.5317,
+    "reason": "matched: filename=0.091, h1=1.000, path=0.154, ancestor_bonus=0.000, method=post matched"
+  },
+  "管理接口 > 数据统计 > 获取个人额度数据 (GET)": {
+    "matched_file": "zh__docs__api__management__statistics__data-self-get__获取个人额度数据-new-api__348150ad.md",
+    "confidence": 0.5317,
+    "reason": "matched: filename=0.091, h1=1.000, path=0.154, ancestor_bonus=0.000, method=get matched"
+  },
+  "管理接口 > 数据统计 > 获取所有额度数据 (GET)": {
+    "matched_file": "zh__docs__api__management__statistics__data-get__获取所有额度数据-new-api__df8b67df.md",
+    "confidence": 0.5367,
+    "reason": "matched: filename=0.100, h1=1.000, path=0.167, ancestor_bonus=0.000, method=get matched"
+  },
+  "管理接口 > 日志 > 删除历史日志 (DELETE)": {
+    "matched_file": "zh__docs__api__management__logs__log-delete__删除历史日志-new-api__4a368a64.md",
+    "confidence": 0.5367,
+    "reason": "matched: filename=0.100, h1=1.000, path=0.167, ancestor_bonus=0.000, method=delete matched"
+  },
+  "管理接口 > 日志 > 搜索个人日志 (GET)": {
+    "matched_file": "zh__docs__api__management__logs__log-self-search-get__搜索个人日志-new-api__448ca9b5.md",
+    "confidence": 0.5276,
+    "reason": "matched: filename=0.083, h1=1.000, path=0.143, ancestor_bonus=0.000, method=get matched"
+  },
+  "管理接口 > 日志 > 搜索日志 (GET)": {
+    "matched_file": "zh__docs__api__management__logs__log-search-get__搜索日志-new-api__71e8aacb.md",
+    "confidence": 0.5317,
+    "reason": "matched: filename=0.091, h1=1.000, path=0.154, ancestor_bonus=0.000, method=get matched"
+  },
+  "管理接口 > 日志 > 获取个人日志 (GET)": {
+    "matched_file": "zh__docs__api__management__logs__log-self-get__获取个人日志-new-api__f6e3dd8f.md",
+    "confidence": 0.5317,
+    "reason": "matched: filename=0.091, h1=1.000, path=0.154, ancestor_bonus=0.000, method=get matched"
+  },
+  "管理接口 > 日志 > 获取个人日志统计 (GET)": {
+    "matched_file": "zh__docs__api__management__logs__log-self-stat-get__获取个人日志统计-new-api__62c202bc.md",
+    "confidence": 0.5276,
+    "reason": "matched: filename=0.083, h1=1.000, path=0.143, ancestor_bonus=0.000, method=get matched"
+  },
+  "管理接口 > 日志 > 获取所有日志 (GET)": {
+    "matched_file": "zh__docs__api__management__logs__log-get__获取所有日志-new-api__3b811e2e.md",
+    "confidence": 0.5367,
+    "reason": "matched: filename=0.100, h1=1.000, path=0.167, ancestor_bonus=0.000, method=get matched"
+  },
+  "管理接口 > 日志 > 获取日志统计 (GET)": {
+    "matched_file": "zh__docs__api__management__logs__log-stat-get__获取日志统计-new-api__4eeba8aa.md",
+    "confidence": 0.5317,
+    "reason": "matched: filename=0.091, h1=1.000, path=0.154, ancestor_bonus=0.000, method=get matched"
+  },
+  "管理接口 > 日志 > 通过令牌获取日志 (GET)": {
+    "matched_file": "zh__docs__api__management__logs__log-token-get__通过令牌获取日志-new-api__bcf8e933.md",
+    "confidence": 0.5317,
+    "reason": "matched: filename=0.091, h1=1.000, path=0.154, ancestor_bonus=0.000, method=get matched"
+  },
+  "管理接口 > 模型管理 > 创建模型元数据 (POST)": {
+    "matched_file": "zh__docs__api__management__model-management__models-post__创建模型元数据-new-api__548c9b92.md",
+    "confidence": 0.5367,
+    "reason": "matched: filename=0.100, h1=1.000, path=0.167, ancestor_bonus=0.000, method=post matched"
+  },
+  "管理接口 > 模型管理 > 删除模型 (DELETE)": {
+    "matched_file": "zh__docs__api__management__model-management__models-id-delete__删除模型-new-api__887950c9.md",
+    "confidence": 0.5317,
+    "reason": "matched: filename=0.091, h1=1.000, path=0.154, ancestor_bonus=0.000, method=delete matched"
+  },
+  "管理接口 > 模型管理 > 同步上游模型 (POST)": {
+    "matched_file": "zh__docs__api__management__model-management__models-sync_upstream-post__同步上游模型-new-api__10c23d2e.md",
+    "confidence": 0.5276,
+    "reason": "matched: filename=0.083, h1=1.000, path=0.143, ancestor_bonus=0.000, method=post matched"
+  },
+  "管理接口 > 模型管理 > 搜索模型 (GET)": {
+    "matched_file": "zh__docs__api__management__model-management__models-search-get__搜索模型-new-api__4feb0820.md",
+    "confidence": 0.5317,
+    "reason": "matched: filename=0.091, h1=1.000, path=0.154, ancestor_bonus=0.000, method=get matched"
+  },
+  "管理接口 > 模型管理 > 更新模型元数据 (PUT)": {
+    "matched_file": "zh__docs__api__management__model-management__models-put__更新模型元数据-new-api__2cbb8174.md",
+    "confidence": 0.5367,
+    "reason": "matched: filename=0.100, h1=1.000, path=0.167, ancestor_bonus=0.000, method=put matched"
+  },
+  "管理接口 > 模型管理 > 获取所有模型元数据 (GET)": {
+    "matched_file": "zh__docs__api__management__model-management__models-get__获取所有模型元数据-new-api__55c49a22.md",
+    "confidence": 0.5367,
+    "reason": "matched: filename=0.100, h1=1.000, path=0.167, ancestor_bonus=0.000, method=get matched"
+  },
+  "管理接口 > 模型管理 > 获取指定模型 (GET)": {
+    "matched_file": "zh__docs__api__management__model-management__models-id-get__获取指定模型-new-api__af3ca8f3.md",
+    "confidence": 0.5317,
+    "reason": "matched: filename=0.091, h1=1.000, path=0.154, ancestor_bonus=0.000, method=get matched"
+  },
+  "管理接口 > 模型管理 > 获取缺失模型 (GET)": {
+    "matched_file": "zh__docs__api__management__model-management__models-missing-get__获取缺失模型-new-api__f60a4c2c.md",
+    "confidence": 0.5317,
+    "reason": "matched: filename=0.091, h1=1.000, path=0.154, ancestor_bonus=0.000, method=get matched"
+  },
+  "管理接口 > 模型管理 > 预览上游模型同步 (GET)": {
+    "matched_file": "zh__docs__api__management__model-management__models-sync_upstream-preview-get__预览上游模型同步-new-api__c0065418.md",
+    "confidence": 0.5241,
+    "reason": "matched: filename=0.077, h1=1.000, path=0.133, ancestor_bonus=0.000, method=get matched"
+  },
+  "管理接口 > 渠道管理 > 修复渠道能力 (POST)": {
+    "matched_file": "zh__docs__api__management__channel-management__channel-fix-post__修复渠道能力-new-api__0f2f03a3.md",
+    "confidence": 0.5367,
+    "reason": "matched: filename=0.100, h1=1.000, path=0.167, ancestor_bonus=0.000, method=post matched"
+  },
+  "管理接口 > 渠道管理 > 删除已禁用渠道 (DELETE)": {
+    "matched_file": "zh__docs__api__management__channel-management__channel-disabled-delete__删除已禁用渠道-new-api__2703322e.md",
+    "confidence": 0.5367,
+    "reason": "matched: filename=0.100, h1=1.000, path=0.167, ancestor_bonus=0.000, method=delete matched"
+  },
+  "管理接口 > 渠道管理 > 删除渠道 (DELETE)": {
+    "matched_file": "zh__docs__api__management__channel-management__channel-id-delete__删除渠道-new-api__341972c2.md",
+    "confidence": 0.5367,
+    "reason": "matched: filename=0.100, h1=1.000, path=0.167, ancestor_bonus=0.000, method=delete matched"
+  },
+  "管理接口 > 渠道管理 > 启用标签渠道 (POST)": {
+    "matched_file": "zh__docs__api__management__channel-management__channel-tag-enabled-post__启用标签渠道-new-api__70ad4473.md",
+    "confidence": 0.5317,
+    "reason": "matched: filename=0.091, h1=1.000, path=0.154, ancestor_bonus=0.000, method=post matched"
+  },
+  "管理接口 > 渠道管理 > 复制渠道 (POST)": {
+    "matched_file": "zh__docs__api__management__channel-management__channel-copy-id-post__复制渠道-new-api__979598ac.md",
+    "confidence": 0.5317,
+    "reason": "matched: filename=0.091, h1=1.000, path=0.154, ancestor_bonus=0.000, method=post matched"
+  },
+  "管理接口 > 渠道管理 > 批量删除渠道 (POST)": {
+    "matched_file": "zh__docs__api__management__channel-management__channel-batch-post__批量删除渠道-new-api__3245656a.md",
+    "confidence": 0.5367,
+    "reason": "matched: filename=0.100, h1=1.000, path=0.167, ancestor_bonus=0.000, method=post matched"
+  },
+  "管理接口 > 渠道管理 > 批量设置渠道标签 (POST)": {
+    "matched_file": "zh__docs__api__management__channel-management__channel-batch-tag-post__批量设置渠道标签-new-api__13732edf.md",
+    "confidence": 0.5317,
+    "reason": "matched: filename=0.091, h1=1.000, path=0.154, ancestor_bonus=0.000, method=post matched"
+  },
+  "管理接口 > 渠道管理 > 搜索渠道 (GET)": {
+    "matched_file": "zh__docs__api__management__channel-management__channel-search-get__搜索渠道-new-api__77154ad5.md",
+    "confidence": 0.5367,
+    "reason": "matched: filename=0.100, h1=1.000, path=0.167, ancestor_bonus=0.000, method=get matched"
+  },
+  "管理接口 > 渠道管理 > 更新所有渠道余额 (GET)": {
+    "matched_file": "zh__docs__api__management__channel-management__channel-update_balance-get__更新所有渠道余额-new-api__4630c220.md",
+    "confidence": 0.5317,
+    "reason": "matched: filename=0.091, h1=1.000, path=0.154, ancestor_bonus=0.000, method=get matched"
+  },
+  "管理接口 > 渠道管理 > 更新指定渠道余额 (GET)": {
+    "matched_file": "zh__docs__api__management__channel-management__channel-update_balance-id-get__更新指定渠道余额-new-api__1e3d43be.md",
+    "confidence": 0.5276,
+    "reason": "matched: filename=0.083, h1=1.000, path=0.143, ancestor_bonus=0.000, method=get matched"
+  },
+  "管理接口 > 渠道管理 > 更新渠道 (PUT)": {
+    "matched_file": "zh__docs__api__management__channel-management__channel-put__更新渠道-new-api__84687460.md",
+    "confidence": 0.5426,
+    "reason": "matched: filename=0.111, h1=1.000, path=0.182, ancestor_bonus=0.000, method=put matched"
+  },
+  "管理接口 > 渠道管理 > 测试所有渠道 (GET)": {
+    "matched_file": "zh__docs__api__management__channel-management__channel-test-get__测试所有渠道-new-api__c7c54ed9.md",
+    "confidence": 0.5367,
+    "reason": "matched: filename=0.100, h1=1.000, path=0.167, ancestor_bonus=0.000, method=get matched"
+  },
+  "管理接口 > 渠道管理 > 测试指定渠道 (GET)": {
+    "matched_file": "zh__docs__api__management__channel-management__channel-test-id-get__测试指定渠道-new-api__98ea87fc.md",
+    "confidence": 0.5317,
+    "reason": "matched: filename=0.091, h1=1.000, path=0.154, ancestor_bonus=0.000, method=get matched"
+  },
+  "管理接口 > 渠道管理 > 添加渠道 (POST)": {
+    "matched_file": "zh__docs__api__management__channel-management__channel-post__添加渠道-new-api__69dc367a.md",
+    "confidence": 0.5426,
+    "reason": "matched: filename=0.111, h1=1.000, path=0.182, ancestor_bonus=0.000, method=post matched"
+  },
+  "管理接口 > 渠道管理 > 禁用标签渠道 (POST)": {
+    "matched_file": "zh__docs__api__management__channel-management__channel-tag-disabled-post__禁用标签渠道-new-api__47c00c0b.md",
+    "confidence": 0.5317,
+    "reason": "matched: filename=0.091, h1=1.000, path=0.154, ancestor_bonus=0.000, method=post matched"
+  },
+  "管理接口 > 渠道管理 > 管理多密钥 (POST)": {
+    "matched_file": "zh__docs__api__management__channel-management__channel-multi_key-manage-post__管理多密钥-new-api__d30da8c8.md",
+    "confidence": 0.5276,
+    "reason": "matched: filename=0.083, h1=1.000, path=0.143, ancestor_bonus=0.000, method=post matched"
+  },
+  "管理接口 > 渠道管理 > 编辑标签渠道 (PUT)": {
+    "matched_file": "zh__docs__api__management__channel-management__channel-tag-put__编辑标签渠道-new-api__d59f652b.md",
+    "confidence": 0.5367,
+    "reason": "matched: filename=0.100, h1=1.000, path=0.167, ancestor_bonus=0.000, method=put matched"
+  },
+  "管理接口 > 渠道管理 > 获取上游模型列表 (GET)": {
+    "matched_file": "zh__docs__api__management__channel-management__channel-fetch_models-id-get__获取上游模型列表-new-api__96efa317.md",
+    "confidence": 0.5276,
+    "reason": "matched: filename=0.083, h1=1.000, path=0.143, ancestor_bonus=0.000, method=get matched"
+  },
+  "管理接口 > 渠道管理 > 获取已启用模型列表 (GET)": {
+    "matched_file": "zh__docs__api__management__channel-management__channel-models_enabled-get__获取已启用模型列表-new-api__4abb2a47.md",
+    "confidence": 0.5317,
+    "reason": "matched: filename=0.091, h1=1.000, path=0.154, ancestor_bonus=0.000, method=get matched"
+  },
+  "管理接口 > 渠道管理 > 获取所有渠道 (GET)": {
+    "matched_file": "zh__docs__api__management__channel-management__channel-get__获取所有渠道-new-api__e12dbce7.md",
+    "confidence": 0.5426,
+    "reason": "matched: filename=0.111, h1=1.000, path=0.182, ancestor_bonus=0.000, method=get matched"
+  },
+  "管理接口 > 渠道管理 > 获取指定渠道 (GET)": {
+    "matched_file": "zh__docs__api__management__channel-management__channel-id-get__获取指定渠道-new-api__3d9b8693.md",
+    "confidence": 0.5367,
+    "reason": "matched: filename=0.100, h1=1.000, path=0.167, ancestor_bonus=0.000, method=get matched"
+  },
+  "管理接口 > 渠道管理 > 获取标签模型 (GET)": {
+    "matched_file": "zh__docs__api__management__channel-management__channel-tag-models-get__获取标签模型-new-api__77caf02b.md",
+    "confidence": 0.5317,
+    "reason": "matched: filename=0.091, h1=1.000, path=0.154, ancestor_bonus=0.000, method=get matched"
+  },
+  "管理接口 > 渠道管理 > 获取模型列表 (POST)": {
+    "matched_file": "zh__docs__api__management__channel-management__channel-fetch_models-post__获取模型列表-new-api__3c6cac8a.md",
+    "confidence": 0.5317,
+    "reason": "matched: filename=0.091, h1=1.000, path=0.154, ancestor_bonus=0.000, method=post matched"
+  },
+  "管理接口 > 渠道管理 > 获取渠道密钥 (POST)": {
+    "matched_file": "zh__docs__api__management__channel-management__channel-id-key-post__获取渠道密钥-new-api__8148e299.md",
+    "confidence": 0.5317,
+    "reason": "matched: filename=0.091, h1=1.000, path=0.154, ancestor_bonus=0.000, method=post matched"
+  },
+  "管理接口 > 渠道管理 > 获取渠道模型列表 (GET)": {
+    "matched_file": "zh__docs__api__management__channel-management__channel-models-get__获取渠道模型列表-new-api__0bb9cf6a.md",
+    "confidence": 0.5367,
+    "reason": "matched: filename=0.100, h1=1.000, path=0.167, ancestor_bonus=0.000, method=get matched"
+  },
+  "管理接口 > 用户登陆注册 > 两步验证登录 (POST)": {
+    "matched_file": "zh__docs__api__management__user-auth__user-login-2fa-post__两步验证登录-new-api__3fe5b04f.md",
+    "confidence": 0.5276,
+    "reason": "matched: filename=0.083, h1=1.000, path=0.143, ancestor_bonus=0.000, method=post matched"
+  },
+  "管理接口 > 用户登陆注册 > 发送密码重置邮件 (GET)": {
+    "matched_file": "zh__docs__api__management__user-auth__reset_password-get__发送密码重置邮件-new-api__c2550ee3.md",
+    "confidence": 0.5276,
+    "reason": "matched: filename=0.083, h1=1.000, path=0.143, ancestor_bonus=0.000, method=get matched"
+  },
+  "管理接口 > 用户登陆注册 > 发送邮箱验证码 (GET)": {
+    "matched_file": "zh__docs__api__management__user-auth__verification-get__发送邮箱验证码-new-api__4f2841e6.md",
+    "confidence": 0.5317,
+    "reason": "matched: filename=0.091, h1=1.000, path=0.154, ancestor_bonus=0.000, method=get matched"
+  },
+  "管理接口 > 用户登陆注册 > 完成Passkey登录 (POST)": {
+    "matched_file": "zh__docs__api__management__user-auth__user-passkey-login-finish-post__完成passkey登录-new-api__38980a41.md",
+    "confidence": 0.5241,
+    "reason": "matched: filename=0.077, h1=1.000, path=0.133, ancestor_bonus=0.000, method=post matched"
+  },
+  "管理接口 > 用户登陆注册 > 开始Passkey登录 (POST)": {
+    "matched_file": "zh__docs__api__management__user-auth__user-passkey-login-begin-post__开始passkey登录-new-api__a9e682fb.md",
+    "confidence": 0.5241,
+    "reason": "matched: filename=0.077, h1=1.000, path=0.133, ancestor_bonus=0.000, method=post matched"
+  },
+  "管理接口 > 用户登陆注册 > 用户注册 (POST)": {
+    "matched_file": "zh__docs__api__management__user-auth__user-register-post__用户注册-new-api__99698c9f.md",
+    "confidence": 0.5317,
+    "reason": "matched: filename=0.091, h1=1.000, path=0.154, ancestor_bonus=0.000, method=post matched"
+  },
+  "管理接口 > 用户登陆注册 > 用户登出 (GET)": {
+    "matched_file": "zh__docs__api__management__user-auth__user-logout-get__用户登出-new-api__8b13b159.md",
+    "confidence": 0.5317,
+    "reason": "matched: filename=0.091, h1=1.000, path=0.154, ancestor_bonus=0.000, method=get matched"
+  },
+  "管理接口 > 用户登陆注册 > 用户登录 (POST)": {
+    "matched_file": "zh__docs__api__management__user-auth__user-login-post__用户登录-new-api__ab67391d.md",
+    "confidence": 0.5317,
+    "reason": "matched: filename=0.091, h1=1.000, path=0.154, ancestor_bonus=0.000, method=post matched"
+  },
+  "管理接口 > 用户登陆注册 > 重置密码 (POST)": {
+    "matched_file": "zh__docs__api__management__user-auth__user-reset-post__重置密码-new-api__a15f99f8.md",
+    "confidence": 0.5317,
+    "reason": "matched: filename=0.091, h1=1.000, path=0.154, ancestor_bonus=0.000, method=post matched"
+  },
+  "管理接口 > 用户管理 > 创建用户 (POST)": {
+    "matched_file": "zh__docs__api__management__user-management__user-post__创建用户-new-api__51b58d9b.md",
+    "confidence": 0.5426,
+    "reason": "matched: filename=0.111, h1=1.000, path=0.182, ancestor_bonus=0.000, method=post matched"
+  },
+  "管理接口 > 用户管理 > 删除Passkey (DELETE)": {
+    "matched_file": "zh__docs__api__management__user-management__user-passkey-delete__删除passkey-new-api__3af7a51e.md",
+    "confidence": 0.5367,
+    "reason": "matched: filename=0.100, h1=1.000, path=0.167, ancestor_bonus=0.000, method=delete matched"
+  },
+  "管理接口 > 用户管理 > 删除用户 (DELETE)": {
+    "matched_file": "zh__docs__api__management__user-management__user-id-delete__删除用户-new-api__2b347cc6.md",
+    "confidence": 0.5367,
+    "reason": "matched: filename=0.100, h1=1.000, path=0.167, ancestor_bonus=0.000, method=delete matched"
+  },
+  "管理接口 > 用户管理 > 完成注册Passkey (POST)": {
+    "matched_file": "zh__docs__api__management__user-management__user-passkey-register-finish-post__完成注册passkey-new-api__f47b1d7e.md",
+    "confidence": 0.5276,
+    "reason": "matched: filename=0.083, h1=1.000, path=0.143, ancestor_bonus=0.000, method=post matched"
+  },
+  "管理接口 > 用户管理 > 完成验证Passkey (POST)": {
+    "matched_file": "zh__docs__api__management__user-management__user-passkey-verify-finish-post__完成验证passkey-new-api__9fc7e173.md",
+    "confidence": 0.5276,
+    "reason": "matched: filename=0.083, h1=1.000, path=0.143, ancestor_bonus=0.000, method=post matched"
+  },
+  "管理接口 > 用户管理 > 开始注册Passkey (POST)": {
+    "matched_file": "zh__docs__api__management__user-management__user-passkey-register-begin-post__开始注册passkey-new-api__47230b41.md",
+    "confidence": 0.5276,
+    "reason": "matched: filename=0.083, h1=1.000, path=0.143, ancestor_bonus=0.000, method=post matched"
+  },
+  "管理接口 > 用户管理 > 开始验证Passkey (POST)": {
+    "matched_file": "zh__docs__api__management__user-management__user-passkey-verify-begin-post__开始验证passkey-new-api__c0384b26.md",
+    "confidence": 0.5276,
+    "reason": "matched: filename=0.083, h1=1.000, path=0.143, ancestor_bonus=0.000, method=post matched"
+  },
+  "管理接口 > 用户管理 > 搜索用户 (GET)": {
+    "matched_file": "zh__docs__api__management__user-management__user-search-get__搜索用户-new-api__a013cba5.md",
+    "confidence": 0.5367,
+    "reason": "matched: filename=0.100, h1=1.000, path=0.167, ancestor_bonus=0.000, method=get matched"
+  },
+  "管理接口 > 用户管理 > 更新当前用户信息 (PUT)": {
+    "matched_file": "zh__docs__api__management__user-management__user-self-put__更新当前用户信息-new-api__87e74c7e.md",
+    "confidence": 0.5367,
+    "reason": "matched: filename=0.100, h1=1.000, path=0.167, ancestor_bonus=0.000, method=put matched"
+  },
+  "管理接口 > 用户管理 > 更新用户 (PUT)": {
+    "matched_file": "zh__docs__api__management__user-management__user-put__更新用户-new-api__e399454b.md",
+    "confidence": 0.5426,
+    "reason": "matched: filename=0.111, h1=1.000, path=0.182, ancestor_bonus=0.000, method=put matched"
+  },
+  "管理接口 > 用户管理 > 更新用户设置 (PUT)": {
+    "matched_file": "zh__docs__api__management__user-management__user-setting-put__更新用户设置-new-api__ca64969f.md",
+    "confidence": 0.5367,
+    "reason": "matched: filename=0.100, h1=1.000, path=0.167, ancestor_bonus=0.000, method=put matched"
+  },
+  "管理接口 > 用户管理 > 注销当前用户 (DELETE)": {
+    "matched_file": "zh__docs__api__management__user-management__user-self-delete__注销当前用户-new-api__6585c6bc.md",
+    "confidence": 0.5367,
+    "reason": "matched: filename=0.100, h1=1.000, path=0.167, ancestor_bonus=0.000, method=delete matched"
+  },
+  "管理接口 > 用户管理 > 生成访问令牌 (GET)": {
+    "matched_file": "zh__docs__api__management__user-management__user-token-get__生成访问令牌-new-api__c8d0e11b.md",
+    "confidence": 0.5367,
+    "reason": "matched: filename=0.100, h1=1.000, path=0.167, ancestor_bonus=0.000, method=get matched"
+  },
+  "管理接口 > 用户管理 > 管理员完成充值 (POST)": {
+    "matched_file": "zh__docs__api__management__user-management__user-topup-complete-post__管理员完成充值-new-api__af170294.md",
+    "confidence": 0.5317,
+    "reason": "matched: filename=0.091, h1=1.000, path=0.154, ancestor_bonus=0.000, method=post matched"
+  },
+  "管理接口 > 用户管理 > 管理员禁用用户2FA (DELETE)": {
+    "matched_file": "zh__docs__api__management__user-management__user-id-2fa-delete__管理员禁用用户2fa-new-api__48a7fb7c.md",
+    "confidence": 0.5317,
+    "reason": "matched: filename=0.091, h1=1.000, path=0.154, ancestor_bonus=0.000, method=delete matched"
+  },
+  "管理接口 > 用户管理 > 管理员重置用户Passkey (DELETE)": {
+    "matched_file": "zh__docs__api__management__user-management__user-id-reset_passkey-delete__管理员重置用户passkey-new-api__ed65e8e2.md",
+    "confidence": 0.5276,
+    "reason": "matched: filename=0.083, h1=1.000, path=0.143, ancestor_bonus=0.000, method=delete matched"
+  },
+  "管理接口 > 用户管理 > 管理用户状态 (POST)": {
+    "matched_file": "zh__docs__api__management__user-management__user-manage-post__管理用户状态-new-api__37c3f489.md",
+    "confidence": 0.5367,
+    "reason": "matched: filename=0.100, h1=1.000, path=0.167, ancestor_bonus=0.000, method=post matched"
+  },
+  "管理接口 > 用户管理 > 获取Passkey状态 (GET)": {
+    "matched_file": "zh__docs__api__management__user-management__user-passkey-get__获取passkey状态-new-api__ac319b9f.md",
+    "confidence": 0.5367,
+    "reason": "matched: filename=0.100, h1=1.000, path=0.167, ancestor_bonus=0.000, method=get matched"
+  },
+  "管理接口 > 用户管理 > 获取当前用户信息 (GET)": {
+    "matched_file": "zh__docs__api__management__user-management__user-self-get__获取当前用户信息-new-api__bb44f07b.md",
+    "confidence": 0.5367,
+    "reason": "matched: filename=0.100, h1=1.000, path=0.167, ancestor_bonus=0.000, method=get matched"
+  },
+  "管理接口 > 用户管理 > 获取当前用户分组 (GET)": {
+    "matched_file": "zh__docs__api__management__user-management__user-self-groups-get__获取当前用户分组-new-api__bb9eb7e7.md",
+    "confidence": 0.5317,
+    "reason": "matched: filename=0.091, h1=1.000, path=0.154, ancestor_bonus=0.000, method=get matched"
+  },
+  "管理接口 > 用户管理 > 获取所有充值记录 (GET)": {
+    "matched_file": "zh__docs__api__management__user-management__user-topup-get__获取所有充值记录-new-api__53b0977e.md",
+    "confidence": 0.5367,
+    "reason": "matched: filename=0.100, h1=1.000, path=0.167, ancestor_bonus=0.000, method=get matched"
+  },
+  "管理接口 > 用户管理 > 获取所有用户 (GET)": {
+    "matched_file": "zh__docs__api__management__user-management__user-get__获取所有用户-new-api__9a0086a0.md",
+    "confidence": 0.5426,
+    "reason": "matched: filename=0.111, h1=1.000, path=0.182, ancestor_bonus=0.000, method=get matched"
+  },
+  "管理接口 > 用户管理 > 获取指定用户 (GET)": {
+    "matched_file": "zh__docs__api__management__user-management__user-id-get__获取指定用户-new-api__ea6d5215.md",
+    "confidence": 0.5367,
+    "reason": "matched: filename=0.100, h1=1.000, path=0.167, ancestor_bonus=0.000, method=get matched"
+  },
+  "管理接口 > 用户管理 > 获取用户可用模型 (GET)": {
+    "matched_file": "zh__docs__api__management__user-management__user-models-get__获取用户可用模型-new-api__18882210.md",
+    "confidence": 0.5367,
+    "reason": "matched: filename=0.100, h1=1.000, path=0.167, ancestor_bonus=0.000, method=get matched"
+  },
+  "管理接口 > 用户管理 > 获取邀请码 (GET)": {
+    "matched_file": "zh__docs__api__management__user-management__user-aff-get__获取邀请码-new-api__af25bdd6.md",
+    "confidence": 0.5367,
+    "reason": "matched: filename=0.100, h1=1.000, path=0.167, ancestor_bonus=0.000, method=get matched"
+  },
+  "管理接口 > 用户管理 > 转换邀请额度 (POST)": {
+    "matched_file": "zh__docs__api__management__user-management__user-aff_transfer-post__转换邀请额度-new-api__f390a053.md",
+    "confidence": 0.5317,
+    "reason": "matched: filename=0.091, h1=1.000, path=0.154, ancestor_bonus=0.000, method=post matched"
+  },
+  "管理接口 > 系统 > 初始化系统 (POST)": {
+    "matched_file": "zh__docs__api__management__system__setup-post__初始化系统-new-api__2cd940ec.md",
+    "confidence": 0.5367,
+    "reason": "matched: filename=0.100, h1=1.000, path=0.167, ancestor_bonus=0.000, method=post matched"
+  },
+  "管理接口 > 系统 > 测试系统状态 (GET)": {
+    "matched_file": "zh__docs__api__management__system__status-test-get__测试系统状态-new-api__d67dc686.md",
+    "confidence": 0.5317,
+    "reason": "matched: filename=0.091, h1=1.000, path=0.154, ancestor_bonus=0.000, method=get matched"
+  },
+  "管理接口 > 系统 > 获取Uptime Kuma状态 (GET)": {
+    "matched_file": "zh__docs__api__management__system__uptime-status-get__获取uptime-kuma状态-new-api__afab8701.md",
+    "confidence": 0.5681,
+    "reason": "matched: filename=0.167, h1=1.000, path=0.214, ancestor_bonus=0.000, method=get matched"
+  },
+  "管理接口 > 系统 > 获取倍率配置 (GET)": {
+    "matched_file": "zh__docs__api__management__system__ratio_config-get__获取倍率配置-new-api__624830fc.md",
+    "confidence": 0.5317,
+    "reason": "matched: filename=0.091, h1=1.000, path=0.154, ancestor_bonus=0.000, method=get matched"
+  },
+  "管理接口 > 系统 > 获取公告 (GET)": {
+    "matched_file": "zh__docs__api__management__system__notice-get__获取公告-new-api__d917bd67.md",
+    "confidence": 0.5367,
+    "reason": "matched: filename=0.100, h1=1.000, path=0.167, ancestor_bonus=0.000, method=get matched"
+  },
+  "管理接口 > 系统 > 获取关于信息 (GET)": {
+    "matched_file": "zh__docs__api__management__system__about-get__获取关于信息-new-api__acd28027.md",
+    "confidence": 0.5367,
+    "reason": "matched: filename=0.100, h1=1.000, path=0.167, ancestor_bonus=0.000, method=get matched"
+  },
+  "管理接口 > 系统 > 获取初始化状态 (GET)": {
+    "matched_file": "zh__docs__api__management__system__setup-get__获取初始化状态-new-api__069a178c.md",
+    "confidence": 0.5367,
+    "reason": "matched: filename=0.100, h1=1.000, path=0.167, ancestor_bonus=0.000, method=get matched"
+  },
+  "管理接口 > 系统 > 获取定价信息 (GET)": {
+    "matched_file": "zh__docs__api__management__system__pricing-get__获取定价信息-new-api__c7b1e63a.md",
+    "confidence": 0.5367,
+    "reason": "matched: filename=0.100, h1=1.000, path=0.167, ancestor_bonus=0.000, method=get matched"
+  },
+  "管理接口 > 系统 > 获取模型列表 (GET)": {
+    "matched_file": "zh__docs__api__management__system__models-get__获取模型列表-new-api__66cac42a.md",
+    "confidence": 0.5367,
+    "reason": "matched: filename=0.100, h1=1.000, path=0.167, ancestor_bonus=0.000, method=get matched"
+  },
+  "管理接口 > 系统 > 获取用户协议 (GET)": {
+    "matched_file": "zh__docs__api__management__system__user-agreement-get__获取用户协议-new-api__dbdcee8f.md",
+    "confidence": 0.5317,
+    "reason": "matched: filename=0.091, h1=1.000, path=0.154, ancestor_bonus=0.000, method=get matched"
+  },
+  "管理接口 > 系统 > 获取系统状态 (GET)": {
+    "matched_file": "zh__docs__api__management__system__status-get__获取系统状态-new-api__babce704.md",
+    "confidence": 0.5367,
+    "reason": "matched: filename=0.100, h1=1.000, path=0.167, ancestor_bonus=0.000, method=get matched"
+  },
+  "管理接口 > 系统 > 获取隐私政策 (GET)": {
+    "matched_file": "zh__docs__api__management__system__privacy-policy-get__获取隐私政策-new-api__0bad7d3f.md",
+    "confidence": 0.5317,
+    "reason": "matched: filename=0.091, h1=1.000, path=0.154, ancestor_bonus=0.000, method=get matched"
+  },
+  "管理接口 > 系统 > 获取首页内容 (GET)": {
+    "matched_file": "zh__docs__api__management__system__home_page_content-get__获取首页内容-new-api__2f9539c3.md",
+    "confidence": 0.5276,
+    "reason": "matched: filename=0.083, h1=1.000, path=0.143, ancestor_bonus=0.000, method=get matched"
+  },
+  "管理接口 > 系统设置 > 更新系统选项 (PUT)": {
+    "matched_file": "zh__docs__api__management__system-settings__option-put__更新系统选项-new-api__3162b6fb.md",
+    "confidence": 0.5317,
+    "reason": "matched: filename=0.091, h1=1.000, path=0.154, ancestor_bonus=0.000, method=put matched"
+  },
+  "管理接口 > 系统设置 > 获取上游倍率 (POST)": {
+    "matched_file": "zh__docs__api__management__system-settings__ratio_sync-fetch-post__获取上游倍率-new-api__395769d5.md",
+    "confidence": 0.5241,
+    "reason": "matched: filename=0.077, h1=1.000, path=0.133, ancestor_bonus=0.000, method=post matched"
+  },
+  "管理接口 > 系统设置 > 获取可同步渠道 (GET)": {
+    "matched_file": "zh__docs__api__management__system-settings__ratio_sync-channels-get__获取可同步渠道-new-api__b50a58fe.md",
+    "confidence": 0.5241,
+    "reason": "matched: filename=0.077, h1=1.000, path=0.133, ancestor_bonus=0.000, method=get matched"
+  },
+  "管理接口 > 系统设置 > 获取系统选项 (GET)": {
+    "matched_file": "zh__docs__api__management__system-settings__option-get__获取系统选项-new-api__6c86ded7.md",
+    "confidence": 0.5317,
+    "reason": "matched: filename=0.091, h1=1.000, path=0.154, ancestor_bonus=0.000, method=get matched"
+  },
+  "管理接口 > 系统设置 > 迁移控制台设置 (POST)": {
+    "matched_file": "zh__docs__api__management__system-settings__option-migrate_console_setting-post__迁移控制台设置-new-api__9bedcf0e.md",
+    "confidence": 0.5211,
+    "reason": "matched: filename=0.071, h1=1.000, path=0.125, ancestor_bonus=0.000, method=post matched"
+  },
+  "管理接口 > 系统设置 > 重置模型倍率 (POST)": {
+    "matched_file": "zh__docs__api__management__system-settings__option-rest_model_ratio-post__重置模型倍率-new-api__82de8a7f.md",
+    "confidence": 0.5211,
+    "reason": "matched: filename=0.071, h1=1.000, path=0.125, ancestor_bonus=0.000, method=post matched"
+  },
+  "管理接口 > 鉴权体系说明 (Auth)": {
+    "matched_file": "zh__docs__api__management__auth__鉴权体系说明auth-new-api__86362656.md",
+    "confidence": 0.4644,
+    "reason": "matched: filename=0.111, h1=1.000, path=0.200, ancestor_bonus=0.000"
+  }
+}

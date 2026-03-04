@@ -1,7 +1,5 @@
 # ClawRouter Docs (Migrated)
 
-> Auto-generated from NewAPI docs. Links below point to local Markdown files.
-
 - [文本转语音 | New API](zh__docs__api__ai-model__audio__openai__createspeech__文本转语音-new-api__58cfed05.md)
 - [ChatCompletions格式 | New API](zh__docs__api__ai-model__chat__openai__createchatcompletion__chatcompletions格式-new-api__1f721286.md)
 - [原生OpenAI格式 | New API](zh__docs__api__ai-model__completions__createcompletion__原生openai格式-new-api__4dbfcb8b.md)
