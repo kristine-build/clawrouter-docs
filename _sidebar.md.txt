@@ -1,0 +1,10 @@
+* ClawRouter Docs
+  * [Overview](docs/_index.md)
+
+* API
+  * [Models](docs/models.md)
+  * [Chat](docs/chat.md)
+  * [Embeddings](docs/embeddings.md)
+  * [Images](docs/images.md)
+  * [Audio](docs/audio.md)
+  * [Moderations](docs/moderations.md)
