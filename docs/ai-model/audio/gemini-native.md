@@ -1,82 +1,173 @@
 # 原生Gemini格式
 
-AI 模型接口音频（Audio）
+Gemini 音频生成。
+使用 Gemini 模型生成内容（含语音相关配置）。
 
-# 原生Gemini格式
+## Endpoint
 
-Gemini 音频生成接口。
-可使用gemini-2.5-flash-preview-tts等模型
+`POST /v1beta/models/{model}:generateContent`
 
-loading...
+## Authentication
 
+使用 Bearer Token（`Authorization: Bearer YOUR_API_KEY`）。
 
-/`v1beta`/`models`/`{model}:generateContent`
+## Parameters
 
-Send
+| 名称 | 位置 | 类型 | 必填 | 说明 |
+| --- | --- | --- | --- | --- |
+| `model` | `path` | `string` | yes | 模型名称，例如 gemini-2.5-flash-preview-tts |
 
-Authorization
+## Request Body
 
-Path
+Content-Type:
+- `application/json`
 
-Body
+| 字段 | 类型 | 必填 | 说明 |
+| --- | --- | --- | --- |
+| `contents[]` | `array<object>` | yes | 输入内容列表 |
+| `contents[].role` | `string` | no | 角色标识 |
+| `contents[].parts[]` | `array<object>` | no | - |
+| `contents[].parts[].text` | `string` | no | 文本内容 |
+| `contents[].parts[].inlineData` | `object` | no | - |
+| `contents[].parts[].inlineData.mimeType` | `string` | no | - |
+| `contents[].parts[].inlineData.data` | `string` | no | Base64 数据 |
+| `generationConfig` | `object` | no | - |
+| `generationConfig.responseModalities[]` | `array<string>` | no | - |
+| `generationConfig.speechConfig` | `object` | no | - |
+| `generationConfig.speechConfig.voiceConfig` | `object` | no | - |
+| `generationConfig.speechConfig.voiceConfig.prebuiltVoiceConfig` | `object` | no | - |
+| `generationConfig.speechConfig.voiceConfig.prebuiltVoiceConfig.voiceName` | `string` | no | 语音名称 |
 
-## [Authorization](#authorization)
+### Minimal Request JSON
 
-BearerAuth
-
-AuthorizationBearer <token>
-
-使用 Bearer Token 认证。
-格式: `Authorization: Bearer sk-xxxxxx`
-
-In: `header`
-
-## [Path Parameters](#path-parameters)
-
-model\*string
-
-模型名称
-
-## [Request Body](#request-body)
-
-application/json
-
-contents\*array<object>
-
-generationConfig\*object
-
-## [Response Body](#response-body)
-
-### 200 application/json
-
-cURLJavaScriptGoPythonJavaC#
-
+```json
+{
+  "contents": [
+    {
+      "parts": [
+        {
+          "text": "请用中文播报今天的天气摘要"
+        }
+      ]
+    }
+  ],
+  "generationConfig": {
+    "responseModalities": [
+      "AUDIO"
+    ],
+    "speechConfig": {
+      "voiceConfig": {
+        "prebuiltVoiceConfig": {
+          "voiceName": "Kore"
+        }
+      }
+    }
+  }
+}
 ```
-curl -X POST "https://loading/v1beta/models/string:generateContent" \  -H "Content-Type: application/json" \  -d '{    "contents": [      {}    ],    "generationConfig": {      "responseModalities": [        "string"      ],      "speechConfig": {        "voiceConfig": {          "prebuiltVoiceConfig": {            "voiceName": "string"          }        }      }    }  }'
-```
 
-200
+## Responses
 
-```
+### 200
+
+| 字段 | 类型 | 必填 | 说明 |
+| --- | --- | --- | --- |
+| `candidates[]` | `array<object>` | no | - |
+| `candidates[].content` | `object` | no | - |
+| `candidates[].content.role` | `string` | no | 角色标识 |
+| `candidates[].content.parts[]` | `array<object>` | no | - |
+| `candidates[].content.parts[].text` | `string` | no | 文本内容 |
+| `candidates[].content.parts[].inlineData` | `object` | no | - |
+| `candidates[].content.parts[].inlineData.mimeType` | `string` | no | - |
+| `candidates[].content.parts[].inlineData.data` | `string` | no | Base64 数据 |
+| `candidates[].finishReason` | `string` | no | - |
+| `usageMetadata` | `object` | no | - |
+| `usageMetadata.promptTokenCount` | `integer` | no | - |
+| `usageMetadata.candidatesTokenCount` | `integer` | no | - |
+| `usageMetadata.totalTokenCount` | `integer` | no | - |
+
+### Minimal Response JSON
+
+```json
 {
   "candidates": [
     {
       "content": {
-        "role": "string",
+        "role": "model",
         "parts": [
-          {}
+          {
+            "inlineData": {
+              "mimeType": "audio/wav",
+              "data": "BASE64_AUDIO_DATA"
+            }
+          }
         ]
       },
-      "finishReason": "string",
-      "safetyRatings": [
-        {}
-      ]
+      "finishReason": "STOP"
     }
   ],
   "usageMetadata": {
-    "promptTokenCount": 0,
-    "candidatesTokenCount": 0,
-    "totalTokenCount": 0
+    "promptTokenCount": 12,
+    "candidatesTokenCount": 58,
+    "totalTokenCount": 70
   }
 }
 ```
+
+### Error Responses
+
+| 状态码 | 含义 |
+| --- | --- |
+| `400` | 请求参数错误 |
+| `401` | 鉴权失败 |
+| `429` | 请求过于频繁 |
+| `500` | 服务端错误 |
+
+## Examples
+
+```bash
+curl -X POST "
+https://YOUR_BASE_URL/v1beta/models/gemini-2.5-flash-preview-tts:generateContent" \
+  -H "Authorization: Bearer YOUR_API_KEY" \
+  -H "Content-Type: application/json" \
+  -d @- <<'JSON'
+{
+  "contents": [
+    {
+      "parts": [
+        {
+          "text": "请用中文播报今天的天气摘要"
+        }
+      ]
+    }
+  ],
+  "generationConfig": {
+    "responseModalities": [
+      "AUDIO"
+    ],
+    "speechConfig": {
+      "voiceConfig": {
+        "prebuiltVoiceConfig": {
+          "voiceName": "Kore"
+        }
+      }
+    }
+  }
+}
+JSON
+```
+
+### Error Example
+
+```json
+{
+  "error": {
+    "code": 400,
+    "message": "Invalid request"
+  }
+}
+```
+
+## OpenAPI
+
+- [OpenAPI JSON](../../../openapi/generated/ai-model/音频（Audio）/post-v1beta-models-model-generatecontent-geminirelayv1beta-383836364-383836364.json)
