@@ -1,34 +1,16 @@
 # OAuth
 
-管理接口OAuth
+OAuth 相关文档导航。
 
-# Discord OAuth登录
+## 本章内容
 
-🔓 无需鉴权（OAuth回调）
-
-loading...
-
-
-/`api`/`oauth`/`discord`
-
-Send
-
-Query
-
-## [Query Parameters](#query-parameters)
-
-code?string
-
-## [Response Body](#response-body)
-
-### 200
-
-cURLJavaScriptGoPythonJavaC#
-
-```
-curl -X GET "https://loading/api/oauth/discord"
-```
-
-200
-
-Empty
+- [Discord OAuth登录](discord-oauth-login.md)
+- [绑定邮箱](item.md)
+- [GitHub OAuth登录](github-oauth-login.md)
+- [LinuxDO OAuth登录](linuxdo-oauth-login.md)
+- [OIDC登录](oidc-login.md)
+- [生成OAuth State](oauth-state.md)
+- [绑定Telegram](telegram.md)
+- [Telegram登录](telegram-login.md)
+- [绑定微信](item-2.md)
+- [微信OAuth登录](oauth-login.md)

@@ -1,34 +1,16 @@
 # 用户登陆注册
 
-管理接口用户登陆注册
+用户登陆注册 相关文档导航。
 
-# 发送邮箱验证码
+## 本章内容
 
-🔓 无需鉴权
-
-loading...
-
-
-/`api`/`verification`
-
-Send
-
-Query
-
-## [Query Parameters](#query-parameters)
-
-email\*string
-
-## [Response Body](#response-body)
-
-### 200
-
-cURLJavaScriptGoPythonJavaC#
-
-```
-curl -X GET "https://loading/api/verification?email=string"
-```
-
-200
-
-Empty
+- [发送密码重置邮件](item.md)
+- [获取用户分组列表](get-user-list.md)
+- [两步验证登录](verify-login.md)
+- [用户登录](user-login.md)
+- [用户登出](user.md)
+- [开始Passkey登录](passkey-login.md)
+- [完成Passkey登录](passkey-login-2.md)
+- [用户注册](user-register.md)
+- [重置密码](item-2.md)
+- [发送邮箱验证码](verify.md)

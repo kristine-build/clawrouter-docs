@@ -1,28 +1,11 @@
 # 分组
 
-管理接口分组
+分组 相关文档导航。
 
-# 获取所有分组
+## 本章内容
 
-👨💼 需要管理员权限（Admin）
-
-loading...
-
-
-/`api`/`group`/
-
-Send
-
-## [Response Body](#response-body)
-
-### 200
-
-cURLJavaScriptGoPythonJavaC#
-
-```
-curl -X GET "https://loading/api/group/"
-```
-
-200
-
-Empty
+- [获取所有分组](get.md)
+- [获取预填分组](get-2.md)
+- [删除预填分组](delete.md)
+- [创建预填分组](create.md)
+- [更新预填分组](update.md)

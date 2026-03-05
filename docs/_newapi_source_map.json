@@ -1,0 +1,1222 @@
+{
+  "README.md": {
+    "title": "API 参考",
+    "original_path": "/zh/docs/api",
+    "source": "infer"
+  },
+  "ai-model/audio/gemini-native.md": {
+    "title": "原生Gemini格式",
+    "original_path": "/zh/docs/api/ai-model/audio/geminirelayv1beta-383836364",
+    "source": "mapping"
+  },
+  "ai-model/audio/openai-native/README.md": {
+    "title": "原生OpenAI格式",
+    "original_path": "/zh/docs/api/ai-model/realtime/createrealtimesession",
+    "source": "mapping"
+  },
+  "ai-model/audio/openai-native/tts.md": {
+    "title": "文本转语音",
+    "original_path": "/zh/docs/api/ai-model/audio/openai/createspeech",
+    "source": "mapping"
+  },
+  "ai-model/audio/openai-native/audio-transcription.md": {
+    "title": "音频转录",
+    "original_path": "/zh/docs/api/ai-model/audio/openai/createtranscription",
+    "source": "mapping"
+  },
+  "ai-model/audio/openai-native/audio-translation.md": {
+    "title": "音频翻译",
+    "original_path": "/zh/docs/api/ai-model/audio/openai/createtranslation",
+    "source": "mapping"
+  },
+  "ai-model/chat/README.md": {
+    "title": "聊天（Chat）",
+    "original_path": "/zh/docs/api/ai-model/chat",
+    "source": "infer"
+  },
+  "ai-model/chat/claude-native.md": {
+    "title": "原生Claude格式",
+    "original_path": "/zh/docs/api/ai-model/chat/createmessage",
+    "source": "mapping"
+  },
+  "ai-model/chat/gemini-native/README.md": {
+    "title": "原生Gemini格式",
+    "original_path": "/zh/docs/api/ai-model/embeddings/createengineembedding",
+    "source": "mapping"
+  },
+  "ai-model/chat/gemini-native/gemini-media.md": {
+    "title": "Gemini媒体识别",
+    "original_path": "/zh/docs/api/ai-model/chat/gemini-native/gemini-media",
+    "source": "infer"
+  },
+  "ai-model/chat/gemini-native/gemini-chat.md": {
+    "title": "Gemini文本聊天",
+    "original_path": "/zh/docs/api/ai-model/chat/gemini-native/gemini-chat",
+    "source": "infer"
+  },
+  "ai-model/chat/openai-native/README.md": {
+    "title": "原生OpenAI格式",
+    "original_path": "/zh/docs/api/ai-model/realtime/createrealtimesession",
+    "source": "mapping"
+  },
+  "ai-model/chat/openai-native/chat-completions.md": {
+    "title": "ChatCompletions格式",
+    "original_path": "/zh/docs/api/ai-model/chat/openai/createchatcompletion",
+    "source": "mapping"
+  },
+  "ai-model/chat/openai-native/responses.md": {
+    "title": "Responses格式",
+    "original_path": "/zh/docs/api/ai-model/chat/openai/createresponse",
+    "source": "mapping"
+  },
+  "ai-model/completions/README.md": {
+    "title": "补全（Completions）",
+    "original_path": "/zh/docs/api/ai-model/completions",
+    "source": "infer"
+  },
+  "ai-model/completions/openai-native.md": {
+    "title": "原生OpenAI格式",
+    "original_path": "/zh/docs/api/ai-model/completions/createcompletion",
+    "source": "mapping"
+  },
+  "ai-model/embeddings/README.md": {
+    "title": "嵌入（Embeddings）",
+    "original_path": "/zh/docs/api/ai-model/embeddings",
+    "source": "infer"
+  },
+  "ai-model/embeddings/openai-native.md": {
+    "title": "原生OpenAI格式",
+    "original_path": "/zh/docs/api/ai-model/embeddings/createembedding",
+    "source": "mapping"
+  },
+  "ai-model/embeddings/gemini-native.md": {
+    "title": "原生Gemini格式",
+    "original_path": "/zh/docs/api/ai-model/embeddings/createengineembedding",
+    "source": "mapping"
+  },
+  "ai-model/images/README.md": {
+    "title": "图像（Images）",
+    "original_path": "/zh/docs/api/ai-model/images",
+    "source": "infer"
+  },
+  "ai-model/images/gemini-native/README.md": {
+    "title": "原生Gemini格式",
+    "original_path": "/zh/docs/api/ai-model/embeddings/createengineembedding",
+    "source": "mapping"
+  },
+  "ai-model/images/gemini-native/gemini-native.md": {
+    "title": "Gemini原生格式",
+    "original_path": "/zh/docs/api/ai-model/images/gemini-native/gemini-native",
+    "source": "infer"
+  },
+  "ai-model/images/gemini-native/openai-chat-format.md": {
+    "title": "OpenAI聊天格式",
+    "original_path": "/zh/docs/api/ai-model/images/gemini-native/openai-chat-format",
+    "source": "infer"
+  },
+  "ai-model/images/openai-native/README.md": {
+    "title": "原生OpenAI格式",
+    "original_path": "/zh/docs/api/ai-model/realtime/createrealtimesession",
+    "source": "mapping"
+  },
+  "ai-model/images/openai-native/image.md": {
+    "title": "编辑图像",
+    "original_path": "/zh/docs/api/ai-model/images/openai/post-v1-images-edits",
+    "source": "mapping"
+  },
+  "ai-model/images/openai-native/image-2.md": {
+    "title": "生成图像",
+    "original_path": "/zh/docs/api/ai-model/images/openai/post-v1-images-generations",
+    "source": "mapping"
+  },
+  "ai-model/images/qwen-openai-format/README.md": {
+    "title": "通义千问OpenAI格式",
+    "original_path": "/zh/docs/api/ai-model/images/qwen-openai-format",
+    "source": "infer"
+  },
+  "ai-model/images/qwen-openai-format/image.md": {
+    "title": "生成图像",
+    "original_path": "/zh/docs/api/ai-model/images/openai/post-v1-images-generations",
+    "source": "mapping"
+  },
+  "ai-model/images/qwen-openai-format/image-2.md": {
+    "title": "编辑图像",
+    "original_path": "/zh/docs/api/ai-model/images/openai/post-v1-images-edits",
+    "source": "mapping"
+  },
+  "ai-model/models/README.md": {
+    "title": "模型（Models）",
+    "original_path": "/zh/docs/api/ai-model/models",
+    "source": "infer"
+  },
+  "ai-model/models/list-models/README.md": {
+    "title": "列出模型",
+    "original_path": "/zh/docs/api/ai-model/models/list-models",
+    "source": "infer"
+  },
+  "ai-model/models/list-models/openai-native.md": {
+    "title": "原生OpenAI格式",
+    "original_path": "/zh/docs/api/ai-model/models/list/listmodels",
+    "source": "mapping"
+  },
+  "ai-model/models/list-models/gemini-native.md": {
+    "title": "原生Gemini格式",
+    "original_path": "/zh/docs/api/ai-model/models/list/listmodelsgemini",
+    "source": "mapping"
+  },
+  "ai-model/moderations/README.md": {
+    "title": "审查（Moderations）",
+    "original_path": "/zh/docs/api/ai-model/moderations",
+    "source": "infer"
+  },
+  "ai-model/moderations/openai-native.md": {
+    "title": "原生OpenAI格式",
+    "original_path": "/zh/docs/api/ai-model/moderations/createmoderation",
+    "source": "mapping"
+  },
+  "ai-model/realtime/README.md": {
+    "title": "实时语音（Realtime）",
+    "original_path": "/zh/docs/api/ai-model/realtime",
+    "source": "infer"
+  },
+  "ai-model/realtime/openai-native.md": {
+    "title": "原生OpenAI格式",
+    "original_path": "/zh/docs/api/ai-model/realtime/createrealtimesession",
+    "source": "mapping"
+  },
+  "ai-model/rerank/README.md": {
+    "title": "重排序（Rerank）",
+    "original_path": "/zh/docs/api/ai-model/rerank",
+    "source": "infer"
+  },
+  "ai-model/rerank/document-rerank.md": {
+    "title": "文档重排序",
+    "original_path": "/zh/docs/api/ai-model/rerank/creatererank",
+    "source": "mapping"
+  },
+  "ai-model/unimplemented/README.md": {
+    "title": "未实现（Unimplemented）",
+    "original_path": "/zh/docs/api/ai-model/unimplemented",
+    "source": "infer"
+  },
+  "ai-model/unimplemented/files/README.md": {
+    "title": "文件（Files）",
+    "original_path": "/zh/docs/api/ai-model/unimplemented/files",
+    "source": "infer"
+  },
+  "ai-model/unimplemented/files/item.md": {
+    "title": "上传文件 (未实现)",
+    "original_path": "/zh/docs/api/ai-model/unimplemented/files/item",
+    "source": "infer"
+  },
+  "ai-model/unimplemented/files/delete.md": {
+    "title": "删除文件 (未实现)",
+    "original_path": "/zh/docs/api/ai-model/unimplemented/files/delete",
+    "source": "infer"
+  },
+  "ai-model/unimplemented/files/get.md": {
+    "title": "获取文件内容 (未实现)",
+    "original_path": "/zh/docs/api/ai-model/unimplemented/files/get",
+    "source": "infer"
+  },
+  "ai-model/unimplemented/files/item-2.md": {
+    "title": "列出文件 (未实现)",
+    "original_path": "/zh/docs/api/ai-model/unimplemented/files/item-2",
+    "source": "infer"
+  },
+  "ai-model/unimplemented/files/get-2.md": {
+    "title": "获取文件信息 (未实现)",
+    "original_path": "/zh/docs/api/ai-model/unimplemented/files/get-2",
+    "source": "infer"
+  },
+  "ai-model/fine-tuning/README.md": {
+    "title": "微调（Fine-tuning）",
+    "original_path": "/zh/docs/api/ai-model/fine-tuning",
+    "source": "infer"
+  },
+  "ai-model/fine-tuning/task.md": {
+    "title": "取消微调任务 (未实现)",
+    "original_path": "/zh/docs/api/ai-model/fine-tuning/task",
+    "source": "infer"
+  },
+  "ai-model/fine-tuning/create-task.md": {
+    "title": "创建微调任务 (未实现)",
+    "original_path": "/zh/docs/api/ai-model/fine-tuning/create-task",
+    "source": "infer"
+  },
+  "ai-model/fine-tuning/get-task.md": {
+    "title": "获取微调任务事件 (未实现)",
+    "original_path": "/zh/docs/api/ai-model/fine-tuning/get-task",
+    "source": "infer"
+  },
+  "ai-model/fine-tuning/task-2.md": {
+    "title": "列出微调任务 (未实现)",
+    "original_path": "/zh/docs/api/ai-model/fine-tuning/task-2",
+    "source": "infer"
+  },
+  "ai-model/fine-tuning/get-task-2.md": {
+    "title": "获取微调任务详情 (未实现)",
+    "original_path": "/zh/docs/api/ai-model/fine-tuning/get-task-2",
+    "source": "infer"
+  },
+  "ai-model/videos/README.md": {
+    "title": "视频（Videos）",
+    "original_path": "/zh/docs/api/ai-model/videos",
+    "source": "infer"
+  },
+  "ai-model/videos/create-video-task.md": {
+    "title": "创建视频生成任务",
+    "original_path": "/zh/docs/api/ai-model/videos/createvideogeneration",
+    "source": "mapping"
+  },
+  "ai-model/videos/get-video-task-status.md": {
+    "title": "获取视频生成任务状态",
+    "original_path": "/zh/docs/api/ai-model/videos/getvideogeneration",
+    "source": "mapping"
+  },
+  "ai-model/videos/jimeng/README.md": {
+    "title": "即梦格式",
+    "original_path": "/zh/docs/api/ai-model/videos/jimeng",
+    "source": "infer"
+  },
+  "ai-model/videos/jimeng/video.md": {
+    "title": "即梦视频生成",
+    "original_path": "/zh/docs/api/ai-model/videos/jimeng/video",
+    "source": "infer"
+  },
+  "ai-model/videos/kling/README.md": {
+    "title": "可灵格式",
+    "original_path": "/zh/docs/api/ai-model/videos/kling",
+    "source": "infer"
+  },
+  "ai-model/videos/kling/kling-video.md": {
+    "title": "Kling 图生视频",
+    "original_path": "/zh/docs/api/ai-model/videos/kling/kling-video",
+    "source": "infer"
+  },
+  "ai-model/videos/kling/kling-video-2.md": {
+    "title": "Kling 文生视频",
+    "original_path": "/zh/docs/api/ai-model/videos/kling/kling-video-2",
+    "source": "infer"
+  },
+  "ai-model/videos/kling/get-kling-video-task-status.md": {
+    "title": "获取 Kling 图生视频任务状态",
+    "original_path": "/zh/docs/api/ai-model/videos/kling/get-kling-video-task-status",
+    "source": "infer"
+  },
+  "ai-model/videos/kling/get-kling-video-task-status-2.md": {
+    "title": "获取 Kling 文生视频任务状态",
+    "original_path": "/zh/docs/api/ai-model/videos/kling/get-kling-video-task-status-2",
+    "source": "infer"
+  },
+  "ai-model/videos/sora/README.md": {
+    "title": "Sora格式",
+    "original_path": "/zh/docs/api/ai-model/videos/sora",
+    "source": "infer"
+  },
+  "ai-model/videos/sora/create-video.md": {
+    "title": "创建视频",
+    "original_path": "/zh/docs/api/ai-model/videos/sora/createvideo",
+    "source": "mapping"
+  },
+  "ai-model/videos/sora/get-video-task-status.md": {
+    "title": "获取视频任务状态",
+    "original_path": "/zh/docs/api/ai-model/videos/sora/getvideo",
+    "source": "mapping"
+  },
+  "ai-model/videos/sora/get-video.md": {
+    "title": "获取视频内容",
+    "original_path": "/zh/docs/api/ai-model/videos/sora/getvideocontent",
+    "source": "mapping"
+  },
+  "management/README.md": {
+    "title": "管理接口",
+    "original_path": "/zh/docs/api/management",
+    "source": "infer"
+  },
+  "management/auth.md": {
+    "title": "鉴权体系说明（Auth）",
+    "original_path": "/zh/docs/api/management/auth",
+    "source": "mapping"
+  },
+  "management/channel-management/README.md": {
+    "title": "渠道管理",
+    "original_path": "/zh/docs/api/management/channel-management",
+    "source": "infer"
+  },
+  "management/channel-management/delete-channel.md": {
+    "title": "批量删除渠道",
+    "original_path": "/zh/docs/api/management/channel-management/channel-batch-post",
+    "source": "mapping"
+  },
+  "management/channel-management/setting-channel.md": {
+    "title": "批量设置渠道标签",
+    "original_path": "/zh/docs/api/management/channel-management/channel-batch-tag-post",
+    "source": "mapping"
+  },
+  "management/channel-management/channel.md": {
+    "title": "复制渠道",
+    "original_path": "/zh/docs/api/management/channel-management/channel-copy-id-post",
+    "source": "mapping"
+  },
+  "management/channel-management/delete-channel-2.md": {
+    "title": "删除已禁用渠道",
+    "original_path": "/zh/docs/api/management/channel-management/channel-disabled-delete",
+    "source": "mapping"
+  },
+  "management/channel-management/get-model-list.md": {
+    "title": "获取上游模型列表",
+    "original_path": "/zh/docs/api/management/channel-management/channel-fetch_models-id-get",
+    "source": "mapping"
+  },
+  "management/channel-management/get-model-list-2.md": {
+    "title": "获取模型列表",
+    "original_path": "/zh/docs/api/management/channel-management/channel-fetch_models-post",
+    "source": "mapping"
+  },
+  "management/channel-management/channel-2.md": {
+    "title": "修复渠道能力",
+    "original_path": "/zh/docs/api/management/channel-management/channel-fix-post",
+    "source": "mapping"
+  },
+  "management/channel-management/get-channel.md": {
+    "title": "获取所有渠道",
+    "original_path": "/zh/docs/api/management/channel-management/channel-get",
+    "source": "mapping"
+  },
+  "management/channel-management/delete-channel-3.md": {
+    "title": "删除渠道",
+    "original_path": "/zh/docs/api/management/channel-management/channel-id-delete",
+    "source": "mapping"
+  },
+  "management/channel-management/get-channel-2.md": {
+    "title": "获取指定渠道",
+    "original_path": "/zh/docs/api/management/channel-management/channel-id-get",
+    "source": "mapping"
+  },
+  "management/channel-management/get-channel-3.md": {
+    "title": "获取渠道密钥",
+    "original_path": "/zh/docs/api/management/channel-management/channel-id-key-post",
+    "source": "mapping"
+  },
+  "management/channel-management/get-model-list-3.md": {
+    "title": "获取已启用模型列表",
+    "original_path": "/zh/docs/api/management/channel-management/channel-models_enabled-get",
+    "source": "mapping"
+  },
+  "management/channel-management/get-channel-model-list.md": {
+    "title": "获取渠道模型列表",
+    "original_path": "/zh/docs/api/management/channel-management/channel-models-get",
+    "source": "mapping"
+  },
+  "management/channel-management/item.md": {
+    "title": "管理多密钥",
+    "original_path": "/zh/docs/api/management/channel-management/channel-multi_key-manage-post",
+    "source": "mapping"
+  },
+  "management/channel-management/channel-3.md": {
+    "title": "添加渠道",
+    "original_path": "/zh/docs/api/management/channel-management/channel-post",
+    "source": "mapping"
+  },
+  "management/channel-management/update-channel.md": {
+    "title": "更新渠道",
+    "original_path": "/zh/docs/api/management/channel-management/channel-put",
+    "source": "mapping"
+  },
+  "management/channel-management/search-channel.md": {
+    "title": "搜索渠道",
+    "original_path": "/zh/docs/api/management/channel-management/channel-search-get",
+    "source": "mapping"
+  },
+  "management/channel-management/channel-4.md": {
+    "title": "禁用标签渠道",
+    "original_path": "/zh/docs/api/management/channel-management/channel-tag-disabled-post",
+    "source": "mapping"
+  },
+  "management/channel-management/channel-5.md": {
+    "title": "启用标签渠道",
+    "original_path": "/zh/docs/api/management/channel-management/channel-tag-enabled-post",
+    "source": "mapping"
+  },
+  "management/channel-management/get-model.md": {
+    "title": "获取标签模型",
+    "original_path": "/zh/docs/api/management/channel-management/channel-tag-models-get",
+    "source": "mapping"
+  },
+  "management/channel-management/channel-6.md": {
+    "title": "编辑标签渠道",
+    "original_path": "/zh/docs/api/management/channel-management/channel-tag-put",
+    "source": "mapping"
+  },
+  "management/channel-management/channel-7.md": {
+    "title": "测试所有渠道",
+    "original_path": "/zh/docs/api/management/channel-management/channel-test-get",
+    "source": "mapping"
+  },
+  "management/channel-management/channel-8.md": {
+    "title": "测试指定渠道",
+    "original_path": "/zh/docs/api/management/channel-management/channel-test-id-get",
+    "source": "mapping"
+  },
+  "management/channel-management/update-channel-2.md": {
+    "title": "更新所有渠道余额",
+    "original_path": "/zh/docs/api/management/channel-management/channel-update_balance-get",
+    "source": "mapping"
+  },
+  "management/channel-management/update-channel-3.md": {
+    "title": "更新指定渠道余额",
+    "original_path": "/zh/docs/api/management/channel-management/channel-update_balance-id-get",
+    "source": "mapping"
+  },
+  "management/default/README.md": {
+    "title": "default",
+    "original_path": "/zh/docs/api/management/default",
+    "source": "infer"
+  },
+  "management/default/redemption-code.md": {
+    "title": "使用兑换码",
+    "original_path": "/zh/docs/api/management/default/redemption-code",
+    "source": "infer"
+  },
+  "management/groups/README.md": {
+    "title": "分组",
+    "original_path": "/zh/docs/api/management/groups",
+    "source": "infer"
+  },
+  "management/groups/get.md": {
+    "title": "获取所有分组",
+    "original_path": "/zh/docs/api/management/groups/group-get",
+    "source": "mapping"
+  },
+  "management/groups/get-2.md": {
+    "title": "获取预填分组",
+    "original_path": "/zh/docs/api/management/groups/prefill_group-get",
+    "source": "mapping"
+  },
+  "management/groups/delete.md": {
+    "title": "删除预填分组",
+    "original_path": "/zh/docs/api/management/groups/prefill_group-id-delete",
+    "source": "mapping"
+  },
+  "management/groups/create.md": {
+    "title": "创建预填分组",
+    "original_path": "/zh/docs/api/management/groups/prefill_group-post",
+    "source": "mapping"
+  },
+  "management/groups/update.md": {
+    "title": "更新预填分组",
+    "original_path": "/zh/docs/api/management/groups/prefill_group-put",
+    "source": "mapping"
+  },
+  "management/logs/README.md": {
+    "title": "日志",
+    "original_path": "/zh/docs/api/management/logs",
+    "source": "infer"
+  },
+  "management/logs/delete-log.md": {
+    "title": "删除历史日志",
+    "original_path": "/zh/docs/api/management/logs/log-delete",
+    "source": "mapping"
+  },
+  "management/logs/get-log.md": {
+    "title": "获取所有日志",
+    "original_path": "/zh/docs/api/management/logs/log-get",
+    "source": "mapping"
+  },
+  "management/logs/search-log.md": {
+    "title": "搜索日志",
+    "original_path": "/zh/docs/api/management/logs/log-search-get",
+    "source": "mapping"
+  },
+  "management/logs/get-log-2.md": {
+    "title": "获取个人日志",
+    "original_path": "/zh/docs/api/management/logs/log-self-get",
+    "source": "mapping"
+  },
+  "management/logs/search-log-2.md": {
+    "title": "搜索个人日志",
+    "original_path": "/zh/docs/api/management/logs/log-self-search-get",
+    "source": "mapping"
+  },
+  "management/logs/get-log-3.md": {
+    "title": "获取个人日志统计",
+    "original_path": "/zh/docs/api/management/logs/log-self-stat-get",
+    "source": "mapping"
+  },
+  "management/logs/get-log-4.md": {
+    "title": "获取日志统计",
+    "original_path": "/zh/docs/api/management/logs/log-stat-get",
+    "source": "mapping"
+  },
+  "management/logs/token-get-log.md": {
+    "title": "通过令牌获取日志",
+    "original_path": "/zh/docs/api/management/logs/log-token-get",
+    "source": "mapping"
+  },
+  "management/model-management/README.md": {
+    "title": "模型管理",
+    "original_path": "/zh/docs/api/management/model-management",
+    "source": "infer"
+  },
+  "management/model-management/get-model.md": {
+    "title": "获取所有模型元数据",
+    "original_path": "/zh/docs/api/management/model-management/models-get",
+    "source": "mapping"
+  },
+  "management/model-management/delete-model.md": {
+    "title": "删除模型",
+    "original_path": "/zh/docs/api/management/model-management/models-id-delete",
+    "source": "mapping"
+  },
+  "management/model-management/get-model-2.md": {
+    "title": "获取指定模型",
+    "original_path": "/zh/docs/api/management/model-management/models-id-get",
+    "source": "mapping"
+  },
+  "management/model-management/get-model-3.md": {
+    "title": "获取缺失模型",
+    "original_path": "/zh/docs/api/management/model-management/models-missing-get",
+    "source": "mapping"
+  },
+  "management/model-management/create-model.md": {
+    "title": "创建模型元数据",
+    "original_path": "/zh/docs/api/management/model-management/models-post",
+    "source": "mapping"
+  },
+  "management/model-management/update-model.md": {
+    "title": "更新模型元数据",
+    "original_path": "/zh/docs/api/management/model-management/models-put",
+    "source": "mapping"
+  },
+  "management/model-management/search-model.md": {
+    "title": "搜索模型",
+    "original_path": "/zh/docs/api/management/model-management/models-search-get",
+    "source": "mapping"
+  },
+  "management/model-management/model.md": {
+    "title": "同步上游模型",
+    "original_path": "/zh/docs/api/management/model-management/models-sync_upstream-post",
+    "source": "mapping"
+  },
+  "management/model-management/model-2.md": {
+    "title": "预览上游模型同步",
+    "original_path": "/zh/docs/api/management/model-management/models-sync_upstream-preview-get",
+    "source": "mapping"
+  },
+  "management/oauth/README.md": {
+    "title": "OAuth",
+    "original_path": "/zh/docs/api/management/oauth",
+    "source": "infer"
+  },
+  "management/oauth/discord-oauth-login.md": {
+    "title": "Discord OAuth登录",
+    "original_path": "/zh/docs/api/management/oauth/oauth-discord-get",
+    "source": "mapping"
+  },
+  "management/oauth/item.md": {
+    "title": "绑定邮箱",
+    "original_path": "/zh/docs/api/management/oauth/oauth-email-bind-get",
+    "source": "mapping"
+  },
+  "management/oauth/github-oauth-login.md": {
+    "title": "GitHub OAuth登录",
+    "original_path": "/zh/docs/api/management/oauth/oauth-github-get",
+    "source": "mapping"
+  },
+  "management/oauth/linuxdo-oauth-login.md": {
+    "title": "LinuxDO OAuth登录",
+    "original_path": "/zh/docs/api/management/oauth/oauth-linuxdo-get",
+    "source": "mapping"
+  },
+  "management/oauth/oidc-login.md": {
+    "title": "OIDC登录",
+    "original_path": "/zh/docs/api/management/oauth/oauth-oidc-get",
+    "source": "mapping"
+  },
+  "management/oauth/oauth-state.md": {
+    "title": "生成OAuth State",
+    "original_path": "/zh/docs/api/management/oauth/oauth-state-get",
+    "source": "mapping"
+  },
+  "management/oauth/telegram.md": {
+    "title": "绑定Telegram",
+    "original_path": "/zh/docs/api/management/oauth/oauth-telegram-bind-get",
+    "source": "mapping"
+  },
+  "management/oauth/telegram-login.md": {
+    "title": "Telegram登录",
+    "original_path": "/zh/docs/api/management/oauth/oauth-telegram-login-get",
+    "source": "mapping"
+  },
+  "management/oauth/item-2.md": {
+    "title": "绑定微信",
+    "original_path": "/zh/docs/api/management/oauth/oauth-wechat-bind-get",
+    "source": "mapping"
+  },
+  "management/oauth/oauth-login.md": {
+    "title": "微信OAuth登录",
+    "original_path": "/zh/docs/api/management/oauth/oauth-wechat-get",
+    "source": "mapping"
+  },
+  "management/payments/README.md": {
+    "title": "充值",
+    "original_path": "/zh/docs/api/management/payments",
+    "source": "infer"
+  },
+  "management/payments/creem-webhook.md": {
+    "title": "Creem Webhook",
+    "original_path": "/zh/docs/api/management/payment/creem-webhook-post",
+    "source": "mapping"
+  },
+  "management/payments/stripe-webhook.md": {
+    "title": "Stripe Webhook",
+    "original_path": "/zh/docs/api/management/payment/stripe-webhook-post",
+    "source": "mapping"
+  },
+  "management/payments/get.md": {
+    "title": "获取支付金额",
+    "original_path": "/zh/docs/api/management/payment/user-amount-post",
+    "source": "mapping"
+  },
+  "management/payments/creem.md": {
+    "title": "发起Creem支付",
+    "original_path": "/zh/docs/api/management/payment/user-creem-pay-post",
+    "source": "mapping"
+  },
+  "management/payments/item.md": {
+    "title": "易支付回调",
+    "original_path": "/zh/docs/api/management/payment/user-epay-notify-get",
+    "source": "mapping"
+  },
+  "management/payments/item-2.md": {
+    "title": "发起易支付",
+    "original_path": "/zh/docs/api/management/payment/user-pay-post",
+    "source": "mapping"
+  },
+  "management/payments/get-stripe.md": {
+    "title": "获取Stripe支付金额",
+    "original_path": "/zh/docs/api/management/payment/user-stripe-amount-post",
+    "source": "mapping"
+  },
+  "management/payments/stripe.md": {
+    "title": "发起Stripe支付",
+    "original_path": "/zh/docs/api/management/payment/user-stripe-pay-post",
+    "source": "mapping"
+  },
+  "management/payments/get-payment.md": {
+    "title": "获取充值信息",
+    "original_path": "/zh/docs/api/management/payment/user-topup-info-get",
+    "source": "mapping"
+  },
+  "management/payments/get-user-payment.md": {
+    "title": "获取用户充值记录",
+    "original_path": "/zh/docs/api/management/payment/user-topup-self-get",
+    "source": "mapping"
+  },
+  "management/redemption-codes/README.md": {
+    "title": "兑换码",
+    "original_path": "/zh/docs/api/management/redemption-codes",
+    "source": "infer"
+  },
+  "management/redemption-codes/get-redemption-code.md": {
+    "title": "获取所有兑换码",
+    "original_path": "/zh/docs/api/management/redemption/redemption-get",
+    "source": "mapping"
+  },
+  "management/redemption-codes/delete-redemption-code.md": {
+    "title": "删除兑换码",
+    "original_path": "/zh/docs/api/management/redemption/redemption-id-delete",
+    "source": "mapping"
+  },
+  "management/redemption-codes/get-redemption-code-2.md": {
+    "title": "获取指定兑换码",
+    "original_path": "/zh/docs/api/management/redemption/redemption-id-get",
+    "source": "mapping"
+  },
+  "management/redemption-codes/delete-redemption-code-2.md": {
+    "title": "删除无效兑换码",
+    "original_path": "/zh/docs/api/management/redemption/redemption-invalid-delete",
+    "source": "mapping"
+  },
+  "management/redemption-codes/create-redemption-code.md": {
+    "title": "创建兑换码",
+    "original_path": "/zh/docs/api/management/redemption/redemption-post",
+    "source": "mapping"
+  },
+  "management/redemption-codes/update-redemption-code.md": {
+    "title": "更新兑换码",
+    "original_path": "/zh/docs/api/management/redemption/redemption-put",
+    "source": "mapping"
+  },
+  "management/redemption-codes/search-redemption-code.md": {
+    "title": "搜索兑换码",
+    "original_path": "/zh/docs/api/management/redemption/redemption-search-get",
+    "source": "mapping"
+  },
+  "management/security-verification/README.md": {
+    "title": "安全验证",
+    "original_path": "/zh/docs/api/management/security-verification",
+    "source": "infer"
+  },
+  "management/security-verification/verify.md": {
+    "title": "通用安全验证",
+    "original_path": "/zh/docs/api/management/security-verification/verify-post",
+    "source": "mapping"
+  },
+  "management/security-verification/get-verify-status.md": {
+    "title": "获取验证状态",
+    "original_path": "/zh/docs/api/management/security-verification/verify-status-get",
+    "source": "mapping"
+  },
+  "management/statistics/README.md": {
+    "title": "数据统计",
+    "original_path": "/zh/docs/api/management/statistics",
+    "source": "infer"
+  },
+  "management/statistics/get.md": {
+    "title": "获取所有额度数据",
+    "original_path": "/zh/docs/api/management/statistics/data-get",
+    "source": "mapping"
+  },
+  "management/statistics/get-2.md": {
+    "title": "获取个人额度数据",
+    "original_path": "/zh/docs/api/management/statistics/data-self-get",
+    "source": "mapping"
+  },
+  "management/system/README.md": {
+    "title": "系统",
+    "original_path": "/zh/docs/api/management/system",
+    "source": "infer"
+  },
+  "management/system/get.md": {
+    "title": "获取关于信息",
+    "original_path": "/zh/docs/api/management/system/about-get",
+    "source": "mapping"
+  },
+  "management/system/get-2.md": {
+    "title": "获取首页内容",
+    "original_path": "/zh/docs/api/management/system/home_page_content-get",
+    "source": "mapping"
+  },
+  "management/system/get-model-list.md": {
+    "title": "获取模型列表",
+    "original_path": "/zh/docs/api/management/system/models-get",
+    "source": "mapping"
+  },
+  "management/system/get-3.md": {
+    "title": "获取公告",
+    "original_path": "/zh/docs/api/management/system/notice-get",
+    "source": "mapping"
+  },
+  "management/system/get-4.md": {
+    "title": "获取定价信息",
+    "original_path": "/zh/docs/api/management/system/pricing-get",
+    "source": "mapping"
+  },
+  "management/system/get-5.md": {
+    "title": "获取隐私政策",
+    "original_path": "/zh/docs/api/management/system/privacy-policy-get",
+    "source": "mapping"
+  },
+  "management/system/get-6.md": {
+    "title": "获取倍率配置",
+    "original_path": "/zh/docs/api/management/system/ratio_config-get",
+    "source": "mapping"
+  },
+  "management/system/get-status.md": {
+    "title": "获取初始化状态",
+    "original_path": "/zh/docs/api/management/system/setup-get",
+    "source": "mapping"
+  },
+  "management/system/item.md": {
+    "title": "初始化系统",
+    "original_path": "/zh/docs/api/management/system/setup-post",
+    "source": "mapping"
+  },
+  "management/system/get-status-2.md": {
+    "title": "获取系统状态",
+    "original_path": "/zh/docs/api/management/system/status-get",
+    "source": "mapping"
+  },
+  "management/system/status.md": {
+    "title": "测试系统状态",
+    "original_path": "/zh/docs/api/management/system/status-test-get",
+    "source": "mapping"
+  },
+  "management/system/get-uptime-kuma-status.md": {
+    "title": "获取Uptime Kuma状态",
+    "original_path": "/zh/docs/api/management/system/uptime-status-get",
+    "source": "mapping"
+  },
+  "management/system/get-user.md": {
+    "title": "获取用户协议",
+    "original_path": "/zh/docs/api/management/system/user-agreement-get",
+    "source": "mapping"
+  },
+  "management/system-settings/README.md": {
+    "title": "系统设置",
+    "original_path": "/zh/docs/api/management/system-settings",
+    "source": "infer"
+  },
+  "management/system-settings/get.md": {
+    "title": "获取系统选项",
+    "original_path": "/zh/docs/api/management/system-settings/option-get",
+    "source": "mapping"
+  },
+  "management/system-settings/setting.md": {
+    "title": "迁移控制台设置",
+    "original_path": "/zh/docs/api/management/system-settings/option-migrate_console_setting-post",
+    "source": "mapping"
+  },
+  "management/system-settings/update.md": {
+    "title": "更新系统选项",
+    "original_path": "/zh/docs/api/management/system-settings/option-put",
+    "source": "mapping"
+  },
+  "management/system-settings/model.md": {
+    "title": "重置模型倍率",
+    "original_path": "/zh/docs/api/management/system-settings/option-rest_model_ratio-post",
+    "source": "mapping"
+  },
+  "management/system-settings/get-channel.md": {
+    "title": "获取可同步渠道",
+    "original_path": "/zh/docs/api/management/system-settings/ratio_sync-channels-get",
+    "source": "mapping"
+  },
+  "management/system-settings/get-2.md": {
+    "title": "获取上游倍率",
+    "original_path": "/zh/docs/api/management/system-settings/ratio_sync-fetch-post",
+    "source": "mapping"
+  },
+  "management/tasks/README.md": {
+    "title": "任务",
+    "original_path": "/zh/docs/api/management/tasks",
+    "source": "infer"
+  },
+  "management/tasks/get-midjourney-task.md": {
+    "title": "获取所有Midjourney任务",
+    "original_path": "/zh/docs/api/management/tasks/mj-get",
+    "source": "mapping"
+  },
+  "management/tasks/get-midjourney-task-2.md": {
+    "title": "获取个人Midjourney任务",
+    "original_path": "/zh/docs/api/management/tasks/mj-self-get",
+    "source": "mapping"
+  },
+  "management/tasks/get-task.md": {
+    "title": "获取所有任务",
+    "original_path": "/zh/docs/api/management/tasks/task-get",
+    "source": "mapping"
+  },
+  "management/tasks/get-task-2.md": {
+    "title": "获取个人任务",
+    "original_path": "/zh/docs/api/management/tasks/task-self-get",
+    "source": "mapping"
+  },
+  "management/token-management/README.md": {
+    "title": "令牌管理",
+    "original_path": "/zh/docs/api/management/token-management",
+    "source": "infer"
+  },
+  "management/token-management/delete-token.md": {
+    "title": "批量删除令牌",
+    "original_path": "/zh/docs/api/management/token-management/token-batch-post",
+    "source": "mapping"
+  },
+  "management/token-management/get-token.md": {
+    "title": "获取所有令牌",
+    "original_path": "/zh/docs/api/management/token-management/token-get",
+    "source": "mapping"
+  },
+  "management/token-management/delete-token-2.md": {
+    "title": "删除令牌",
+    "original_path": "/zh/docs/api/management/token-management/token-id-delete",
+    "source": "mapping"
+  },
+  "management/token-management/get-token-2.md": {
+    "title": "获取指定令牌",
+    "original_path": "/zh/docs/api/management/token-management/token-id-get",
+    "source": "mapping"
+  },
+  "management/token-management/create-token.md": {
+    "title": "创建令牌",
+    "original_path": "/zh/docs/api/management/token-management/token-post",
+    "source": "mapping"
+  },
+  "management/token-management/update-token.md": {
+    "title": "更新令牌",
+    "original_path": "/zh/docs/api/management/token-management/token-put",
+    "source": "mapping"
+  },
+  "management/token-management/search-token.md": {
+    "title": "搜索令牌",
+    "original_path": "/zh/docs/api/management/token-management/token-search-get",
+    "source": "mapping"
+  },
+  "management/token-management/get-token-3.md": {
+    "title": "获取令牌使用情况",
+    "original_path": "/zh/docs/api/management/token-management/usage-token-get",
+    "source": "mapping"
+  },
+  "management/two-factor-auth/README.md": {
+    "title": "两步验证",
+    "original_path": "/zh/docs/api/management/two-factor-auth",
+    "source": "infer"
+  },
+  "management/two-factor-auth/item.md": {
+    "title": "重新生成备用码",
+    "original_path": "/zh/docs/api/management/two-factor-auth/user-2fa-backup_codes-post",
+    "source": "mapping"
+  },
+  "management/two-factor-auth/2fa.md": {
+    "title": "禁用2FA",
+    "original_path": "/zh/docs/api/management/two-factor-auth/user-2fa-disable-post",
+    "source": "mapping"
+  },
+  "management/two-factor-auth/2fa-2.md": {
+    "title": "启用2FA",
+    "original_path": "/zh/docs/api/management/two-factor-auth/user-2fa-enable-post",
+    "source": "mapping"
+  },
+  "management/two-factor-auth/setting-2fa.md": {
+    "title": "设置2FA",
+    "original_path": "/zh/docs/api/management/two-factor-auth/user-2fa-setup-post",
+    "source": "mapping"
+  },
+  "management/two-factor-auth/get-2fa.md": {
+    "title": "获取2FA统计",
+    "original_path": "/zh/docs/api/management/two-factor-auth/user-2fa-stats-get",
+    "source": "mapping"
+  },
+  "management/two-factor-auth/get-2fa-status.md": {
+    "title": "获取2FA状态",
+    "original_path": "/zh/docs/api/management/two-factor-auth/user-2fa-status-get",
+    "source": "mapping"
+  },
+  "management/user-auth/README.md": {
+    "title": "用户登陆注册",
+    "original_path": "/zh/docs/api/management/user-auth",
+    "source": "infer"
+  },
+  "management/user-auth/item.md": {
+    "title": "发送密码重置邮件",
+    "original_path": "/zh/docs/api/management/user-auth/reset_password-get",
+    "source": "mapping"
+  },
+  "management/user-auth/get-user-list.md": {
+    "title": "获取用户分组列表",
+    "original_path": "/zh/docs/api/management/user-auth/get-user-list",
+    "source": "infer"
+  },
+  "management/user-auth/verify-login.md": {
+    "title": "两步验证登录",
+    "original_path": "/zh/docs/api/management/user-auth/user-login-2fa-post",
+    "source": "mapping"
+  },
+  "management/user-auth/user-login.md": {
+    "title": "用户登录",
+    "original_path": "/zh/docs/api/management/user-auth/user-login-post",
+    "source": "mapping"
+  },
+  "management/user-auth/user.md": {
+    "title": "用户登出",
+    "original_path": "/zh/docs/api/management/user-auth/user-logout-get",
+    "source": "mapping"
+  },
+  "management/user-auth/passkey-login.md": {
+    "title": "开始Passkey登录",
+    "original_path": "/zh/docs/api/management/user-auth/user-passkey-login-begin-post",
+    "source": "mapping"
+  },
+  "management/user-auth/passkey-login-2.md": {
+    "title": "完成Passkey登录",
+    "original_path": "/zh/docs/api/management/user-auth/user-passkey-login-finish-post",
+    "source": "mapping"
+  },
+  "management/user-auth/user-register.md": {
+    "title": "用户注册",
+    "original_path": "/zh/docs/api/management/user-auth/user-register-post",
+    "source": "mapping"
+  },
+  "management/user-auth/item-2.md": {
+    "title": "重置密码",
+    "original_path": "/zh/docs/api/management/user-auth/user-reset-post",
+    "source": "mapping"
+  },
+  "management/user-auth/verify.md": {
+    "title": "发送邮箱验证码",
+    "original_path": "/zh/docs/api/management/user-auth/verification-get",
+    "source": "mapping"
+  },
+  "management/user-management/README.md": {
+    "title": "用户管理",
+    "original_path": "/zh/docs/api/management/user-management",
+    "source": "infer"
+  },
+  "management/user-management/item.md": {
+    "title": "转换邀请额度",
+    "original_path": "/zh/docs/api/management/user-management/user-aff_transfer-post",
+    "source": "mapping"
+  },
+  "management/user-management/get.md": {
+    "title": "获取邀请码",
+    "original_path": "/zh/docs/api/management/user-management/user-aff-get",
+    "source": "mapping"
+  },
+  "management/user-management/get-user.md": {
+    "title": "获取所有用户",
+    "original_path": "/zh/docs/api/management/user-management/user-get",
+    "source": "mapping"
+  },
+  "management/user-management/user-2fa.md": {
+    "title": "管理员禁用用户2FA",
+    "original_path": "/zh/docs/api/management/user-management/user-id-2fa-delete",
+    "source": "mapping"
+  },
+  "management/user-management/delete-user.md": {
+    "title": "删除用户",
+    "original_path": "/zh/docs/api/management/user-management/user-id-delete",
+    "source": "mapping"
+  },
+  "management/user-management/get-user-2.md": {
+    "title": "获取指定用户",
+    "original_path": "/zh/docs/api/management/user-management/user-id-get",
+    "source": "mapping"
+  },
+  "management/user-management/user-passkey.md": {
+    "title": "管理员重置用户Passkey",
+    "original_path": "/zh/docs/api/management/user-management/user-id-reset_passkey-delete",
+    "source": "mapping"
+  },
+  "management/user-management/user-status.md": {
+    "title": "管理用户状态",
+    "original_path": "/zh/docs/api/management/user-management/user-manage-post",
+    "source": "mapping"
+  },
+  "management/user-management/get-user-model.md": {
+    "title": "获取用户可用模型",
+    "original_path": "/zh/docs/api/management/user-management/user-models-get",
+    "source": "mapping"
+  },
+  "management/user-management/delete-passkey.md": {
+    "title": "删除Passkey",
+    "original_path": "/zh/docs/api/management/user-management/user-passkey-delete",
+    "source": "mapping"
+  },
+  "management/user-management/get-passkey-status.md": {
+    "title": "获取Passkey状态",
+    "original_path": "/zh/docs/api/management/user-management/user-passkey-get",
+    "source": "mapping"
+  },
+  "management/user-management/register-passkey.md": {
+    "title": "开始注册Passkey",
+    "original_path": "/zh/docs/api/management/user-management/user-passkey-register-begin-post",
+    "source": "mapping"
+  },
+  "management/user-management/register-passkey-2.md": {
+    "title": "完成注册Passkey",
+    "original_path": "/zh/docs/api/management/user-management/user-passkey-register-finish-post",
+    "source": "mapping"
+  },
+  "management/user-management/verify-passkey.md": {
+    "title": "开始验证Passkey",
+    "original_path": "/zh/docs/api/management/user-management/user-passkey-verify-begin-post",
+    "source": "mapping"
+  },
+  "management/user-management/verify-passkey-2.md": {
+    "title": "完成验证Passkey",
+    "original_path": "/zh/docs/api/management/user-management/user-passkey-verify-finish-post",
+    "source": "mapping"
+  },
+  "management/user-management/create-user.md": {
+    "title": "创建用户",
+    "original_path": "/zh/docs/api/management/user-management/user-post",
+    "source": "mapping"
+  },
+  "management/user-management/update-user.md": {
+    "title": "更新用户",
+    "original_path": "/zh/docs/api/management/user-management/user-put",
+    "source": "mapping"
+  },
+  "management/user-management/search-user.md": {
+    "title": "搜索用户",
+    "original_path": "/zh/docs/api/management/user-management/user-search-get",
+    "source": "mapping"
+  },
+  "management/user-management/user.md": {
+    "title": "注销当前用户",
+    "original_path": "/zh/docs/api/management/user-management/user-self-delete",
+    "source": "mapping"
+  },
+  "management/user-management/get-user-3.md": {
+    "title": "获取当前用户信息",
+    "original_path": "/zh/docs/api/management/user-management/user-self-get",
+    "source": "mapping"
+  },
+  "management/user-management/get-user-4.md": {
+    "title": "获取当前用户分组",
+    "original_path": "/zh/docs/api/management/user-management/user-self-groups-get",
+    "source": "mapping"
+  },
+  "management/user-management/update-user-2.md": {
+    "title": "更新当前用户信息",
+    "original_path": "/zh/docs/api/management/user-management/user-self-put",
+    "source": "mapping"
+  },
+  "management/user-management/update-user-setting.md": {
+    "title": "更新用户设置",
+    "original_path": "/zh/docs/api/management/user-management/user-setting-put",
+    "source": "mapping"
+  },
+  "management/user-management/token.md": {
+    "title": "生成访问令牌",
+    "original_path": "/zh/docs/api/management/user-management/user-token-get",
+    "source": "mapping"
+  },
+  "management/user-management/payment.md": {
+    "title": "管理员完成充值",
+    "original_path": "/zh/docs/api/management/user-management/user-topup-complete-post",
+    "source": "mapping"
+  },
+  "management/user-management/get-payment.md": {
+    "title": "获取所有充值记录",
+    "original_path": "/zh/docs/api/management/user-management/user-topup-get",
+    "source": "mapping"
+  },
+  "management/vendors/README.md": {
+    "title": "供应商",
+    "original_path": "/zh/docs/api/management/vendors",
+    "source": "infer"
+  },
+  "management/vendors/get-vendor.md": {
+    "title": "获取所有供应商",
+    "original_path": "/zh/docs/api/management/vendors/vendors-get",
+    "source": "mapping"
+  },
+  "management/vendors/delete-vendor.md": {
+    "title": "删除供应商",
+    "original_path": "/zh/docs/api/management/vendors/vendors-id-delete",
+    "source": "mapping"
+  },
+  "management/vendors/get-vendor-2.md": {
+    "title": "获取指定供应商",
+    "original_path": "/zh/docs/api/management/vendors/vendors-id-get",
+    "source": "mapping"
+  },
+  "management/vendors/create-vendor.md": {
+    "title": "创建供应商",
+    "original_path": "/zh/docs/api/management/vendors/vendors-post",
+    "source": "mapping"
+  },
+  "management/vendors/update-vendor.md": {
+    "title": "更新供应商",
+    "original_path": "/zh/docs/api/management/vendors/vendors-put",
+    "source": "mapping"
+  },
+  "management/vendors/search-vendor.md": {
+    "title": "搜索供应商",
+    "original_path": "/zh/docs/api/management/vendors/vendors-search-get",
+    "source": "mapping"
+  }
+}

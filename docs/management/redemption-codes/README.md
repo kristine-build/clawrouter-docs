@@ -1,34 +1,13 @@
 # 兑换码
 
-管理接口兑换码
+兑换码 相关文档导航。
 
-# 创建兑换码
+## 本章内容
 
-👨💼 需要管理员权限（Admin）
-
-loading...
-
-
-/`api`/`redemption`/
-
-Send
-
-Body
-
-## [Request Body](#request-body)
-
-application/json
-
-## [Response Body](#response-body)
-
-### 200
-
-cURLJavaScriptGoPythonJavaC#
-
-```
-curl -X POST "https://loading/api/redemption/" \  -H "Content-Type: application/json" \  -d '{}'
-```
-
-200
-
-Empty
+- [获取所有兑换码](get-redemption-code.md)
+- [删除兑换码](delete-redemption-code.md)
+- [获取指定兑换码](get-redemption-code-2.md)
+- [删除无效兑换码](delete-redemption-code-2.md)
+- [创建兑换码](create-redemption-code.md)
+- [更新兑换码](update-redemption-code.md)
+- [搜索兑换码](search-redemption-code.md)

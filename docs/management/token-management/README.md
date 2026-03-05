@@ -1,34 +1,14 @@
 # 令牌管理
 
-管理接口令牌管理
+令牌管理 相关文档导航。
 
-# 创建令牌
+## 本章内容
 
-🔐 需要登录（User权限）
-
-loading...
-
-
-/`api`/`token`/
-
-Send
-
-Body
-
-## [Request Body](#request-body)
-
-application/json
-
-## [Response Body](#response-body)
-
-### 200
-
-cURLJavaScriptGoPythonJavaC#
-
-```
-curl -X POST "https://loading/api/token/" \  -H "Content-Type: application/json" \  -d '{}'
-```
-
-200
-
-Empty
+- [批量删除令牌](delete-token.md)
+- [获取所有令牌](get-token.md)
+- [删除令牌](delete-token-2.md)
+- [获取指定令牌](get-token-2.md)
+- [创建令牌](create-token.md)
+- [更新令牌](update-token.md)
+- [搜索令牌](search-token.md)
+- [获取令牌使用情况](get-token-3.md)

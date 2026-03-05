@@ -1,28 +1,16 @@
 # 充值
 
-管理接口用户管理
+充值 相关文档导航。
 
-# 获取所有充值记录
+## 本章内容
 
-👨💼 需要管理员权限（Admin）
-
-loading...
-
-
-/`api`/`user`/`topup`
-
-Send
-
-## [Response Body](#response-body)
-
-### 200
-
-cURLJavaScriptGoPythonJavaC#
-
-```
-curl -X GET "https://loading/api/user/topup"
-```
-
-200
-
-Empty
+- [Creem Webhook](creem-webhook.md)
+- [Stripe Webhook](stripe-webhook.md)
+- [获取支付金额](get.md)
+- [发起Creem支付](creem.md)
+- [易支付回调](item.md)
+- [发起易支付](item-2.md)
+- [获取Stripe支付金额](get-stripe.md)
+- [发起Stripe支付](stripe.md)
+- [获取充值信息](get-payment.md)
+- [获取用户充值记录](get-user-payment.md)

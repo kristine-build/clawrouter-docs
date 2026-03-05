@@ -1,28 +1,12 @@
 # 系统设置
 
-管理接口系统
+系统设置 相关文档导航。
 
-# 获取Uptime Kuma状态
+## 本章内容
 
-🔓 无需鉴权
-
-loading...
-
-
-/`api`/`uptime`/`status`
-
-Send
-
-## [Response Body](#response-body)
-
-### 200
-
-cURLJavaScriptGoPythonJavaC#
-
-```
-curl -X GET "https://loading/api/uptime/status"
-```
-
-200
-
-Empty
+- [获取系统选项](get.md)
+- [迁移控制台设置](setting.md)
+- [更新系统选项](update.md)
+- [重置模型倍率](model.md)
+- [获取可同步渠道](get-channel.md)
+- [获取上游倍率](get-2.md)

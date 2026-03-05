@@ -1,36 +1,12 @@
 # 两步验证
 
-管理接口用户登陆注册
+两步验证 相关文档导航。
 
-# 两步验证登录
+## 本章内容
 
-🔓 无需鉴权（登录流程）
-
-loading...
-
-
-/`api`/`user`/`login`/`2fa`
-
-Send
-
-Body
-
-## [Request Body](#request-body)
-
-application/json
-
-code?string
-
-## [Response Body](#response-body)
-
-### 200
-
-cURLJavaScriptGoPythonJavaC#
-
-```
-curl -X POST "https://loading/api/user/login/2fa" \  -H "Content-Type: application/json" \  -d '{}'
-```
-
-200
-
-Empty
+- [重新生成备用码](item.md)
+- [禁用2FA](2fa.md)
+- [启用2FA](2fa-2.md)
+- [设置2FA](setting-2fa.md)
+- [获取2FA统计](get-2fa.md)
+- [获取2FA状态](get-2fa-status.md)

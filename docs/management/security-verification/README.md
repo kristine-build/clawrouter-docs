@@ -1,28 +1,8 @@
 # 安全验证
 
-管理接口安全验证
+安全验证 相关文档导航。
 
-# 通用安全验证
+## 本章内容
 
-🔐 需要登录（User权限）
-
-loading...
-
-
-/`api`/`verify`
-
-Send
-
-## [Response Body](#response-body)
-
-### 200
-
-cURLJavaScriptGoPythonJavaC#
-
-```
-curl -X POST "https://loading/api/verify"
-```
-
-200
-
-Empty
+- [通用安全验证](verify.md)
+- [获取验证状态](get-verify-status.md)

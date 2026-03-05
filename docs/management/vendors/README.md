@@ -1,28 +1,12 @@
 # 供应商
 
-管理接口供应商
+供应商 相关文档导航。
 
-# 创建供应商
+## 本章内容
 
-👨💼 需要管理员权限（Admin）
-
-loading...
-
-
-/`api`/`vendors`/
-
-Send
-
-## [Response Body](#response-body)
-
-### 200
-
-cURLJavaScriptGoPythonJavaC#
-
-```
-curl -X POST "https://loading/api/vendors/"
-```
-
-200
-
-Empty
+- [获取所有供应商](get-vendor.md)
+- [删除供应商](delete-vendor.md)
+- [获取指定供应商](get-vendor-2.md)
+- [创建供应商](create-vendor.md)
+- [更新供应商](update-vendor.md)
+- [搜索供应商](search-vendor.md)
