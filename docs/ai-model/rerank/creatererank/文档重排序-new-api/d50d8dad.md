@@ -8,7 +8,6 @@ AI 模型接口重排序（Rerank）
 
 loading...
 
-POST
 
 /`v1`/`rerank`
 

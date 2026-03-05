@@ -8,7 +8,6 @@
 
 loading...
 
-POST
 
 /`api`/`channel`/`fetch_models`
 

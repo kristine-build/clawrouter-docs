@@ -8,7 +8,6 @@ AI 模型接口补全（Completions）
 
 loading...
 
-POST
 
 /`v1`/`completions`
 

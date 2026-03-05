@@ -8,7 +8,6 @@
 
 loading...
 
-POST
 
 /`api`/`option`/`migrate_console_setting`
 

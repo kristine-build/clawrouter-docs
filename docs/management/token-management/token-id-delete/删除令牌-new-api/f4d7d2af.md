@@ -8,7 +8,6 @@
 
 loading...
 
-DELETE
 
 /`api`/`token`/`{id}`
 

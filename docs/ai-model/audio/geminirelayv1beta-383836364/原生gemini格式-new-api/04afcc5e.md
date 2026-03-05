@@ -9,7 +9,6 @@ Gemini 音频生成接口。
 
 loading...
 
-POST
 
 /`v1beta`/`models`/`{model}:generateContent`
 
