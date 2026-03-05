@@ -1,8 +1,8 @@
 # Summary
 
-- [API 参考](README.md)
-  - [AI 模型接口](ai-model/README.md)
-    - [音频（Audio）](ai-model/audio/README.md)
+- [API 参考](ai-model/audio/gemini-native.md)
+  - AI 模型接口
+    - 音频（Audio）
       - [原生Gemini格式](ai-model/audio/gemini-native.md)
       - [原生OpenAI格式](ai-model/audio/openai-native/README.md)
         - [文本转语音](ai-model/audio/openai-native/tts.md)
