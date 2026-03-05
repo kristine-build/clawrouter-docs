@@ -1,0 +1,28 @@
+# 获取公告
+
+管理接口系统
+
+# 获取公告
+
+🔓 无需鉴权
+
+loading...
+
+
+/`api`/`notice`
+
+Send
+
+## [Response Body](#response-body)
+
+### 200
+
+cURLJavaScriptGoPythonJavaC#
+
+```
+curl -X GET "https://loading/api/notice"
+```
+
+200
+
+Empty

@@ -1,0 +1,40 @@
+# 获取模型列表
+
+管理接口渠道管理
+
+# 获取模型列表
+
+👨💼 需要管理员权限（Admin）
+
+loading...
+
+
+/`api`/`channel`/`fetch_models`
+
+Send
+
+Body
+
+## [Request Body](#request-body)
+
+application/json
+
+base\_url?string
+
+type?integer
+
+key?string
+
+## [Response Body](#response-body)
+
+### 200
+
+cURLJavaScriptGoPythonJavaC#
+
+```
+curl -X POST "https://loading/api/channel/fetch_models" \  -H "Content-Type: application/json" \  -d '{}'
+```
+
+200
+
+Empty

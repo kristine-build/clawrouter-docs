@@ -1,0 +1,28 @@
+# 管理员完成充值
+
+管理接口用户管理
+
+# 管理员完成充值
+
+👨💼 需要管理员权限（Admin）
+
+loading...
+
+
+/`api`/`user`/`topup`/`complete`
+
+Send
+
+## [Response Body](#response-body)
+
+### 200
+
+cURLJavaScriptGoPythonJavaC#
+
+```
+curl -X POST "https://loading/api/user/topup/complete"
+```
+
+200
+
+Empty

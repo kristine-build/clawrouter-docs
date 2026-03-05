@@ -1,0 +1,17 @@
+API 参考 > AI 模型接口 > 图像 (Images) > OpenAI聊天格式 (POST)	low confidence: filename=0.000, h1=0.000, path=0.235, ancestor_bonus=0.160, method=post matched
+API 参考 > AI 模型接口 > 图像 (Images) > 原生Gemini格式 > Gemini原生格式 (POST)	low confidence: filename=0.000, h1=0.000, path=0.222, ancestor_bonus=0.080, method=post matched
+API 参考 > AI 模型接口 > 图像 (Images) > 通义千问OpenAI格式 > 生成图像 (POST)	low confidence: filename=0.000, h1=0.000, path=0.125, ancestor_bonus=0.000, method=post matched
+API 参考 > AI 模型接口 > 图像 (Images) > 通义千问OpenAI格式 > 编辑图像 (POST)	low confidence: filename=0.000, h1=0.000, path=0.125, ancestor_bonus=0.000, method=post matched
+API 参考 > AI 模型接口 > 未实现 (Unimplemented) > 微调 (Fine-tuning) > 列出微调任务 (GET)	low confidence: filename=0.000, h1=0.000, path=0.111, ancestor_bonus=0.000, method=get matched
+API 参考 > AI 模型接口 > 未实现 (Unimplemented) > 微调 (Fine-tuning) > 创建微调任务 (POST)	low confidence: filename=0.000, h1=0.000, path=0.111, ancestor_bonus=0.000, method=post matched
+API 参考 > AI 模型接口 > 未实现 (Unimplemented) > 微调 (Fine-tuning) > 取消微调任务 (POST)	low confidence: filename=0.000, h1=0.000, path=0.111, ancestor_bonus=0.000, method=post matched
+API 参考 > AI 模型接口 > 未实现 (Unimplemented) > 微调 (Fine-tuning) > 获取微调任务事件 (GET)	low confidence: filename=0.000, h1=0.000, path=0.111, ancestor_bonus=0.000, method=get matched
+API 参考 > AI 模型接口 > 未实现 (Unimplemented) > 微调 (Fine-tuning) > 获取微调任务详情 (GET)	low confidence: filename=0.000, h1=0.000, path=0.111, ancestor_bonus=0.000, method=get matched
+API 参考 > AI 模型接口 > 聊天 (Chat) > 原生Gemini格式 > Gemini媒体识别 (POST)	low confidence: filename=0.000, h1=0.000, path=0.158, ancestor_bonus=0.000, method=post matched
+API 参考 > AI 模型接口 > 聊天 (Chat) > 原生Gemini格式 > Gemini文本聊天 (POST)	low confidence: filename=0.000, h1=0.000, path=0.158, ancestor_bonus=0.000, method=post matched
+API 参考 > AI 模型接口 > 视频 (Videos) > 即梦格式 > 即梦视频生成 (POST)	low confidence: filename=0.000, h1=0.000, path=0.125, ancestor_bonus=0.000, method=post matched
+API 参考 > AI 模型接口 > 视频 (Videos) > 可灵格式 > Kling 图生视频 (POST)	low confidence: filename=0.000, h1=0.000, path=0.118, ancestor_bonus=0.000, method=post matched
+API 参考 > AI 模型接口 > 视频 (Videos) > 可灵格式 > Kling 文生视频 (POST)	low confidence: filename=0.000, h1=0.000, path=0.118, ancestor_bonus=0.000, method=post matched
+API 参考 > AI 模型接口 > 视频 (Videos) > 可灵格式 > 获取 Kling 图生视频任务状态 (GET)	low confidence: filename=0.000, h1=0.000, path=0.158, ancestor_bonus=0.080, method=get matched
+API 参考 > AI 模型接口 > 视频 (Videos) > 可灵格式 > 获取 Kling 文生视频任务状态 (GET)	low confidence: filename=0.000, h1=0.000, path=0.158, ancestor_bonus=0.080, method=get matched
+管理接口 > default > 使用兑换码 (POST)	low confidence: filename=0.000, h1=0.000, path=0.083, ancestor_bonus=0.000, method=post matched

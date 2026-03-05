@@ -1,0 +1,34 @@
+# 通过令牌获取日志
+
+管理接口日志
+
+# 通过令牌获取日志
+
+🔓 无需鉴权（通过令牌查询）
+
+loading...
+
+
+/`api`/`log`/`token`
+
+Send
+
+Query
+
+## [Query Parameters](#query-parameters)
+
+key?string
+
+## [Response Body](#response-body)
+
+### 200
+
+cURLJavaScriptGoPythonJavaC#
+
+```
+curl -X GET "https://loading/api/log/token"
+```
+
+200
+
+Empty

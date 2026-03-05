@@ -1,0 +1,28 @@
+# 设置2FA
+
+管理接口两步验证
+
+# 设置2FA
+
+🔐 需要登录（User权限）
+
+loading...
+
+
+/`api`/`user`/`2fa`/`setup`
+
+Send
+
+## [Response Body](#response-body)
+
+### 200
+
+cURLJavaScriptGoPythonJavaC#
+
+```
+curl -X POST "https://loading/api/user/2fa/setup"
+```
+
+200
+
+Empty

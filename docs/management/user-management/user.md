@@ -1,0 +1,28 @@
+# 注销当前用户
+
+管理接口用户管理
+
+# 注销当前用户
+
+🔐 需要登录（User权限）
+
+loading...
+
+
+/`api`/`user`/`self`
+
+Send
+
+## [Response Body](#response-body)
+
+### 200
+
+cURLJavaScriptGoPythonJavaC#
+
+```
+curl -X DELETE "https://loading/api/user/self"
+```
+
+200
+
+Empty

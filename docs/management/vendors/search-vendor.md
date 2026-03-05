@@ -1,0 +1,34 @@
+# 搜索供应商
+
+管理接口供应商
+
+# 搜索供应商
+
+👨💼 需要管理员权限（Admin）
+
+loading...
+
+
+/`api`/`vendors`/`search`
+
+Send
+
+Query
+
+## [Query Parameters](#query-parameters)
+
+keyword?string
+
+## [Response Body](#response-body)
+
+### 200
+
+cURLJavaScriptGoPythonJavaC#
+
+```
+curl -X GET "https://loading/api/vendors/search"
+```
+
+200
+
+Empty

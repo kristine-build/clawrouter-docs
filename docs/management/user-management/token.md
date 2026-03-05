@@ -1,0 +1,28 @@
+# 生成访问令牌
+
+管理接口用户管理
+
+# 生成访问令牌
+
+🔐 需要登录（User权限）
+
+loading...
+
+
+/`api`/`user`/`token`
+
+Send
+
+## [Response Body](#response-body)
+
+### 200
+
+cURLJavaScriptGoPythonJavaC#
+
+```
+curl -X GET "https://loading/api/user/token"
+```
+
+200
+
+Empty

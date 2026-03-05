@@ -1,0 +1,28 @@
+# 获取2FA状态
+
+管理接口两步验证
+
+# 获取2FA状态
+
+🔐 需要登录（User权限）
+
+loading...
+
+
+/`api`/`user`/`2fa`/`status`
+
+Send
+
+## [Response Body](#response-body)
+
+### 200
+
+cURLJavaScriptGoPythonJavaC#
+
+```
+curl -X GET "https://loading/api/user/2fa/status"
+```
+
+200
+
+Empty

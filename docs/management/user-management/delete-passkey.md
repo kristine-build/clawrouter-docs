@@ -1,0 +1,28 @@
+# 删除Passkey
+
+管理接口用户管理
+
+# 删除Passkey
+
+🔐 需要登录（User权限）
+
+loading...
+
+
+/`api`/`user`/`passkey`
+
+Send
+
+## [Response Body](#response-body)
+
+### 200
+
+cURLJavaScriptGoPythonJavaC#
+
+```
+curl -X DELETE "https://loading/api/user/passkey"
+```
+
+200
+
+Empty

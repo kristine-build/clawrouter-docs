@@ -1,0 +1,36 @@
+# 获取所有用户
+
+管理接口用户管理
+
+# 获取所有用户
+
+👨💼 需要管理员权限（Admin）
+
+loading...
+
+
+/`api`/`user`/
+
+Send
+
+Query
+
+## [Query Parameters](#query-parameters)
+
+p?integer
+
+page\_size?integer
+
+## [Response Body](#response-body)
+
+### 200
+
+cURLJavaScriptGoPythonJavaC#
+
+```
+curl -X GET "https://loading/api/user/"
+```
+
+200
+
+Empty

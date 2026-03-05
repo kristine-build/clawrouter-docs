@@ -1,0 +1,36 @@
+# 获取所有兑换码
+
+管理接口兑换码
+
+# 获取所有兑换码
+
+👨💼 需要管理员权限（Admin）
+
+loading...
+
+
+/`api`/`redemption`/
+
+Send
+
+Query
+
+## [Query Parameters](#query-parameters)
+
+p?integer
+
+page\_size?integer
+
+## [Response Body](#response-body)
+
+### 200
+
+cURLJavaScriptGoPythonJavaC#
+
+```
+curl -X GET "https://loading/api/redemption/"
+```
+
+200
+
+Empty

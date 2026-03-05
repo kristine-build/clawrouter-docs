@@ -1,0 +1,28 @@
+# 获取个人额度数据
+
+管理接口数据统计
+
+# 获取个人额度数据
+
+🔐 需要登录（User权限）
+
+loading...
+
+
+/`api`/`data`/`self`
+
+Send
+
+## [Response Body](#response-body)
+
+### 200
+
+cURLJavaScriptGoPythonJavaC#
+
+```
+curl -X GET "https://loading/api/data/self"
+```
+
+200
+
+Empty

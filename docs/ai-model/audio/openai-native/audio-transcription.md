@@ -1,0 +1,75 @@
+# 音频转录
+
+AI 模型接口音频（Audio）原生OpenAI格式
+
+# 音频转录
+
+将音频转换为文本
+
+loading...
+
+
+/`v1`/`audio`/`transcriptions`
+
+Send
+
+Authorization
+
+Body
+
+## [Authorization](#authorization)
+
+BearerAuth
+
+AuthorizationBearer <token>
+
+使用 Bearer Token 认证。
+格式: `Authorization: Bearer sk-xxxxxx`
+
+In: `header`
+
+## [Request Body](#request-body)
+
+multipart/form-data
+
+file\*file
+
+音频文件
+
+Format`binary`
+
+model\*string
+
+language?string
+
+ISO-639-1 语言代码
+
+prompt?string
+
+response\_format?string
+
+Default`"json"`
+
+Value in`"json" | "text" | "srt" | "verbose_json" | "vtt"`
+
+temperature?number
+
+timestamp\_granularities?array<string>
+
+## [Response Body](#response-body)
+
+### 200 application/json
+
+cURLJavaScriptGoPythonJavaC#
+
+```
+curl -X POST "https://loading/v1/audio/transcriptions" \  -F file="string" \  -F model="whisper-1"
+```
+
+200
+
+```
+{
+  "text": "string"
+}
+```

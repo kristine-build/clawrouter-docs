@@ -1,0 +1,28 @@
+# 获取定价信息
+
+管理接口系统
+
+# 获取定价信息
+
+🔓 无需鉴权（可选登录）
+
+loading...
+
+
+/`api`/`pricing`
+
+Send
+
+## [Response Body](#response-body)
+
+### 200
+
+cURLJavaScriptGoPythonJavaC#
+
+```
+curl -X GET "https://loading/api/pricing"
+```
+
+200
+
+Empty

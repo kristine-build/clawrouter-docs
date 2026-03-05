@@ -1,0 +1,36 @@
+# 获取所有日志
+
+管理接口日志
+
+# 获取所有日志
+
+👨💼 需要管理员权限（Admin）
+
+loading...
+
+
+/`api`/`log`/
+
+Send
+
+Query
+
+## [Query Parameters](#query-parameters)
+
+p?integer
+
+page\_size?integer
+
+## [Response Body](#response-body)
+
+### 200
+
+cURLJavaScriptGoPythonJavaC#
+
+```
+curl -X GET "https://loading/api/log/"
+```
+
+200
+
+Empty

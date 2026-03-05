@@ -1,0 +1,28 @@
+# 获取倍率配置
+
+管理接口系统
+
+# 获取倍率配置
+
+🔓 无需鉴权
+
+loading...
+
+
+/`api`/`ratio_config`
+
+Send
+
+## [Response Body](#response-body)
+
+### 200
+
+cURLJavaScriptGoPythonJavaC#
+
+```
+curl -X GET "https://loading/api/ratio_config"
+```
+
+200
+
+Empty

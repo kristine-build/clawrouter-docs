@@ -1,0 +1,28 @@
+# 重新生成备用码
+
+管理接口两步验证
+
+# 重新生成备用码
+
+🔐 需要登录（User权限）
+
+loading...
+
+
+/`api`/`user`/`2fa`/`backup_codes`
+
+Send
+
+## [Response Body](#response-body)
+
+### 200
+
+cURLJavaScriptGoPythonJavaC#
+
+```
+curl -X POST "https://loading/api/user/2fa/backup_codes"
+```
+
+200
+
+Empty

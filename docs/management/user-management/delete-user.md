@@ -1,0 +1,34 @@
+# 删除用户
+
+管理接口用户管理
+
+# 删除用户
+
+👨💼 需要管理员权限（Admin）
+
+loading...
+
+
+/`api`/`user`/`{id}`
+
+Send
+
+Path
+
+## [Path Parameters](#path-parameters)
+
+id\*integer
+
+## [Response Body](#response-body)
+
+### 200
+
+cURLJavaScriptGoPythonJavaC#
+
+```
+curl -X DELETE "https://loading/api/user/0"
+```
+
+200
+
+Empty

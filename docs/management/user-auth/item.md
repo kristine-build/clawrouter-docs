@@ -1,0 +1,34 @@
+# 发送密码重置邮件
+
+管理接口用户登陆注册
+
+# 发送密码重置邮件
+
+🔓 无需鉴权
+
+loading...
+
+
+/`api`/`reset_password`
+
+Send
+
+Query
+
+## [Query Parameters](#query-parameters)
+
+email\*string
+
+## [Response Body](#response-body)
+
+### 200
+
+cURLJavaScriptGoPythonJavaC#
+
+```
+curl -X GET "https://loading/api/reset_password?email=string"
+```
+
+200
+
+Empty

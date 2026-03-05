@@ -1,0 +1,38 @@
+# 初始化系统
+
+管理接口系统
+
+# 初始化系统
+
+🔓 无需鉴权
+
+loading...
+
+
+/`api`/`setup`
+
+Send
+
+Body
+
+## [Request Body](#request-body)
+
+application/json
+
+username?string
+
+password?string
+
+## [Response Body](#response-body)
+
+### 200
+
+cURLJavaScriptGoPythonJavaC#
+
+```
+curl -X POST "https://loading/api/setup" \  -H "Content-Type: application/json" \  -d '{}'
+```
+
+200
+
+Empty

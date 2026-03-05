@@ -1,0 +1,28 @@
+# 获取支付金额
+
+管理接口充值
+
+# 获取支付金额
+
+🔐 需要登录（User权限）
+
+loading...
+
+
+/`api`/`user`/`amount`
+
+Send
+
+## [Response Body](#response-body)
+
+### 200
+
+cURLJavaScriptGoPythonJavaC#
+
+```
+curl -X POST "https://loading/api/user/amount"
+```
+
+200
+
+Empty
