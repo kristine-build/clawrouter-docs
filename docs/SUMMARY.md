@@ -1,6 +1,6 @@
 # Summary
 
-- [API 参考](ai-model/audio/gemini-native.md)
+- [API 参考](README.md)
   - AI 模型接口
     - 音频（Audio）
       - [原生Gemini格式](ai-model/audio/gemini-native.md)
