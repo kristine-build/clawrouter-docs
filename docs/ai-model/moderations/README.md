@@ -1,6 +1,6 @@
 # 审查（Moderations）
 
-审查（Moderations） 相关文档导航。
+审查（Moderations） 文档导航。
 
 ## 本章内容
 

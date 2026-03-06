@@ -1,6 +1,6 @@
 # default
 
-default 相关文档导航。
+default 文档导航。
 
 ## 本章内容
 

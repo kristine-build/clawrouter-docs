@@ -1,6 +1,6 @@
 # OAuth
 
-OAuth 相关文档导航。
+OAuth 文档导航。
 
 ## 本章内容
 

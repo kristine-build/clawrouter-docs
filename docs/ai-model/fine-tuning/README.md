@@ -1,6 +1,6 @@
 # 微调（Fine-tuning）
 
-微调（Fine-tuning） 相关文档导航。
+微调（Fine-tuning） 文档导航。
 
 ## 本章内容
 
