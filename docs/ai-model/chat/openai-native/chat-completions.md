@@ -1,140 +1,56 @@
 # ChatCompletions格式
 
-AI 模型接口聊天（Chat）原生OpenAI格式
-
-# ChatCompletions格式
-
-根据对话历史创建模型响应。支持流式和非流式响应。
-
+根据对话历史创建模型响应。支持流式和非流式响应。  
 兼容 OpenAI Chat Completions API。
 
+## Endpoint
 
+`POST /v1/chat/completions`
 
-/`v1`/`chat`/`completions`
+## Authorization
 
+| Name | Type | Required | Description |
+| --- | --- | --- | --- |
+| `Authorization` | `string` | yes | Bearer API Key，示例：`Authorization: Bearer YOUR_API_KEY` |
 
-Authorization
+## Request Body
 
-Body
+Content-Type: `application/json`
 
-## [Authorization](#authorization)
+| Name | Type | Required | Description |
+| --- | --- | --- | --- |
+| `model` | `string` | yes | 模型 ID |
+| `messages` | `array` | yes | 对话消息列表 |
+| `messages[].role` | `string` | yes | 消息角色，示例：`system` / `user` / `assistant` |
+| `messages[].content` | `string` | yes | 消息内容 |
+| `messages[].name` | `string` | no | （可选）名称 |
+| `messages[].tool_calls` | `array` | no | 工具调用列表 |
+| `temperature` | `number` | no | 采样温度（默认 `1`，范围 `0 <= value <= 2`） |
+| `top_p` | `number` | no | 核采样参数（默认 `1`，范围 `0 <= value <= 1`） |
+| `n` | `integer` | no | 生成数量（默认 `1`，范围 `value >= 1`） |
+| `stream` | `boolean` | no | 是否流式响应（默认 `false`） |
+| `stream_options` | `object` | no | 流式选项 |
+| `stop` | `string / array<string>` | no | 停止序列 |
+| `max_tokens` | `integer` | no | 最大生成 Token 数 |
+| `max_completion_tokens` | `integer` | no | 最大补全 Token 数 |
+| `presence_penalty` | `number` | no | 存在惩罚（默认 `0`，范围 `-2 <= value <= 2`） |
+| `frequency_penalty` | `number` | no | 频率惩罚（默认 `0`，范围 `-2 <= value <= 2`） |
+| `logit_bias` | `object` | no | token 偏置映射 |
+| `user` | `string` | no | 用户标识 |
+| `tools` | `array` | no | 工具定义列表 |
+| `tool_choice` | `string / object` | no | 工具选择策略 |
+| `response_format` | `object` | no | 响应格式参数 |
+| `response_format.type` | `string` | no | 响应格式类型 |
+| `seed` | `integer` | no | 随机种子 |
+| `reasoning_effort` | `string` | no | 推理强度，枚举：`low` / `medium` / `high` |
+| `modalities` | `array<string>` | no | 模态列表 |
+| `audio` | `object` | no | 音频参数 |
 
-BearerAuth
-
-AuthorizationBearer <token>
-
-使用 Bearer Token 认证。
-格式: `Authorization: Bearer sk-xxxxxx`
-
-In: `header`
-
-## [Request Body](#request-body)
-
-application/json
-
-model\*string
-
-模型 ID
-
-messages\*array<object>
-
-对话消息列表
-
-temperature?number
-
-采样温度
-
-Default`1`
-
-Range`0 <= value <= 2`
-
-top\_p?number
-
-核采样参数
-
-Default`1`
-
-Range`0 <= value <= 1`
-
-n?integer
-
-生成数量
-
-Default`1`
-
-Range`1 <= value`
-
-stream?boolean
-
-是否流式响应
-
-Default`false`
-
-stream\_options?object
-
-stop?string|array<string>
-
-停止序列
-
-max\_tokens?integer
-
-最大生成 Token 数
-
-max\_completion\_tokens?integer
-
-最大补全 Token 数
-
-presence\_penalty?number
-
-Default`0`
-
-Range`-2 <= value <= 2`
-
-frequency\_penalty?number
-
-Default`0`
-
-Range`-2 <= value <= 2`
-
-logit\_bias?object
-
-user?string
-
-tools?array<object>
-
-tool\_choice?string|object
-
-response\_format?object
-
-seed?integer
-
-reasoning\_effort?string
-
-推理强度 (用于支持推理的模型)
-
-Value in`"low" | "medium" | "high"`
-
-modalities?array<string>
-
-audio?object
-
-## [Response Body](#response-body)
+## Response Body
 
 ### 200 application/json
 
-### 400 application/json
-
-### 429 application/json
-
-
-
-```
-curl -X POST "https://docs.newapi.pro/v1/chat/completions" \  -H "Content-Type: application/json" \  -d '{    "model": "gpt-4",    "messages": [      {        "role": "system",        "content": "string"      }    ]  }'
-```
-
-200400429
-
-```
+```json
 {
   "id": "string",
   "object": "chat.completion",
@@ -144,7 +60,7 @@ curl -X POST "https://docs.newapi.pro/v1/chat/completions" \  -H "Content-Type: 
     {
       "index": 0,
       "message": {
-        "role": "system",
+        "role": "assistant",
         "content": "string",
         "name": "string",
         "tool_calls": [
@@ -183,7 +99,11 @@ curl -X POST "https://docs.newapi.pro/v1/chat/completions" \  -H "Content-Type: 
 }
 ```
 
-```
+## Error Example
+
+### 400 application/json
+
+```json
 {
   "error": {
     "message": "string",
@@ -194,17 +114,29 @@ curl -X POST "https://docs.newapi.pro/v1/chat/completions" \  -H "Content-Type: 
 }
 ```
 
-```
+### 401 application/json
+
+```json
 {
   "error": {
-    "message": "string",
-    "type": "string",
-    "param": "string",
-    "code": "string"
+    "message": "Unauthorized",
+    "type": "auth_error",
+    "code": "invalid_api_key"
   }
 }
 ```
 
+### 429 application/json
+
+```json
+{
+  "error": {
+    "message": "Too many requests",
+    "type": "rate_limit_error",
+    "code": "rate_limit"
+  }
+}
+```
 
 ## Code Examples
 
@@ -214,43 +146,49 @@ curl -X POST "https://docs.newapi.pro/v1/chat/completions" \  -H "Content-Type: 
 curl -X POST "https://docs.newapi.pro/v1/chat/completions" \
   -H "Authorization: Bearer YOUR_API_KEY" \
   -H "Content-Type: application/json" \
-  -d '{   "model": "tts-1",   "input": "请用中文朗读今天的新闻摘要" }'
+  -d '{
+    "model": "gpt-4o-mini",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hello"
+      }
+    ]
+  }'
 ```
 
 ### JavaScript
 
 ```javascript
-const payload = {
-  "model": "tts-1",
-  "input": "请用中文朗读今天的新闻摘要"
-};
 const response = await fetch("https://docs.newapi.pro/v1/chat/completions", {
   method: "POST",
   headers: {
     "Authorization": "Bearer YOUR_API_KEY",
     "Content-Type": "application/json"
   },
-  body: JSON.stringify(payload),
+  body: JSON.stringify({
+    model: "gpt-4o-mini",
+    messages: [
+      {
+        role: "user",
+        content: "Hello"
+      }
+    ]
+  })
 });
+console.log(await response.status);
 console.log(await response.text());
 ```
 
 ### Go
 
 ```go
-package main
-
-	"bytes"
-	"encoding/json"
-	"net/http"
-)
-
 func main() {
-	payloadJSON := `{  "model": "tts-1",  "input": "请用中文朗读今天的新闻摘要"}`
-	var payload map[string]interface{}
-	_ = json.Unmarshal([]byte(payloadJSON), &payload)
-	data, _ := json.Marshal(payload)
-	req, _ := http.NewRequest("POST", "https://docs.newapi.pro/v1/chat/completions", bytes.NewReader(data))
+	body := bytes.NewBuffer([]byte(`{
+    "model":"gpt-4o-mini",
+    "messages":[{"role":"user","content":"Hello"}]
+  }`))
+	req, _ := http.NewRequest("POST", "https://docs.newapi.pro/v1/chat/completions", body)
 	req.Header.Set("Authorization", "Bearer YOUR_API_KEY")
 	req.Header.Set("Content-Type", "application/json")
 	http.DefaultClient.Do(req)
@@ -266,40 +204,55 @@ headers = {
     "Content-Type": "application/json",
 }
 payload = {
-  "model": "tts-1",
-  "input": "请用中文朗读今天的新闻摘要"
+    "model": "gpt-4o-mini",
+    "messages": [
+        {
+            "role": "user",
+            "content": "Hello"
+        }
+    ]
 }
-resp = requests.request("POST", url, headers=headers, json=payload, timeout=30)
-print(resp.status_code)
-print(resp.text)
+response = requests.post(url, headers=headers, json=payload)
+print(response.json())
 ```
 
 ### Java
 
 ```java
-HttpClient client = HttpClient.newHttpClient();
-    String json = "{  \"model\": \"tts-1\",  \"input\": \"请用中文朗读今天的新闻摘要\"}";
-HttpRequest request = HttpRequest.newBuilder()
+String json = """
+{
+  "model": "gpt-4o-mini",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Hello"
+    }
+  ]
+}
+""";
+var request = HttpRequest.newBuilder()
     .uri(URI.create("https://docs.newapi.pro/v1/chat/completions"))
     .header("Authorization", "Bearer YOUR_API_KEY")
     .header("Content-Type", "application/json")
     .POST(HttpRequest.BodyPublishers.ofString(json))
     .build();
-HttpResponse<String> response = client.send(request, HttpResponse.BodyHandlers.ofString());
-System.out.println(response.statusCode());
-System.out.println(response.body());
 ```
 
 ### C#
 
 ```csharp
-var client = new HttpClient();
-client.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", "YOUR_API_KEY");
-var payload = new StringContent(@"{  ""model"": ""tts-1"",  ""input"": ""请用中文朗读今天的新闻摘要""}", Encoding.UTF8, "application/json");
-var request = new HttpRequestMessage(HttpMethod.Post, "https://docs.newapi.pro/v1/chat/completions") {
-	Content = payload
-};
-var response = await client.SendAsync(request);
-Console.WriteLine((int)response.StatusCode);
-Console.WriteLine(await response.Content.ReadAsStringAsync());
+var request = new HttpRequestMessage(HttpMethod.Post, "https://docs.newapi.pro/v1/chat/completions");
+request.Headers.Add("Authorization", "Bearer YOUR_API_KEY");
+request.Content = new StringContent("""
+{
+  "model": "gpt-4o-mini",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Hello"
+    }
+  ]
+}
+""", Encoding.UTF8, "application/json");
+await client.SendAsync(request);
 ```
