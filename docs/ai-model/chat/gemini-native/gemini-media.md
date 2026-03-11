@@ -1,137 +1,142 @@
 # Gemini媒体识别
 
-AI 模型接口嵌入（Embeddings）
+Gemini图像、PDF、音频、视频识别请求
 
-# 原生Gemini格式
+⚠️注意：仅支持通过 inlineData 以 base64 方式上传图像、PDF、音频、视频，不支持 fileData.fileUri 或 File API。
 
-使用指定引擎/模型创建嵌入
+## Endpoint
 
+`POST /v1beta/models/{model}:generateContent`
 
+## Authorization
 
-/`v1`/`engines`/`{model}`/`embeddings`
+| Header | Type | Required | Description |
+| --- | --- | --- | --- |
+| `Authorization` | `string` | yes | Bearer API key。示例：`Authorization: Bearer YOUR_API_KEY` |
 
+## Path Parameters
 
-Authorization
+| Name | Type | Required | Description |
+| --- | --- | --- | --- |
+| `model` | `string` | yes | 模型名称，例如 `gemini-2.5-pro-vision` |
 
-Path
+## Request Body
 
-Body
+Content-Type: `application/json`
 
-## [Authorization](#authorization)
+| Name | Type | Required | Description |
+| --- | --- | --- | --- |
+| `contents` | `array` | yes | 输入内容列表 |
+| `contents[].parts` | `array` | yes | 每个输入片段列表 |
+| `contents[].parts[].text` | `string` | no | 文本内容片段 |
+| `contents[].parts[].inlineData` | `object` | no | base64 媒体内容 |
+| `contents[].parts[].inlineData.mimeType` | `string` | yes | 媒体 MIME 类型 |
+| `contents[].parts[].inlineData.data` | `string` | yes | base64 编码的数据 |
+| `generationConfig` | `object` | no | 生成控制参数 |
+| `generationConfig.responseModalities` | `array` | no | 期望返回模态 |
 
-BearerAuth
-
-AuthorizationBearer <token>
-
-使用 Bearer Token 认证。
-格式: `Authorization: Bearer sk-xxxxxx`
-
-In: `header`
-
-## [Path Parameters](#path-parameters)
-
-model\*string
-
-模型/引擎 ID
-
-## [Request Body](#request-body)
-
-application/json
-
-model\*string
-
-input\*string|array<string>
-
-要嵌入的文本
-
-encoding\_format?string
-
-Default`"float"`
-
-Value in`"float" | "base64"`
-
-dimensions?integer
-
-输出向量维度
-
-## [Response Body](#response-body)
+## Response Body
 
 ### 200 application/json
 
-
-
-```
-curl -X POST "https://docs.newapi.pro/v1/engines/string/embeddings" \  -H "Content-Type: application/json" \  -d '{    "model": "text-embedding-ada-002",    "input": "string"  }'
-```
-
-200
-
-```
+```json
 {
-  "object": "list",
-  "data": [
+  "candidates": [
     {
-      "object": "embedding",
-      "index": 0,
-      "embedding": [
-        0
-      ]
+      "content": {
+        "role": "model",
+        "parts": [
+          {
+            "inlineData": {
+              "mimeType": "audio/wav",
+              "data": "BASE64_AUDIO_DATA"
+            }
+          }
+        ]
+      },
+      "finishReason": "STOP"
     }
   ],
-  "model": "string",
-  "usage": {
-    "prompt_tokens": 0,
-    "total_tokens": 0
+  "usageMetadata": {
+    "promptTokenCount": 12,
+    "candidatesTokenCount": 58,
+    "totalTokenCount": 70
   }
 }
 ```
 
+## Error Example
+
+```json
+{
+  "error": {
+    "code": 400,
+    "message": "Invalid request"
+  }
+}
+```
 
 ## Code Examples
 
 ### cURL
 
 ```bash
-curl -X POST "https://docs.newapi.pro/v1/engines/" \
+curl -X POST "https://docs.newapi.pro/v1beta/models/gemini-2.5-pro-vision:generateContent" \
   -H "Authorization: Bearer YOUR_API_KEY" \
   -H "Content-Type: application/json" \
-  -d '{   "model": "tts-1",   "input": "请用中文朗读今天的新闻摘要" }'
+  -d '{
+    "contents": [
+      {
+        "parts": [
+          {
+            "inlineData": {
+              "mimeType": "image/jpeg",
+              "data": "iVBORw0KGgoAAAANSUhEUgAAAAUA"
+            }
+          }
+        ]
+      }
+    ]
+  }'
 ```
 
 ### JavaScript
 
 ```javascript
-const payload = {
-  "model": "tts-1",
-  "input": "请用中文朗读今天的新闻摘要"
-};
-const response = await fetch("https://docs.newapi.pro/v1/engines/", {
+const response = await fetch("https://docs.newapi.pro/v1beta/models/gemini-2.5-pro-vision:generateContent", {
   method: "POST",
   headers: {
     "Authorization": "Bearer YOUR_API_KEY",
     "Content-Type": "application/json"
   },
-  body: JSON.stringify(payload),
+  body: JSON.stringify({
+    contents: [
+      {
+        parts: [
+          {
+            inlineData: {
+              mimeType: "image/jpeg",
+              data: "iVBORw0KGgoAAAANSUhEUgAAAAUA"
+            }
+          }
+        ]
+      }
+    ]
+  })
 });
+console.log(await response.status);
 console.log(await response.text());
 ```
 
 ### Go
 
 ```go
-package main
-
-	"bytes"
-	"encoding/json"
-	"net/http"
-)
-
 func main() {
-	payloadJSON := `{  "model": "tts-1",  "input": "请用中文朗读今天的新闻摘要"}`
+	payloadJSON := `{"contents":[{"parts":[{"inlineData":{"mimeType":"image/jpeg","data":"iVBORw0KGgoAAAANSUhEUgAAAAUA"}}]}]}`
 	var payload map[string]interface{}
-	_ = json.Unmarshal([]byte(payloadJSON), &payload)
-	data, _ := json.Marshal(payload)
-	req, _ := http.NewRequest("POST", "https://docs.newapi.pro/v1/engines/", bytes.NewReader(data))
+	_ = jsonutil.Unmarshal([]byte(payloadJSON), &payload)
+	data, _ := jsonutil.Marshal(payload)
+	req, _ := http.NewRequest("POST", "https://docs.newapi.pro/v1beta/models/gemini-2.5-pro-vision:generateContent", bytesutil.NewReader(data))
 	req.Header.Set("Authorization", "Bearer YOUR_API_KEY")
 	req.Header.Set("Content-Type", "application/json")
 	http.DefaultClient.Do(req)
@@ -141,14 +146,24 @@ func main() {
 ### Python
 
 ```python
-url = "https://docs.newapi.pro/v1/engines/"
+url = "https://docs.newapi.pro/v1beta/models/gemini-2.5-pro-vision:generateContent"
 headers = {
     "Authorization": "Bearer YOUR_API_KEY",
     "Content-Type": "application/json",
 }
 payload = {
-  "model": "tts-1",
-  "input": "请用中文朗读今天的新闻摘要"
+    "contents": [
+        {
+            "parts": [
+                {
+                    "inlineData": {
+                        "mimeType": "image/jpeg",
+                        "data": "iVBORw0KGgoAAAANSUhEUgAAAAUA"
+                    }
+                }
+            ]
+        }
+    ]
 }
 resp = requests.request("POST", url, headers=headers, json=payload, timeout=30)
 print(resp.status_code)
@@ -158,10 +173,10 @@ print(resp.text)
 ### Java
 
 ```java
-HttpClient client = HttpClient.newHttpClient();
-    String json = "{  \"model\": \"tts-1\",  \"input\": \"请用中文朗读今天的新闻摘要\"}";
+var client = HttpClient.newHttpClient();
+String json = "{\"contents\":[{\"parts\":[{\"inlineData\":{\"mimeType\":\"image/jpeg\",\"data\":\"iVBORw0KGgoAAAANSUhEUgAAAAUA\"}}]]}";
 HttpRequest request = HttpRequest.newBuilder()
-    .uri(URI.create("https://docs.newapi.pro/v1/engines/"))
+    .uri(URI.create("https://docs.newapi.pro/v1beta/models/gemini-2.5-pro-vision:generateContent"))
     .header("Authorization", "Bearer YOUR_API_KEY")
     .header("Content-Type", "application/json")
     .POST(HttpRequest.BodyPublishers.ofString(json))
@@ -175,10 +190,11 @@ System.out.println(response.body());
 
 ```csharp
 var client = new HttpClient();
-client.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", "YOUR_API_KEY");
-var payload = new StringContent(@"{  ""model"": ""tts-1"",  ""input"": ""请用中文朗读今天的新闻摘要""}", Encoding.UTF8, "application/json");
-var request = new HttpRequestMessage(HttpMethod.Post, "https://docs.newapi.pro/v1/engines/") {
-	Content = payload
+client.DefaultRequestHeaders.Authorization =
+    new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", "YOUR_API_KEY");
+var payload = new StringContent(@"{""contents"":[{""parts"":[{""inlineData"":{""mimeType"":""image/jpeg"",""data"":""iVBORw0KGgoAAAANSUhEUgAAAAUA""}}]}]}", Encoding.UTF8, "application/json");
+var request = new HttpRequestMessage(HttpMethod.Post, "https://docs.newapi.pro/v1beta/models/gemini-2.5-pro-vision:generateContent") {
+    Content = payload
 };
 var response = await client.SendAsync(request);
 Console.WriteLine((int)response.StatusCode);
