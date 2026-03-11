@@ -1,137 +1,132 @@
 # Gemini文本聊天
 
-AI 模型接口嵌入（Embeddings）
+代理 Gemini API 请求。
 
-# 原生Gemini格式
+路径格式: `/v1beta/models/{model_name}:{action}`
 
-使用指定引擎/模型创建嵌入
+例如:
 
+- `/v1beta/models/gemini-2.5-pro:generateContent`
+- `/v1beta/models/gemini-2.5-pro:streamGenerateContent?alt=sse`
 
+## Endpoint
 
-/`v1`/`engines`/`{model}`/`embeddings`
+`POST /v1beta/models/{model}:generateContent`
 
+## Authorization
 
-Authorization
+| Header | Type | Required | Description |
+| --- | --- | --- | --- |
+| `Authorization` | `string` | yes | Bearer API key。示例：`Authorization: Bearer YOUR_API_KEY` |
 
-Path
+## Path Parameters
 
-Body
+| Name | Type | Required | Description |
+| --- | --- | --- | --- |
+| `model` | `string` | yes | 模型名称，例如 `gemini-2.5-pro` |
 
-## [Authorization](#authorization)
+## Request Body
 
-BearerAuth
+Content-Type: `application/json`
 
-AuthorizationBearer <token>
+| Name | Type | Required | Description |
+| --- | --- | --- | --- |
+| `contents` | `array` | yes | 输入内容列表 |
+| `contents[].role` | `string` | no | 角色标识，如 `user` |
+| `contents[].parts` | `array` | yes | 内容片段列表 |
+| `contents[].parts[].text` | `string` | no | 文本片段 |
+| `contents[].parts[].inlineData` | `object` | no | 内联媒体内容 |
+| `contents[].parts[].inlineData.mimeType` | `string` | yes | 媒体 MIME 类型 |
+| `contents[].parts[].inlineData.data` | `string` | yes | base64 编码的数据 |
+| `generationConfig` | `object` | no | 生成控制参数 |
+| `generationConfig.responseModalities` | `array` | no | 期望返回模态 |
 
-使用 Bearer Token 认证。
-格式: `Authorization: Bearer sk-xxxxxx`
-
-In: `header`
-
-## [Path Parameters](#path-parameters)
-
-model\*string
-
-模型/引擎 ID
-
-## [Request Body](#request-body)
-
-application/json
-
-model\*string
-
-input\*string|array<string>
-
-要嵌入的文本
-
-encoding\_format?string
-
-Default`"float"`
-
-Value in`"float" | "base64"`
-
-dimensions?integer
-
-输出向量维度
-
-## [Response Body](#response-body)
+## Response Body
 
 ### 200 application/json
 
-
-
-```
-curl -X POST "https://docs.newapi.pro/v1/engines/string/embeddings" \  -H "Content-Type: application/json" \  -d '{    "model": "text-embedding-ada-002",    "input": "string"  }'
-```
-
-200
-
-```
+```json
 {
-  "object": "list",
-  "data": [
+  "candidates": [
     {
-      "object": "embedding",
-      "index": 0,
-      "embedding": [
-        0
-      ]
+      "content": {
+        "parts": [
+          {
+            "text": "string"
+          }
+        ]
+      },
+      "finishReason": "STOP"
     }
-  ],
-  "model": "string",
-  "usage": {
-    "prompt_tokens": 0,
-    "total_tokens": 0
-  }
+  ]
 }
 ```
-
 
 ## Code Examples
 
 ### cURL
 
 ```bash
-curl -X POST "https://docs.newapi.pro/v1/engines/" \
+curl -X POST "https://docs.newapi.pro/v1beta/models/gemini-2.5-pro:generateContent" \
   -H "Authorization: Bearer YOUR_API_KEY" \
   -H "Content-Type: application/json" \
-  -d '{   "model": "tts-1",   "input": "请用中文朗读今天的新闻摘要" }'
+  -d '{
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "请用中文总结这张图片的要点"
+          }
+        ]
+      }
+    ]
+  }'
 ```
 
 ### JavaScript
 
 ```javascript
-const payload = {
-  "model": "tts-1",
-  "input": "请用中文朗读今天的新闻摘要"
-};
-const response = await fetch("https://docs.newapi.pro/v1/engines/", {
+const response = await fetch("https://docs.newapi.pro/v1beta/models/gemini-2.5-pro:generateContent", {
   method: "POST",
   headers: {
     "Authorization": "Bearer YOUR_API_KEY",
     "Content-Type": "application/json"
   },
-  body: JSON.stringify(payload),
+  body: JSON.stringify({
+    contents: [
+      {
+        role: "user",
+        parts: [
+          {
+            text: "请用中文回答这个问题"
+          }
+        ]
+      }
+    ]
+  })
 });
+console.log(await response.status);
 console.log(await response.text());
 ```
 
 ### Go
 
 ```go
-package main
-
-	"bytes"
-	"encoding/json"
-	"net/http"
-)
-
 func main() {
-	payloadJSON := `{  "model": "tts-1",  "input": "请用中文朗读今天的新闻摘要"}`
-	var payload map[string]interface{}
-	_ = json.Unmarshal([]byte(payloadJSON), &payload)
-	data, _ := json.Marshal(payload)
-	req, _ := http.NewRequest("POST", "https://docs.newapi.pro/v1/engines/", bytes.NewReader(data))
+	body := bytes.NewBuffer([]byte(`{
+    "contents":[
+      {
+        "role":"user",
+        "parts":[
+          {
+            "text":"请用中文回答这个问题"
+          }
+        ]
+      }
+    ]
+  }`))
+	req, _ := http.NewRequest("POST", "https://docs.newapi.pro/v1beta/models/gemini-2.5-pro:generateContent", body)
 	req.Header.Set("Authorization", "Bearer YOUR_API_KEY")
 	req.Header.Set("Content-Type", "application/json")
 	http.DefaultClient.Do(req)
@@ -141,46 +136,44 @@ func main() {
 ### Python
 
 ```python
-url = "https://docs.newapi.pro/v1/engines/"
+url = "https://docs.newapi.pro/v1beta/models/gemini-2.5-pro:generateContent"
 headers = {
     "Authorization": "Bearer YOUR_API_KEY",
     "Content-Type": "application/json",
 }
 payload = {
-  "model": "tts-1",
-  "input": "请用中文朗读今天的新闻摘要"
+    "contents": [
+        {
+            "role": "user",
+            "parts": [
+                {
+                    "text": "请用中文回答这个问题"
+                }
+            ]
+        }
+    ]
 }
-resp = requests.request("POST", url, headers=headers, json=payload, timeout=30)
-print(resp.status_code)
-print(resp.text)
+response = requests.post(url, headers=headers, json=payload)
+print(response.json())
 ```
 
 ### Java
 
 ```java
-HttpClient client = HttpClient.newHttpClient();
-    String json = "{  \"model\": \"tts-1\",  \"input\": \"请用中文朗读今天的新闻摘要\"}";
-HttpRequest request = HttpRequest.newBuilder()
-    .uri(URI.create("https://docs.newapi.pro/v1/engines/"))
+String json = "{\"contents\":[{\"role\":\"user\",\"parts\":[{\"text\":\"请用中文回答这个问题\"}]}]}";
+var request = HttpRequest.newBuilder()
+    .uri(URI.create("https://docs.newapi.pro/v1beta/models/gemini-2.5-pro:generateContent"))
     .header("Authorization", "Bearer YOUR_API_KEY")
     .header("Content-Type", "application/json")
     .POST(HttpRequest.BodyPublishers.ofString(json))
     .build();
-HttpResponse<String> response = client.send(request, HttpResponse.BodyHandlers.ofString());
-System.out.println(response.statusCode());
-System.out.println(response.body());
 ```
 
 ### C#
 
 ```csharp
-var client = new HttpClient();
-client.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", "YOUR_API_KEY");
-var payload = new StringContent(@"{  ""model"": ""tts-1"",  ""input"": ""请用中文朗读今天的新闻摘要""}", Encoding.UTF8, "application/json");
-var request = new HttpRequestMessage(HttpMethod.Post, "https://docs.newapi.pro/v1/engines/") {
-	Content = payload
-};
-var response = await client.SendAsync(request);
-Console.WriteLine((int)response.StatusCode);
-Console.WriteLine(await response.Content.ReadAsStringAsync());
+var request = new HttpRequestMessage(HttpMethod.Post, "https://docs.newapi.pro/v1beta/models/gemini-2.5-pro:generateContent");
+request.Headers.Add("Authorization", "Bearer YOUR_API_KEY");
+request.Content = new StringContent("{\"contents\":[{\"role\":\"user\",\"parts\":[{\"text\":\"请用中文回答这个问题\"}]}]}", Encoding.UTF8, "application/json");
+await client.SendAsync(request);
 ```
