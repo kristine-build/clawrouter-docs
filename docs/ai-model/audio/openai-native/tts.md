@@ -25,39 +25,103 @@ Content-Type: `application/json`
 | response_format | string | no | 音频输出格式 | `mp3`, `opus`, `aac`, `flac`, `wav`, `pcm` | `mp3` | - |
 | speed | number | no | 语音速度 | - | `1` | `0.25 <= value <= 4` |
 
+
+
+
+## Code Examples
+
 ### cURL
 
 ```bash
 curl -X POST "https://docs.newapi.pro/v1/audio/speech" \
-  -H "Authorization: Bearer YOUR_TOKEN" \
+  -H "Authorization: Bearer YOUR_API_KEY" \
   -H "Content-Type: application/json" \
-  -d '{"model": "tts-1", "input": "请用中文朗读今天的新闻摘要", "voice": "alloy", "response_format": "mp3", "speed": 1}'
+  -d '{   "model": "tts-1",   "input": "请用中文朗读今天的新闻摘要" }'
 ```
 
-### Python requests
+### JavaScript
+
+```javascript
+const payload = {
+  "model": "tts-1",
+  "input": "请用中文朗读今天的新闻摘要"
+};
+const response = await fetch("https://docs.newapi.pro/v1/audio/speech", {
+  method: "POST",
+  headers: {
+    "Authorization": "Bearer YOUR_API_KEY",
+    "Content-Type": "application/json"
+  },
+  body: JSON.stringify(payload),
+});
+console.log(await response.text());
+```
+
+### Go
+
+```go
+package main
+
+	"bytes"
+	"encoding/json"
+	"net/http"
+)
+
+func main() {
+	payloadJSON := `{  "model": "tts-1",  "input": "请用中文朗读今天的新闻摘要"}`
+	var payload map[string]interface{}
+	_ = json.Unmarshal([]byte(payloadJSON), &payload)
+	data, _ := json.Marshal(payload)
+	req, _ := http.NewRequest("POST", "https://docs.newapi.pro/v1/audio/speech", bytes.NewReader(data))
+	req.Header.Set("Authorization", "Bearer YOUR_API_KEY")
+	req.Header.Set("Content-Type", "application/json")
+	http.DefaultClient.Do(req)
+}
+```
+
+### Python
 
 ```python
 url = "https://docs.newapi.pro/v1/audio/speech"
 headers = {
-    "Authorization": "Bearer YOUR_TOKEN",
+    "Authorization": "Bearer YOUR_API_KEY",
     "Content-Type": "application/json",
 }
 payload = {
-    "model": "tts-1",
-    "input": "请用中文朗读今天的新闻摘要",
-    "voice": "alloy",
-    "response_format": "mp3",
-    "speed": 1,
+  "model": "tts-1",
+  "input": "请用中文朗读今天的新闻摘要"
 }
-resp = requests.post(url, headers=headers, json=payload, timeout=30)
+resp = requests.request("POST", url, headers=headers, json=payload, timeout=30)
 print(resp.status_code)
 print(resp.text)
 ```
 
-## Response Body
+### Java
 
-| name | type | required | description | enum | default | range |
-| --- | --- | --- | --- | --- | --- | --- |
-| response | string | yes | 响应内容（二进制音频，通常按 response_format 编码） | - | - | - |
+```java
+HttpClient client = HttpClient.newHttpClient();
+    String json = "{  \"model\": \"tts-1\",  \"input\": \"请用中文朗读今天的新闻摘要\"}";
+HttpRequest request = HttpRequest.newBuilder()
+    .uri(URI.create("https://docs.newapi.pro/v1/audio/speech"))
+    .header("Authorization", "Bearer YOUR_API_KEY")
+    .header("Content-Type", "application/json")
+    .POST(HttpRequest.BodyPublishers.ofString(json))
+    .build();
+HttpResponse<String> response = client.send(request, HttpResponse.BodyHandlers.ofString());
+System.out.println(response.statusCode());
+System.out.println(response.body());
+```
 
-- 200 响应返回音频流（`audio/mpeg`）。
+### C#
+
+```csharp
+var client = new HttpClient();
+client.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", "YOUR_API_KEY");
+var payload = new StringContent(@"{  ""model"": ""tts-1"",  ""input"": ""请用中文朗读今天的新闻摘要""}", Encoding.UTF8, "application/json");
+var request = new HttpRequestMessage(HttpMethod.Post, "https://docs.newapi.pro/v1/audio/speech") {
+	Content = payload
+};
+var response = await client.SendAsync(request);
+Console.WriteLine((int)response.StatusCode);
+Console.WriteLine(await response.Content.ReadAsStringAsync());
+```

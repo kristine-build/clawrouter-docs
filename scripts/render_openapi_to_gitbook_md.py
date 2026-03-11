@@ -279,6 +279,306 @@ def minimal_example(schema: dict) -> Any:
     return {}
 
 
+def sample_value_for_name(name: str, schema: dict | None = None) -> Any:
+    lname = name.lower().strip()
+    if lname == "file":
+        return "@/path/to/audio.mp3"
+    if lname in {"input", "prompt"}:
+        return "请用中文朗读今天的新闻摘要"
+    if lname in {"model", "pathmodel"}:
+        return "whisper-1"
+    if lname == "voice":
+        return "alloy"
+    if lname == "response_format":
+        return "json"
+    if lname == "language":
+        return "zh"
+    if lname == "temperature":
+        return 1
+    if lname == "speed":
+        return 1
+    if schema is not None:
+        if "enum" in schema and schema["enum"]:
+            return schema["enum"][0]
+        if schema.get("type") == "array":
+            item_type = (schema.get("items") or {}).get("type", "string")
+            return [sample_value_for_name(item_type)]
+        if schema.get("type") in {"number", "integer"}:
+            return 0
+        if schema.get("type") == "boolean":
+            return False
+    return "string"
+
+
+def guess_request_payload(content_type: str, req_schema: dict, req_example: Any | None) -> tuple[str, dict[str, Any]]:
+    if isinstance(req_example, dict) and req_example:
+        return content_type, dict(req_example)
+
+    payload: dict[str, Any] = {}
+    if isinstance(req_schema, dict):
+        for k, v in req_schema.get("properties", {}).items():
+            payload[str(k)] = sample_value_for_name(str(k), resolve_ref(CUR_DOC, v))
+    if not payload:
+        if "multipart/form-data" in content_type.lower():
+            payload = {"file": "@/path/to/audio.mp3", "model": "whisper-1"}
+        else:
+            payload = {"model": "tts-1", "input": sample_value_for_name("input")}
+    return content_type, payload
+
+
+def _fmt_json_for_block(payload: Any) -> str:
+    return json.dumps(payload, ensure_ascii=False, indent=2)
+
+
+def _go_literal(payload_json: str) -> str:
+    return payload_json.replace("\n", "")
+
+
+def _java_literal(payload_json: str) -> str:
+    return payload_json.replace('\\', '\\\\').replace('"', '\\"').replace("\n", "")
+
+
+def _csharp_literal(payload_json: str) -> str:
+    return payload_json.replace('"', '""').replace("\n", "")
+
+
+def _js_value(val: Any) -> str:
+    if isinstance(val, str) and val.startswith("@"):
+        return f'"{val[1:]}"'
+    return json.dumps(val, ensure_ascii=False)
+
+
+def render_code_examples(method: str, path: str, content_type: str, request_payload: dict[str, Any], endpoint_params: list[tuple[str, str]]) -> str:
+    method = method.upper()
+    url = f"https://docs.newapi.pro{path}"
+    for k, v in endpoint_params:
+        url = url.replace(f"{{{k}}}", str(v))
+
+    is_multipart = "multipart/form-data" in content_type.lower()
+    payload_json = _fmt_json_for_block(request_payload)
+
+    if is_multipart:
+        curl_lines = [
+            f"curl -X {method} \"{url}\" \\",
+            "  -H \"Authorization: Bearer YOUR_API_KEY\" \\",
+        ]
+        for k, v in request_payload.items():
+            if str(v).startswith("@"):
+                curl_lines.append(f"  -F \"{k}=@{v[1:]}\" \\")
+            else:
+                curl_lines.append(f"  -F \"{k}={v}\" \\")
+        if curl_lines:
+            curl_lines[-1] = curl_lines[-1].rstrip(" \\")
+
+        js_lines = ["const formData = new FormData();"]
+        for k, v in request_payload.items():
+            if str(v).startswith("@"):
+                js_lines.append(f'formData.append("{k}", fileInput.files[0]);')
+            else:
+                js_lines.append(f'formData.append("{k}", {_js_value(v)});')
+        js_lines += [
+            f"const response = await fetch(\"{url}\", {{",
+            f'  method: "{method}",',
+            '  headers: {',
+            '    "Authorization": "Bearer YOUR_API_KEY"',
+            "  },",
+            "  body: formData",
+            "});",
+            "const text = await response.text();",
+            "console.log(text);",
+        ]
+
+        python_lines = [
+            "import requests",
+            f'url = "{url}"',
+            'headers = {"Authorization": "Bearer YOUR_API_KEY"}',
+            "files = {}",
+            "data = {}",
+        ]
+        for k, v in request_payload.items():
+            if str(v).startswith("@"):
+                python_lines.append(f'files["{k}"] = open("{v[1:]}", "rb")')
+            else:
+                python_lines.append(f'data["{k}"] = "{v}"')
+        python_lines += [
+            "resp = requests.post(url, headers=headers, files=files, data=data, timeout=30)",
+            "print(resp.status_code)",
+            "print(resp.text)",
+        ]
+
+        go_lines = [
+            "package main",
+            "",
+            "import (",
+            '\t\"bytes\"',
+            '\t\"io\"',
+            '\t\"mime/multipart\"',
+            '\t\"net/http\"',
+            '\t\"os\"',
+            ")",
+            "",
+            "func main() {",
+            "\tvar buf bytes.Buffer",
+            "\twriter := multipart.NewWriter(&buf)",
+            '\t_ = writer.WriteField(\"model\", \"whisper-1\")',
+            '\tfile, _ := os.Open(\"audio.mp3\")',
+            "\tdefer file.Close()",
+            '\tpart, _ := writer.CreateFormFile(\"file\", \"audio.mp3\")',
+            "\t_, _ = io.Copy(part, file)",
+            "\t_ = writer.Close()",
+            f'\treq, _ := http.NewRequest("{method}", "{url}", &buf)',
+            '\treq.Header.Set("Authorization", "Bearer YOUR_API_KEY")',
+            '\treq.Header.Set("Content-Type", writer.FormDataContentType())',
+            "\thttp.DefaultClient.Do(req)",
+            "}",
+        ]
+
+        java_lines = [
+            "HttpClient client = HttpClient.newHttpClient();",
+            "HttpRequest request = HttpRequest.newBuilder()",
+            f'    .uri(URI.create("{url}"))',
+            '    .header("Authorization", "Bearer YOUR_API_KEY")',
+            "    .POST(HttpRequest.BodyPublishers.noBody())",
+            "    .build();",
+            "HttpResponse<String> response = client.send(request, HttpResponse.BodyHandlers.ofString());",
+            "System.out.println(response.statusCode());",
+            "System.out.println(response.body());",
+        ]
+
+        csharp_lines = [
+            'var client = new HttpClient();',
+            'client.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", "YOUR_API_KEY");',
+            'var form = new MultipartFormDataContent();',
+            '\tform.Add(new StringContent("whisper-1"), "model");',
+            '\tform.Add(new ByteArrayContent(File.ReadAllBytes("audio.mp3")), "file", "audio.mp3");',
+            f'var request = new HttpRequestMessage(HttpMethod.{method.title()}, "{url}") {{',
+            "\tContent = form",
+            "};",
+            "var response = await client.SendAsync(request);",
+            "Console.WriteLine((int)response.StatusCode);",
+            "Console.WriteLine(await response.Content.ReadAsStringAsync());",
+        ]
+    else:
+        curl_lines = [
+            f"curl -X {method} \"{url}\" \\",
+            "  -H \"Authorization: Bearer YOUR_API_KEY\" \\",
+            '  -H "Content-Type: application/json" \\',
+            f"  -d '{payload_json.replace(chr(10), ' ')}'",
+        ]
+        js_lines = [
+            "const payload = " + payload_json + ";",
+            f'const response = await fetch("{url}", {{',
+            f'  method: "{method}",',
+            '  headers: {',
+            '    "Authorization": "Bearer YOUR_API_KEY",',
+            '    "Content-Type": "application/json"',
+            "  },",
+            "  body: JSON.stringify(payload),",
+            "});",
+            "console.log(await response.text());",
+        ]
+        python_lines = [
+            "import requests",
+            f'url = "{url}"',
+            "headers = {",
+            '    "Authorization": "Bearer YOUR_API_KEY",',
+            '    "Content-Type": "application/json",',
+            "}",
+            f"payload = {payload_json}",
+            f"resp = requests.request(\"{method}\", url, headers=headers, json=payload, timeout=30)",
+            "print(resp.status_code)",
+            "print(resp.text)",
+        ]
+        go_lines = [
+            "package main",
+            "",
+            "import (",
+            '\t"bytes"',
+            '\t"encoding/json"',
+            '\t\"net/http\"',
+            ")",
+            "",
+            "func main() {",
+            f"\tpayloadJSON := `{_go_literal(payload_json)}`",
+            "\tvar payload map[string]interface{}",
+            "\t_ = json.Unmarshal([]byte(payloadJSON), &payload)",
+            "\tdata, _ := json.Marshal(payload)",
+            f'\treq, _ := http.NewRequest("{method}", "{url}", bytes.NewReader(data))',
+            '\treq.Header.Set("Authorization", "Bearer YOUR_API_KEY")',
+            '\treq.Header.Set("Content-Type", "application/json")',
+            "\thttp.DefaultClient.Do(req)",
+            "}",
+        ]
+        java_lines = [
+            "HttpClient client = HttpClient.newHttpClient();",
+            f'    String json = "{_java_literal(payload_json)}";',
+            "HttpRequest request = HttpRequest.newBuilder()",
+            f'    .uri(URI.create("{url}"))',
+            '    .header("Authorization", "Bearer YOUR_API_KEY")',
+            '    .header("Content-Type", "application/json")',
+            "    .POST(HttpRequest.BodyPublishers.ofString(json))",
+            "    .build();",
+            "HttpResponse<String> response = client.send(request, HttpResponse.BodyHandlers.ofString());",
+            "System.out.println(response.statusCode());",
+            "System.out.println(response.body());",
+        ]
+        csharp_lines = [
+            'var client = new HttpClient();',
+            'client.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", "YOUR_API_KEY");',
+            f'var payload = new StringContent(@"{_csharp_literal(payload_json)}", Encoding.UTF8, "application/json");',
+            f'var request = new HttpRequestMessage(HttpMethod.{method.title()}, "{url}") {{',
+            "\tContent = payload",
+            "};",
+            "var response = await client.SendAsync(request);",
+            "Console.WriteLine((int)response.StatusCode);",
+            "Console.WriteLine(await response.Content.ReadAsStringAsync());",
+        ]
+
+    out = [
+        "",
+        "## Code Examples",
+        "",
+        "### cURL",
+        "",
+        "```bash",
+        *curl_lines,
+        "```",
+        "",
+        "### JavaScript",
+        "",
+        "```javascript",
+        *js_lines,
+        "```",
+        "",
+        "### Go",
+        "",
+        "```go",
+        *go_lines,
+        "```",
+        "",
+        "### Python",
+        "",
+        "```python",
+        *python_lines,
+        "```",
+        "",
+        "### Java",
+        "",
+        "```java",
+        *java_lines,
+        "```",
+        "",
+        "### C#",
+        "",
+        "```csharp",
+        *csharp_lines,
+        "```",
+    ]
+    return "\n".join(out)
+
+
+
+
 def clean_text_md(txt: str, title: str) -> str:
     txt = re.sub(r"(?m)^import\s+.*$\n?", "", txt)
     txt = re.sub(r"\{\/\*[\s\S]*?\*\/\}", "", txt)
@@ -308,6 +608,102 @@ def clean_text_md(txt: str, title: str) -> str:
         lines.pop(0)
     body = "\n".join(lines).strip()
     return f"# {title}\n\n{body}\n" if body else f"# {title}\n"
+
+
+def extract_endpoint_signature(txt: str) -> tuple[str, str, str]:
+    method = "POST"
+    path = "/"
+    content_type = "application/json"
+    flat = txt.lower().replace("**", "")
+    for ln in txt.splitlines():
+        s = ln.replace("**", "").replace("`", "")
+        m = re.search(r"\b(GET|POST|PUT|DELETE)\s+(/[^\s]+)", s, flags=re.I)
+        if m:
+            method = m.group(1).upper()
+            path = m.group(2)
+            break
+    if path == "/":
+        s = txt.replace("`", "")
+        m = re.search(r"(/v\d+/[\w./-]+)", s)
+        if not m:
+            m = re.search(r"(/v[^\s\]]+)", s)
+        if m:
+            path = m.group(1)
+    if "multipart/form-data" in txt.lower() or " -f " in txt.lower() or " -F " in txt:
+        content_type = "multipart/form-data"
+    return method, path, content_type
+
+
+def extract_json_examples(txt: str) -> Optional[Any]:
+    if "```json" not in txt:
+        return None
+    inside = False
+    buf = []
+    for ln in txt.splitlines():
+        if ln.strip().startswith("```json"):
+            inside = True
+            buf = []
+            continue
+        if inside:
+            if ln.strip().startswith("```"):
+                break
+            buf.append(ln)
+    if not buf:
+        return None
+    try:
+        return json.loads("\n".join(buf))
+    except Exception:
+        return None
+
+
+def replace_or_append_code_examples(txt: str, section: str) -> str:
+    lines = txt.splitlines()
+    original_lines = list(lines)
+    start = None
+    end = len(lines)
+    for i, ln in enumerate(lines):
+        if ln.startswith("## Code Examples"):
+            start = i
+            break
+    if start is not None:
+        for j in range(start + 1, len(lines)):
+            if lines[j].startswith("## "):
+                end = j
+                break
+        before = original_lines[:start]
+        after = original_lines[end:] if end > start + 1 else []
+        lines = before + [""] + section.strip().splitlines() + after
+    else:
+        lines.extend(["", section.rstrip()])
+    return "\n".join(lines).rstrip() + "\n"
+
+
+def strip_inline_language_blocks(txt: str) -> str:
+    # remove old broken standalone examples so we can inject clean multi-language examples
+    txt = txt.replace("cURLJavaScriptGoPythonJavaC#", "")
+    txt = txt.replace("### Python requests", "### Python")
+    lines = txt.splitlines()
+    out: list[str] = []
+    i = 0
+    lang_heads = {"### cURL", "### JavaScript", "### Python", "### Go", "### Java", "### C#", "### Python requests"}
+    while i < len(lines):
+        ln = lines[i]
+        if any(ln.startswith(x) for x in lang_heads):
+            i += 1
+            if i < len(lines) and lines[i].startswith("```"):
+                fence = lines[i].strip()
+                i += 1
+                while i < len(lines) and lines[i].strip() != fence:
+                    i += 1
+                if i < len(lines):
+                    i += 1
+            else:
+                while i < len(lines) and not lines[i].startswith("### "):
+                    i += 1
+            continue
+        out.append(ln)
+        i += 1
+    return "\n".join(out)
 
 
 def render_endpoint_md(node: Node, doc: dict) -> str:
@@ -403,28 +799,9 @@ def render_endpoint_md(node: Node, doc: dict) -> str:
     if not err_rows:
         out.append("| - | - |")
 
-    req_ex = req_example if req_example is not None else {}
-    out += ["", "## Code Examples", "", "### cURL", "", "```bash"]
-    out += [
-        f"curl -X {method} \"https://docs.newapi.pro{path.replace('{model}', 'gemini-2.5-flash-preview-tts')}\" \\",
-        "  -H \"Authorization: Bearer YOUR_API_KEY\" \\",
-        "  -H \"Content-Type: application/json\" \\",
-        f"  -d '{json.dumps(req_ex, ensure_ascii=False)}'",
-    ]
-    out += ["```", "", "### Python requests", "", "```python"]
-    out += [
-        "import requests",
-        f"url = \"https://docs.newapi.pro{path.replace('{model}', 'gemini-2.5-flash-preview-tts')}\"",
-        "headers = {",
-        "    \"Authorization\": \"Bearer YOUR_API_KEY\",",
-        "    \"Content-Type\": \"application/json\"",
-        "}",
-        f"payload = {json.dumps(req_ex, ensure_ascii=False, indent=4)}",
-        "resp = requests.request(\"" + method + "\", url, headers=headers, json=payload, timeout=30)",
-        "print(resp.status_code)",
-        "print(resp.text)",
-    ]
-    out += ["```", ""]
+    path_params = [(name, loc) for (name, _type, _required, _desc, loc) in params if loc == "path"]
+    content_type, req_payload = guess_request_payload(first_ct, req_schema, req_example)
+    out.append(render_code_examples(method, path, content_type, req_payload, path_params))
 
     text = "\n".join(out)
     text = re.sub(r"(?m)^(GET|POST|PUT|DELETE)\s*$\n?", "", text)
@@ -563,7 +940,14 @@ def run_render(only_prefix: str | None) -> int:
         if not jf:
             # keep existing if cannot resolve
             if path.exists():
-                cleanup_file(path, n.title)
+                raw = path.read_text(encoding="utf-8")
+                cleaned = strip_inline_language_blocks(clean_text_md(raw, n.title))
+                method, ep_path, ct = extract_endpoint_signature(cleaned)
+                req_example = extract_json_examples(cleaned)
+                ct, payload = guess_request_payload(ct, {}, req_example if isinstance(req_example, dict) else None)
+                extra = render_code_examples(method, ep_path, ct, payload, [])
+                cleaned = replace_or_append_code_examples(cleaned, extra)
+                path.write_text(cleaned, encoding="utf-8")
                 skipped += 1
             else:
                 failed += 1
