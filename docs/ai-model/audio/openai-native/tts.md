@@ -1,73 +1,63 @@
 # 文本转语音
 
-AI 模型接口音频（Audio）原生OpenAI格式
-
-# 文本转语音
-
 将文本转换为音频
 
-loading...
+## Endpoint
 
+`POST /v1/audio/speech`
 
-/`v1`/`audio`/`speech`
+## Authorization
 
-Send
+- **类型**：BearerAuth
+- **位置**：`header`
+- **示例**：`Authorization: Bearer <token>`
+- **说明**：使用 Bearer Token 认证。
 
-Authorization
+## Request Body
 
-Body
+Content-Type: `application/json`
 
-## [Authorization](#authorization)
+| name | type | required | description | enum | default | range |
+| --- | --- | --- | --- | --- | --- | --- |
+| model | string | yes | 模型名称 | `string` | - | - |
+| input | string | yes | 要转换的文本 | - | - | length <= 4096 |
+| voice | string | yes | 语音角色名 | `alloy`, `echo`, `fable`, `onyx`, `nova`, `shimmer` | - | - |
+| response_format | string | no | 音频输出格式 | `mp3`, `opus`, `aac`, `flac`, `wav`, `pcm` | `mp3` | - |
+| speed | number | no | 语音速度 | - | `1` | `0.25 <= value <= 4` |
 
-BearerAuth
+### cURL
 
-AuthorizationBearer <token>
-
-使用 Bearer Token 认证。
-格式: `Authorization: Bearer sk-xxxxxx`
-
-In: `header`
-
-## [Request Body](#request-body)
-
-application/json
-
-model\*string
-
-input\*string
-
-要转换的文本
-
-Length`length <= 4096`
-
-voice\*string
-
-Value in`"alloy" | "echo" | "fable" | "onyx" | "nova" | "shimmer"`
-
-response\_format?string
-
-Default`"mp3"`
-
-Value in`"mp3" | "opus" | "aac" | "flac" | "wav" | "pcm"`
-
-speed?number
-
-Default`1`
-
-Range`0.25 <= value <= 4`
-
-## [Response Body](#response-body)
-
-### 200 audio/mpeg
-
-cURLJavaScriptGoPythonJavaC#
-
-```
-curl -X POST "https://loading/v1/audio/speech" \  -H "Content-Type: application/json" \  -d '{    "model": "tts-1",    "input": "string",    "voice": "alloy"  }'
+```bash
+curl -X POST "https://docs.newapi.pro/v1/audio/speech" \
+  -H "Authorization: Bearer YOUR_TOKEN" \
+  -H "Content-Type: application/json" \
+  -d '{"model": "tts-1", "input": "请用中文朗读今天的新闻摘要", "voice": "alloy", "response_format": "mp3", "speed": 1}'
 ```
 
-200
+### Python requests
 
+```python
+url = "https://docs.newapi.pro/v1/audio/speech"
+headers = {
+    "Authorization": "Bearer YOUR_TOKEN",
+    "Content-Type": "application/json",
+}
+payload = {
+    "model": "tts-1",
+    "input": "请用中文朗读今天的新闻摘要",
+    "voice": "alloy",
+    "response_format": "mp3",
+    "speed": 1,
+}
+resp = requests.post(url, headers=headers, json=payload, timeout=30)
+print(resp.status_code)
+print(resp.text)
 ```
-"string"
-```
+
+## Response Body
+
+| name | type | required | description | enum | default | range |
+| --- | --- | --- | --- | --- | --- | --- |
+| response | string | yes | 响应内容（二进制音频，通常按 response_format 编码） | - | - | - |
+
+- 200 响应返回音频流（`audio/mpeg`）。
