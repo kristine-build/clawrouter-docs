@@ -21,7 +21,12 @@ id\*integer
 
 ### 200
 
-cURLJavaScriptGoPythonJavaC#
+### cURL
+### JavaScript
+### Go
+### Python
+### Java
+### C#
 
 ```
 curl -X DELETE "https://docs.newapi.pro/api/user/0/2fa"

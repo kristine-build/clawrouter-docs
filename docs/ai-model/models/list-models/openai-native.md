@@ -14,26 +14,19 @@ AI 模型接口模型（Models）列出模型
 
 
 
-/`v1`/`models`
+## Endpoint
 
-
+/v1/models
 Authorization
 
 Header
 
 Query
 
-## [Authorization](#authorization)
-
-BearerAuth
-
-AuthorizationBearer <token>
-
-使用 Bearer Token 认证。
-格式: `Authorization: Bearer sk-xxxxxx`
-
-In: `header`
-
+## Authorization
+| Name | Type | Required | Description |
+|---|---|---|---|
+| Authorization | string | yes | AuthorizationBearer <token> 使用 Bearer Token 认证。 格式: `Authorization: Bearer sk-xxxxxx` In: `header` |
 ## [Query Parameters](#query-parameters)
 
 key?string
@@ -54,13 +47,18 @@ x-goog-api-key?string
 
 Google API Key (用于 Gemini 格式)
 
-## [Response Body](#response-body)
+## Response Body
 
 ### 200 application/json
 
 ### 401 application/json
 
-cURLJavaScriptGoPythonJavaC#
+### cURL
+### JavaScript
+### Go
+### Python
+### Java
+### C#
 
 ```
 curl -X GET "https://docs.newapi.pro/v1/models"

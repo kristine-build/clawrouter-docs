@@ -12,37 +12,31 @@ AI 模型接口实时语音（Realtime）
 
 
 
-/`v1`/`realtime`
-
-
-Authorization
+## Endpoint
+&Authorization
 
 Query
 
-## [Authorization](#authorization)
-
-BearerAuth
-
-AuthorizationBearer <token>
-
-使用 Bearer Token 认证。
-格式: `Authorization: Bearer sk-xxxxxx`
-
-In: `header`
-
-## [Query Parameters](#query-parameters)
+## Authorization
+| Name | Type | Required | Description |
+|---|---|---|---|
+| Authorization | string | yes | AuthorizationBearer <token> 使用 Bearer Token 认证。 格式: `Authorization: Bearer sk-xxxxxx` In: `header` |## [Query Parameters](#query-parameters)
 
 model?string
 
 要使用的模型
 
-## [Response Body](#response-body)
-
+## Response Body
 ### 101
 
 ### 400 application/json
 
-cURLJavaScriptGoPythonJavaC#
+### cURL
+### JavaScript
+### Go
+### Python
+### Java
+### C#
 
 ```
 curl -X GET "https://docs.newapi.pro/v1/realtime"

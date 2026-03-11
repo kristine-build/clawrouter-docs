@@ -21,7 +21,12 @@ application/json
 
 ### 200
 
-cURLJavaScriptGoPythonJavaC#
+### cURL
+### JavaScript
+### Go
+### Python
+### Java
+### C#
 
 ```
 curl -X PUT "https://docs.newapi.pro/api/token/" \  -H "Content-Type: application/json" \  -d '{}'

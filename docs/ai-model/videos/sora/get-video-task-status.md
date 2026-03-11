@@ -10,37 +10,31 @@ OpenAI 兼容的视频任务状态查询接口。
 
 
 
-/`v1`/`videos`/`{task_id}`
-
-
-Authorization
+## Endpoint
+&Authorization
 
 Path
 
-## [Authorization](#authorization)
-
-BearerAuth
-
-AuthorizationBearer <token>
-
-使用 Bearer Token 认证。
-格式: `Authorization: Bearer sk-xxxxxx`
-
-In: `header`
-
-## [Path Parameters](#path-parameters)
+## Authorization
+| Name | Type | Required | Description |
+|---|---|---|---|
+| Authorization | string | yes | AuthorizationBearer <token> 使用 Bearer Token 认证。 格式: `Authorization: Bearer sk-xxxxxx` In: `header` |## [Path Parameters](#path-parameters)
 
 task\_id\*string
 
 视频任务 ID
 
-## [Response Body](#response-body)
-
+## Response Body
 ### 200 application/json
 
 ### 404 application/json
 
-cURLJavaScriptGoPythonJavaC#
+### cURL
+### JavaScript
+### Go
+### Python
+### Java
+### C#
 
 ```
 curl -X GET "https://docs.newapi.pro/v1/videos/string"

@@ -8,15 +8,11 @@
 `POST /v1/chat/completions`
 
 ## Authorization
-
 | Name | Type | Required | Description |
-| --- | --- | --- | --- |
-| `Authorization` | `string` | yes | Bearer API Key，示例：`Authorization: Bearer YOUR_API_KEY` |
-
+|---|---|---|---|
+| Authorization | string | yes | \| --- \| --- \| --- \| --- \| \| `Authorization` \| `string` \| yes \| Bearer API Key，示例：`Authorization: Bearer YOUR_API_KEY` \| |
 ## Request Body
-
 Content-Type: `application/json`
-
 | Name | Type | Required | Description |
 | --- | --- | --- | --- |
 | `model` | `string` | yes | 模型 ID |
@@ -98,7 +94,6 @@ Content-Type: `application/json`
   "system_fingerprint": "string"
 }
 ```
-
 ## Error Example
 
 ### 400 application/json

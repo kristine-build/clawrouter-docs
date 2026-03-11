@@ -23,7 +23,12 @@ ids?array<integer>
 
 ### 200
 
-cURLJavaScriptGoPythonJavaC#
+### cURL
+### JavaScript
+### Go
+### Python
+### Java
+### C#
 
 ```
 curl -X POST "https://docs.newapi.pro/api/token/batch" \  -H "Content-Type: application/json" \  -d '{}'

@@ -15,7 +15,12 @@
 
 ### 200
 
-cURLJavaScriptGoPythonJavaC#
+### cURL
+### JavaScript
+### Go
+### Python
+### Java
+### C#
 
 ```
 curl -X GET "https://docs.newapi.pro/api/home_page_content"

@@ -29,7 +29,12 @@ Unresolved $ref: #/definitions/224188811
 
 ### 200
 
-cURLJavaScriptGoPythonJavaC#
+### cURL
+### JavaScript
+### Go
+### Python
+### Java
+### C#
 
 ```
 curl -X POST "https://docs.newapi.pro/api/channel/" \  -H "Content-Type: application/json" \  -d '{}'

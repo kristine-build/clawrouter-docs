@@ -29,7 +29,12 @@ reset\_balance?boolean
 
 ### 200
 
-cURLJavaScriptGoPythonJavaC#
+### cURL
+### JavaScript
+### Go
+### Python
+### Java
+### C#
 
 ```
 curl -X POST "https://docs.newapi.pro/api/channel/copy/0"

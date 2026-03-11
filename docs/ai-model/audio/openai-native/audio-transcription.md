@@ -7,17 +7,11 @@
 **POST** `/v1/audio/transcriptions`
 
 ## Authorization
-
-使用 Bearer Token（Authorization header）
-
-```http
-Authorization: Bearer <API_KEY>
-```
-
+| Name | Type | Required | Description |
+|---|---|---|---|
+| Authorization | string | yes | ```http Authorization: Bearer <API_KEY> ``` |
 ## Request Body
-
 `multipart/form-data`
-
 | name | type | required | description |
 |---|---|---|---|
 | file | string (binary) | yes | 音频文件。 |
@@ -37,11 +31,6 @@ Authorization: Bearer <API_KEY>
   "text": "string"
 }
 ```
-
-
-
-
-
 ## Code Examples
 
 ### cURL

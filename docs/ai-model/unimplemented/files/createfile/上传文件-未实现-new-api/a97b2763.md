@@ -8,39 +8,30 @@ AI 模型接口未实现（Unimplemented）文件（Files）
 
 
 
-/`v1`/`files`
-
-
-Authorization
+## Endpoint
+&Authorization
 
 Body
 
-## [Authorization](#authorization)
-
-BearerAuth
-
-AuthorizationBearer <token>
-
-使用 Bearer Token 认证。
-格式: `Authorization: Bearer sk-xxxxxx`
-
-In: `header`
-
-## [Request Body](#request-body)
-
+## Authorization
+| Name | Type | Required | Description |
+|---|---|---|---|
+| Authorization | string | yes | AuthorizationBearer <token> 使用 Bearer Token 认证。 格式: `Authorization: Bearer sk-xxxxxx` In: `header` |## Request Body
 multipart/form-data
 
-file?file
-
-Format`binary`
-
-purpose?string
-
-## [Response Body](#response-body)
+| Name | Type | Required | Description |
+|---|---|---|---|
+| file | file | no | Format`binary` |
+| purpose | string | no |  |## Response Body
 
 ### 501 application/json
 
-cURLJavaScriptGoPythonJavaC#
+### cURL
+### JavaScript
+### Go
+### Python
+### Java
+### C#
 
 ```
 curl -X POST "https://docs.newapi.pro/v1/files"

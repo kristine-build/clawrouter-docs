@@ -9,51 +9,46 @@ Gemini 音频生成接口。
 
 
 
-/`v1beta`/`models`/`{model}:generateContent`
+## Endpoint
 
-
+/v1beta/models/{model}:generateContent
 Authorization
 
 Path
 
 Body
 
-## [Authorization](#authorization)
-
-BearerAuth
-
-AuthorizationBearer <token>
-
-使用 Bearer Token 认证。
-格式: `Authorization: Bearer sk-xxxxxx`
-
-In: `header`
-
+## Authorization
+| Name | Type | Required | Description |
+|---|---|---|---|
+| Authorization | string | yes | AuthorizationBearer <token> 使用 Bearer Token 认证。 格式: `Authorization: Bearer sk-xxxxxx` In: `header` |
 ## [Path Parameters](#path-parameters)
 
 model\*string
 
 模型名称
 
-## [Request Body](#request-body)
-
+## Request Body
 application/json
 
-contents\*array<object>
-
-generationConfig\*object
-
-## [Response Body](#response-body)
+| Name | Type | Required | Description |
+|---|---|---|---|
+| contents | array<object> | yes |  |
+| generationConfig | object | yes |  |
+## Response Body
 
 ### 200 application/json
 
-cURLJavaScriptGoPythonJavaC#
+### cURL
+### JavaScript
+### Go
+### Python
+### Java
+### C#
 
 ```
 curl -X POST "https://docs.newapi.pro/v1beta/models/string:generateContent" \  -H "Content-Type: application/json" \  -d '{    "contents": [      {}    ],    "generationConfig": {      "responseModalities": [        "string"      ],      "speechConfig": {        "voiceConfig": {          "prebuiltVoiceConfig": {            "voiceName": "string"          }        }      }    }  }'
 ```
-
-200
 
 ```
 {

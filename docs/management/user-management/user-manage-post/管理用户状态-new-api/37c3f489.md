@@ -27,7 +27,12 @@ Value in`"disable" | "enable" | "delete" | "promote" | "demote"`
 
 ### 200
 
-cURLJavaScriptGoPythonJavaC#
+### cURL
+### JavaScript
+### Go
+### Python
+### Java
+### C#
 
 ```
 curl -X POST "https://docs.newapi.pro/api/user/manage" \  -H "Content-Type: application/json" \  -d '{}'

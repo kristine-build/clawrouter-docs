@@ -9,14 +9,11 @@ Gemini 音频生成。
 `POST /v1beta/models/{model}:generateContent`
 
 ## Authorization
-
-使用 BearerAuth。
-示例请求头：`Authorization: Bearer YOUR_API_KEY`
-
+| Name | Type | Required | Description |
+|---|---|---|---|
+| Authorization | string | yes | 示例请求头：`Authorization: Bearer YOUR_API_KEY` |
 ## Request Body
-
 Content-Type: `application/json`
-
 | name | type | required | description | enum | default | range |
 |---|---|---|---|---|---|---|
 | `contents[]` | `array<object>` | yes | 输入内容列表 | - | - | - |
@@ -87,7 +84,6 @@ Content-Type: `application/json`
 | `401` | 鉴权失败 |
 | `429` | 请求过于频繁 |
 | `500` | 服务端错误 |
-
 ## Code Examples
 
 ### cURL

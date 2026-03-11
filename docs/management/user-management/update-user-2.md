@@ -29,7 +29,12 @@ original\_password?string
 
 ### 200
 
-cURLJavaScriptGoPythonJavaC#
+### cURL
+### JavaScript
+### Go
+### Python
+### Java
+### C#
 
 ```
 curl -X PUT "https://docs.newapi.pro/api/user/self" \  -H "Content-Type: application/json" \  -d '{}'

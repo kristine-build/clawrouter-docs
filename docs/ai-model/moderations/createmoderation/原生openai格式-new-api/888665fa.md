@@ -8,37 +8,30 @@ AI 模型接口审查（Moderations）
 
 
 
-/`v1`/`moderations`
-
-
-Authorization
+## Endpoint
+&Authorization
 
 Body
 
-## [Authorization](#authorization)
-
-BearerAuth
-
-AuthorizationBearer <token>
-
-使用 Bearer Token 认证。
-格式: `Authorization: Bearer sk-xxxxxx`
-
-In: `header`
-
-## [Request Body](#request-body)
-
+## Authorization
+| Name | Type | Required | Description |
+|---|---|---|---|
+| Authorization | string | yes | AuthorizationBearer <token> 使用 Bearer Token 认证。 格式: `Authorization: Bearer sk-xxxxxx` In: `header` |## Request Body
 application/json
 
-input\*string|array<string>
-
-model?string
-
-## [Response Body](#response-body)
+| Name | Type | Required | Description |
+|---|---|---|---|
+| input | string\|array<string> | yes |  |
+| model | string | no |  |## Response Body
 
 ### 200 application/json
 
-cURLJavaScriptGoPythonJavaC#
+### cURL
+### JavaScript
+### Go
+### Python
+### Java
+### C#
 
 ```
 curl -X POST "https://docs.newapi.pro/v1/moderations" \  -H "Content-Type: application/json" \  -d '{    "input": "string"  }'

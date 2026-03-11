@@ -21,7 +21,12 @@ application/json
 
 ### 200
 
-cURLJavaScriptGoPythonJavaC#
+### cURL
+### JavaScript
+### Go
+### Python
+### Java
+### C#
 
 ```
 curl -X POST "https://docs.newapi.pro/api/redemption/" \  -H "Content-Type: application/json" \  -d '{}'

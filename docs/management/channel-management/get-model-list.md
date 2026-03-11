@@ -21,7 +21,12 @@ id\*integer
 
 ### 200
 
-cURLJavaScriptGoPythonJavaC#
+### cURL
+### JavaScript
+### Go
+### Python
+### Java
+### C#
 
 ```
 curl -X GET "https://docs.newapi.pro/api/channel/fetch_models/0"

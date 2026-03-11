@@ -8,59 +8,46 @@ AI 模型接口补全（Completions）
 
 
 
-/`v1`/`completions`
+## Endpoint
 
-
+/v1/completions
 Authorization
 
 Body
 
-## [Authorization](#authorization)
-
-BearerAuth
-
-AuthorizationBearer <token>
-
-使用 Bearer Token 认证。
-格式: `Authorization: Bearer sk-xxxxxx`
-
-In: `header`
-
-## [Request Body](#request-body)
-
+## Authorization
+| Name | Type | Required | Description |
+|---|---|---|---|
+| Authorization | string | yes | AuthorizationBearer <token> 使用 Bearer Token 认证。 格式: `Authorization: Bearer sk-xxxxxx` In: `header` |
+## Request Body
 application/json
 
-model\*string
-
-prompt\*string|array<string>
-
-max\_tokens?integer
-
-temperature?number
-
-top\_p?number
-
-n?integer
-
-stream?boolean
-
-stop?string|array<string>
-
-suffix?string
-
-echo?boolean
-
-## [Response Body](#response-body)
+| Name | Type | Required | Description |
+|---|---|---|---|
+| model | string | yes |  |
+| prompt | string\|array<string> | yes |  |
+| max_tokens | integer | no |  |
+| temperature | number | no |  |
+| top_p | number | no |  |
+| n | integer | no |  |
+| stream | boolean | no |  |
+| stop | string\|array<string> | no |  |
+| suffix | string | no |  |
+| echo | boolean | no |  |
+## Response Body
 
 ### 200 application/json
 
-cURLJavaScriptGoPythonJavaC#
+### cURL
+### JavaScript
+### Go
+### Python
+### Java
+### C#
 
 ```
 curl -X POST "https://docs.newapi.pro/v1/completions" \  -H "Content-Type: application/json" \  -d '{    "model": "string",    "prompt": "string"  }'
 ```
-
-200
 
 ```
 {

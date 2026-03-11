@@ -8,33 +8,27 @@ AI 模型接口未实现（Unimplemented）文件（Files）
 
 
 
-/`v1`/`files`/`{file_id}`
-
-
-Authorization
+## Endpoint
+&Authorization
 
 Path
 
-## [Authorization](#authorization)
-
-BearerAuth
-
-AuthorizationBearer <token>
-
-使用 Bearer Token 认证。
-格式: `Authorization: Bearer sk-xxxxxx`
-
-In: `header`
-
-## [Path Parameters](#path-parameters)
+## Authorization
+| Name | Type | Required | Description |
+|---|---|---|---|
+| Authorization | string | yes | AuthorizationBearer <token> 使用 Bearer Token 认证。 格式: `Authorization: Bearer sk-xxxxxx` In: `header` |## [Path Parameters](#path-parameters)
 
 file\_id\*string
 
-## [Response Body](#response-body)
-
+## Response Body
 ### 501 application/json
 
-cURLJavaScriptGoPythonJavaC#
+### cURL
+### JavaScript
+### Go
+### Python
+### Java
+### C#
 
 ```
 curl -X GET "https://docs.newapi.pro/v1/files/string"

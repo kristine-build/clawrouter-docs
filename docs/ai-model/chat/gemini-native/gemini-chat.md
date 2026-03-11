@@ -14,11 +14,9 @@
 `POST /v1beta/models/{model}:generateContent`
 
 ## Authorization
-
-| Header | Type | Required | Description |
-| --- | --- | --- | --- |
-| `Authorization` | `string` | yes | Bearer API key。示例：`Authorization: Bearer YOUR_API_KEY` |
-
+| Name | Type | Required | Description |
+|---|---|---|---|
+| Authorization | string | yes | \| --- \| --- \| --- \| --- \| \| `Authorization` \| `string` \| yes \| Bearer API key。示例：`Authorization: Bearer YOUR_API_KEY` \| |
 ## Path Parameters
 
 | Name | Type | Required | Description |
@@ -26,9 +24,7 @@
 | `model` | `string` | yes | 模型名称，例如 `gemini-2.5-pro` |
 
 ## Request Body
-
 Content-Type: `application/json`
-
 | Name | Type | Required | Description |
 | --- | --- | --- | --- |
 | `contents` | `array` | yes | 输入内容列表 |
@@ -61,7 +57,6 @@ Content-Type: `application/json`
   ]
 }
 ```
-
 ## Code Examples
 
 ### cURL

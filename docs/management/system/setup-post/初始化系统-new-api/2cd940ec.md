@@ -25,7 +25,12 @@ password?string
 
 ### 200
 
-cURLJavaScriptGoPythonJavaC#
+### cURL
+### JavaScript
+### Go
+### Python
+### Java
+### C#
 
 ```
 curl -X POST "https://docs.newapi.pro/api/setup" \  -H "Content-Type: application/json" \  -d '{}'

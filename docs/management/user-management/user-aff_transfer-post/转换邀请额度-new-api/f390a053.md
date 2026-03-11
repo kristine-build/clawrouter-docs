@@ -23,7 +23,12 @@ quota?integer
 
 ### 200
 
-cURLJavaScriptGoPythonJavaC#
+### cURL
+### JavaScript
+### Go
+### Python
+### Java
+### C#
 
 ```
 curl -X POST "https://docs.newapi.pro/api/user/aff_transfer" \  -H "Content-Type: application/json" \  -d '{}'

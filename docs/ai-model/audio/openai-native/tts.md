@@ -7,16 +7,11 @@
 `POST /v1/audio/speech`
 
 ## Authorization
-
-- **类型**：BearerAuth
-- **位置**：`header`
-- **示例**：`Authorization: Bearer <token>`
-- **说明**：使用 Bearer Token 认证。
-
+| Name | Type | Required | Description |
+|---|---|---|---|
+| Authorization | string | yes | - **位置**：`header` - **示例**：`Authorization: Bearer <token>` - **说明**：使用 Bearer Token 认证。 |
 ## Request Body
-
 Content-Type: `application/json`
-
 | name | type | required | description | enum | default | range |
 | --- | --- | --- | --- | --- | --- | --- |
 | model | string | yes | 模型名称 | `string` | - | - |
@@ -24,9 +19,6 @@ Content-Type: `application/json`
 | voice | string | yes | 语音角色名 | `alloy`, `echo`, `fable`, `onyx`, `nova`, `shimmer` | - | - |
 | response_format | string | no | 音频输出格式 | `mp3`, `opus`, `aac`, `flac`, `wav`, `pcm` | `mp3` | - |
 | speed | number | no | 语音速度 | - | `1` | `0.25 <= value <= 4` |
-
-
-
 
 ## Code Examples
 

@@ -8,12 +8,9 @@ Anthropic Claude Messages API 格式的请求。
 `POST /v1/messages`
 
 ## Authorization
-
-- **类型**：BearerAuth
-- **位置**：`header`
-- **示例**：`Authorization: Bearer YOUR_API_KEY`
-- **说明**：使用 Bearer Token 认证，不适用时可使用 `x-api-key`。
-
+| Name | Type | Required | Description |
+|---|---|---|---|
+| Authorization | string | yes | - **位置**：`header` - **示例**：`Authorization: Bearer YOUR_API_KEY` - **说明**：使用 Bearer Token 认证，不适用时可使用 `x-api-key`。 |
 ## Header Parameters
 
 | name | type | required | description | enum | default | range |
@@ -22,9 +19,7 @@ Anthropic Claude Messages API 格式的请求。
 | x-api-key | string | no | Anthropic API Key（可选，也可使用 Bearer Token）。 | - | - | - |
 
 ## Request Body
-
 Content-Type: `application/json`
-
 | name | type | required | description | enum | default | range |
 | --- | --- | --- | --- | --- | --- | --- |
 | model | string | yes | 模型名称，例如 `claude-3-opus-20240229`。 | `claude-3-opus-20240229`, `claude-3-sonnet-20240229`, `claude-3-haiku-20240307` | - | - |
@@ -82,7 +77,6 @@ Content-Type: `application/json`
   }
 }
 ```
-
 ## Error Example
 
 ```json

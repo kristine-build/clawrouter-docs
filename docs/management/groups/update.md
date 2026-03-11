@@ -15,7 +15,12 @@
 
 ### 200
 
-cURLJavaScriptGoPythonJavaC#
+### cURL
+### JavaScript
+### Go
+### Python
+### Java
+### C#
 
 ```
 curl -X PUT "https://docs.newapi.pro/api/prefill_group/"

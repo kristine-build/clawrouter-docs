@@ -8,57 +8,40 @@ AI 模型接口嵌入（Embeddings）
 
 
 
-/`v1`/`engines`/`{model}`/`embeddings`
-
-
-Authorization
+## Endpoint
+&Authorization
 
 Path
 
 Body
 
-## [Authorization](#authorization)
-
-BearerAuth
-
-AuthorizationBearer <token>
-
-使用 Bearer Token 认证。
-格式: `Authorization: Bearer sk-xxxxxx`
-
-In: `header`
-
-## [Path Parameters](#path-parameters)
+## Authorization
+| Name | Type | Required | Description |
+|---|---|---|---|
+| Authorization | string | yes | AuthorizationBearer <token> 使用 Bearer Token 认证。 格式: `Authorization: Bearer sk-xxxxxx` In: `header` |## [Path Parameters](#path-parameters)
 
 model\*string
 
 模型/引擎 ID
 
-## [Request Body](#request-body)
-
+## Request Body
 application/json
 
-model\*string
-
-input\*string|array<string>
-
-要嵌入的文本
-
-encoding\_format?string
-
-Default`"float"`
-
-Value in`"float" | "base64"`
-
-dimensions?integer
-
-输出向量维度
-
-## [Response Body](#response-body)
+| Name | Type | Required | Description |
+|---|---|---|---|
+| model | string | yes |  |
+| input | string\|array<string> | yes | 要嵌入的文本 |
+| encoding_format | string | no | Default`"float"` Value in`"float" \| "base64"` |
+| dimensions | integer | no | 输出向量维度 |## Response Body
 
 ### 200 application/json
 
-cURLJavaScriptGoPythonJavaC#
+### cURL
+### JavaScript
+### Go
+### Python
+### Java
+### C#
 
 ```
 curl -X POST "https://docs.newapi.pro/v1/engines/string/embeddings" \  -H "Content-Type: application/json" \  -d '{    "model": "text-embedding-ada-002",    "input": "string"  }'

@@ -9,57 +9,35 @@ OpenAI Responses API，用于创建模型响应。
 
 
 
-/`v1`/`responses`
+## Endpoint
 
-
+/v1/responses
 Authorization
 
 Body
 
-## [Authorization](#authorization)
-
-BearerAuth
-
-AuthorizationBearer <token>
-
-使用 Bearer Token 认证。
-格式: `Authorization: Bearer sk-xxxxxx`
-
-In: `header`
-
-## [Request Body](#request-body)
-
+## Authorization
+| Name | Type | Required | Description |
+|---|---|---|---|
+| Authorization | string | yes | AuthorizationBearer <token> 使用 Bearer Token 认证。 格式: `Authorization: Bearer sk-xxxxxx` In: `header` |
+## Request Body
 application/json
 
-model\*string
-
-input?string|array<object>
-
-输入内容，可以是字符串或消息数组
-
-instructions?string
-
-max\_output\_tokens?integer
-
-temperature?number
-
-top\_p?number
-
-stream?boolean
-
-tools?array<object>
-
-tool\_choice?string|object
-
-reasoning?object
-
-previous\_response\_id?string
-
-truncation?string
-
-Value in`"auto" | "disabled"`
-
-## [Response Body](#response-body)
+| Name | Type | Required | Description |
+|---|---|---|---|
+| model | string | yes |  |
+| input | string\|array<object> | no | 输入内容，可以是字符串或消息数组 |
+| instructions | string | no |  |
+| max_output_tokens | integer | no |  |
+| temperature | number | no |  |
+| top_p | number | no |  |
+| stream | boolean | no |  |
+| tools | array<object> | no |  |
+| tool_choice | string\|object | no |  |
+| reasoning | object | no |  |
+| previous_response_id | string | no |  |
+| truncation | string | no | Value in`"auto" \| "disabled"` |
+## Response Body
 
 ### 200 application/json
 
@@ -68,8 +46,6 @@ Value in`"auto" | "disabled"`
 ```
 curl -X POST "https://docs.newapi.pro/v1/responses" \  -H "Content-Type: application/json" \  -d '{    "model": "string"  }'
 ```
-
-200
 
 ```
 {
@@ -110,8 +86,6 @@ curl -X POST "https://docs.newapi.pro/v1/responses" \  -H "Content-Type: applica
   }
 }
 ```
-
-
 ## Code Examples
 
 ### cURL
