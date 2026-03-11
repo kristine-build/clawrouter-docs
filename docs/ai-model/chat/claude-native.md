@@ -133,12 +133,6 @@ console.log(await response.text());
 ```go
 package main
 
-import (
-	"bytes"
-	"encoding/json"
-	"net/http"
-)
-
 func main() {
 	payloadJSON := `{
 	  "model": "claude-3-opus-20240229",
