@@ -17,6 +17,7 @@ OPENAPI_ROOT = Path("openapi/generated")
 
 JSX_PAT = re.compile(r"<APIPage|^import\s+\{|\{/\*", re.M)
 METHOD_PAT = re.compile(r"^(GET|POST|PUT|DELETE)\s*$", re.M)
+INLINE_COLLAPSED_TOKENS = re.compile(r"cURLJavaScriptGoPythonJavaC#")
 CUR_DOC: dict[str, Any] = {}
 
 
@@ -585,6 +586,7 @@ def clean_text_md(txt: str, title: str) -> str:
     txt = re.sub(r"<APIPage[\s\S]*?/>", "", txt)
     txt = re.sub(r"<Cards[\s\S]*?</Cards>", "", txt)
     txt = re.sub(r"<Callout[\s\S]*?</Callout>", "", txt)
+    txt = INLINE_COLLAPSED_TOKENS.sub(" ", txt)
     lines = []
     skip_openapi = False
     for ln in txt.splitlines():
@@ -596,7 +598,14 @@ def clean_text_md(txt: str, title: str) -> str:
             skip_openapi = False
         if skip_openapi:
             continue
+        if s in {"loading...", "loading…", "loading"}:
+            continue
+        if s == "Send":
+            continue
         if METHOD_PAT.match(s):
+            continue
+        if re.match(r"^\S+\*\S+$", s):
+            # remove collapsed schema rows like model*string / messages*array<object>
             continue
         lines.append(ln)
     # Drop only the existing first H1 and nearby blank lines, keep lower-level headings.
@@ -701,9 +710,19 @@ def strip_inline_language_blocks(txt: str) -> str:
                 while i < len(lines) and not lines[i].startswith("### "):
                     i += 1
             continue
-        out.append(ln)
+            out.append(ln)
         i += 1
     return "\n".join(out)
+
+
+def render_param_section(params: list[tuple[str, str, str, str, str]], loc: str) -> list[str]:
+    rows = [p for p in params if p[4] == loc]
+    if not rows:
+        return []
+    out = [f"## {loc.title()} Parameters", "", "| Name | Type | Required | Description |", "| --- | --- | --- | --- |"]
+    for name, typ, req, desc, _ in rows:
+        out.append(f"| `{name}` | `{typ}` | {req} | {desc} |")
+    return out + [""]
 
 
 def render_endpoint_md(node: Node, doc: dict) -> str:
@@ -775,6 +794,9 @@ def render_endpoint_md(node: Node, doc: dict) -> str:
     out += ["", "## Endpoint", "", f"`{method} {path}`", "", "## Authorization", ""]
     out += auth_lines + [""]
 
+    for loc in ("path", "query", "header"):
+        out.extend(render_param_section(params, loc))
+
     out += ["## Request Body", "", f"Content-Type: `{first_ct}`", ""]
     rows = flatten_schema(req_schema) if req_schema else []
     out += ["| name | type | required | description | enum | default | range |", "|---|---|---|---|---|---|---|"]
@@ -782,22 +804,37 @@ def render_endpoint_md(node: Node, doc: dict) -> str:
         out.append(f"| `{r[0]}` | `{r[1]}` | {r[2]} | {r[3]} | {r[4]} | {r[5]} | {r[6]} |")
     if not rows:
         out.append("| - | - | - | - | - | - | - |")
+    out += ["", "## Response Body", ""]
+    for code, payload in responses.items():
+        pd = resolve_ref(doc, payload)
+        desc = pd.get("description", "").strip()
+        cts = pd.get("content", {})
+        ct = next(iter(cts.keys()), "application/json")
+        centry = resolve_ref(doc, cts[ct]) if ct else {}
+        rs = resolve_ref(centry, centry.get("schema", {}))
+        rex = centry.get("example")
+        if rex is None and isinstance(centry.get("examples"), dict) and centry["examples"]:
+            rex = next(iter(centry["examples"].values())).get("value")
+        if rex is None and rs:
+            rex = minimal_example(rs)
 
-    out += ["", "## Response Body", "", f"### {ok_code}", ""]
-    ok_rows = flatten_schema(ok_schema) if ok_schema else []
-    out += ["| name | type | required | description | enum | default | range |", "|---|---|---|---|---|---|---|"]
-    for r in ok_rows:
-        out.append(f"| `{r[0]}` | `{r[1]}` | {r[2]} | {r[3]} | {r[4]} | {r[5]} | {r[6]} |")
-    if not ok_rows:
-        out.append("| - | - | - | - | - | - | - |")
+        out += [f"### {code} {ct}", ""]
+        if desc:
+            out.append(desc)
+            out.append("")
+        rs_rows = flatten_schema(rs) if rs else []
+        out += ["| name | type | required | description | enum | default | range |", "|---|---|---|---|---|---|---|"]
+        for r in rs_rows:
+            out.append(f"| `{r[0]}` | `{r[1]}` | {r[2]} | {r[3]} | {r[4]} | {r[5]} | {r[6]} |")
+        if not rs_rows:
+            out.append("| - | - | - | - | - | - | - |")
+        out += ["", "```json", json.dumps(rex if rex is not None else {}, ensure_ascii=False, indent=2), "```", ""]
 
-    out += ["", "```json", json.dumps(ok_example if ok_example is not None else {}, ensure_ascii=False, indent=2), "```", ""]
-
-    out += ["### 4xx/5xx", "", "| status | meaning |", "|---|---|"]
-    for c, d in err_rows:
-        out.append(f"| `{c}` | {d} |")
-    if not err_rows:
-        out.append("| - | - |")
+    if err_rows:
+        out += ["### 4xx/5xx", "", "| status | meaning |", "|---|---|"]
+        for c, d in err_rows:
+            out.append(f"| `{c}` | {d} |")
+        out.append("")
 
     path_params = [(name, loc) for (name, _type, _required, _desc, loc) in params if loc == "path"]
     content_type, req_payload = guess_request_payload(first_ct, req_schema, req_example)
