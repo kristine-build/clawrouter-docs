@@ -6,12 +6,10 @@
 
 🔓 无需鉴权（可选登录）
 
-loading...
 
 
 /`api`/`pricing`
 
-Send
 
 ## [Response Body](#response-body)
 
@@ -20,7 +18,7 @@ Send
 cURLJavaScriptGoPythonJavaC#
 
 ```
-curl -X GET "https://loading/api/pricing"
+curl -X GET "https://docs.newapi.pro/api/pricing"
 ```
 
 200

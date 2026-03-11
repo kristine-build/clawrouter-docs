@@ -6,12 +6,10 @@
 
 👨💼 需要管理员权限（Admin）
 
-loading...
 
 
 /`api`/`channel`/
 
-Send
 
 Body
 
@@ -34,7 +32,7 @@ Unresolved $ref: #/definitions/224188811
 cURLJavaScriptGoPythonJavaC#
 
 ```
-curl -X POST "https://loading/api/channel/" \  -H "Content-Type: application/json" \  -d '{}'
+curl -X POST "https://docs.newapi.pro/api/channel/" \  -H "Content-Type: application/json" \  -d '{}'
 ```
 
 200

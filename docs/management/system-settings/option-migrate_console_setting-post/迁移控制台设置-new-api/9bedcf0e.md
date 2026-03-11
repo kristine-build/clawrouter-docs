@@ -6,12 +6,10 @@
 
 👑 需要超级管理员权限（Root）
 
-loading...
 
 
 /`api`/`option`/`migrate_console_setting`
 
-Send
 
 ## [Response Body](#response-body)
 
@@ -20,7 +18,7 @@ Send
 cURLJavaScriptGoPythonJavaC#
 
 ```
-curl -X POST "https://loading/api/option/migrate_console_setting"
+curl -X POST "https://docs.newapi.pro/api/option/migrate_console_setting"
 ```
 
 200

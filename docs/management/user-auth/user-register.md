@@ -6,12 +6,10 @@
 
 🔓 无需鉴权
 
-loading...
 
 
 /`api`/`user`/`register`
 
-Send
 
 Body
 
@@ -36,7 +34,7 @@ aff\_code?string
 cURLJavaScriptGoPythonJavaC#
 
 ```
-curl -X POST "https://loading/api/user/register" \  -H "Content-Type: application/json" \  -d '{}'
+curl -X POST "https://docs.newapi.pro/api/user/register" \  -H "Content-Type: application/json" \  -d '{}'
 ```
 
 200

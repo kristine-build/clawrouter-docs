@@ -6,12 +6,10 @@
 
 👨💼 需要管理员权限（Admin）
 
-loading...
 
 
 /`api`/`channel`/`models_enabled`
 
-Send
 
 ## [Response Body](#response-body)
 
@@ -20,7 +18,7 @@ Send
 cURLJavaScriptGoPythonJavaC#
 
 ```
-curl -X GET "https://loading/api/channel/models_enabled"
+curl -X GET "https://docs.newapi.pro/api/channel/models_enabled"
 ```
 
 200

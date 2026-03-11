@@ -6,12 +6,10 @@ AI 模型接口重排序（Rerank）
 
 根据查询对文档列表进行相关性重排序
 
-loading...
 
 
 /`v1`/`rerank`
 
-Send
 
 Authorization
 
@@ -57,7 +55,7 @@ Default`false`
 cURLJavaScriptGoPythonJavaC#
 
 ```
-curl -X POST "https://loading/v1/rerank" \  -H "Content-Type: application/json" \  -d '{    "model": "rerank-english-v2.0",    "query": "string",    "documents": [      "string"    ]  }'
+curl -X POST "https://docs.newapi.pro/v1/rerank" \  -H "Content-Type: application/json" \  -d '{    "model": "rerank-english-v2.0",    "query": "string",    "documents": [      "string"    ]  }'
 ```
 
 200

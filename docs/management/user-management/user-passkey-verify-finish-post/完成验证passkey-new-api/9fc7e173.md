@@ -6,12 +6,10 @@
 
 🔐 需要登录（User权限）
 
-loading...
 
 
 /`api`/`user`/`passkey`/`verify`/`finish`
 
-Send
 
 ## [Response Body](#response-body)
 
@@ -20,7 +18,7 @@ Send
 cURLJavaScriptGoPythonJavaC#
 
 ```
-curl -X POST "https://loading/api/user/passkey/verify/finish"
+curl -X POST "https://docs.newapi.pro/api/user/passkey/verify/finish"
 ```
 
 200

@@ -6,12 +6,10 @@
 
 🔓 无需鉴权
 
-loading...
 
 
 /`api`/`uptime`/`status`
 
-Send
 
 ## [Response Body](#response-body)
 
@@ -20,7 +18,7 @@ Send
 cURLJavaScriptGoPythonJavaC#
 
 ```
-curl -X GET "https://loading/api/uptime/status"
+curl -X GET "https://docs.newapi.pro/api/uptime/status"
 ```
 
 200

@@ -6,12 +6,10 @@
 
 🔓 无需鉴权
 
-loading...
 
 
 /`api`/`setup`
 
-Send
 
 Body
 
@@ -30,7 +28,7 @@ password?string
 cURLJavaScriptGoPythonJavaC#
 
 ```
-curl -X POST "https://loading/api/setup" \  -H "Content-Type: application/json" \  -d '{}'
+curl -X POST "https://docs.newapi.pro/api/setup" \  -H "Content-Type: application/json" \  -d '{}'
 ```
 
 200

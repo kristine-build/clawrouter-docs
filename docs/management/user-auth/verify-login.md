@@ -6,12 +6,10 @@
 
 🔓 无需鉴权（登录流程）
 
-loading...
 
 
 /`api`/`user`/`login`/`2fa`
 
-Send
 
 Body
 
@@ -28,7 +26,7 @@ code?string
 cURLJavaScriptGoPythonJavaC#
 
 ```
-curl -X POST "https://loading/api/user/login/2fa" \  -H "Content-Type: application/json" \  -d '{}'
+curl -X POST "https://docs.newapi.pro/api/user/login/2fa" \  -H "Content-Type: application/json" \  -d '{}'
 ```
 
 200

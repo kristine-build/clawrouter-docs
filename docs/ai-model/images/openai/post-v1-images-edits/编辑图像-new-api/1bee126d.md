@@ -6,12 +6,10 @@ AI 模型接口图像（Images）原生OpenAI格式
 
 在给定原始图像和提示的情况下创建编辑或扩展图像。
 
-loading...
 
 
 /`v1`/`images`/`edits`/
 
-Send
 
 Authorization
 
@@ -70,7 +68,7 @@ model?string
 cURLJavaScriptGoPythonJavaC#
 
 ```
-curl -X POST "https://loading/v1/images/edits/" \  -F image="cmMtdXBsb2FkLTE2ODc4MzMzNDc3NTEtMjA=/31225951_59371037e9_small.png" \  -F prompt="A cute baby sea otter wearing a beret."
+curl -X POST "https://docs.newapi.pro/v1/images/edits/" \  -F image="cmMtdXBsb2FkLTE2ODc4MzMzNDc3NTEtMjA=/31225951_59371037e9_small.png" \  -F prompt="A cute baby sea otter wearing a beret."
 ```
 
 200

@@ -7,12 +7,10 @@ AI 模型接口聊天（Chat）原生OpenAI格式
 OpenAI Responses API，用于创建模型响应。
 支持多轮对话、工具调用、推理等功能。
 
-loading...
 
 
 /`v1`/`responses`
 
-Send
 
 Authorization
 
@@ -68,7 +66,7 @@ Value in`"auto" | "disabled"`
 cURLJavaScriptGoPythonJavaC#
 
 ```
-curl -X POST "https://loading/v1/responses" \  -H "Content-Type: application/json" \  -d '{    "model": "string"  }'
+curl -X POST "https://docs.newapi.pro/v1/responses" \  -H "Content-Type: application/json" \  -d '{    "model": "string"  }'
 ```
 
 200

@@ -6,12 +6,10 @@
 
 🔓 无需鉴权
 
-loading...
 
 
 /`api`/`user-agreement`
 
-Send
 
 ## [Response Body](#response-body)
 
@@ -20,7 +18,7 @@ Send
 cURLJavaScriptGoPythonJavaC#
 
 ```
-curl -X GET "https://loading/api/user-agreement"
+curl -X GET "https://docs.newapi.pro/api/user-agreement"
 ```
 
 200

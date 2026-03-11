@@ -6,12 +6,10 @@
 
 🔓 无需鉴权
 
-loading...
 
 
 /`api`/`oauth`/`email`/`bind`
 
-Send
 
 Query
 
@@ -28,7 +26,7 @@ code?string
 cURLJavaScriptGoPythonJavaC#
 
 ```
-curl -X GET "https://loading/api/oauth/email/bind"
+curl -X GET "https://docs.newapi.pro/api/oauth/email/bind"
 ```
 
 200

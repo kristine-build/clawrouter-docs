@@ -6,12 +6,10 @@
 
 👨💼 需要管理员权限（Admin）
 
-loading...
 
 
 /`api`/`models`/`sync_upstream`
 
-Send
 
 ## [Response Body](#response-body)
 
@@ -20,7 +18,7 @@ Send
 cURLJavaScriptGoPythonJavaC#
 
 ```
-curl -X POST "https://loading/api/models/sync_upstream"
+curl -X POST "https://docs.newapi.pro/api/models/sync_upstream"
 ```
 
 200

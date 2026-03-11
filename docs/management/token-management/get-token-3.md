@@ -6,12 +6,10 @@
 
 🔑 需要令牌认证（TokenAuth）
 
-loading...
 
 
 /`api`/`usage`/`token`/
 
-Send
 
 Authorization
 
@@ -39,7 +37,7 @@ Authorization?string
 cURLJavaScriptGoPythonJavaC#
 
 ```
-curl -X GET "https://loading/api/usage/token/"
+curl -X GET "https://docs.newapi.pro/api/usage/token/"
 ```
 
 200

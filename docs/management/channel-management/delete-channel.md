@@ -6,12 +6,10 @@
 
 👨💼 需要管理员权限（Admin）
 
-loading...
 
 
 /`api`/`channel`/`batch`
 
-Send
 
 Body
 
@@ -28,7 +26,7 @@ ids?array<integer>
 cURLJavaScriptGoPythonJavaC#
 
 ```
-curl -X POST "https://loading/api/channel/batch" \  -H "Content-Type: application/json" \  -d '{}'
+curl -X POST "https://docs.newapi.pro/api/channel/batch" \  -H "Content-Type: application/json" \  -d '{}'
 ```
 
 200

@@ -6,12 +6,10 @@
 
 🔐 需要登录（User权限）
 
-loading...
 
 
 /`api`/`token`/
 
-Send
 
 Body
 
@@ -26,7 +24,7 @@ application/json
 cURLJavaScriptGoPythonJavaC#
 
 ```
-curl -X POST "https://loading/api/token/" \  -H "Content-Type: application/json" \  -d '{}'
+curl -X POST "https://docs.newapi.pro/api/token/" \  -H "Content-Type: application/json" \  -d '{}'
 ```
 
 200

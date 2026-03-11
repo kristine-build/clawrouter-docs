@@ -6,12 +6,10 @@ AI 模型接口嵌入（Embeddings）
 
 使用指定引擎/模型创建嵌入
 
-loading...
 
 
 /`v1`/`engines`/`{model}`/`embeddings`
 
-Send
 
 Authorization
 
@@ -63,7 +61,7 @@ dimensions?integer
 cURLJavaScriptGoPythonJavaC#
 
 ```
-curl -X POST "https://loading/v1/engines/string/embeddings" \  -H "Content-Type: application/json" \  -d '{    "model": "text-embedding-ada-002",    "input": "string"  }'
+curl -X POST "https://docs.newapi.pro/v1/engines/string/embeddings" \  -H "Content-Type: application/json" \  -d '{    "model": "text-embedding-ada-002",    "input": "string"  }'
 ```
 
 200

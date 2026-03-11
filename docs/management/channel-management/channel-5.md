@@ -6,12 +6,10 @@
 
 👨💼 需要管理员权限（Admin）
 
-loading...
 
 
 /`api`/`channel`/`tag`/`enabled`
 
-Send
 
 Body
 
@@ -28,7 +26,7 @@ tag?string
 cURLJavaScriptGoPythonJavaC#
 
 ```
-curl -X POST "https://loading/api/channel/tag/enabled" \  -H "Content-Type: application/json" \  -d '{}'
+curl -X POST "https://docs.newapi.pro/api/channel/tag/enabled" \  -H "Content-Type: application/json" \  -d '{}'
 ```
 
 200

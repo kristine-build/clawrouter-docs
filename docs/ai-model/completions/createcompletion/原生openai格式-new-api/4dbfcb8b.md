@@ -6,12 +6,10 @@ AI 模型接口补全（Completions）
 
 基于给定提示创建文本补全
 
-loading...
 
 
 /`v1`/`completions`
 
-Send
 
 Authorization
 
@@ -59,7 +57,7 @@ echo?boolean
 cURLJavaScriptGoPythonJavaC#
 
 ```
-curl -X POST "https://loading/v1/completions" \  -H "Content-Type: application/json" \  -d '{    "model": "string",    "prompt": "string"  }'
+curl -X POST "https://docs.newapi.pro/v1/completions" \  -H "Content-Type: application/json" \  -d '{    "model": "string",    "prompt": "string"  }'
 ```
 
 200

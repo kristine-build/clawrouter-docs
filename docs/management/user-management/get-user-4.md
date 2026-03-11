@@ -6,12 +6,10 @@
 
 🔐 需要登录（User权限）
 
-loading...
 
 
 /`api`/`user`/`self`/`groups`
 
-Send
 
 ## [Response Body](#response-body)
 
@@ -20,7 +18,7 @@ Send
 cURLJavaScriptGoPythonJavaC#
 
 ```
-curl -X GET "https://loading/api/user/self/groups"
+curl -X GET "https://docs.newapi.pro/api/user/self/groups"
 ```
 
 200

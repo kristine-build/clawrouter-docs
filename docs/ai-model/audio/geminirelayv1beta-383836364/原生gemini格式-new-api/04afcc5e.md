@@ -7,12 +7,10 @@ AI 模型接口音频（Audio）
 Gemini 音频生成接口。
 可使用gemini-2.5-flash-preview-tts等模型
 
-loading...
 
 
 /`v1beta`/`models`/`{model}:generateContent`
 
-Send
 
 Authorization
 
@@ -52,7 +50,7 @@ generationConfig\*object
 cURLJavaScriptGoPythonJavaC#
 
 ```
-curl -X POST "https://loading/v1beta/models/string:generateContent" \  -H "Content-Type: application/json" \  -d '{    "contents": [      {}    ],    "generationConfig": {      "responseModalities": [        "string"      ],      "speechConfig": {        "voiceConfig": {          "prebuiltVoiceConfig": {            "voiceName": "string"          }        }      }    }  }'
+curl -X POST "https://docs.newapi.pro/v1beta/models/string:generateContent" \  -H "Content-Type: application/json" \  -d '{    "contents": [      {}    ],    "generationConfig": {      "responseModalities": [        "string"      ],      "speechConfig": {        "voiceConfig": {          "prebuiltVoiceConfig": {            "voiceName": "string"          }        }      }    }  }'
 ```
 
 200

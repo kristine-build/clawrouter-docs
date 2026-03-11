@@ -6,12 +6,10 @@
 
 👨💼 需要管理员权限（Admin）
 
-loading...
 
 
 /`api`/`channel`/`tag`
 
-Send
 
 Body
 
@@ -34,7 +32,7 @@ weight?integer
 cURLJavaScriptGoPythonJavaC#
 
 ```
-curl -X PUT "https://loading/api/channel/tag" \  -H "Content-Type: application/json" \  -d '{}'
+curl -X PUT "https://docs.newapi.pro/api/channel/tag" \  -H "Content-Type: application/json" \  -d '{}'
 ```
 
 200

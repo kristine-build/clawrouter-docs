@@ -6,12 +6,10 @@
 
 👑 需要超级管理员权限（Root）
 
-loading...
 
 
 /`api`/`option`/`rest_model_ratio`
 
-Send
 
 ## [Response Body](#response-body)
 
@@ -20,7 +18,7 @@ Send
 cURLJavaScriptGoPythonJavaC#
 
 ```
-curl -X POST "https://loading/api/option/rest_model_ratio"
+curl -X POST "https://docs.newapi.pro/api/option/rest_model_ratio"
 ```
 
 200

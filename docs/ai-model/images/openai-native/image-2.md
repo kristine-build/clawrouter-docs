@@ -6,12 +6,10 @@ AI 模型接口图像（Images）原生OpenAI格式
 
 在给定提示的情况下创建图像。[了解更多](https://platform.openai.com/docs/guides/images)。
 
-loading...
 
 
 /`v1`/`images`/`generations`/
 
-Send
 
 Authorization
 
@@ -72,7 +70,7 @@ user?string
 cURLJavaScriptGoPythonJavaC#
 
 ```
-curl -X POST "https://loading/v1/images/generations/" \  -H "Content-Type: application/json" \  -d '{    "prompt": "string"  }'
+curl -X POST "https://docs.newapi.pro/v1/images/generations/" \  -H "Content-Type: application/json" \  -d '{    "prompt": "string"  }'
 ```
 
 200

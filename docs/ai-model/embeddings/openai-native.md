@@ -6,12 +6,10 @@ AI 模型接口嵌入（Embeddings）
 
 将文本转换为向量嵌入
 
-loading...
 
 
 /`v1`/`embeddings`
 
-Send
 
 Authorization
 
@@ -55,7 +53,7 @@ dimensions?integer
 cURLJavaScriptGoPythonJavaC#
 
 ```
-curl -X POST "https://loading/v1/embeddings" \  -H "Content-Type: application/json" \  -d '{    "model": "text-embedding-ada-002",    "input": "string"  }'
+curl -X POST "https://docs.newapi.pro/v1/embeddings" \  -H "Content-Type: application/json" \  -d '{    "model": "text-embedding-ada-002",    "input": "string"  }'
 ```
 
 200

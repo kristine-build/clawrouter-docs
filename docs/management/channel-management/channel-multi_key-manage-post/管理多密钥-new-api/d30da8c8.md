@@ -6,12 +6,10 @@
 
 👨💼 需要管理员权限（Admin）
 
-loading...
 
 
 /`api`/`channel`/`multi_key`/`manage`
 
-Send
 
 Body
 
@@ -34,7 +32,7 @@ key\_index?integer
 cURLJavaScriptGoPythonJavaC#
 
 ```
-curl -X POST "https://loading/api/channel/multi_key/manage" \  -H "Content-Type: application/json" \  -d '{}'
+curl -X POST "https://docs.newapi.pro/api/channel/multi_key/manage" \  -H "Content-Type: application/json" \  -d '{}'
 ```
 
 200

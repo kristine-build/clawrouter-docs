@@ -6,12 +6,10 @@
 
 🔐 需要登录（User权限）
 
-loading...
 
 
 /`api`/`token`/`search`
 
-Send
 
 Query
 
@@ -26,7 +24,7 @@ keyword?string
 cURLJavaScriptGoPythonJavaC#
 
 ```
-curl -X GET "https://loading/api/token/search"
+curl -X GET "https://docs.newapi.pro/api/token/search"
 ```
 
 200

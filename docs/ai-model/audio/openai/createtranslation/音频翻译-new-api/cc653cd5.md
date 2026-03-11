@@ -6,12 +6,10 @@ AI 模型接口音频（Audio）原生OpenAI格式
 
 将音频翻译为英文文本
 
-loading...
 
 
 /`v1`/`audio`/`translations`
 
-Send
 
 Authorization
 
@@ -51,7 +49,7 @@ temperature?number
 cURLJavaScriptGoPythonJavaC#
 
 ```
-curl -X POST "https://loading/v1/audio/translations" \  -F file="string" \  -F model="string"
+curl -X POST "https://docs.newapi.pro/v1/audio/translations" \  -F file="string" \  -F model="string"
 ```
 
 200

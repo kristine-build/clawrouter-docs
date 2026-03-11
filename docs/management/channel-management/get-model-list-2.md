@@ -6,12 +6,10 @@
 
 👨💼 需要管理员权限（Admin）
 
-loading...
 
 
 /`api`/`channel`/`fetch_models`
 
-Send
 
 Body
 
@@ -32,7 +30,7 @@ key?string
 cURLJavaScriptGoPythonJavaC#
 
 ```
-curl -X POST "https://loading/api/channel/fetch_models" \  -H "Content-Type: application/json" \  -d '{}'
+curl -X POST "https://docs.newapi.pro/api/channel/fetch_models" \  -H "Content-Type: application/json" \  -d '{}'
 ```
 
 200

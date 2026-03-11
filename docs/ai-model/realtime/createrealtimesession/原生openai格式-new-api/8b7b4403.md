@@ -10,12 +10,10 @@ AI 模型接口实时语音（Realtime）
 
 连接 URL 示例: `wss://api.example.com/v1/realtime?model=gpt-4o-realtime`
 
-loading...
 
 
 /`v1`/`realtime`
 
-Send
 
 Authorization
 
@@ -47,7 +45,7 @@ model?string
 cURLJavaScriptGoPythonJavaC#
 
 ```
-curl -X GET "https://loading/v1/realtime"
+curl -X GET "https://docs.newapi.pro/v1/realtime"
 ```
 
 101400

@@ -6,12 +6,10 @@
 
 🔓 无需鉴权（支付回调）
 
-loading...
 
 
 /`api`/`user`/`epay`/`notify`
 
-Send
 
 ## [Response Body](#response-body)
 
@@ -20,7 +18,7 @@ Send
 cURLJavaScriptGoPythonJavaC#
 
 ```
-curl -X GET "https://loading/api/user/epay/notify"
+curl -X GET "https://docs.newapi.pro/api/user/epay/notify"
 ```
 
 200

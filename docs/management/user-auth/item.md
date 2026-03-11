@@ -6,12 +6,10 @@
 
 🔓 无需鉴权
 
-loading...
 
 
 /`api`/`reset_password`
 
-Send
 
 Query
 
@@ -26,7 +24,7 @@ email\*string
 cURLJavaScriptGoPythonJavaC#
 
 ```
-curl -X GET "https://loading/api/reset_password?email=string"
+curl -X GET "https://docs.newapi.pro/api/reset_password?email=string"
 ```
 
 200

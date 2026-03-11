@@ -6,12 +6,10 @@
 
 🔓 无需鉴权（OAuth回调）
 
-loading...
 
 
 /`api`/`oauth`/`oidc`
 
-Send
 
 ## [Response Body](#response-body)
 
@@ -20,7 +18,7 @@ Send
 cURLJavaScriptGoPythonJavaC#
 
 ```
-curl -X GET "https://loading/api/oauth/oidc"
+curl -X GET "https://docs.newapi.pro/api/oauth/oidc"
 ```
 
 200

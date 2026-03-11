@@ -12,12 +12,10 @@ AI 模型接口模型（Models）列出模型
 - 包含 `x-goog-api-key` 头或 `key` 查询参数时返回 Gemini 格式
 - 其他情况返回 OpenAI 格式
 
-loading...
 
 
 /`v1`/`models`
 
-Send
 
 Authorization
 
@@ -65,7 +63,7 @@ Google API Key (用于 Gemini 格式)
 cURLJavaScriptGoPythonJavaC#
 
 ```
-curl -X GET "https://loading/v1/models"
+curl -X GET "https://docs.newapi.pro/v1/models"
 ```
 
 200401

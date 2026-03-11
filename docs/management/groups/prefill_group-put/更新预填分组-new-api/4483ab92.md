@@ -6,12 +6,10 @@
 
 👨💼 需要管理员权限（Admin）
 
-loading...
 
 
 /`api`/`prefill_group`/
 
-Send
 
 ## [Response Body](#response-body)
 
@@ -20,7 +18,7 @@ Send
 cURLJavaScriptGoPythonJavaC#
 
 ```
-curl -X PUT "https://loading/api/prefill_group/"
+curl -X PUT "https://docs.newapi.pro/api/prefill_group/"
 ```
 
 200

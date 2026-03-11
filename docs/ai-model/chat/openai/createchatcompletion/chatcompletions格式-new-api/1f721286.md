@@ -8,12 +8,10 @@ AI 模型接口聊天（Chat）原生OpenAI格式
 
 兼容 OpenAI Chat Completions API。
 
-loading...
 
 
 /`v1`/`chat`/`completions`
 
-Send
 
 Authorization
 
@@ -131,7 +129,7 @@ audio?object
 cURLJavaScriptGoPythonJavaC#
 
 ```
-curl -X POST "https://loading/v1/chat/completions" \  -H "Content-Type: application/json" \  -d '{    "model": "gpt-4",    "messages": [      {        "role": "system",        "content": "string"      }    ]  }'
+curl -X POST "https://docs.newapi.pro/v1/chat/completions" \  -H "Content-Type: application/json" \  -d '{    "model": "gpt-4",    "messages": [      {        "role": "system",        "content": "string"      }    ]  }'
 ```
 
 200400429

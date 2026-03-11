@@ -6,12 +6,10 @@
 
 👨💼 需要管理员权限（Admin）
 
-loading...
 
 
 /`api`/`channel`/`copy`/`{id}`
 
-Send
 
 Path
 
@@ -34,7 +32,7 @@ reset\_balance?boolean
 cURLJavaScriptGoPythonJavaC#
 
 ```
-curl -X POST "https://loading/api/channel/copy/0"
+curl -X POST "https://docs.newapi.pro/api/channel/copy/0"
 ```
 
 200

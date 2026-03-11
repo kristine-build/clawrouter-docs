@@ -6,12 +6,10 @@
 
 🔐 需要登录（User权限）
 
-loading...
 
 
 /`api`/`user`/`passkey`
 
-Send
 
 ## [Response Body](#response-body)
 
@@ -20,7 +18,7 @@ Send
 cURLJavaScriptGoPythonJavaC#
 
 ```
-curl -X DELETE "https://loading/api/user/passkey"
+curl -X DELETE "https://docs.newapi.pro/api/user/passkey"
 ```
 
 200

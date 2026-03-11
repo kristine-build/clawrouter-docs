@@ -6,12 +6,10 @@
 
 🔓 无需鉴权
 
-loading...
 
 
 /`api`/`verification`
 
-Send
 
 Query
 
@@ -26,7 +24,7 @@ email\*string
 cURLJavaScriptGoPythonJavaC#
 
 ```
-curl -X GET "https://loading/api/verification?email=string"
+curl -X GET "https://docs.newapi.pro/api/verification?email=string"
 ```
 
 200

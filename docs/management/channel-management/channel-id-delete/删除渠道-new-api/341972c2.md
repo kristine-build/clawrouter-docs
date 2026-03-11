@@ -6,12 +6,10 @@
 
 👨💼 需要管理员权限（Admin）
 
-loading...
 
 
 /`api`/`channel`/`{id}`
 
-Send
 
 Path
 
@@ -26,7 +24,7 @@ id\*integer
 cURLJavaScriptGoPythonJavaC#
 
 ```
-curl -X DELETE "https://loading/api/channel/0"
+curl -X DELETE "https://docs.newapi.pro/api/channel/0"
 ```
 
 200

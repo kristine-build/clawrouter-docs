@@ -6,12 +6,10 @@
 
 🔐 需要登录（User权限）
 
-loading...
 
 
 /`api`/`user`/`aff_transfer`
 
-Send
 
 Body
 
@@ -28,7 +26,7 @@ quota?integer
 cURLJavaScriptGoPythonJavaC#
 
 ```
-curl -X POST "https://loading/api/user/aff_transfer" \  -H "Content-Type: application/json" \  -d '{}'
+curl -X POST "https://docs.newapi.pro/api/user/aff_transfer" \  -H "Content-Type: application/json" \  -d '{}'
 ```
 
 200

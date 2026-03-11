@@ -6,12 +6,10 @@ AI 模型接口模型（Models）列出模型
 
 以 Gemini API 格式返回可用模型列表
 
-loading...
 
 
 /`v1beta`/`models`
 
-Send
 
 Authorization
 
@@ -33,7 +31,7 @@ In: `header`
 cURLJavaScriptGoPythonJavaC#
 
 ```
-curl -X GET "https://loading/v1beta/models"
+curl -X GET "https://docs.newapi.pro/v1beta/models"
 ```
 
 200

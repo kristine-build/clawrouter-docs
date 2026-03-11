@@ -13,12 +13,10 @@ AI 模型接口视频（Videos）
 - `completed`: 已完成
 - `failed`: 失败
 
-loading...
 
 
 /`v1`/`video`/`generations`/`{task_id}`
 
-Send
 
 Authorization
 
@@ -50,7 +48,7 @@ task\_id\*string
 cURLJavaScriptGoPythonJavaC#
 
 ```
-curl -X GET "https://loading/v1/video/generations/string"
+curl -X GET "https://docs.newapi.pro/v1/video/generations/string"
 ```
 
 200404

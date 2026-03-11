@@ -6,12 +6,10 @@
 
 👨💼 需要管理员权限（Admin）
 
-loading...
 
 
 /`api`/`user`/
 
-Send
 
 Query
 
@@ -28,7 +26,7 @@ page\_size?integer
 cURLJavaScriptGoPythonJavaC#
 
 ```
-curl -X GET "https://loading/api/user/"
+curl -X GET "https://docs.newapi.pro/api/user/"
 ```
 
 200

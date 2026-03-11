@@ -6,12 +6,10 @@
 
 👨💼 需要管理员权限（Admin）
 
-loading...
 
 
 /`api`/`models`/`{id}`
 
-Send
 
 Path
 
@@ -26,7 +24,7 @@ id\*integer
 cURLJavaScriptGoPythonJavaC#
 
 ```
-curl -X GET "https://loading/api/models/0"
+curl -X GET "https://docs.newapi.pro/api/models/0"
 ```
 
 200

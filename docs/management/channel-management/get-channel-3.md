@@ -6,12 +6,10 @@
 
 👑 需要超级管理员权限（Root）+ 安全验证
 
-loading...
 
 
 /`api`/`channel`/`{id}`/`key`
 
-Send
 
 Path
 
@@ -26,7 +24,7 @@ id\*integer
 cURLJavaScriptGoPythonJavaC#
 
 ```
-curl -X POST "https://loading/api/channel/0/key"
+curl -X POST "https://docs.newapi.pro/api/channel/0/key"
 ```
 
 200

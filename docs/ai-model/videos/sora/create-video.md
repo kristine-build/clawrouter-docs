@@ -8,12 +8,10 @@ OpenAI 兼容的视频生成接口。
 
 参考文档: <https://platform.openai.com/docs/api-reference/videos/create>
 
-loading...
 
 
 /`v1`/`videos`
 
-Send
 
 Authorization
 
@@ -91,7 +89,7 @@ metadata?object
 cURLJavaScriptGoPythonJavaC#
 
 ```
-curl -X POST "https://loading/v1/videos"
+curl -X POST "https://docs.newapi.pro/v1/videos"
 ```
 
 200400

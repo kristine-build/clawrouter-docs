@@ -8,12 +8,10 @@ AI 模型接口视频（Videos）Sora格式
 
 此接口会代理返回视频文件流。
 
-loading...
 
 
 /`v1`/`videos`/`{task_id}`/`content`
 
-Send
 
 Authorization
 
@@ -45,7 +43,7 @@ task\_id\*string
 cURLJavaScriptGoPythonJavaC#
 
 ```
-curl -X GET "https://loading/v1/videos/string/content"
+curl -X GET "https://docs.newapi.pro/v1/videos/string/content"
 ```
 
 200404

@@ -6,12 +6,10 @@
 
 👨💼 需要管理员权限（Admin）
 
-loading...
 
 
 /`api`/`channel`/`search`
 
-Send
 
 Query
 
@@ -30,7 +28,7 @@ model?string
 cURLJavaScriptGoPythonJavaC#
 
 ```
-curl -X GET "https://loading/api/channel/search"
+curl -X GET "https://docs.newapi.pro/api/channel/search"
 ```
 
 200

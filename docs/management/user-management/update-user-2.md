@@ -6,12 +6,10 @@
 
 🔐 需要登录（User权限）
 
-loading...
 
 
 /`api`/`user`/`self`
 
-Send
 
 Body
 
@@ -34,7 +32,7 @@ original\_password?string
 cURLJavaScriptGoPythonJavaC#
 
 ```
-curl -X PUT "https://loading/api/user/self" \  -H "Content-Type: application/json" \  -d '{}'
+curl -X PUT "https://docs.newapi.pro/api/user/self" \  -H "Content-Type: application/json" \  -d '{}'
 ```
 
 200

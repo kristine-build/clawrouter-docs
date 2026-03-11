@@ -6,12 +6,10 @@
 
 👨💼 需要管理员权限（Admin）
 
-loading...
 
 
 /`api`/`vendors`/
 
-Send
 
 ## [Response Body](#response-body)
 
@@ -20,7 +18,7 @@ Send
 cURLJavaScriptGoPythonJavaC#
 
 ```
-curl -X PUT "https://loading/api/vendors/"
+curl -X PUT "https://docs.newapi.pro/api/vendors/"
 ```
 
 200

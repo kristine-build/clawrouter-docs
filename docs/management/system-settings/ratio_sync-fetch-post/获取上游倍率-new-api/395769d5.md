@@ -6,12 +6,10 @@
 
 👑 需要超级管理员权限（Root）
 
-loading...
 
 
 /`api`/`ratio_sync`/`fetch`
 
-Send
 
 ## [Response Body](#response-body)
 
@@ -20,7 +18,7 @@ Send
 cURLJavaScriptGoPythonJavaC#
 
 ```
-curl -X POST "https://loading/api/ratio_sync/fetch"
+curl -X POST "https://docs.newapi.pro/api/ratio_sync/fetch"
 ```
 
 200

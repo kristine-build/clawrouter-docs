@@ -6,12 +6,10 @@
 
 🔓 无需鉴权（Webhook回调）
 
-loading...
 
 
 /`api`/`stripe`/`webhook`
 
-Send
 
 ## [Response Body](#response-body)
 
@@ -20,7 +18,7 @@ Send
 cURLJavaScriptGoPythonJavaC#
 
 ```
-curl -X POST "https://loading/api/stripe/webhook"
+curl -X POST "https://docs.newapi.pro/api/stripe/webhook"
 ```
 
 200

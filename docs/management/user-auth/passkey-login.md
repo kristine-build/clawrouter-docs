@@ -6,12 +6,10 @@
 
 🔓 无需鉴权
 
-loading...
 
 
 /`api`/`user`/`passkey`/`login`/`begin`
 
-Send
 
 ## [Response Body](#response-body)
 
@@ -20,7 +18,7 @@ Send
 cURLJavaScriptGoPythonJavaC#
 
 ```
-curl -X POST "https://loading/api/user/passkey/login/begin"
+curl -X POST "https://docs.newapi.pro/api/user/passkey/login/begin"
 ```
 
 200

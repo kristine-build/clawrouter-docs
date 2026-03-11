@@ -6,12 +6,10 @@
 
 👨💼 需要管理员权限（Admin）
 
-loading...
 
 
 /`api`/`user`/`manage`
 
-Send
 
 Body
 
@@ -32,7 +30,7 @@ Value in`"disable" | "enable" | "delete" | "promote" | "demote"`
 cURLJavaScriptGoPythonJavaC#
 
 ```
-curl -X POST "https://loading/api/user/manage" \  -H "Content-Type: application/json" \  -d '{}'
+curl -X POST "https://docs.newapi.pro/api/user/manage" \  -H "Content-Type: application/json" \  -d '{}'
 ```
 
 200

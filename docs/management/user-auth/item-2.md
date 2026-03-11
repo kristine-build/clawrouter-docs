@@ -6,12 +6,10 @@
 
 🔓 无需鉴权
 
-loading...
 
 
 /`api`/`user`/`reset`
 
-Send
 
 Body
 
@@ -32,7 +30,7 @@ password?string
 cURLJavaScriptGoPythonJavaC#
 
 ```
-curl -X POST "https://loading/api/user/reset" \  -H "Content-Type: application/json" \  -d '{}'
+curl -X POST "https://docs.newapi.pro/api/user/reset" \  -H "Content-Type: application/json" \  -d '{}'
 ```
 
 200

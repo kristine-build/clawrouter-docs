@@ -8,12 +8,10 @@ AI 模型接口视频（Videos）
 
 返回任务 ID，可通过 GET 接口查询任务状态。
 
-loading...
 
 
 /`v1`/`video`/`generations`
 
-Send
 
 Authorization
 
@@ -91,7 +89,7 @@ metadata?object
 cURLJavaScriptGoPythonJavaC#
 
 ```
-curl -X POST "https://loading/v1/video/generations" \  -H "Content-Type: application/json" \  -d '{}'
+curl -X POST "https://docs.newapi.pro/v1/video/generations" \  -H "Content-Type: application/json" \  -d '{}'
 ```
 
 200400

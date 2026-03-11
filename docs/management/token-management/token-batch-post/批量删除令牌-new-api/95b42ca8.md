@@ -6,12 +6,10 @@
 
 🔐 需要登录（User权限）
 
-loading...
 
 
 /`api`/`token`/`batch`
 
-Send
 
 Body
 
@@ -28,7 +26,7 @@ ids?array<integer>
 cURLJavaScriptGoPythonJavaC#
 
 ```
-curl -X POST "https://loading/api/token/batch" \  -H "Content-Type: application/json" \  -d '{}'
+curl -X POST "https://docs.newapi.pro/api/token/batch" \  -H "Content-Type: application/json" \  -d '{}'
 ```
 
 200

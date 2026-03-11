@@ -6,12 +6,10 @@
 
 🔐 需要登录（User权限）
 
-loading...
 
 
 /`api`/`token`/
 
-Send
 
 Query
 
@@ -28,7 +26,7 @@ page\_size?integer
 cURLJavaScriptGoPythonJavaC#
 
 ```
-curl -X GET "https://loading/api/token/"
+curl -X GET "https://docs.newapi.pro/api/token/"
 ```
 
 200

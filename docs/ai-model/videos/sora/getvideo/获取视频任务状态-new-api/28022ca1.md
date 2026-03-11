@@ -8,12 +8,10 @@ OpenAI 兼容的视频任务状态查询接口。
 
 返回视频任务的详细状态信息。
 
-loading...
 
 
 /`v1`/`videos`/`{task_id}`
 
-Send
 
 Authorization
 
@@ -45,7 +43,7 @@ task\_id\*string
 cURLJavaScriptGoPythonJavaC#
 
 ```
-curl -X GET "https://loading/v1/videos/string"
+curl -X GET "https://docs.newapi.pro/v1/videos/string"
 ```
 
 200404

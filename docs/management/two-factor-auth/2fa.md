@@ -6,12 +6,10 @@
 
 🔐 需要登录（User权限）
 
-loading...
 
 
 /`api`/`user`/`2fa`/`disable`
 
-Send
 
 Body
 
@@ -28,7 +26,7 @@ code?string
 cURLJavaScriptGoPythonJavaC#
 
 ```
-curl -X POST "https://loading/api/user/2fa/disable" \  -H "Content-Type: application/json" \  -d '{}'
+curl -X POST "https://docs.newapi.pro/api/user/2fa/disable" \  -H "Content-Type: application/json" \  -d '{}'
 ```
 
 200

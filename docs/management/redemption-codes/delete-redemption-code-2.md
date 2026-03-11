@@ -6,12 +6,10 @@
 
 👨💼 需要管理员权限（Admin）
 
-loading...
 
 
 /`api`/`redemption`/`invalid`
 
-Send
 
 ## [Response Body](#response-body)
 
@@ -20,7 +18,7 @@ Send
 cURLJavaScriptGoPythonJavaC#
 
 ```
-curl -X DELETE "https://loading/api/redemption/invalid"
+curl -X DELETE "https://docs.newapi.pro/api/redemption/invalid"
 ```
 
 200

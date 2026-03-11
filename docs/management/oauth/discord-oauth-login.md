@@ -6,12 +6,10 @@
 
 🔓 无需鉴权（OAuth回调）
 
-loading...
 
 
 /`api`/`oauth`/`discord`
 
-Send
 
 Query
 
@@ -26,7 +24,7 @@ code?string
 cURLJavaScriptGoPythonJavaC#
 
 ```
-curl -X GET "https://loading/api/oauth/discord"
+curl -X GET "https://docs.newapi.pro/api/oauth/discord"
 ```
 
 200

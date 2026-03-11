@@ -6,12 +6,10 @@
 
 👨💼 需要管理员权限（Admin）
 
-loading...
 
 
 /`api`/`channel`/`tag`/`models`
 
-Send
 
 Query
 
@@ -26,7 +24,7 @@ tag\*string
 cURLJavaScriptGoPythonJavaC#
 
 ```
-curl -X GET "https://loading/api/channel/tag/models?tag=string"
+curl -X GET "https://docs.newapi.pro/api/channel/tag/models?tag=string"
 ```
 
 200

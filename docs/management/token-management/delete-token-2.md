@@ -6,12 +6,10 @@
 
 🔐 需要登录（User权限）
 
-loading...
 
 
 /`api`/`token`/`{id}`
 
-Send
 
 Path
 
@@ -26,7 +24,7 @@ id\*integer
 cURLJavaScriptGoPythonJavaC#
 
 ```
-curl -X DELETE "https://loading/api/token/0"
+curl -X DELETE "https://docs.newapi.pro/api/token/0"
 ```
 
 200

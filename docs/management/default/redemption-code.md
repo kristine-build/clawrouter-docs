@@ -6,12 +6,10 @@
 
 👨💼 需要管理员权限（Admin）
 
-loading...
 
 
 /`api`/`redemption`/
 
-Send
 
 Body
 
@@ -26,7 +24,7 @@ application/json
 cURLJavaScriptGoPythonJavaC#
 
 ```
-curl -X POST "https://loading/api/redemption/" \  -H "Content-Type: application/json" \  -d '{}'
+curl -X POST "https://docs.newapi.pro/api/redemption/" \  -H "Content-Type: application/json" \  -d '{}'
 ```
 
 200

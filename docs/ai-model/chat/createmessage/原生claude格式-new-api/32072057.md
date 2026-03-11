@@ -7,12 +7,10 @@ AI 模型接口聊天（Chat）
 Anthropic Claude Messages API 格式的请求。
 需要在请求头中包含 `anthropic-version`。
 
-loading...
 
 
 /`v1`/`messages`
 
-Send
 
 Authorization
 
@@ -82,7 +80,7 @@ metadata?object
 cURLJavaScriptGoPythonJavaC#
 
 ```
-curl -X POST "https://loading/v1/messages" \  -H "anthropic-version: 2023-06-01" \  -H "Content-Type: application/json" \  -d '{    "model": "claude-3-opus-20240229",    "messages": [      {        "role": "user",        "content": "string"      }    ],    "max_tokens": 1  }'
+curl -X POST "https://docs.newapi.pro/v1/messages" \  -H "anthropic-version: 2023-06-01" \  -H "Content-Type: application/json" \  -d '{    "model": "claude-3-opus-20240229",    "messages": [      {        "role": "user",        "content": "string"      }    ],    "max_tokens": 1  }'
 ```
 
 200

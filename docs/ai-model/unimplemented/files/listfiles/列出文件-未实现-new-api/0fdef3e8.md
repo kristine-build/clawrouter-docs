@@ -6,12 +6,10 @@ AI 模型接口未实现（Unimplemented）文件（Files）
 
 此接口尚未实现
 
-loading...
 
 
 /`v1`/`files`
 
-Send
 
 Authorization
 
@@ -33,7 +31,7 @@ In: `header`
 cURLJavaScriptGoPythonJavaC#
 
 ```
-curl -X GET "https://loading/v1/files"
+curl -X GET "https://docs.newapi.pro/v1/files"
 ```
 
 501

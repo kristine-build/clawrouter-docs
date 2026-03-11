@@ -6,12 +6,10 @@
 
 🔓 无需鉴权（通过令牌查询）
 
-loading...
 
 
 /`api`/`log`/`token`
 
-Send
 
 Query
 
@@ -26,7 +24,7 @@ key?string
 cURLJavaScriptGoPythonJavaC#
 
 ```
-curl -X GET "https://loading/api/log/token"
+curl -X GET "https://docs.newapi.pro/api/log/token"
 ```
 
 200

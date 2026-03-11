@@ -6,12 +6,10 @@
 
 👑 需要超级管理员权限（Root）
 
-loading...
 
 
 /`api`/`option`/
 
-Send
 
 ## [Response Body](#response-body)
 
@@ -20,7 +18,7 @@ Send
 cURLJavaScriptGoPythonJavaC#
 
 ```
-curl -X GET "https://loading/api/option/"
+curl -X GET "https://docs.newapi.pro/api/option/"
 ```
 
 200

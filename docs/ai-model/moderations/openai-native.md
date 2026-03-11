@@ -6,12 +6,10 @@ AI 模型接口审查（Moderations）
 
 检查文本内容是否违反使用政策
 
-loading...
 
 
 /`v1`/`moderations`
 
-Send
 
 Authorization
 
@@ -43,7 +41,7 @@ model?string
 cURLJavaScriptGoPythonJavaC#
 
 ```
-curl -X POST "https://loading/v1/moderations" \  -H "Content-Type: application/json" \  -d '{    "input": "string"  }'
+curl -X POST "https://docs.newapi.pro/v1/moderations" \  -H "Content-Type: application/json" \  -d '{    "input": "string"  }'
 ```
 
 200

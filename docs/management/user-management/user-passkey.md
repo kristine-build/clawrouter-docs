@@ -6,12 +6,10 @@
 
 👨💼 需要管理员权限（Admin）
 
-loading...
 
 
 /`api`/`user`/`{id}`/`reset_passkey`
 
-Send
 
 Path
 
@@ -26,7 +24,7 @@ id\*integer
 cURLJavaScriptGoPythonJavaC#
 
 ```
-curl -X DELETE "https://loading/api/user/0/reset_passkey"
+curl -X DELETE "https://docs.newapi.pro/api/user/0/reset_passkey"
 ```
 
 200

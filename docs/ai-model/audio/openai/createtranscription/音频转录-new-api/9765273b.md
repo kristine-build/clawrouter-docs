@@ -6,12 +6,10 @@ AI 模型接口音频（Audio）原生OpenAI格式
 
 将音频转换为文本
 
-loading...
 
 
 /`v1`/`audio`/`transcriptions`
 
-Send
 
 Authorization
 
@@ -63,7 +61,7 @@ timestamp\_granularities?array<string>
 cURLJavaScriptGoPythonJavaC#
 
 ```
-curl -X POST "https://loading/v1/audio/transcriptions" \  -F file="string" \  -F model="whisper-1"
+curl -X POST "https://docs.newapi.pro/v1/audio/transcriptions" \  -F file="string" \  -F model="whisper-1"
 ```
 
 200

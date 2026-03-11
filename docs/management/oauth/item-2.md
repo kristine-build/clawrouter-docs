@@ -6,12 +6,10 @@
 
 🔓 无需鉴权
 
-loading...
 
 
 /`api`/`oauth`/`wechat`/`bind`
 
-Send
 
 ## [Response Body](#response-body)
 
@@ -20,7 +18,7 @@ Send
 cURLJavaScriptGoPythonJavaC#
 
 ```
-curl -X GET "https://loading/api/oauth/wechat/bind"
+curl -X GET "https://docs.newapi.pro/api/oauth/wechat/bind"
 ```
 
 200
