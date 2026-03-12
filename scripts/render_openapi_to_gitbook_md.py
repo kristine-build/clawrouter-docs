@@ -804,6 +804,11 @@ def render_endpoint_md(node: Node, doc: dict) -> str:
         out.append(f"| `{r[0]}` | `{r[1]}` | {r[2]} | {r[3]} | {r[4]} | {r[5]} | {r[6]} |")
     if not rows:
         out.append("| - | - | - | - | - | - | - |")
+
+    path_params = [(name, loc) for (name, _type, _required, _desc, loc) in params if loc == "path"]
+    content_type, req_payload = guess_request_payload(first_ct, req_schema, req_example)
+    out.append(render_code_examples(method, path, content_type, req_payload, path_params))
+
     out += ["", "## Response Body", ""]
     for code, payload in responses.items():
         pd = resolve_ref(doc, payload)
@@ -831,15 +836,10 @@ def render_endpoint_md(node: Node, doc: dict) -> str:
         out += ["", "```json", json.dumps(rex if rex is not None else {}, ensure_ascii=False, indent=2), "```", ""]
 
     if err_rows:
-        out += ["### 4xx/5xx", "", "| status | meaning |", "|---|---|"]
+        out += ["### 4xx/5xx", "", "| status | meaning |", "|---|---|---"]
         for c, d in err_rows:
             out.append(f"| `{c}` | {d} |")
         out.append("")
-
-    path_params = [(name, loc) for (name, _type, _required, _desc, loc) in params if loc == "path"]
-    content_type, req_payload = guess_request_payload(first_ct, req_schema, req_example)
-    out.append(render_code_examples(method, path, content_type, req_payload, path_params))
-
     text = "\n".join(out)
     text = re.sub(r"(?m)^(GET|POST|PUT|DELETE)\s*$\n?", "", text)
     text = re.sub(r"(?m)^##\s*OpenAPI\b[\s\S]*$", "", text)
