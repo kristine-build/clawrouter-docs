@@ -20,9 +20,16 @@ Header 示例：
 
 string
 
-### Request Body
+## Request Body
 
-未提供明确字段信息。
+| Name | Type | Required | Description |
+|---|---|---|---|
+| contents | array<object> | yes | 请求内容列表。 |
+| generationConfig | object | yes | 生成配置。 |
+| generationConfig.responseModalities | array<string> | yes | 返回模态列表。 |
+| generationConfig.imageConfig | object | yes | 图片参数配置。 |
+| generationConfig.imageConfig.aspectRatio | string | yes | 图片宽高比。 |
+| generationConfig.imageConfig.imageSize | string | yes | 图片尺寸。 |
 
 ## Response Body
 
@@ -50,9 +57,23 @@ string
 {% tab title="cURL" %}
 
 ```bash
-curl -X POST "https://docs.newapi.pro/v1beta/models/string:generateContent" \
+curl -X POST "https://docs.newapi.pro/v1beta/models/string:generateContent/" \
   -H "Authorization: Bearer " \
-  -H "Content-Type: application/json"
+  -H "Content-Type: application/json" \
+  -d '{
+    "contents": [
+      {}
+    ],
+    "generationConfig": {
+      "responseModalities": [
+        "string"
+      ],
+      "imageConfig": {
+        "aspectRatio": "string",
+        "imageSize": "string"
+      }
+    }
+  }'
 ```
 
 {% endtab %}
