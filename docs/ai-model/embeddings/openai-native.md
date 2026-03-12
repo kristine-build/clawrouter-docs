@@ -2,12 +2,9 @@
 
 将文本转换为向量嵌入
 
-## 请求概览
+## Endpoint
 
 `POST /v1/embeddings`
-
-- **Authorization**：BearerAuth
-- **Content-Type**：application/json
 
 ## Authorization
 
@@ -20,7 +17,7 @@
 | Name | Type | Required | Description |
 |---|---|---|---|
 | model | string | yes | 模型标识。 |
-| input | string \\| array<string> | yes | 要嵌入的文本。 |
+| input | string \| array<string> | yes | 要嵌入的文本。 |
 | encoding_format | string | no | 输出向量格式，默认值：`"float"`。可选值：`"float"`、`"base64"`。 |
 | dimensions | integer | no | 输出向量维度。 |
 
@@ -134,17 +131,15 @@ var client = new HttpClient();
 var request = new HttpRequestMessage(HttpMethod.Post, "https://docs.newapi.pro/v1/embeddings");
 request.Headers.Add("Content-Type", "application/json");
 request.Headers.Add("Authorization", "Bearer YOUR_API_KEY");
-request.Content = new StringContent("""
-{
+request.Content = new StringContent(@"{
   \"model\": \"text-embedding-ada-002\",
   \"input\": \"将文本转换为向量嵌入\"
-}
-""", Encoding.UTF8, "application/json");
+}", Encoding.UTF8, "application/json");
 
 await client.SendAsync(request);
 ```
 
-### 200 Response Example
+## Example Response
 
 ```json
 {
@@ -166,7 +161,8 @@ await client.SendAsync(request);
 }
 ```
 
-<!-- maintainer-note -->
-如果后续需与 GitBook OpenAPI 组件对齐，请将该页替换为 OpenAPI 引用页/块，并绑定：
-- operation: `POST /v1/embeddings`
-- source: `openapi/generated/ai-model/嵌入（Embeddings）/post-v1-embeddings-createembedding-383826477.json`
+## Maintainer Note
+
+该页面当前为纯 Markdown 重建。建议下一步改为 GitBook 的 OpenAPI 引用/渲染块，以便直接从规范生成完整参数、示例与错误响应。
+- 接口：`POST /v1/embeddings`
+- OpenAPI 规格文件：`openapi/generated/ai-model/嵌入（Embeddings）/post-v1-embeddings-createembedding-383826477.json`

@@ -1,64 +1,47 @@
 # 原生Gemini格式
 
-AI 模型接口嵌入（Embeddings）
-
-# 原生Gemini格式
-
 使用指定引擎/模型创建嵌入
 
-
-
-## Endpoint
-&Authorization
-
-Path
-
-Body
+POST `/v1/engines/{model}/embeddings`
 
 ## Authorization
-| Name | Type | Required | Description |
-|---|---|---|---|
-| Authorization | string | yes | AuthorizationBearer <token> 使用 Bearer Token 认证。 格式: `Authorization: Bearer sk-xxxxxx` In: `header` |## [Path Parameters](#path-parameters)
 
-model\*string
+使用 Bearer Token 进行身份验证。
 
-模型/引擎 ID
+Header 示例：
+
+`Authorization: Bearer sk-xxxxxx`
+
+## Path Parameters
+
+### model
+
+string
+
+要使用的模型名称。
 
 ## Request Body
-application/json
 
 | Name | Type | Required | Description |
 |---|---|---|---|
-| model | string | yes |  |
-| input | string\|array<string> | yes | 要嵌入的文本 |
-| encoding_format | string | no | Default`"float"` Value in`"float" \| "base64"` |
-| dimensions | integer | no | 输出向量维度 |## Response Body
+| input | string \| array<string> | yes | 需要生成嵌入向量的文本。 |
+| encoding_format | string | no | 返回向量的编码格式。默认值：`float`。可选值：`float`、`base64`。 |
+| dimensions | integer | no | 输出向量的维度。 |
+
+## Response
+
+成功返回：
 
 ### 200 application/json
 
-### cURL
-### JavaScript
-### Go
-### Python
-### Java
-### C#
-
-```
-curl -X POST "https://docs.newapi.pro/v1/engines/string/embeddings" \  -H "Content-Type: application/json" \  -d '{    "model": "text-embedding-ada-002",    "input": "string"  }'
-```
-
-200
-
-```
+```json
 {
   "object": "list",
   "data": [
     {
       "object": "embedding",
       "index": 0,
-      "embedding": [
-        0
-      ]
+      "embedding": [0]
     }
   ],
   "model": "string",
@@ -67,4 +50,15 @@ curl -X POST "https://docs.newapi.pro/v1/engines/string/embeddings" \  -H "Conte
     "total_tokens": 0
   }
 }
+```
+
+## Example Request
+
+```bash
+curl -X POST "https://api.example.com/v1/engines/text-embedding-ada-002/embeddings" \
+  -H "Authorization: Bearer sk-xxxxxx" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "input": "Hello world"
+  }'
 ```
