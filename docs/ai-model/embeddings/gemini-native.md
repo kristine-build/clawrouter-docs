@@ -8,7 +8,7 @@ POST `/v1/engines/{model}/embeddings`
 
 ## Authorization
 
-使用 Bearer Token 进行身份验证。
+Bearer Token 认证。
 
 Header 示例：
 
@@ -20,19 +20,18 @@ Authorization: Bearer sk-xxxxxx
 
 string
 
-要使用的模型名称。
+模型/引擎 ID。
 
 ## Request Body
 
 | Name | Type | Required | Description |
 |---|---|---|---|
-| input | string \| array | yes | 需要生成嵌入向量的文本。 |
+| model | string | yes | 使用的模型/引擎 ID。 |
+| input | string \| array<string> | yes | 需要生成嵌入向量的文本。 |
 | encoding_format | string | no | 返回向量的编码格式。默认值：`float`。可选值：`float`、`base64`。 |
 | dimensions | integer | no | 输出向量的维度。 |
 
 ## Response Body
-
-成功返回：
 
 ### 200 application/json
 
@@ -43,7 +42,9 @@ string
     {
       "object": "embedding",
       "index": 0,
-      "embedding": [0]
+      "embedding": [
+        0
+      ]
     }
   ],
   "model": "string",
@@ -57,11 +58,12 @@ string
 ## Example Request
 
 ```bash
-curl -X POST "https://api.example.com/v1/engines/text-embedding-ada-002/embeddings" \
-  -H "Authorization: Bearer sk-xxxxxx" \
+curl -X POST "https://docs.newapi.pro/v1/engines/text-embedding-ada-002/embeddings" \
+  -H "Authorization: Bearer YOUR_API_KEY" \
   -H "Content-Type: application/json" \
   -d '{
-    "input": "Hello world"
+    "model": "text-embedding-ada-002",
+    "input": "string"
   }'
 ```
 
@@ -74,7 +76,9 @@ curl -X POST "https://api.example.com/v1/engines/text-embedding-ada-002/embeddin
     {
       "object": "embedding",
       "index": 0,
-      "embedding": [0]
+      "embedding": [
+        0
+      ]
     }
   ],
   "model": "string",
