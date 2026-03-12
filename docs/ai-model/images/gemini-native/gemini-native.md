@@ -1,71 +1,112 @@
 # Gemini原生格式
 
-AI 模型接口图像（Images）原生OpenAI格式
+Gemini 图片生成
 
-# 生成图像
+## Endpoint
 
-在给定提示的情况下创建图像。[了解更多](https://platform.openai.com/docs/guides/images)。
-
-
-
-/`v1`/`images`/`generations`/
-
-
-Authorization
-
-Body
+POST `/v1beta/models/{model}:generateContent`
 
 ## Authorization
-| Name | Type | Required | Description |
-|---|---|---|---|
-| Authorization | string | yes | AuthorizationBearer <token> In: `header` |
-## Request Body
-application/json
 
-| Name | Type | Required | Description |
-|---|---|---|---|
-| model | string | no | 用于图像生成的模型。`dall-e-2`、`dall-e-3` 或 `gpt-image-1` 之一。默认为 `dall-e-2`，除非使用特定于 `gpt-image-1` 的参数。 |
-| prompt | string | yes | 所需图像的文本描述。`gpt-image-1` 的最大长度为 32000 个字符，`dall-e-2` 的最大长度为 1000 个字符，`dall-e-3` 的最大长度为 4000 个字符。 |
-| n | integer | no | 要生成的图像数量。必须介于 1 到 10 之间。对于 `dall-e-3`，仅支持 `n=1`。 |
-| size | string | no | 生成的图像的大小。`对于 gpt-image-1`，必须是 `1024x1024`、`1536x1024`（横向）、`1024x1536`（纵向）或`自动`（默认值）之一，`对于 dall-e-2`，必须是 ``` 256x256、``512x512 ``` 或 `1024x1024` 之一，对于 `dall-e-3`，必须是 `1024x1024`、`1792x1024` 或 `1024x1792` 之一。 |
-| background | string | no | 允许为生成的图像的背景设置透明度。此参数仅支持 `gpt-image-1`。必须是以下之一 `透明`、`不透明`或`自动`（默认值）。使用`自动`时，模型将自动确定图像的最佳背景。 如果`是透明`的，则输出格式需要支持透明度，因此应将其设置为 `png`（默认值）或 `webp`。 |
-| moderation | string | no | 控制 `gpt-image-1` 生成的图像的内容审核级别。必须为`低，` 以进行限制较少的筛选或`自动`（默认值）。 |
-| quality | string | no | 将生成的图像的质量。 |
-| stream | string | no |  |
-| style | string | no |  |
-| user | string | no |  |
+Bearer Token
+
+Header 示例：
+
+`Authorization: Bearer sk-xxxxxx`
+
+## Path Parameters
+
+### model
+
+string
+
+### Request Body
+
+未提供明确字段信息。
+
 ## Response Body
 
 ### 200 application/json
 
-### cURL
-### JavaScript
-### Go
-### Python
-### Java
-### C#
-
-```
-curl -X POST "https://docs.newapi.pro/v1/images/generations/" \  -H "Content-Type: application/json" \  -d '{    "prompt": "string"  }'
-```
-
-```
+```json
 {
-  "created": 0,
-  "data": [
+  "candidates": [
     {
-      "b64_json": "string",
-      "url": "string"
+      "content": {
+        "parts": [
+          {
+            "text": "image generation result"
+          }
+        ]
+      }
     }
-  ],
-  "usage": {
-    "total_tokens": 0,
-    "input_tokens": 0,
-    "output_tokens": 0,
-    "input_tokens_details": {
-      "text_tokens": 0,
-      "image_tokens": 0
+  ]
+}
+```
+
+## Example Request
+
+{% tabs %}
+{% tab title="cURL" %}
+
+```bash
+curl -X POST "https://docs.newapi.pro/v1beta/models/string:generateContent" \
+  -H "Authorization: Bearer " \
+  -H "Content-Type: application/json"
+```
+
+{% endtab %}
+{% tab title="JavaScript" %}
+
+```javascript
+// 示例未提供
+```
+
+{% endtab %}
+{% tab title="Go" %}
+
+```go
+// 示例未提供
+```
+
+{% endtab %}
+{% tab title="Python" %}
+
+```python
+# 示例未提供
+```
+
+{% endtab %}
+{% tab title="Java" %}
+
+```java
+// 示例未提供
+```
+
+{% endtab %}
+{% tab title="C#" %}
+
+```csharp
+// 示例未提供
+```
+
+{% endtab %}
+{% endtabs %}
+
+## Example Response
+
+```json
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "image generation result"
+          }
+        ]
+      }
     }
-  }
+  ]
 }
 ```
