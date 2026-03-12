@@ -8,11 +8,15 @@ POST `/v1beta/models/{model}:generateContent`
 
 ## Authorization
 
-Bearer Token
+BearerAuth
 
 Header 示例：
 
-`Authorization: Bearer sk-xxxxxx`
+`Authorization: Bearer <token>`
+
+使用 Bearer Token 认证。 格式: Authorization: Bearer sk-xxxxxx
+
+In: header
 
 ## Path Parameters
 
@@ -20,16 +24,18 @@ Header 示例：
 
 string
 
+模型名称
+
 ## Request Body
 
 | Name | Type | Required | Description |
 |---|---|---|---|
-| contents | array<object> | yes | 请求内容列表。 |
-| generationConfig | object | yes | 生成配置。 |
-| generationConfig.responseModalities | array<string> | yes | 返回模态列表。 |
-| generationConfig.imageConfig | object | yes | 图片参数配置。 |
-| generationConfig.imageConfig.aspectRatio | string | yes | 图片宽高比。 |
-| generationConfig.imageConfig.imageSize | string | yes | 图片尺寸。 |
+| contents | array<object> | yes |  |
+| generationConfig | object | yes |  |
+| generationConfig.responseModalities | array<string> | yes |  |
+| generationConfig.imageConfig | object | yes |  |
+| generationConfig.imageConfig.aspectRatio | string | yes |  |
+| generationConfig.imageConfig.imageSize | string | yes |  |
 
 ## Response Body
 
@@ -40,14 +46,22 @@ string
   "candidates": [
     {
       "content": {
+        "role": "string",
         "parts": [
-          {
-            "text": "image generation result"
-          }
+          {}
         ]
-      }
+      },
+      "finishReason": "string",
+      "safetyRatings": [
+        {}
+      ]
     }
-  ]
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 0,
+    "candidatesTokenCount": 0,
+    "totalTokenCount": 0
+  }
 }
 ```
 
@@ -121,13 +135,21 @@ curl -X POST "https://docs.newapi.pro/v1beta/models/string:generateContent/" \
   "candidates": [
     {
       "content": {
+        "role": "string",
         "parts": [
-          {
-            "text": "image generation result"
-          }
+          {}
         ]
-      }
+      },
+      "finishReason": "string",
+      "safetyRatings": [
+        {}
+      ]
     }
-  ]
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 0,
+    "candidatesTokenCount": 0,
+    "totalTokenCount": 0
+  }
 }
 ```
