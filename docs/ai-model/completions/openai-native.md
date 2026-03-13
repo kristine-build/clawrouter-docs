@@ -13,7 +13,7 @@
 
 | Name | Type | Required | Description |
 |---|---|---|---|
-| Authorization | string | yes | Bearer Token 认证。格式：`Authorization: Bearer sk-xxxxxx`..。透過 `Authorization`.. 請求头传递，範例：`Authorization: Bearer YOUR_API_KEY`..。 |
+| Authorization | string | yes | Bearer Token 驗證。格式：`Authorization: Bearer sk-xxxxxx`..。透過 `Authorization`.. 請求头传递，範例：`Authorization: Bearer YOUR_API_KEY`..。 |
 
 ## Request Body
 

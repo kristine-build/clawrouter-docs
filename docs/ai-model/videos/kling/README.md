@@ -4,7 +4,7 @@
 
 ## 本章內容
 
-- [Kling 图生视频](kling-video.md)
-- [Kling 文生视频](kling-video-2.md)
-- [取得 Kling 图生视频任務狀態](get-kling-video-task-status.md)
-- [取得 Kling 文生视频任務狀態](get-kling-video-task-status-2.md)
+- [Kling 图生影片](kling-video.md)
+- [Kling 文生影片](kling-video-2.md)
+- [取得 Kling 图生影片任務狀態](get-kling-video-task-status.md)
+- [取得 Kling 文生影片任務狀態](get-kling-video-task-status-2.md)

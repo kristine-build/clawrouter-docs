@@ -12,7 +12,7 @@ BearerAuth
 
 Authorization: Bearer <token>
 
-使用 Bearer Token 认证。 格式: Authorization: Bearer sk-xxxxxx
+使用 Bearer Token 驗證。 格式: Authorization: Bearer sk-xxxxxx
 
 In: header
 

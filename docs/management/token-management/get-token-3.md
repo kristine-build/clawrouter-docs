@@ -4,7 +4,7 @@
 
 # 取得令牌使用情况
 
-🔑 需要令牌认证（TokenAuth）
+🔑 需要令牌驗證（TokenAuth）
 
 
 
@@ -21,7 +21,7 @@ BearerAuth
 
 AuthorizationBearer <token>
 
-使用 Bearer Token 认证。
+使用 Bearer Token 驗證。
 格式: `Authorization: Bearer sk-xxxxxx`..
 
 In: `header`..

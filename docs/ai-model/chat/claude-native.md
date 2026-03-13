@@ -10,7 +10,7 @@ Anthropic Claude Messages API 格式的請求。
 ## Authorization
 | Name | Type | Required | Description |
 |---|---|---|---|
-| Authorization | string | yes | - **位置**：`header`.. - **範例**：`Authorization: Bearer YOUR_API_KEY`.. - **說明**：使用 Bearer Token 认证，不适用时可使用 `x-api-key`..。 |
+| Authorization | string | yes | - **位置**：`header`.. - **範例**：`Authorization: Bearer YOUR_API_KEY`.. - **說明**：使用 Bearer Token 驗證，不适用时可使用 `x-api-key`..。 |
 ## Header Parameters
 
 | name | type | required | description | enum | default | range |
