@@ -1,4 +1,4 @@
-# 取得个人Midjourney任務
+# 取得個人Midjourney任務
 
 管理介面任務
 

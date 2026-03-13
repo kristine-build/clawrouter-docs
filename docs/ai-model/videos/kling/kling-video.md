@@ -1,4 +1,4 @@
-# Kling 图生影片
+# Kling 圖生影片
 
 AI 模型介面影片（Videos）
 

@@ -1,4 +1,4 @@
-# Gemini媒体辨識
+# Gemini媒體辨識
 
 Gemini影像、PDF、音訊、影片辨識請求
 
