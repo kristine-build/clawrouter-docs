@@ -1,13 +1,13 @@
-# 兑换码
+# 兌換碼
 
-兑换码 文件导航。
+兌換碼 文件导航。
 
 ## 本章內容
 
-- [取得所有兑换码](get-redemption-code.md)
-- [刪除兑换码](delete-redemption-code.md)
-- [取得指定兑换码](get-redemption-code-2.md)
-- [刪除无效兑换码](delete-redemption-code-2.md)
-- [建立兑换码](create-redemption-code.md)
-- [更新兑换码](update-redemption-code.md)
-- [搜索兑换码](search-redemption-code.md)
+- [取得所有兌換碼](get-redemption-code.md)
+- [刪除兌換碼](delete-redemption-code.md)
+- [取得指定兌換碼](get-redemption-code-2.md)
+- [刪除无效兌換碼](delete-redemption-code-2.md)
+- [建立兌換碼](create-redemption-code.md)
+- [更新兌換碼](update-redemption-code.md)
+- [搜索兌換碼](search-redemption-code.md)

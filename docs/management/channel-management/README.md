@@ -5,7 +5,7 @@
 ## 本章內容
 
 - [批量刪除通道](delete-channel.md)
-- [批量设置通道标签](setting-channel.md)
+- [批量設定通道标签](setting-channel.md)
 - [复制通道](channel.md)
 - [刪除已禁用通道](delete-channel-2.md)
 - [取得上游模型清單](get-model-list.md)
