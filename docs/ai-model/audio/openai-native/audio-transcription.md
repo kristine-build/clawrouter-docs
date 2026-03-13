@@ -1,6 +1,6 @@
-# 音频转录
+# 音訊转录
 
-将音频转换为文本
+将音訊转换为文本
 
 ## Endpoint
 
@@ -14,7 +14,7 @@
 `multipart/form-data`..
 | name | type | required | description |
 |---|---|---|---|
-| file | string (binary) | yes | 音频檔案。 |
+| file | string (binary) | yes | 音訊檔案。 |
 | model | string | yes | 模型名称，例如 `whisper-1`..。 |
 | language | string | no | ISO-639-1 语言代码。 |
 | prompt | string | no | 提示词。 |

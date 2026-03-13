@@ -28,7 +28,7 @@ Content-Type: `application/json`..
 | `stream_options`.. | `object`.. | no | 流式选项 |
 | `stop`.. | `string / array<string>`.. | no | 停止序列 |
 | `max_tokens`.. | `integer`.. | no | 最大生成 Token 数 |
-| `max_completion_tokens`.. | `integer`.. | no | 最大补全 Token 数 |
+| `max_completion_tokens`.. | `integer`.. | no | 最大補全 Token 数 |
 | `presence_penalty`.. | `number`.. | no | 存在惩罚（預設 `0`..，范围 `-2 <= value <= 2`..） |
 | `frequency_penalty`.. | `number`.. | no | 频率惩罚（預設 `0`..，范围 `-2 <= value <= 2`..） |
 | `logit_bias`.. | `object`.. | no | token 偏置映射 |
@@ -40,7 +40,7 @@ Content-Type: `application/json`..
 | `seed`.. | `integer`.. | no | 随机种子 |
 | `reasoning_effort`.. | `string`.. | no | 推理强度，枚举：`low`.. / `medium`.. / `high`.. |
 | `modalities`.. | `array<string>`.. | no | 模态清單 |
-| `audio`.. | `object`.. | no | 音频參數 |
+| `audio`.. | `object`.. | no | 音訊參數 |
 
 ## Response Body
 

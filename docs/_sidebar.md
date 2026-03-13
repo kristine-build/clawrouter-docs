@@ -1,20 +1,20 @@
 - API 参考
   - AI 模型介面
-    - 音频 (Audio)
+    - 音訊 (Audio)
       - [原生Gemini格式 (POST)](/docs/zh__docs__api__ai-model__audio__geminirelayv1beta-383836364__原生gemini格式-new-api__04afcc5e.md)
       - 原生OpenAI格式
-        - [文本转语音 (POST)](/docs/zh__docs__api__ai-model__audio__openai__createspeech__文本转语音-new-api__58cfed05.md)
-        - [音频转录 (POST)](/docs/zh__docs__api__ai-model__audio__openai__createtranscription__音频转录-new-api__9765273b.md)
-        - [音频翻译 (POST)](/docs/zh__docs__api__ai-model__audio__openai__createtranslation__音频翻译-new-api__cc653cd5.md)
+        - [文本轉語音 (POST)](/docs/zh__docs__api__ai-model__audio__openai__createspeech__文本转语音-new-api__58cfed05.md)
+        - [音訊轉錄 (POST)](/docs/zh__docs__api__ai-model__audio__openai__createtranscription__音频转录-new-api__9765273b.md)
+        - [音訊翻譯 (POST)](/docs/zh__docs__api__ai-model__audio__openai__createtranslation__音频翻译-new-api__cc653cd5.md)
     - 聊天 (Chat)
       - [原生Claude格式 (POST)](/docs/zh__docs__api__ai-model__chat__createmessage__原生claude格式-new-api__32072057.md)
       - 原生Gemini格式
-        - Gemini媒体识别 (POST)
+        - Gemini媒体辨識 (POST)
         - Gemini文本聊天 (POST)
       - 原生OpenAI格式
         - [ChatCompletions格式 (POST)](/docs/zh__docs__api__ai-model__chat__openai__createchatcompletion__chatcompletions格式-new-api__1f721286.md)
         - [Responses格式 (POST)](/docs/zh__docs__api__ai-model__chat__openai__createresponse__responses格式-new-api__791dfa47.md)
-    - 补全 (Completions)
+    - 補全 (Completions)
       - [原生OpenAI格式 (POST)](/docs/zh__docs__api__ai-model__completions__createcompletion__原生openai格式-new-api__4dbfcb8b.md)
     - 嵌入 (Embeddings)
       - [原生OpenAI格式 (POST)](/docs/zh__docs__api__ai-model__embeddings__createembedding__原生openai格式-new-api__4ce76862.md)
@@ -35,7 +35,7 @@
         - [原生Gemini格式 (GET)](/docs/zh__docs__api__ai-model__models__list__listmodelsgemini__原生gemini格式-new-api__49a6ce5b.md)
     - 稽查 (Moderations)
       - [原生OpenAI格式 (POST)](/docs/zh__docs__api__ai-model__moderations__createmoderation__原生openai格式-new-api__888665fa.md)
-    - 即時语音 (Realtime)
+    - 即時語音 (Realtime)
       - [原生OpenAI格式 (GET)](/docs/zh__docs__api__ai-model__realtime__createrealtimesession__原生openai格式-new-api__8b7b4403.md)
     - 重排序 (Rerank)
       - [文档重排序 (POST)](/docs/zh__docs__api__ai-model__rerank__creatererank__文档重排序-new-api__d50d8dad.md)

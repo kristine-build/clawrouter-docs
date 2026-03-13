@@ -1,6 +1,6 @@
-# 补全（Completions）
+# 補全（Completions）
 
-补全（Completions） 文件导航。
+補全（Completions） 文件导航。
 
 ## 本章內容
 

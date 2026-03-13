@@ -1,6 +1,6 @@
 # 原生OpenAI格式
 
-基于给定提示建立文本补全
+基于给定提示建立文本補全
 
 ## 請求概览
 
@@ -27,7 +27,7 @@
 | n | integer | no | 每个提示词回傳的候选数目。 |
 | stream | boolean | no | 是否啟用流式回傳。 |
 | stop | string \| array<string> | no | 停止生成的词元。 |
-| suffix | string | no | 在补全結果后追加的后缀。 |
+| suffix | string | no | 在補全結果后追加的后缀。 |
 | echo | boolean | no | 是否在回傳文本中回显输入提示词。 |
 | best_of | integer | no | 在未开启流式时，服务端会并行采样并回傳 `n`.. 个中评分最高的一个。 |
 | frequency_penalty | number | no | 频率惩罚值，用于抑制重复。 |
@@ -58,11 +58,11 @@
 | usage.prompt_tokens_details | object | 输入 tokens 细分。 |
 | usage.prompt_tokens_details.cached_tokens | integer | 缓存命中的 token 数。 |
 | usage.prompt_tokens_details.text_tokens | integer | 文本输入 token 数。 |
-| usage.prompt_tokens_details.audio_tokens | integer | 音频输入 token 数。 |
+| usage.prompt_tokens_details.audio_tokens | integer | 音訊输入 token 数。 |
 | usage.prompt_tokens_details.image_tokens | integer | 图片 token 数。 |
 | usage.completion_tokens_details | object | 输出 tokens 细分。 |
 | usage.completion_tokens_details.text_tokens | integer | 文本输出 token 数。 |
-| usage.completion_tokens_details.audio_tokens | integer | 音频输出 token 数。 |
+| usage.completion_tokens_details.audio_tokens | integer | 音訊输出 token 数。 |
 | usage.completion_tokens_details.reasoning_tokens | integer | 推理 token 数。 |
 
 ## Code Examples

@@ -1,6 +1,6 @@
-# 文本转语音
+# 文本转語音
 
-将文本转换为音频
+将文本转换为音訊
 
 ## Endpoint
 
@@ -16,9 +16,9 @@ Content-Type: `application/json`..
 | --- | --- | --- | --- | --- | --- | --- |
 | model | string | yes | 模型名称 | `string`.. | - | - |
 | input | string | yes | 要转换的文本 | - | - | length <= 4096 |
-| voice | string | yes | 语音角色名 | `alloy`.., `echo`.., `fable`.., `onyx`.., `nova`.., `shimmer`.. | - | - |
-| response_format | string | no | 音频输出格式 | `mp3`.., `opus`.., `aac`.., `flac`.., `wav`.., `pcm`.. | `mp3`.. | - |
-| speed | number | no | 语音速度 | - | `1`.. | `0.25 <= value <= 4`.. |
+| voice | string | yes | 語音角色名 | `alloy`.., `echo`.., `fable`.., `onyx`.., `nova`.., `shimmer`.. | - | - |
+| response_format | string | no | 音訊输出格式 | `mp3`.., `opus`.., `aac`.., `flac`.., `wav`.., `pcm`.. | `mp3`.. | - |
+| speed | number | no | 語音速度 | - | `1`.. | `0.25 <= value <= 4`.. |
 
 ## Code Examples
 

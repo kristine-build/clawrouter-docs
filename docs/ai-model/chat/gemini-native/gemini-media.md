@@ -1,8 +1,8 @@
-# Gemini媒体识别
+# Gemini媒体辨識
 
-Gemini影像、PDF、音频、影片识别請求
+Gemini影像、PDF、音訊、影片辨識請求
 
-⚠️注意：仅支援透過 inlineData 以 base64 方式上傳影像、PDF、音频、影片，不支援 fileData.fileUri 或 File API。
+⚠️注意：仅支援透過 inlineData 以 base64 方式上傳影像、PDF、音訊、影片，不支援 fileData.fileUri 或 File API。
 
 ## Endpoint
 

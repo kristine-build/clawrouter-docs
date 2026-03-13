@@ -1,8 +1,8 @@
 # 原生Gemini格式
 
-Gemini 音频生成。
+Gemini 音訊生成。
 
-使用 Gemini 模型生成內容（含语音相關設定）。
+使用 Gemini 模型生成內容（含語音相關設定）。
 
 ## Endpoint
 
@@ -28,7 +28,7 @@ Content-Type: `application/json`..
 | `generationConfig.speechConfig`.. | `object`.. | no | - | - | - | - |
 | `generationConfig.speechConfig.voiceConfig`.. | `object`.. | no | - | - | - | - |
 | `generationConfig.speechConfig.voiceConfig.prebuiltVoiceConfig`.. | `object`.. | no | - | - | - | - |
-| `generationConfig.speechConfig.voiceConfig.prebuiltVoiceConfig.voiceName`.. | `string`.. | no | 语音名称 | - | - | - |
+| `generationConfig.speechConfig.voiceConfig.prebuiltVoiceConfig.voiceName`.. | `string`.. | no | 語音名称 | - | - | - |
 
 ## Response Body
 
