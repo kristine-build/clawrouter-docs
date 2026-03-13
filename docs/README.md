@@ -1,3 +1,10 @@
+---
+cover:
+  light: .gitbook/assets/gitbook clawrouter.png
+  dark: .gitbook/assets/gitbook clawrouter.png
+coverY: 0
+---
+
 # API 参考
 
 ## AI 模型介面
