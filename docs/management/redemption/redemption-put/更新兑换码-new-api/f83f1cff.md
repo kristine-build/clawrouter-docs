@@ -1,4 +1,4 @@
-# 更新兑换码 | New API
+# 更新兑换码 | ClawRouter
 
 管理接口兑换码
 

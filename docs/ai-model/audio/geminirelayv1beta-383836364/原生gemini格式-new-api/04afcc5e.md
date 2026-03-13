@@ -1,4 +1,4 @@
-# 原生Gemini格式 | New API
+# 原生Gemini格式 | ClawRouter
 
 AI 模型接口音频（Audio）
 

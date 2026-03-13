@@ -1,4 +1,4 @@
-# GitHub OAuth登录 | New API
+# GitHub OAuth登录 | ClawRouter
 
 管理接口OAuth
 

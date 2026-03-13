@@ -1,4 +1,4 @@
-# 获取隐私政策 | New API
+# 获取隐私政策 | ClawRouter
 
 管理接口系统
 

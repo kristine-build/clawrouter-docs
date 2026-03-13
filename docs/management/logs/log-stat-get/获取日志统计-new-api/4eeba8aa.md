@@ -1,4 +1,4 @@
-# 获取日志统计 | New API
+# 获取日志统计 | ClawRouter
 
 管理接口日志
 

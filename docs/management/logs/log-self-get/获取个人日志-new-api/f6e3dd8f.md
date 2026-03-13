@@ -1,4 +1,4 @@
-# 获取个人日志 | New API
+# 获取个人日志 | ClawRouter
 
 管理接口日志
 

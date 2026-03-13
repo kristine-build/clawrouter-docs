@@ -6,935 +6,935 @@
   "error_count": 0,
   "saved": [
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/ai-model/audio/openai/createspeech",
-      "title": "文本转语音 | New API",
+      "url": "/api/ai-model/audio/openai/createspeech",
+      "title": "文本转语音 | ClawRouter",
       "file": "docs/zh__docs__api__ai-model__audio__openai__createspeech__文本转语音-new-api__58cfed05.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/ai-model/chat/openai/createchatcompletion",
-      "title": "ChatCompletions格式 | New API",
+      "url": "/api/ai-model/chat/openai/createchatcompletion",
+      "title": "ChatCompletions格式 | ClawRouter",
       "file": "docs/zh__docs__api__ai-model__chat__openai__createchatcompletion__chatcompletions格式-new-api__1f721286.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/ai-model/completions/createcompletion",
-      "title": "原生OpenAI格式 | New API",
+      "url": "/api/ai-model/completions/createcompletion",
+      "title": "原生OpenAI格式 | ClawRouter",
       "file": "docs/zh__docs__api__ai-model__completions__createcompletion__原生openai格式-new-api__4dbfcb8b.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/ai-model/embeddings/createembedding",
-      "title": "原生OpenAI格式 | New API",
+      "url": "/api/ai-model/embeddings/createembedding",
+      "title": "原生OpenAI格式 | ClawRouter",
       "file": "docs/zh__docs__api__ai-model__embeddings__createembedding__原生openai格式-new-api__4ce76862.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/ai-model/images/openai/post-v1-images-generations",
-      "title": "生成图像 | New API",
+      "url": "/api/ai-model/images/openai/post-v1-images-generations",
+      "title": "生成图像 | ClawRouter",
       "file": "docs/zh__docs__api__ai-model__images__openai__post-v1-images-generations__生成图像-new-api__87ad0fa8.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/ai-model/models/list/listmodels",
-      "title": "原生OpenAI格式 | New API",
+      "url": "/api/ai-model/models/list/listmodels",
+      "title": "原生OpenAI格式 | ClawRouter",
       "file": "docs/zh__docs__api__ai-model__models__list__listmodels__原生openai格式-new-api__c7766c18.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/ai-model/moderations/createmoderation",
-      "title": "原生OpenAI格式 | New API",
+      "url": "/api/ai-model/moderations/createmoderation",
+      "title": "原生OpenAI格式 | ClawRouter",
       "file": "docs/zh__docs__api__ai-model__moderations__createmoderation__原生openai格式-new-api__888665fa.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/ai-model/realtime/createrealtimesession",
-      "title": "原生OpenAI格式 | New API",
+      "url": "/api/ai-model/realtime/createrealtimesession",
+      "title": "原生OpenAI格式 | ClawRouter",
       "file": "docs/zh__docs__api__ai-model__realtime__createrealtimesession__原生openai格式-new-api__8b7b4403.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/ai-model/rerank/creatererank",
-      "title": "文档重排序 | New API",
+      "url": "/api/ai-model/rerank/creatererank",
+      "title": "文档重排序 | ClawRouter",
       "file": "docs/zh__docs__api__ai-model__rerank__creatererank__文档重排序-new-api__d50d8dad.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/ai-model/unimplemented/files/listfiles",
-      "title": "列出文件 (未实现) | New API",
+      "url": "/api/ai-model/unimplemented/files/listfiles",
+      "title": "列出文件 (未实现) | ClawRouter",
       "file": "docs/zh__docs__api__ai-model__unimplemented__files__listfiles__列出文件-未实现-new-api__0fdef3e8.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/ai-model/videos/sora/createvideo",
-      "title": "创建视频  | New API",
+      "url": "/api/ai-model/videos/sora/createvideo",
+      "title": "创建视频  | ClawRouter",
       "file": "docs/zh__docs__api__ai-model__videos__sora__createvideo__创建视频-new-api__88acfd87.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/channel-management/channel-get",
-      "title": "获取所有渠道 | New API",
+      "url": "/api/management/channel-management/channel-get",
+      "title": "获取所有渠道 | ClawRouter",
       "file": "docs/zh__docs__api__management__channel-management__channel-get__获取所有渠道-new-api__e12dbce7.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/groups/group-get",
-      "title": "获取所有分组 | New API",
+      "url": "/api/management/groups/group-get",
+      "title": "获取所有分组 | ClawRouter",
       "file": "docs/zh__docs__api__management__groups__group-get__获取所有分组-new-api__544c6792.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/logs/log-get",
-      "title": "获取所有日志 | New API",
+      "url": "/api/management/logs/log-get",
+      "title": "获取所有日志 | ClawRouter",
       "file": "docs/zh__docs__api__management__logs__log-get__获取所有日志-new-api__3b811e2e.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/model-management/models-get",
-      "title": "获取所有模型元数据 | New API",
+      "url": "/api/management/model-management/models-get",
+      "title": "获取所有模型元数据 | ClawRouter",
       "file": "docs/zh__docs__api__management__model-management__models-get__获取所有模型元数据-new-api__55c49a22.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/oauth/oauth-github-get",
-      "title": "GitHub OAuth登录 | New API",
+      "url": "/api/management/oauth/oauth-github-get",
+      "title": "GitHub OAuth登录 | ClawRouter",
       "file": "docs/zh__docs__api__management__oauth__oauth-github-get__github-oauth登录-new-api__ba5d5e0f.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/payment/user-topup-info-get",
-      "title": "获取充值信息 | New API",
+      "url": "/api/management/payment/user-topup-info-get",
+      "title": "获取充值信息 | ClawRouter",
       "file": "docs/zh__docs__api__management__payment__user-topup-info-get__获取充值信息-new-api__2e5cd4f4.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/redemption/redemption-get",
-      "title": "获取所有兑换码 | New API",
+      "url": "/api/management/redemption/redemption-get",
+      "title": "获取所有兑换码 | ClawRouter",
       "file": "docs/zh__docs__api__management__redemption__redemption-get__获取所有兑换码-new-api__4525ef6e.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/security-verification/verify-status-get",
-      "title": "获取验证状态 | New API",
+      "url": "/api/management/security-verification/verify-status-get",
+      "title": "获取验证状态 | ClawRouter",
       "file": "docs/zh__docs__api__management__security-verification__verify-status-get__获取验证状态-new-api__dc8dee2c.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/statistics/data-get",
-      "title": "获取所有额度数据 | New API",
+      "url": "/api/management/statistics/data-get",
+      "title": "获取所有额度数据 | ClawRouter",
       "file": "docs/zh__docs__api__management__statistics__data-get__获取所有额度数据-new-api__df8b67df.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/system-settings/option-get",
-      "title": "获取系统选项 | New API",
+      "url": "/api/management/system-settings/option-get",
+      "title": "获取系统选项 | ClawRouter",
       "file": "docs/zh__docs__api__management__system-settings__option-get__获取系统选项-new-api__6c86ded7.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/system/status-get",
-      "title": "获取系统状态 | New API",
+      "url": "/api/management/system/status-get",
+      "title": "获取系统状态 | ClawRouter",
       "file": "docs/zh__docs__api__management__system__status-get__获取系统状态-new-api__babce704.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/tasks/task-get",
-      "title": "获取所有任务 | New API",
+      "url": "/api/management/tasks/task-get",
+      "title": "获取所有任务 | ClawRouter",
       "file": "docs/zh__docs__api__management__tasks__task-get__获取所有任务-new-api__35db33aa.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/token-management/token-get",
-      "title": "获取所有令牌 | New API",
+      "url": "/api/management/token-management/token-get",
+      "title": "获取所有令牌 | ClawRouter",
       "file": "docs/zh__docs__api__management__token-management__token-get__获取所有令牌-new-api__ddea2568.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/two-factor-auth/user-2fa-status-get",
-      "title": "获取2FA状态 | New API",
+      "url": "/api/management/two-factor-auth/user-2fa-status-get",
+      "title": "获取2FA状态 | ClawRouter",
       "file": "docs/zh__docs__api__management__two-factor-auth__user-2fa-status-get__获取2fa状态-new-api__1bab2029.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/user-auth/user-login-post",
-      "title": "用户登录 | New API",
+      "url": "/api/management/user-auth/user-login-post",
+      "title": "用户登录 | ClawRouter",
       "file": "docs/zh__docs__api__management__user-auth__user-login-post__用户登录-new-api__ab67391d.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/user-management/user-self-get",
-      "title": "获取当前用户信息 | New API",
+      "url": "/api/management/user-management/user-self-get",
+      "title": "获取当前用户信息 | ClawRouter",
       "file": "docs/zh__docs__api__management__user-management__user-self-get__获取当前用户信息-new-api__bb44f07b.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/vendors/vendors-get",
-      "title": "获取所有供应商 | New API",
+      "url": "/api/management/vendors/vendors-get",
+      "title": "获取所有供应商 | ClawRouter",
       "file": "docs/zh__docs__api__management__vendors__vendors-get__获取所有供应商-new-api__ceab67f1.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/ai-model/audio/geminirelayv1beta-383836364",
-      "title": "原生Gemini格式 | New API",
+      "url": "/api/ai-model/audio/geminirelayv1beta-383836364",
+      "title": "原生Gemini格式 | ClawRouter",
       "file": "docs/zh__docs__api__ai-model__audio__geminirelayv1beta-383836364__原生gemini格式-new-api__04afcc5e.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/ai-model/audio/openai/createtranscription",
-      "title": "音频转录 | New API",
+      "url": "/api/ai-model/audio/openai/createtranscription",
+      "title": "音频转录 | ClawRouter",
       "file": "docs/zh__docs__api__ai-model__audio__openai__createtranscription__音频转录-new-api__9765273b.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/ai-model/audio/openai/createtranslation",
-      "title": "音频翻译 | New API",
+      "url": "/api/ai-model/audio/openai/createtranslation",
+      "title": "音频翻译 | ClawRouter",
       "file": "docs/zh__docs__api__ai-model__audio__openai__createtranslation__音频翻译-new-api__cc653cd5.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/ai-model/chat/createmessage",
-      "title": "原生Claude格式 | New API",
+      "url": "/api/ai-model/chat/createmessage",
+      "title": "原生Claude格式 | ClawRouter",
       "file": "docs/zh__docs__api__ai-model__chat__createmessage__原生claude格式-new-api__32072057.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/ai-model/chat/openai/createresponse",
-      "title": "Responses格式 | New API",
+      "url": "/api/ai-model/chat/openai/createresponse",
+      "title": "Responses格式 | ClawRouter",
       "file": "docs/zh__docs__api__ai-model__chat__openai__createresponse__responses格式-new-api__791dfa47.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/ai-model/embeddings/createengineembedding",
-      "title": "原生Gemini格式 | New API",
+      "url": "/api/ai-model/embeddings/createengineembedding",
+      "title": "原生Gemini格式 | ClawRouter",
       "file": "docs/zh__docs__api__ai-model__embeddings__createengineembedding__原生gemini格式-new-api__b6bd1911.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/ai-model/images/openai/post-v1-images-edits",
-      "title": "编辑图像 | New API",
+      "url": "/api/ai-model/images/openai/post-v1-images-edits",
+      "title": "编辑图像 | ClawRouter",
       "file": "docs/zh__docs__api__ai-model__images__openai__post-v1-images-edits__编辑图像-new-api__1bee126d.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/ai-model/models/list/listmodelsgemini",
-      "title": "原生Gemini格式 | New API",
+      "url": "/api/ai-model/models/list/listmodelsgemini",
+      "title": "原生Gemini格式 | ClawRouter",
       "file": "docs/zh__docs__api__ai-model__models__list__listmodelsgemini__原生gemini格式-new-api__49a6ce5b.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/ai-model/unimplemented/files/createfile",
-      "title": "上传文件 (未实现) | New API",
+      "url": "/api/ai-model/unimplemented/files/createfile",
+      "title": "上传文件 (未实现) | ClawRouter",
       "file": "docs/zh__docs__api__ai-model__unimplemented__files__createfile__上传文件-未实现-new-api__a97b2763.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/ai-model/unimplemented/files/deletefile",
-      "title": "删除文件 (未实现) | New API",
+      "url": "/api/ai-model/unimplemented/files/deletefile",
+      "title": "删除文件 (未实现) | ClawRouter",
       "file": "docs/zh__docs__api__ai-model__unimplemented__files__deletefile__删除文件-未实现-new-api__0403d464.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/ai-model/unimplemented/files/downloadfile",
-      "title": "获取文件内容 (未实现) | New API",
+      "url": "/api/ai-model/unimplemented/files/downloadfile",
+      "title": "获取文件内容 (未实现) | ClawRouter",
       "file": "docs/zh__docs__api__ai-model__unimplemented__files__downloadfile__获取文件内容-未实现-new-api__1420762c.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/ai-model/unimplemented/files/retrievefile",
-      "title": "获取文件信息 (未实现) | New API",
+      "url": "/api/ai-model/unimplemented/files/retrievefile",
+      "title": "获取文件信息 (未实现) | ClawRouter",
       "file": "docs/zh__docs__api__ai-model__unimplemented__files__retrievefile__获取文件信息-未实现-new-api__1e4f19cc.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/ai-model/videos/createvideogeneration",
-      "title": "创建视频生成任务 | New API",
+      "url": "/api/ai-model/videos/createvideogeneration",
+      "title": "创建视频生成任务 | ClawRouter",
       "file": "docs/zh__docs__api__ai-model__videos__createvideogeneration__创建视频生成任务-new-api__24ad2bd7.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/ai-model/videos/getvideogeneration",
-      "title": "获取视频生成任务状态 | New API",
+      "url": "/api/ai-model/videos/getvideogeneration",
+      "title": "获取视频生成任务状态 | ClawRouter",
       "file": "docs/zh__docs__api__ai-model__videos__getvideogeneration__获取视频生成任务状态-new-api__a5d92ec6.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/ai-model/videos/sora/getvideo",
-      "title": "获取视频任务状态  | New API",
+      "url": "/api/ai-model/videos/sora/getvideo",
+      "title": "获取视频任务状态  | ClawRouter",
       "file": "docs/zh__docs__api__ai-model__videos__sora__getvideo__获取视频任务状态-new-api__28022ca1.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/ai-model/videos/sora/getvideocontent",
-      "title": "获取视频内容 | New API",
+      "url": "/api/ai-model/videos/sora/getvideocontent",
+      "title": "获取视频内容 | ClawRouter",
       "file": "docs/zh__docs__api__ai-model__videos__sora__getvideocontent__获取视频内容-new-api__2ad24b31.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/auth",
-      "title": "鉴权体系说明（Auth） | New API",
+      "url": "/api/management/auth",
+      "title": "鉴权体系说明（Auth） | ClawRouter",
       "file": "docs/zh__docs__api__management__auth__鉴权体系说明auth-new-api__86362656.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/channel-management/channel-batch-post",
-      "title": "批量删除渠道 | New API",
+      "url": "/api/management/channel-management/channel-batch-post",
+      "title": "批量删除渠道 | ClawRouter",
       "file": "docs/zh__docs__api__management__channel-management__channel-batch-post__批量删除渠道-new-api__3245656a.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/channel-management/channel-batch-tag-post",
-      "title": "批量设置渠道标签 | New API",
+      "url": "/api/management/channel-management/channel-batch-tag-post",
+      "title": "批量设置渠道标签 | ClawRouter",
       "file": "docs/zh__docs__api__management__channel-management__channel-batch-tag-post__批量设置渠道标签-new-api__13732edf.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/channel-management/channel-copy-id-post",
-      "title": "复制渠道 | New API",
+      "url": "/api/management/channel-management/channel-copy-id-post",
+      "title": "复制渠道 | ClawRouter",
       "file": "docs/zh__docs__api__management__channel-management__channel-copy-id-post__复制渠道-new-api__979598ac.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/channel-management/channel-disabled-delete",
-      "title": "删除已禁用渠道 | New API",
+      "url": "/api/management/channel-management/channel-disabled-delete",
+      "title": "删除已禁用渠道 | ClawRouter",
       "file": "docs/zh__docs__api__management__channel-management__channel-disabled-delete__删除已禁用渠道-new-api__2703322e.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/channel-management/channel-fetch_models-id-get",
-      "title": "获取上游模型列表 | New API",
+      "url": "/api/management/channel-management/channel-fetch_models-id-get",
+      "title": "获取上游模型列表 | ClawRouter",
       "file": "docs/zh__docs__api__management__channel-management__channel-fetch_models-id-get__获取上游模型列表-new-api__96efa317.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/channel-management/channel-fetch_models-post",
-      "title": "获取模型列表 | New API",
+      "url": "/api/management/channel-management/channel-fetch_models-post",
+      "title": "获取模型列表 | ClawRouter",
       "file": "docs/zh__docs__api__management__channel-management__channel-fetch_models-post__获取模型列表-new-api__3c6cac8a.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/channel-management/channel-fix-post",
-      "title": "修复渠道能力 | New API",
+      "url": "/api/management/channel-management/channel-fix-post",
+      "title": "修复渠道能力 | ClawRouter",
       "file": "docs/zh__docs__api__management__channel-management__channel-fix-post__修复渠道能力-new-api__0f2f03a3.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/channel-management/channel-id-delete",
-      "title": "删除渠道 | New API",
+      "url": "/api/management/channel-management/channel-id-delete",
+      "title": "删除渠道 | ClawRouter",
       "file": "docs/zh__docs__api__management__channel-management__channel-id-delete__删除渠道-new-api__341972c2.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/channel-management/channel-id-get",
-      "title": "获取指定渠道 | New API",
+      "url": "/api/management/channel-management/channel-id-get",
+      "title": "获取指定渠道 | ClawRouter",
       "file": "docs/zh__docs__api__management__channel-management__channel-id-get__获取指定渠道-new-api__3d9b8693.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/channel-management/channel-id-key-post",
-      "title": "获取渠道密钥 | New API",
+      "url": "/api/management/channel-management/channel-id-key-post",
+      "title": "获取渠道密钥 | ClawRouter",
       "file": "docs/zh__docs__api__management__channel-management__channel-id-key-post__获取渠道密钥-new-api__8148e299.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/channel-management/channel-models-get",
-      "title": "获取渠道模型列表 | New API",
+      "url": "/api/management/channel-management/channel-models-get",
+      "title": "获取渠道模型列表 | ClawRouter",
       "file": "docs/zh__docs__api__management__channel-management__channel-models-get__获取渠道模型列表-new-api__0bb9cf6a.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/channel-management/channel-models_enabled-get",
-      "title": "获取已启用模型列表 | New API",
+      "url": "/api/management/channel-management/channel-models_enabled-get",
+      "title": "获取已启用模型列表 | ClawRouter",
       "file": "docs/zh__docs__api__management__channel-management__channel-models_enabled-get__获取已启用模型列表-new-api__4abb2a47.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/channel-management/channel-multi_key-manage-post",
-      "title": "管理多密钥 | New API",
+      "url": "/api/management/channel-management/channel-multi_key-manage-post",
+      "title": "管理多密钥 | ClawRouter",
       "file": "docs/zh__docs__api__management__channel-management__channel-multi_key-manage-post__管理多密钥-new-api__d30da8c8.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/channel-management/channel-post",
-      "title": "添加渠道 | New API",
+      "url": "/api/management/channel-management/channel-post",
+      "title": "添加渠道 | ClawRouter",
       "file": "docs/zh__docs__api__management__channel-management__channel-post__添加渠道-new-api__69dc367a.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/channel-management/channel-put",
-      "title": "更新渠道 | New API",
+      "url": "/api/management/channel-management/channel-put",
+      "title": "更新渠道 | ClawRouter",
       "file": "docs/zh__docs__api__management__channel-management__channel-put__更新渠道-new-api__84687460.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/channel-management/channel-search-get",
-      "title": "搜索渠道 | New API",
+      "url": "/api/management/channel-management/channel-search-get",
+      "title": "搜索渠道 | ClawRouter",
       "file": "docs/zh__docs__api__management__channel-management__channel-search-get__搜索渠道-new-api__77154ad5.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/channel-management/channel-tag-disabled-post",
-      "title": "禁用标签渠道 | New API",
+      "url": "/api/management/channel-management/channel-tag-disabled-post",
+      "title": "禁用标签渠道 | ClawRouter",
       "file": "docs/zh__docs__api__management__channel-management__channel-tag-disabled-post__禁用标签渠道-new-api__47c00c0b.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/channel-management/channel-tag-enabled-post",
-      "title": "启用标签渠道 | New API",
+      "url": "/api/management/channel-management/channel-tag-enabled-post",
+      "title": "启用标签渠道 | ClawRouter",
       "file": "docs/zh__docs__api__management__channel-management__channel-tag-enabled-post__启用标签渠道-new-api__70ad4473.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/channel-management/channel-tag-models-get",
-      "title": "获取标签模型 | New API",
+      "url": "/api/management/channel-management/channel-tag-models-get",
+      "title": "获取标签模型 | ClawRouter",
       "file": "docs/zh__docs__api__management__channel-management__channel-tag-models-get__获取标签模型-new-api__77caf02b.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/channel-management/channel-tag-put",
-      "title": "编辑标签渠道 | New API",
+      "url": "/api/management/channel-management/channel-tag-put",
+      "title": "编辑标签渠道 | ClawRouter",
       "file": "docs/zh__docs__api__management__channel-management__channel-tag-put__编辑标签渠道-new-api__d59f652b.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/channel-management/channel-test-get",
-      "title": "测试所有渠道 | New API",
+      "url": "/api/management/channel-management/channel-test-get",
+      "title": "测试所有渠道 | ClawRouter",
       "file": "docs/zh__docs__api__management__channel-management__channel-test-get__测试所有渠道-new-api__c7c54ed9.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/channel-management/channel-test-id-get",
-      "title": "测试指定渠道 | New API",
+      "url": "/api/management/channel-management/channel-test-id-get",
+      "title": "测试指定渠道 | ClawRouter",
       "file": "docs/zh__docs__api__management__channel-management__channel-test-id-get__测试指定渠道-new-api__98ea87fc.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/channel-management/channel-update_balance-get",
-      "title": "更新所有渠道余额 | New API",
+      "url": "/api/management/channel-management/channel-update_balance-get",
+      "title": "更新所有渠道余额 | ClawRouter",
       "file": "docs/zh__docs__api__management__channel-management__channel-update_balance-get__更新所有渠道余额-new-api__4630c220.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/channel-management/channel-update_balance-id-get",
-      "title": "更新指定渠道余额 | New API",
+      "url": "/api/management/channel-management/channel-update_balance-id-get",
+      "title": "更新指定渠道余额 | ClawRouter",
       "file": "docs/zh__docs__api__management__channel-management__channel-update_balance-id-get__更新指定渠道余额-new-api__1e3d43be.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/groups/prefill_group-get",
-      "title": "获取预填分组 | New API",
+      "url": "/api/management/groups/prefill_group-get",
+      "title": "获取预填分组 | ClawRouter",
       "file": "docs/zh__docs__api__management__groups__prefill_group-get__获取预填分组-new-api__5e2db417.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/groups/prefill_group-id-delete",
-      "title": "删除预填分组 | New API",
+      "url": "/api/management/groups/prefill_group-id-delete",
+      "title": "删除预填分组 | ClawRouter",
       "file": "docs/zh__docs__api__management__groups__prefill_group-id-delete__删除预填分组-new-api__425d1947.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/groups/prefill_group-post",
-      "title": "创建预填分组 | New API",
+      "url": "/api/management/groups/prefill_group-post",
+      "title": "创建预填分组 | ClawRouter",
       "file": "docs/zh__docs__api__management__groups__prefill_group-post__创建预填分组-new-api__1e380309.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/groups/prefill_group-put",
-      "title": "更新预填分组 | New API",
+      "url": "/api/management/groups/prefill_group-put",
+      "title": "更新预填分组 | ClawRouter",
       "file": "docs/zh__docs__api__management__groups__prefill_group-put__更新预填分组-new-api__4483ab92.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/logs/log-delete",
-      "title": "删除历史日志 | New API",
+      "url": "/api/management/logs/log-delete",
+      "title": "删除历史日志 | ClawRouter",
       "file": "docs/zh__docs__api__management__logs__log-delete__删除历史日志-new-api__4a368a64.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/logs/log-search-get",
-      "title": "搜索日志 | New API",
+      "url": "/api/management/logs/log-search-get",
+      "title": "搜索日志 | ClawRouter",
       "file": "docs/zh__docs__api__management__logs__log-search-get__搜索日志-new-api__71e8aacb.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/logs/log-self-get",
-      "title": "获取个人日志 | New API",
+      "url": "/api/management/logs/log-self-get",
+      "title": "获取个人日志 | ClawRouter",
       "file": "docs/zh__docs__api__management__logs__log-self-get__获取个人日志-new-api__f6e3dd8f.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/logs/log-self-search-get",
-      "title": "搜索个人日志 | New API",
+      "url": "/api/management/logs/log-self-search-get",
+      "title": "搜索个人日志 | ClawRouter",
       "file": "docs/zh__docs__api__management__logs__log-self-search-get__搜索个人日志-new-api__448ca9b5.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/logs/log-self-stat-get",
-      "title": "获取个人日志统计 | New API",
+      "url": "/api/management/logs/log-self-stat-get",
+      "title": "获取个人日志统计 | ClawRouter",
       "file": "docs/zh__docs__api__management__logs__log-self-stat-get__获取个人日志统计-new-api__62c202bc.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/logs/log-stat-get",
-      "title": "获取日志统计 | New API",
+      "url": "/api/management/logs/log-stat-get",
+      "title": "获取日志统计 | ClawRouter",
       "file": "docs/zh__docs__api__management__logs__log-stat-get__获取日志统计-new-api__4eeba8aa.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/logs/log-token-get",
-      "title": "通过令牌获取日志 | New API",
+      "url": "/api/management/logs/log-token-get",
+      "title": "通过令牌获取日志 | ClawRouter",
       "file": "docs/zh__docs__api__management__logs__log-token-get__通过令牌获取日志-new-api__bcf8e933.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/model-management/models-id-delete",
-      "title": "删除模型 | New API",
+      "url": "/api/management/model-management/models-id-delete",
+      "title": "删除模型 | ClawRouter",
       "file": "docs/zh__docs__api__management__model-management__models-id-delete__删除模型-new-api__887950c9.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/model-management/models-id-get",
-      "title": "获取指定模型 | New API",
+      "url": "/api/management/model-management/models-id-get",
+      "title": "获取指定模型 | ClawRouter",
       "file": "docs/zh__docs__api__management__model-management__models-id-get__获取指定模型-new-api__af3ca8f3.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/model-management/models-missing-get",
-      "title": "获取缺失模型 | New API",
+      "url": "/api/management/model-management/models-missing-get",
+      "title": "获取缺失模型 | ClawRouter",
       "file": "docs/zh__docs__api__management__model-management__models-missing-get__获取缺失模型-new-api__f60a4c2c.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/model-management/models-post",
-      "title": "创建模型元数据 | New API",
+      "url": "/api/management/model-management/models-post",
+      "title": "创建模型元数据 | ClawRouter",
       "file": "docs/zh__docs__api__management__model-management__models-post__创建模型元数据-new-api__548c9b92.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/model-management/models-put",
-      "title": "更新模型元数据 | New API",
+      "url": "/api/management/model-management/models-put",
+      "title": "更新模型元数据 | ClawRouter",
       "file": "docs/zh__docs__api__management__model-management__models-put__更新模型元数据-new-api__2cbb8174.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/model-management/models-search-get",
-      "title": "搜索模型 | New API",
+      "url": "/api/management/model-management/models-search-get",
+      "title": "搜索模型 | ClawRouter",
       "file": "docs/zh__docs__api__management__model-management__models-search-get__搜索模型-new-api__4feb0820.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/model-management/models-sync_upstream-post",
-      "title": "同步上游模型 | New API",
+      "url": "/api/management/model-management/models-sync_upstream-post",
+      "title": "同步上游模型 | ClawRouter",
       "file": "docs/zh__docs__api__management__model-management__models-sync_upstream-post__同步上游模型-new-api__10c23d2e.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/model-management/models-sync_upstream-preview-get",
-      "title": "预览上游模型同步 | New API",
+      "url": "/api/management/model-management/models-sync_upstream-preview-get",
+      "title": "预览上游模型同步 | ClawRouter",
       "file": "docs/zh__docs__api__management__model-management__models-sync_upstream-preview-get__预览上游模型同步-new-api__c0065418.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/oauth/oauth-discord-get",
-      "title": "Discord OAuth登录 | New API",
+      "url": "/api/management/oauth/oauth-discord-get",
+      "title": "Discord OAuth登录 | ClawRouter",
       "file": "docs/zh__docs__api__management__oauth__oauth-discord-get__discord-oauth登录-new-api__35bf6a83.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/oauth/oauth-email-bind-get",
-      "title": "绑定邮箱 | New API",
+      "url": "/api/management/oauth/oauth-email-bind-get",
+      "title": "绑定邮箱 | ClawRouter",
       "file": "docs/zh__docs__api__management__oauth__oauth-email-bind-get__绑定邮箱-new-api__d1032f5c.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/oauth/oauth-linuxdo-get",
-      "title": "LinuxDO OAuth登录 | New API",
+      "url": "/api/management/oauth/oauth-linuxdo-get",
+      "title": "LinuxDO OAuth登录 | ClawRouter",
       "file": "docs/zh__docs__api__management__oauth__oauth-linuxdo-get__linuxdo-oauth登录-new-api__b49ffc14.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/oauth/oauth-oidc-get",
-      "title": "OIDC登录 | New API",
+      "url": "/api/management/oauth/oauth-oidc-get",
+      "title": "OIDC登录 | ClawRouter",
       "file": "docs/zh__docs__api__management__oauth__oauth-oidc-get__oidc登录-new-api__6ad82689.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/oauth/oauth-state-get",
-      "title": "生成OAuth State | New API",
+      "url": "/api/management/oauth/oauth-state-get",
+      "title": "生成OAuth State | ClawRouter",
       "file": "docs/zh__docs__api__management__oauth__oauth-state-get__生成oauth-state-new-api__8d87afa2.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/oauth/oauth-telegram-bind-get",
-      "title": "绑定Telegram | New API",
+      "url": "/api/management/oauth/oauth-telegram-bind-get",
+      "title": "绑定Telegram | ClawRouter",
       "file": "docs/zh__docs__api__management__oauth__oauth-telegram-bind-get__绑定telegram-new-api__fcdf0d85.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/oauth/oauth-telegram-login-get",
-      "title": "Telegram登录 | New API",
+      "url": "/api/management/oauth/oauth-telegram-login-get",
+      "title": "Telegram登录 | ClawRouter",
       "file": "docs/zh__docs__api__management__oauth__oauth-telegram-login-get__telegram登录-new-api__8f81a184.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/oauth/oauth-wechat-bind-get",
-      "title": "绑定微信 | New API",
+      "url": "/api/management/oauth/oauth-wechat-bind-get",
+      "title": "绑定微信 | ClawRouter",
       "file": "docs/zh__docs__api__management__oauth__oauth-wechat-bind-get__绑定微信-new-api__9435d117.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/oauth/oauth-wechat-get",
-      "title": "微信OAuth登录 | New API",
+      "url": "/api/management/oauth/oauth-wechat-get",
+      "title": "微信OAuth登录 | ClawRouter",
       "file": "docs/zh__docs__api__management__oauth__oauth-wechat-get__微信oauth登录-new-api__9d4cae14.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/payment/creem-webhook-post",
-      "title": "Creem Webhook | New API",
+      "url": "/api/management/payment/creem-webhook-post",
+      "title": "Creem Webhook | ClawRouter",
       "file": "docs/zh__docs__api__management__payment__creem-webhook-post__creem-webhook-new-api__3ba6fbcb.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/payment/stripe-webhook-post",
-      "title": "Stripe Webhook | New API",
+      "url": "/api/management/payment/stripe-webhook-post",
+      "title": "Stripe Webhook | ClawRouter",
       "file": "docs/zh__docs__api__management__payment__stripe-webhook-post__stripe-webhook-new-api__86354afa.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/payment/user-amount-post",
-      "title": "获取支付金额 | New API",
+      "url": "/api/management/payment/user-amount-post",
+      "title": "获取支付金额 | ClawRouter",
       "file": "docs/zh__docs__api__management__payment__user-amount-post__获取支付金额-new-api__399f4b1b.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/payment/user-creem-pay-post",
-      "title": "发起Creem支付 | New API",
+      "url": "/api/management/payment/user-creem-pay-post",
+      "title": "发起Creem支付 | ClawRouter",
       "file": "docs/zh__docs__api__management__payment__user-creem-pay-post__发起creem支付-new-api__bc3c80d9.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/payment/user-epay-notify-get",
-      "title": "易支付回调 | New API",
+      "url": "/api/management/payment/user-epay-notify-get",
+      "title": "易支付回调 | ClawRouter",
       "file": "docs/zh__docs__api__management__payment__user-epay-notify-get__易支付回调-new-api__c00262d8.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/payment/user-pay-post",
-      "title": "发起易支付 | New API",
+      "url": "/api/management/payment/user-pay-post",
+      "title": "发起易支付 | ClawRouter",
       "file": "docs/zh__docs__api__management__payment__user-pay-post__发起易支付-new-api__a8366005.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/payment/user-stripe-amount-post",
-      "title": "获取Stripe支付金额 | New API",
+      "url": "/api/management/payment/user-stripe-amount-post",
+      "title": "获取Stripe支付金额 | ClawRouter",
       "file": "docs/zh__docs__api__management__payment__user-stripe-amount-post__获取stripe支付金额-new-api__a7d06e04.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/payment/user-stripe-pay-post",
-      "title": "发起Stripe支付 | New API",
+      "url": "/api/management/payment/user-stripe-pay-post",
+      "title": "发起Stripe支付 | ClawRouter",
       "file": "docs/zh__docs__api__management__payment__user-stripe-pay-post__发起stripe支付-new-api__beb46b28.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/payment/user-topup-self-get",
-      "title": "获取用户充值记录 | New API",
+      "url": "/api/management/payment/user-topup-self-get",
+      "title": "获取用户充值记录 | ClawRouter",
       "file": "docs/zh__docs__api__management__payment__user-topup-self-get__获取用户充值记录-new-api__5efb40c1.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/redemption/redemption-id-delete",
-      "title": "删除兑换码 | New API",
+      "url": "/api/management/redemption/redemption-id-delete",
+      "title": "删除兑换码 | ClawRouter",
       "file": "docs/zh__docs__api__management__redemption__redemption-id-delete__删除兑换码-new-api__b656eae4.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/redemption/redemption-id-get",
-      "title": "获取指定兑换码 | New API",
+      "url": "/api/management/redemption/redemption-id-get",
+      "title": "获取指定兑换码 | ClawRouter",
       "file": "docs/zh__docs__api__management__redemption__redemption-id-get__获取指定兑换码-new-api__0598a20e.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/redemption/redemption-invalid-delete",
-      "title": "删除无效兑换码 | New API",
+      "url": "/api/management/redemption/redemption-invalid-delete",
+      "title": "删除无效兑换码 | ClawRouter",
       "file": "docs/zh__docs__api__management__redemption__redemption-invalid-delete__删除无效兑换码-new-api__15fce1d9.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/redemption/redemption-post",
-      "title": "创建兑换码 | New API",
+      "url": "/api/management/redemption/redemption-post",
+      "title": "创建兑换码 | ClawRouter",
       "file": "docs/zh__docs__api__management__redemption__redemption-post__创建兑换码-new-api__ce536652.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/redemption/redemption-put",
-      "title": "更新兑换码 | New API",
+      "url": "/api/management/redemption/redemption-put",
+      "title": "更新兑换码 | ClawRouter",
       "file": "docs/zh__docs__api__management__redemption__redemption-put__更新兑换码-new-api__f83f1cff.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/redemption/redemption-search-get",
-      "title": "搜索兑换码 | New API",
+      "url": "/api/management/redemption/redemption-search-get",
+      "title": "搜索兑换码 | ClawRouter",
       "file": "docs/zh__docs__api__management__redemption__redemption-search-get__搜索兑换码-new-api__2587d444.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/security-verification/verify-post",
-      "title": "通用安全验证 | New API",
+      "url": "/api/management/security-verification/verify-post",
+      "title": "通用安全验证 | ClawRouter",
       "file": "docs/zh__docs__api__management__security-verification__verify-post__通用安全验证-new-api__3aa3adf4.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/statistics/data-self-get",
-      "title": "获取个人额度数据 | New API",
+      "url": "/api/management/statistics/data-self-get",
+      "title": "获取个人额度数据 | ClawRouter",
       "file": "docs/zh__docs__api__management__statistics__data-self-get__获取个人额度数据-new-api__348150ad.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/system-settings/option-migrate_console_setting-post",
-      "title": "迁移控制台设置 | New API",
+      "url": "/api/management/system-settings/option-migrate_console_setting-post",
+      "title": "迁移控制台设置 | ClawRouter",
       "file": "docs/zh__docs__api__management__system-settings__option-migrate_console_setting-post__迁移控制台设置-new-api__9bedcf0e.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/system-settings/option-put",
-      "title": "更新系统选项 | New API",
+      "url": "/api/management/system-settings/option-put",
+      "title": "更新系统选项 | ClawRouter",
       "file": "docs/zh__docs__api__management__system-settings__option-put__更新系统选项-new-api__3162b6fb.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/system-settings/option-rest_model_ratio-post",
-      "title": "重置模型倍率 | New API",
+      "url": "/api/management/system-settings/option-rest_model_ratio-post",
+      "title": "重置模型倍率 | ClawRouter",
       "file": "docs/zh__docs__api__management__system-settings__option-rest_model_ratio-post__重置模型倍率-new-api__82de8a7f.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/system-settings/ratio_sync-channels-get",
-      "title": "获取可同步渠道 | New API",
+      "url": "/api/management/system-settings/ratio_sync-channels-get",
+      "title": "获取可同步渠道 | ClawRouter",
       "file": "docs/zh__docs__api__management__system-settings__ratio_sync-channels-get__获取可同步渠道-new-api__b50a58fe.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/system-settings/ratio_sync-fetch-post",
-      "title": "获取上游倍率 | New API",
+      "url": "/api/management/system-settings/ratio_sync-fetch-post",
+      "title": "获取上游倍率 | ClawRouter",
       "file": "docs/zh__docs__api__management__system-settings__ratio_sync-fetch-post__获取上游倍率-new-api__395769d5.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/system/about-get",
-      "title": "获取关于信息 | New API",
+      "url": "/api/management/system/about-get",
+      "title": "获取关于信息 | ClawRouter",
       "file": "docs/zh__docs__api__management__system__about-get__获取关于信息-new-api__acd28027.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/system/home_page_content-get",
-      "title": "获取首页内容 | New API",
+      "url": "/api/management/system/home_page_content-get",
+      "title": "获取首页内容 | ClawRouter",
       "file": "docs/zh__docs__api__management__system__home_page_content-get__获取首页内容-new-api__2f9539c3.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/system/models-get",
-      "title": "获取模型列表 | New API",
+      "url": "/api/management/system/models-get",
+      "title": "获取模型列表 | ClawRouter",
       "file": "docs/zh__docs__api__management__system__models-get__获取模型列表-new-api__66cac42a.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/system/notice-get",
-      "title": "获取公告 | New API",
+      "url": "/api/management/system/notice-get",
+      "title": "获取公告 | ClawRouter",
       "file": "docs/zh__docs__api__management__system__notice-get__获取公告-new-api__d917bd67.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/system/pricing-get",
-      "title": "获取定价信息 | New API",
+      "url": "/api/management/system/pricing-get",
+      "title": "获取定价信息 | ClawRouter",
       "file": "docs/zh__docs__api__management__system__pricing-get__获取定价信息-new-api__c7b1e63a.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/system/privacy-policy-get",
-      "title": "获取隐私政策 | New API",
+      "url": "/api/management/system/privacy-policy-get",
+      "title": "获取隐私政策 | ClawRouter",
       "file": "docs/zh__docs__api__management__system__privacy-policy-get__获取隐私政策-new-api__0bad7d3f.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/system/ratio_config-get",
-      "title": "获取倍率配置 | New API",
+      "url": "/api/management/system/ratio_config-get",
+      "title": "获取倍率配置 | ClawRouter",
       "file": "docs/zh__docs__api__management__system__ratio_config-get__获取倍率配置-new-api__624830fc.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/system/setup-get",
-      "title": "获取初始化状态 | New API",
+      "url": "/api/management/system/setup-get",
+      "title": "获取初始化状态 | ClawRouter",
       "file": "docs/zh__docs__api__management__system__setup-get__获取初始化状态-new-api__069a178c.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/system/setup-post",
-      "title": "初始化系统 | New API",
+      "url": "/api/management/system/setup-post",
+      "title": "初始化系统 | ClawRouter",
       "file": "docs/zh__docs__api__management__system__setup-post__初始化系统-new-api__2cd940ec.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/system/status-test-get",
-      "title": "测试系统状态 | New API",
+      "url": "/api/management/system/status-test-get",
+      "title": "测试系统状态 | ClawRouter",
       "file": "docs/zh__docs__api__management__system__status-test-get__测试系统状态-new-api__d67dc686.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/system/uptime-status-get",
-      "title": "获取Uptime Kuma状态 | New API",
+      "url": "/api/management/system/uptime-status-get",
+      "title": "获取Uptime Kuma状态 | ClawRouter",
       "file": "docs/zh__docs__api__management__system__uptime-status-get__获取uptime-kuma状态-new-api__afab8701.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/system/user-agreement-get",
-      "title": "获取用户协议 | New API",
+      "url": "/api/management/system/user-agreement-get",
+      "title": "获取用户协议 | ClawRouter",
       "file": "docs/zh__docs__api__management__system__user-agreement-get__获取用户协议-new-api__dbdcee8f.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/tasks/mj-get",
-      "title": "获取所有Midjourney任务 | New API",
+      "url": "/api/management/tasks/mj-get",
+      "title": "获取所有Midjourney任务 | ClawRouter",
       "file": "docs/zh__docs__api__management__tasks__mj-get__获取所有midjourney任务-new-api__4caba6fc.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/tasks/mj-self-get",
-      "title": "获取个人Midjourney任务 | New API",
+      "url": "/api/management/tasks/mj-self-get",
+      "title": "获取个人Midjourney任务 | ClawRouter",
       "file": "docs/zh__docs__api__management__tasks__mj-self-get__获取个人midjourney任务-new-api__2d070e15.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/tasks/task-self-get",
-      "title": "获取个人任务 | New API",
+      "url": "/api/management/tasks/task-self-get",
+      "title": "获取个人任务 | ClawRouter",
       "file": "docs/zh__docs__api__management__tasks__task-self-get__获取个人任务-new-api__48510f3a.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/token-management/token-batch-post",
-      "title": "批量删除令牌 | New API",
+      "url": "/api/management/token-management/token-batch-post",
+      "title": "批量删除令牌 | ClawRouter",
       "file": "docs/zh__docs__api__management__token-management__token-batch-post__批量删除令牌-new-api__95b42ca8.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/token-management/token-id-delete",
-      "title": "删除令牌 | New API",
+      "url": "/api/management/token-management/token-id-delete",
+      "title": "删除令牌 | ClawRouter",
       "file": "docs/zh__docs__api__management__token-management__token-id-delete__删除令牌-new-api__f4d7d2af.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/token-management/token-id-get",
-      "title": "获取指定令牌 | New API",
+      "url": "/api/management/token-management/token-id-get",
+      "title": "获取指定令牌 | ClawRouter",
       "file": "docs/zh__docs__api__management__token-management__token-id-get__获取指定令牌-new-api__1a0aa05d.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/token-management/token-post",
-      "title": "创建令牌 | New API",
+      "url": "/api/management/token-management/token-post",
+      "title": "创建令牌 | ClawRouter",
       "file": "docs/zh__docs__api__management__token-management__token-post__创建令牌-new-api__856abb1e.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/token-management/token-put",
-      "title": "更新令牌 | New API",
+      "url": "/api/management/token-management/token-put",
+      "title": "更新令牌 | ClawRouter",
       "file": "docs/zh__docs__api__management__token-management__token-put__更新令牌-new-api__eb6ae6f0.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/token-management/token-search-get",
-      "title": "搜索令牌 | New API",
+      "url": "/api/management/token-management/token-search-get",
+      "title": "搜索令牌 | ClawRouter",
       "file": "docs/zh__docs__api__management__token-management__token-search-get__搜索令牌-new-api__438e4e76.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/token-management/usage-token-get",
-      "title": "获取令牌使用情况 | New API",
+      "url": "/api/management/token-management/usage-token-get",
+      "title": "获取令牌使用情况 | ClawRouter",
       "file": "docs/zh__docs__api__management__token-management__usage-token-get__获取令牌使用情况-new-api__62315c76.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/two-factor-auth/user-2fa-backup_codes-post",
-      "title": "重新生成备用码 | New API",
+      "url": "/api/management/two-factor-auth/user-2fa-backup_codes-post",
+      "title": "重新生成备用码 | ClawRouter",
       "file": "docs/zh__docs__api__management__two-factor-auth__user-2fa-backup_codes-post__重新生成备用码-new-api__8cfd5666.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/two-factor-auth/user-2fa-disable-post",
-      "title": "禁用2FA | New API",
+      "url": "/api/management/two-factor-auth/user-2fa-disable-post",
+      "title": "禁用2FA | ClawRouter",
       "file": "docs/zh__docs__api__management__two-factor-auth__user-2fa-disable-post__禁用2fa-new-api__dce16f2f.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/two-factor-auth/user-2fa-enable-post",
-      "title": "启用2FA | New API",
+      "url": "/api/management/two-factor-auth/user-2fa-enable-post",
+      "title": "启用2FA | ClawRouter",
       "file": "docs/zh__docs__api__management__two-factor-auth__user-2fa-enable-post__启用2fa-new-api__1631001b.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/two-factor-auth/user-2fa-setup-post",
-      "title": "设置2FA | New API",
+      "url": "/api/management/two-factor-auth/user-2fa-setup-post",
+      "title": "设置2FA | ClawRouter",
       "file": "docs/zh__docs__api__management__two-factor-auth__user-2fa-setup-post__设置2fa-new-api__a2bc8f89.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/two-factor-auth/user-2fa-stats-get",
-      "title": "获取2FA统计 | New API",
+      "url": "/api/management/two-factor-auth/user-2fa-stats-get",
+      "title": "获取2FA统计 | ClawRouter",
       "file": "docs/zh__docs__api__management__two-factor-auth__user-2fa-stats-get__获取2fa统计-new-api__40bc7673.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/user-auth/reset_password-get",
-      "title": "发送密码重置邮件 | New API",
+      "url": "/api/management/user-auth/reset_password-get",
+      "title": "发送密码重置邮件 | ClawRouter",
       "file": "docs/zh__docs__api__management__user-auth__reset_password-get__发送密码重置邮件-new-api__c2550ee3.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/user-auth/user-groups-get",
-      "title": "获取用户分组列表 | New API",
+      "url": "/api/management/user-auth/user-groups-get",
+      "title": "获取用户分组列表 | ClawRouter",
       "file": "docs/zh__docs__api__management__user-auth__user-groups-get__获取用户分组列表-new-api__3f13fb7d.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/user-auth/user-login-2fa-post",
-      "title": "两步验证登录 | New API",
+      "url": "/api/management/user-auth/user-login-2fa-post",
+      "title": "两步验证登录 | ClawRouter",
       "file": "docs/zh__docs__api__management__user-auth__user-login-2fa-post__两步验证登录-new-api__3fe5b04f.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/user-auth/user-logout-get",
-      "title": "用户登出 | New API",
+      "url": "/api/management/user-auth/user-logout-get",
+      "title": "用户登出 | ClawRouter",
       "file": "docs/zh__docs__api__management__user-auth__user-logout-get__用户登出-new-api__8b13b159.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/user-auth/user-passkey-login-begin-post",
-      "title": "开始Passkey登录 | New API",
+      "url": "/api/management/user-auth/user-passkey-login-begin-post",
+      "title": "开始Passkey登录 | ClawRouter",
       "file": "docs/zh__docs__api__management__user-auth__user-passkey-login-begin-post__开始passkey登录-new-api__a9e682fb.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/user-auth/user-passkey-login-finish-post",
-      "title": "完成Passkey登录 | New API",
+      "url": "/api/management/user-auth/user-passkey-login-finish-post",
+      "title": "完成Passkey登录 | ClawRouter",
       "file": "docs/zh__docs__api__management__user-auth__user-passkey-login-finish-post__完成passkey登录-new-api__38980a41.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/user-auth/user-register-post",
-      "title": "用户注册 | New API",
+      "url": "/api/management/user-auth/user-register-post",
+      "title": "用户注册 | ClawRouter",
       "file": "docs/zh__docs__api__management__user-auth__user-register-post__用户注册-new-api__99698c9f.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/user-auth/user-reset-post",
-      "title": "重置密码 | New API",
+      "url": "/api/management/user-auth/user-reset-post",
+      "title": "重置密码 | ClawRouter",
       "file": "docs/zh__docs__api__management__user-auth__user-reset-post__重置密码-new-api__a15f99f8.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/user-auth/verification-get",
-      "title": "发送邮箱验证码 | New API",
+      "url": "/api/management/user-auth/verification-get",
+      "title": "发送邮箱验证码 | ClawRouter",
       "file": "docs/zh__docs__api__management__user-auth__verification-get__发送邮箱验证码-new-api__4f2841e6.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/user-management/user-aff-get",
-      "title": "获取邀请码 | New API",
+      "url": "/api/management/user-management/user-aff-get",
+      "title": "获取邀请码 | ClawRouter",
       "file": "docs/zh__docs__api__management__user-management__user-aff-get__获取邀请码-new-api__af25bdd6.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/user-management/user-aff_transfer-post",
-      "title": "转换邀请额度 | New API",
+      "url": "/api/management/user-management/user-aff_transfer-post",
+      "title": "转换邀请额度 | ClawRouter",
       "file": "docs/zh__docs__api__management__user-management__user-aff_transfer-post__转换邀请额度-new-api__f390a053.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/user-management/user-get",
-      "title": "获取所有用户 | New API",
+      "url": "/api/management/user-management/user-get",
+      "title": "获取所有用户 | ClawRouter",
       "file": "docs/zh__docs__api__management__user-management__user-get__获取所有用户-new-api__9a0086a0.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/user-management/user-id-2fa-delete",
-      "title": "管理员禁用用户2FA | New API",
+      "url": "/api/management/user-management/user-id-2fa-delete",
+      "title": "管理员禁用用户2FA | ClawRouter",
       "file": "docs/zh__docs__api__management__user-management__user-id-2fa-delete__管理员禁用用户2fa-new-api__48a7fb7c.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/user-management/user-id-delete",
-      "title": "删除用户 | New API",
+      "url": "/api/management/user-management/user-id-delete",
+      "title": "删除用户 | ClawRouter",
       "file": "docs/zh__docs__api__management__user-management__user-id-delete__删除用户-new-api__2b347cc6.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/user-management/user-id-get",
-      "title": "获取指定用户 | New API",
+      "url": "/api/management/user-management/user-id-get",
+      "title": "获取指定用户 | ClawRouter",
       "file": "docs/zh__docs__api__management__user-management__user-id-get__获取指定用户-new-api__ea6d5215.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/user-management/user-id-reset_passkey-delete",
-      "title": "管理员重置用户Passkey | New API",
+      "url": "/api/management/user-management/user-id-reset_passkey-delete",
+      "title": "管理员重置用户Passkey | ClawRouter",
       "file": "docs/zh__docs__api__management__user-management__user-id-reset_passkey-delete__管理员重置用户passkey-new-api__ed65e8e2.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/user-management/user-manage-post",
-      "title": "管理用户状态 | New API",
+      "url": "/api/management/user-management/user-manage-post",
+      "title": "管理用户状态 | ClawRouter",
       "file": "docs/zh__docs__api__management__user-management__user-manage-post__管理用户状态-new-api__37c3f489.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/user-management/user-models-get",
-      "title": "获取用户可用模型 | New API",
+      "url": "/api/management/user-management/user-models-get",
+      "title": "获取用户可用模型 | ClawRouter",
       "file": "docs/zh__docs__api__management__user-management__user-models-get__获取用户可用模型-new-api__18882210.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/user-management/user-passkey-delete",
-      "title": "删除Passkey | New API",
+      "url": "/api/management/user-management/user-passkey-delete",
+      "title": "删除Passkey | ClawRouter",
       "file": "docs/zh__docs__api__management__user-management__user-passkey-delete__删除passkey-new-api__3af7a51e.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/user-management/user-passkey-get",
-      "title": "获取Passkey状态 | New API",
+      "url": "/api/management/user-management/user-passkey-get",
+      "title": "获取Passkey状态 | ClawRouter",
       "file": "docs/zh__docs__api__management__user-management__user-passkey-get__获取passkey状态-new-api__ac319b9f.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/user-management/user-passkey-register-begin-post",
-      "title": "开始注册Passkey | New API",
+      "url": "/api/management/user-management/user-passkey-register-begin-post",
+      "title": "开始注册Passkey | ClawRouter",
       "file": "docs/zh__docs__api__management__user-management__user-passkey-register-begin-post__开始注册passkey-new-api__47230b41.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/user-management/user-passkey-register-finish-post",
-      "title": "完成注册Passkey | New API",
+      "url": "/api/management/user-management/user-passkey-register-finish-post",
+      "title": "完成注册Passkey | ClawRouter",
       "file": "docs/zh__docs__api__management__user-management__user-passkey-register-finish-post__完成注册passkey-new-api__f47b1d7e.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/user-management/user-passkey-verify-begin-post",
-      "title": "开始验证Passkey | New API",
+      "url": "/api/management/user-management/user-passkey-verify-begin-post",
+      "title": "开始验证Passkey | ClawRouter",
       "file": "docs/zh__docs__api__management__user-management__user-passkey-verify-begin-post__开始验证passkey-new-api__c0384b26.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/user-management/user-passkey-verify-finish-post",
-      "title": "完成验证Passkey | New API",
+      "url": "/api/management/user-management/user-passkey-verify-finish-post",
+      "title": "完成验证Passkey | ClawRouter",
       "file": "docs/zh__docs__api__management__user-management__user-passkey-verify-finish-post__完成验证passkey-new-api__9fc7e173.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/user-management/user-post",
-      "title": "创建用户 | New API",
+      "url": "/api/management/user-management/user-post",
+      "title": "创建用户 | ClawRouter",
       "file": "docs/zh__docs__api__management__user-management__user-post__创建用户-new-api__51b58d9b.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/user-management/user-put",
-      "title": "更新用户 | New API",
+      "url": "/api/management/user-management/user-put",
+      "title": "更新用户 | ClawRouter",
       "file": "docs/zh__docs__api__management__user-management__user-put__更新用户-new-api__e399454b.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/user-management/user-search-get",
-      "title": "搜索用户 | New API",
+      "url": "/api/management/user-management/user-search-get",
+      "title": "搜索用户 | ClawRouter",
       "file": "docs/zh__docs__api__management__user-management__user-search-get__搜索用户-new-api__a013cba5.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/user-management/user-self-delete",
-      "title": "注销当前用户 | New API",
+      "url": "/api/management/user-management/user-self-delete",
+      "title": "注销当前用户 | ClawRouter",
       "file": "docs/zh__docs__api__management__user-management__user-self-delete__注销当前用户-new-api__6585c6bc.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/user-management/user-self-groups-get",
-      "title": "获取当前用户分组 | New API",
+      "url": "/api/management/user-management/user-self-groups-get",
+      "title": "获取当前用户分组 | ClawRouter",
       "file": "docs/zh__docs__api__management__user-management__user-self-groups-get__获取当前用户分组-new-api__bb9eb7e7.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/user-management/user-self-put",
-      "title": "更新当前用户信息 | New API",
+      "url": "/api/management/user-management/user-self-put",
+      "title": "更新当前用户信息 | ClawRouter",
       "file": "docs/zh__docs__api__management__user-management__user-self-put__更新当前用户信息-new-api__87e74c7e.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/user-management/user-setting-put",
-      "title": "更新用户设置 | New API",
+      "url": "/api/management/user-management/user-setting-put",
+      "title": "更新用户设置 | ClawRouter",
       "file": "docs/zh__docs__api__management__user-management__user-setting-put__更新用户设置-new-api__ca64969f.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/user-management/user-token-get",
-      "title": "生成访问令牌 | New API",
+      "url": "/api/management/user-management/user-token-get",
+      "title": "生成访问令牌 | ClawRouter",
       "file": "docs/zh__docs__api__management__user-management__user-token-get__生成访问令牌-new-api__c8d0e11b.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/user-management/user-topup-complete-post",
-      "title": "管理员完成充值 | New API",
+      "url": "/api/management/user-management/user-topup-complete-post",
+      "title": "管理员完成充值 | ClawRouter",
       "file": "docs/zh__docs__api__management__user-management__user-topup-complete-post__管理员完成充值-new-api__af170294.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/user-management/user-topup-get",
-      "title": "获取所有充值记录 | New API",
+      "url": "/api/management/user-management/user-topup-get",
+      "title": "获取所有充值记录 | ClawRouter",
       "file": "docs/zh__docs__api__management__user-management__user-topup-get__获取所有充值记录-new-api__53b0977e.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/vendors/vendors-id-delete",
-      "title": "删除供应商 | New API",
+      "url": "/api/management/vendors/vendors-id-delete",
+      "title": "删除供应商 | ClawRouter",
       "file": "docs/zh__docs__api__management__vendors__vendors-id-delete__删除供应商-new-api__c34f21f4.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/vendors/vendors-id-get",
-      "title": "获取指定供应商 | New API",
+      "url": "/api/management/vendors/vendors-id-get",
+      "title": "获取指定供应商 | ClawRouter",
       "file": "docs/zh__docs__api__management__vendors__vendors-id-get__获取指定供应商-new-api__d2fe9486.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/vendors/vendors-post",
-      "title": "创建供应商 | New API",
+      "url": "/api/management/vendors/vendors-post",
+      "title": "创建供应商 | ClawRouter",
       "file": "docs/zh__docs__api__management__vendors__vendors-post__创建供应商-new-api__74640776.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/vendors/vendors-put",
-      "title": "更新供应商 | New API",
+      "url": "/api/management/vendors/vendors-put",
+      "title": "更新供应商 | ClawRouter",
       "file": "docs/zh__docs__api__management__vendors__vendors-put__更新供应商-new-api__f1b643ce.md"
     },
     {
-      "url": "https://docs.newapi.pro/zh/docs/api/management/vendors/vendors-search-get",
-      "title": "搜索供应商 | New API",
+      "url": "/api/management/vendors/vendors-search-get",
+      "title": "搜索供应商 | ClawRouter",
       "file": "docs/zh__docs__api__management__vendors__vendors-search-get__搜索供应商-new-api__bfb78b86.md"
     }
   ],
   "skipped": [
     {
       "url": "https://docs.newapi.pro/zh/docs/api",
-      "title": "API 参考 | New API",
+      "title": "API 参考 | ClawRouter",
       "reason": "not-leaf"
     }
   ],

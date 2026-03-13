@@ -1,4 +1,4 @@
-# 绑定Telegram | New API
+# 绑定Telegram | ClawRouter
 
 管理接口OAuth
 

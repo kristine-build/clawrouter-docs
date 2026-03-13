@@ -1,4 +1,4 @@
-# 获取邀请码 | New API
+# 获取邀请码 | ClawRouter
 
 管理接口用户管理
 

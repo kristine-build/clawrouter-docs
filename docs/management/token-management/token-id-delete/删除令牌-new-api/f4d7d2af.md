@@ -1,4 +1,4 @@
-# 删除令牌 | New API
+# 删除令牌 | ClawRouter
 
 管理接口令牌管理
 

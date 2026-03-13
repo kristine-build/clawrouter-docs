@@ -1,4 +1,4 @@
-# 禁用2FA | New API
+# 禁用2FA | ClawRouter
 
 管理接口两步验证
 

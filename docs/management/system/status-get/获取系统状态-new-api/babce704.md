@@ -1,4 +1,4 @@
-# 获取系统状态 | New API
+# 获取系统状态 | ClawRouter
 
 管理接口系统
 

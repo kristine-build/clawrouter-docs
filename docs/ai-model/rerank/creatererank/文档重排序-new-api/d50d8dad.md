@@ -1,4 +1,4 @@
-# 文档重排序 | New API
+# 文档重排序 | ClawRouter
 
 AI 模型接口重排序（Rerank）
 

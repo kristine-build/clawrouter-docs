@@ -1,4 +1,4 @@
-# 搜索日志 | New API
+# 搜索日志 | ClawRouter
 
 管理接口日志
 

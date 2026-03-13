@@ -1,4 +1,4 @@
-# 更新令牌 | New API
+# 更新令牌 | ClawRouter
 
 管理接口令牌管理
 
