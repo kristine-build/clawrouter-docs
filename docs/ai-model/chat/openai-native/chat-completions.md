@@ -16,11 +16,11 @@ Content-Type: `application/json`
 | Name | Type | Required | Description |
 | --- | --- | --- | --- |
 | `model` | `string` | yes | 模型 ID |
-| `messages` | `array` | yes | 对话消息列表 |
+| `messages` | `array` | yes | 对话消息清單 |
 | `messages[].role` | `string` | yes | 消息角色，範例：`system` / `user` / `assistant` |
 | `messages[].content` | `string` | yes | 消息内容 |
 | `messages[].name` | `string` | no | （可选）名称 |
-| `messages[].tool_calls` | `array` | no | 工具调用列表 |
+| `messages[].tool_calls` | `array` | no | 工具调用清單 |
 | `temperature` | `number` | no | 采样温度（默认 `1`，范围 `0 <= value <= 2`） |
 | `top_p` | `number` | no | 核采样參數（默认 `1`，范围 `0 <= value <= 1`） |
 | `n` | `integer` | no | 生成数量（默认 `1`，范围 `value >= 1`） |
@@ -32,14 +32,14 @@ Content-Type: `application/json`
 | `presence_penalty` | `number` | no | 存在惩罚（默认 `0`，范围 `-2 <= value <= 2`） |
 | `frequency_penalty` | `number` | no | 频率惩罚（默认 `0`，范围 `-2 <= value <= 2`） |
 | `logit_bias` | `object` | no | token 偏置映射 |
-| `user` | `string` | no | 用户标识 |
-| `tools` | `array` | no | 工具定义列表 |
+| `user` | `string` | no | 使用者标识 |
+| `tools` | `array` | no | 工具定义清單 |
 | `tool_choice` | `string / object` | no | 工具选择策略 |
 | `response_format` | `object` | no | 回應格式參數 |
 | `response_format.type` | `string` | no | 回應格式类型 |
 | `seed` | `integer` | no | 随机种子 |
 | `reasoning_effort` | `string` | no | 推理强度，枚举：`low` / `medium` / `high` |
-| `modalities` | `array<string>` | no | 模态列表 |
+| `modalities` | `array<string>` | no | 模态清單 |
 | `audio` | `object` | no | 音频參數 |
 
 ## Response Body

@@ -1,12 +1,12 @@
-# 建立微调任务 (未实现)
+# 建立微调任務 (未实现)
 
 AI 模型介面视频（Videos）
 
-# 取得视频生成任务状态
+# 取得视频生成任務状态
 
-查询视频生成任务的状态和结果。
+查詢视频生成任務的状态和结果。
 
-任务状态：
+任務状态：
 
 - `queued`: 排队中
 - `in_progress`: 生成中
@@ -27,7 +27,7 @@ Path
 
 task\_id\*string
 
-任务 ID
+任務 ID
 
 ## Response Body
 ### 200 application/json

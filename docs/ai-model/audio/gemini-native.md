@@ -16,7 +16,7 @@ Gemini 音频生成。
 Content-Type: `application/json`
 | name | type | required | description | enum | default | range |
 |---|---|---|---|---|---|---|
-| `contents[]` | `array<object>` | yes | 输入内容列表 | - | - | - |
+| `contents[]` | `array<object>` | yes | 输入内容清單 | - | - | - |
 | `contents[].role` | `string` | no | 角色标识 | - | - | - |
 | `contents[].parts[]` | `array<object>` | no | - | - | - | - |
 | `contents[].parts[].text` | `string` | no | 文本内容 | - | - | - |

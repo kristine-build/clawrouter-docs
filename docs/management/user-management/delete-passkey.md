@@ -1,10 +1,10 @@
-# 删除Passkey
+# 刪除Passkey
 
-管理介面用户管理
+管理介面使用者管理
 
-# 删除Passkey
+# 刪除Passkey
 
-🔐 需要登录（User权限）
+🔐 需要登录（User權限）
 
 
 

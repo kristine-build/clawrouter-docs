@@ -1,10 +1,10 @@
-# 编辑图像
+# 編輯图像
 
 AI 模型介面图像（Images）原生OpenAI格式
 
-# 编辑图像
+# 編輯图像
 
-在给定原始图像和提示的情况下建立编辑或扩展图像。
+在给定原始图像和提示的情况下建立編輯或扩展图像。
 
 
 
@@ -24,13 +24,13 @@ multipart/form-data
 
 | Name | Type | Required | Description |
 |---|---|---|---|
-| image | file | yes | 要编辑的图像。必须是有效的 PNG 文件，小于 4MB，并且是方形的。如果未提供遮罩，图像必须具有透明度，将用作遮罩。 Format`binary` |
-| mask | file | no | 附加图像，其完全透明区域（例如，alpha 为零的区域）指示image应编辑的位置。必须是有效的 PNG 文件，小于 4MB，并且尺寸与原始image相同。 Format`binary` |
+| image | file | yes | 要編輯的图像。必须是有效的 PNG 檔案，小于 4MB，并且是方形的。如果未提供遮罩，图像必须具有透明度，将用作遮罩。 Format`binary` |
+| mask | file | no | 附加图像，其完全透明区域（例如，alpha 为零的区域）指示image应編輯的位置。必须是有效的 PNG 檔案，小于 4MB，并且尺寸与原始image相同。 Format`binary` |
 | prompt | string | yes | 所需图像的文本描述。最大长度为 1000 个字符。 |
 | n | string | no | 要生成的图像数。必须介于 1 和 10 之间。 |
 | size | string | no | 生成图像的大小。必须是`256x256`、`512x512`或 `1024x1024`之一。 |
 | response_format | string | no | 生成的图像回傳的格式。必须是`url`或`b64_json`。 |
-| user | string | no | 代表您的最终用户的唯一标识符，可以帮助 OpenAI 监控和检测滥用行为。[了解更多](https://platform.openai.com/docs/guides/safety-best-practices/end-user-ids)。 |
+| user | string | no | 代表您的最终使用者的唯一标识符，可以帮助 OpenAI 监控和检测滥用行为。[了解更多](https://platform.openai.com/docs/guides/safety-best-practices/end-user-ids)。 |
 | model | string | no |  |
 ## Response Body
 

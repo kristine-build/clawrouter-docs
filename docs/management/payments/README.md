@@ -13,4 +13,4 @@
 - [取得Stripe支付金额](get-stripe.md)
 - [发起Stripe支付](stripe.md)
 - [取得充值信息](get-payment.md)
-- [取得用户充值记录](get-user-payment.md)
+- [取得使用者充值记录](get-user-payment.md)

@@ -33,7 +33,7 @@ multipart/form-data
 | seed | integer | no | 随机种子 |
 | n | integer | no | 生成视频数量 |
 | response_format | string | no | 回應格式 |
-| user | string | no | 用户标识 |
+| user | string | no | 使用者标识 |
 | metadata | object | no | 扩展參數 (如 negative\_prompt, style, quality\_level 等) |## Response Body
 
 ### 200 application/json

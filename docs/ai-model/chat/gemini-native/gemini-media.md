@@ -2,7 +2,7 @@
 
 Gemini图像、PDF、音频、视频识别請求
 
-⚠️注意：仅支援通过 inlineData 以 base64 方式上传图像、PDF、音频、视频，不支援 fileData.fileUri 或 File API。
+⚠️注意：仅支援通过 inlineData 以 base64 方式上傳图像、PDF、音频、视频，不支援 fileData.fileUri 或 File API。
 
 ## Endpoint
 
@@ -22,8 +22,8 @@ Gemini图像、PDF、音频、视频识别請求
 Content-Type: `application/json`
 | Name | Type | Required | Description |
 | --- | --- | --- | --- |
-| `contents` | `array` | yes | 输入内容列表 |
-| `contents[].parts` | `array` | yes | 每个输入片段列表 |
+| `contents` | `array` | yes | 输入内容清單 |
+| `contents[].parts` | `array` | yes | 每个输入片段清單 |
 | `contents[].parts[].text` | `string` | no | 文本内容片段 |
 | `contents[].parts[].inlineData` | `object` | no | base64 媒体内容 |
 | `contents[].parts[].inlineData.mimeType` | `string` | yes | 媒体 MIME 类型 |

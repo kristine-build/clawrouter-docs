@@ -1,8 +1,8 @@
-# 列出文件 (未实现) | ClawRouter
+# 列出檔案 (未实现) | ClawRouter
 
-AI 模型介面未实现（Unimplemented）文件（Files）
+AI 模型介面未实现（Unimplemented）檔案（Files）
 
-# 列出文件 (未实现)
+# 列出檔案 (未实现)
 
 此介面尚未实现
 

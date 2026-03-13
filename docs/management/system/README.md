@@ -6,7 +6,7 @@
 
 - [取得关于信息](get.md)
 - [取得首页内容](get-2.md)
-- [取得模型列表](get-model-list.md)
+- [取得模型清單](get-model-list.md)
 - [取得公告](get-3.md)
 - [取得定价信息](get-4.md)
 - [取得隐私政策](get-5.md)
@@ -16,4 +16,4 @@
 - [取得系统状态](get-status-2.md)
 - [测试系统状态](status.md)
 - [取得Uptime Kuma状态](get-uptime-kuma-status.md)
-- [取得用户协议](get-user.md)
+- [取得使用者协议](get-user.md)

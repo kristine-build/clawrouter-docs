@@ -5,7 +5,7 @@
 ## 本章内容
 
 - [取得所有模型元資料](get-model.md)
-- [删除模型](delete-model.md)
+- [刪除模型](delete-model.md)
 - [取得指定模型](get-model-2.md)
 - [取得缺失模型](get-model-3.md)
 - [建立模型元資料](create-model.md)

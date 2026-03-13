@@ -4,9 +4,9 @@
 
 ## 本章内容
 
-- [批量删除令牌](delete-token.md)
+- [批量刪除令牌](delete-token.md)
 - [取得所有令牌](get-token.md)
-- [删除令牌](delete-token-2.md)
+- [刪除令牌](delete-token-2.md)
 - [取得指定令牌](get-token-2.md)
 - [建立令牌](create-token.md)
 - [更新令牌](update-token.md)

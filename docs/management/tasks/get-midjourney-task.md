@@ -1,10 +1,10 @@
-# 取得所有Midjourney任务
+# 取得所有Midjourney任務
 
-管理介面任务
+管理介面任務
 
-# 取得所有Midjourney任务
+# 取得所有Midjourney任務
 
-👨💼 需要管理员权限（Admin）
+👨💼 需要管理员權限（Admin）
 
 
 

@@ -10,7 +10,7 @@ Anthropic Claude Messages API 格式的請求。
 ## Authorization
 | Name | Type | Required | Description |
 |---|---|---|---|
-| Authorization | string | yes | - **位置**：`header` - **範例**：`Authorization: Bearer YOUR_API_KEY` - **说明**：使用 Bearer Token 认证，不适用时可使用 `x-api-key`。 |
+| Authorization | string | yes | - **位置**：`header` - **範例**：`Authorization: Bearer YOUR_API_KEY` - **說明**：使用 Bearer Token 认证，不适用时可使用 `x-api-key`。 |
 ## Header Parameters
 
 | name | type | required | description | enum | default | range |
@@ -30,7 +30,7 @@ Content-Type: `application/json`
 | top_p | number | no | nucleus sampling 上界。 | - | - | `0 <= value <= 1` |
 | top_k | integer | no | top-k 采样參數。 | - | - | `>= 1` |
 | stream | boolean | no | 是否开启流式回應。 | `true`, `false` | `false` | - |
-| stop_sequences | array<string> | no | 停止词列表。 | - | - | - |
+| stop_sequences | array<string> | no | 停止词清單。 | - | - | - |
 | tools | array<object> | no | 工具调用定义。 | - | - | - |
 | tool_choice | object | no | 工具选择策略。 | - | - | - |
 | thinking | object | no | 思考/推理相关參數。 | - | - | - |
@@ -45,7 +45,7 @@ Content-Type: `application/json`
 | id | string | 消息 ID。 |
 | type | string | 回應类型，通常为 `message`。 |
 | role | string | 回傳角色，通常为 `assistant`。 |
-| content | array<object> | 回傳内容列表。 |
+| content | array<object> | 回傳内容清單。 |
 | content[].type | string | 内容片段类型。 |
 | content[].text | string | 文本内容。 |
 | model | string | 实际使用模型。 |

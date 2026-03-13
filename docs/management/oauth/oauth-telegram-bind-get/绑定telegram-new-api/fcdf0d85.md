@@ -1,8 +1,8 @@
-# 绑定Telegram | ClawRouter
+# 綁定Telegram | ClawRouter
 
 管理介面OAuth
 
-# 绑定Telegram
+# 綁定Telegram
 
 🔓 无需鉴权
 

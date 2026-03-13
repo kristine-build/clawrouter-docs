@@ -1,10 +1,10 @@
-# 取得个人Midjourney任务
+# 取得个人Midjourney任務
 
-管理介面任务
+管理介面任務
 
-# 取得个人Midjourney任务
+# 取得个人Midjourney任務
 
-🔐 需要登录（User权限）
+🔐 需要登录（User權限）
 
 
 

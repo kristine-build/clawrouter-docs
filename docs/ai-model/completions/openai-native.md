@@ -35,7 +35,7 @@
 | logit_bias | object | no | 词表偏置映射，键为 token，值为偏置分数。 |
 | logprobs | integer | no | 在输出中回傳每个 token 的对数概率个数。 |
 | seed | integer | no | 生成随机种子。 |
-| user | string | no | 终端用户标识符，用于审计与风控。 |
+| user | string | no | 终端使用者标识符，用于审计与风控。 |
 
 ## Response Body
 
@@ -47,9 +47,9 @@
 | object | string | 回應对象类型，範例值 `text_completion`。 |
 | created | integer | 回應建立时间戳（Unix 秒）。 |
 | model | string | 使用的模型。 |
-| choices | array<object> | 生成候选文本列表。 |
+| choices | array<object> | 生成候选文本清單。 |
 | choices[0].text | string | 本次生成文本。 |
-| choices[0].index | integer | 该候选在列表中的索引。 |
+| choices[0].index | integer | 该候选在清單中的索引。 |
 | choices[0].finish_reason | string | 生成结束原因。 |
 | usage | object | 用量统计。 |
 | usage.prompt_tokens | integer | 输入 token 数。 |

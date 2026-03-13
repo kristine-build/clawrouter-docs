@@ -4,7 +4,7 @@ AI 模型介面模型（Models）列出模型
 
 # 原生Gemini格式
 
-以 Gemini API 格式回傳可用模型列表
+以 Gemini API 格式回傳可用模型清單
 
 
 

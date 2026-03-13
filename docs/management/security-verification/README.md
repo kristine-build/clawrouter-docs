@@ -1,8 +1,8 @@
-# 安全验证
+# 安全驗證
 
-安全验证 文档导航。
+安全驗證 文档导航。
 
 ## 本章内容
 
-- [通用安全验证](verify.md)
-- [取得验证状态](get-verify-status.md)
+- [通用安全驗證](verify.md)
+- [取得驗證状态](get-verify-status.md)

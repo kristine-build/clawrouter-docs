@@ -14,7 +14,7 @@
 `multipart/form-data`
 | name | type | required | description |
 |---|---|---|---|
-| file | string (binary) | yes | 音频文件。 |
+| file | string (binary) | yes | 音频檔案。 |
 | model | string | yes | 模型名称，例如 `whisper-1`。 |
 | language | string | no | ISO-639-1 语言代码。 |
 | prompt | string | no | 提示词。 |

@@ -9,7 +9,7 @@
 ## Authorization
 | Name | Type | Required | Description |
 |---|---|---|---|
-| Authorization | string | yes | - **位置**：`header` - **範例**：`Authorization: Bearer <token>` - **说明**：使用 Bearer Token 认证。 |
+| Authorization | string | yes | - **位置**：`header` - **範例**：`Authorization: Bearer <token>` - **說明**：使用 Bearer Token 认证。 |
 ## Request Body
 Content-Type: `application/json`
 | name | type | required | description | enum | default | range |
