@@ -1,10 +1,10 @@
-# 微信OAuth登录
+# 微信OAuth登入
 
 管理介面OAuth
 
-# 微信OAuth登录
+# 微信OAuth登入
 
-🔓 无需鉴权（OAuth回调）
+🔓 無需鑑權（OAuth回调）
 
 
 

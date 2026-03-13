@@ -1,7 +1,7 @@
-# 未实现（Unimplemented）
+# 未實作（Unimplemented）
 
-未实现（Unimplemented） 文档导航。
+未實作（Unimplemented） 文件导航。
 
-## 本章内容
+## 本章內容
 
 - [檔案（Files）](files/README.md)

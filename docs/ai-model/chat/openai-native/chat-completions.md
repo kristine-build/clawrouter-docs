@@ -1,6 +1,6 @@
 # ChatCompletions格式
 
-根据对话历史建立模型回應。支援流式和非流式回應。  
+根据對話历史建立模型回應。支援流式和非流式回應。  
 兼容 OpenAI Chat Completions API。
 
 ## Endpoint
@@ -16,11 +16,11 @@ Content-Type: `application/json`
 | Name | Type | Required | Description |
 | --- | --- | --- | --- |
 | `model` | `string` | yes | 模型 ID |
-| `messages` | `array` | yes | 对话消息清單 |
+| `messages` | `array` | yes | 對話消息清單 |
 | `messages[].role` | `string` | yes | 消息角色，範例：`system` / `user` / `assistant` |
-| `messages[].content` | `string` | yes | 消息内容 |
-| `messages[].name` | `string` | no | （可选）名称 |
-| `messages[].tool_calls` | `array` | no | 工具调用清單 |
+| `messages[].content` | `string` | yes | 消息內容 |
+| `messages[].name` | `string` | no | （可選）名称 |
+| `messages[].tool_calls` | `array` | no | 工具調用清單 |
 | `temperature` | `number` | no | 采样温度（默认 `1`，范围 `0 <= value <= 2`） |
 | `top_p` | `number` | no | 核采样參數（默认 `1`，范围 `0 <= value <= 1`） |
 | `n` | `integer` | no | 生成数量（默认 `1`，范围 `value >= 1`） |

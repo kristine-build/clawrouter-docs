@@ -1,10 +1,10 @@
-# Telegram登录
+# Telegram登入
 
 管理介面OAuth
 
-# Telegram登录
+# Telegram登入
 
-🔓 无需鉴权（OAuth回调）
+🔓 無需鑑權（OAuth回调）
 
 
 

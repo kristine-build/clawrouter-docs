@@ -5,7 +5,7 @@ AI 模型介面聊天（Chat）原生OpenAI格式
 # Responses格式
 
 OpenAI Responses API，用于建立模型回應。
-支援多轮对话、工具调用、推理等功能。
+支援多轮對話、工具調用、推理等功能。
 
 
 
@@ -26,7 +26,7 @@ application/json
 | Name | Type | Required | Description |
 |---|---|---|---|
 | model | string | yes |  |
-| input | string\|array<object> | no | 输入内容，可以是字符串或消息数组 |
+| input | string\|array<object> | no | 输入內容，可以是字符串或消息数组 |
 | instructions | string | no |  |
 | max_output_tokens | integer | no |  |
 | temperature | number | no |  |

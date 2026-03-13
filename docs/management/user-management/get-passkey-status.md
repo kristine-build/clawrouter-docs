@@ -1,10 +1,10 @@
-# 取得Passkey状态
+# 取得Passkey狀態
 
 管理介面使用者管理
 
-# 取得Passkey状态
+# 取得Passkey狀態
 
-🔐 需要登录（User權限）
+🔐 需要登入（User權限）
 
 
 

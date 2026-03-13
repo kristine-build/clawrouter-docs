@@ -16,24 +16,24 @@ Anthropic Claude Messages API 格式的請求。
 | name | type | required | description | enum | default | range |
 | --- | --- | --- | --- | --- | --- | --- |
 | anthropic-version | string | yes | Anthropic API 版本。 | `2023-06-01` | `2023-06-01` | - |
-| x-api-key | string | no | Anthropic API Key（可选，也可使用 Bearer Token）。 | - | - | - |
+| x-api-key | string | no | Anthropic API Key（可選，也可使用 Bearer Token）。 | - | - | - |
 
 ## Request Body
 Content-Type: `application/json`
 | name | type | required | description | enum | default | range |
 | --- | --- | --- | --- | --- | --- | --- |
 | model | string | yes | 模型名称，例如 `claude-3-opus-20240229`。 | `claude-3-opus-20240229`, `claude-3-sonnet-20240229`, `claude-3-haiku-20240307` | - | - |
-| messages | array<object> | yes | 对话内容数组。 | - | - | - |
-| system | string \| array<object> | no | 系统提示词/系统上下文。 | - | - | - |
+| messages | array<object> | yes | 對話內容数组。 | - | - | - |
+| system | string \| array<object> | no | 系統提示词/系統上下文。 | - | - | - |
 | max_tokens | integer | yes | 生成最大 token 数。 | - | - | `>= 1` |
 | temperature | number | no | 温度參數。 | - | - | `0 <= value <= 1` |
 | top_p | number | no | nucleus sampling 上界。 | - | - | `0 <= value <= 1` |
 | top_k | integer | no | top-k 采样參數。 | - | - | `>= 1` |
 | stream | boolean | no | 是否开启流式回應。 | `true`, `false` | `false` | - |
 | stop_sequences | array<string> | no | 停止词清單。 | - | - | - |
-| tools | array<object> | no | 工具调用定义。 | - | - | - |
+| tools | array<object> | no | 工具調用定义。 | - | - | - |
 | tool_choice | object | no | 工具选择策略。 | - | - | - |
-| thinking | object | no | 思考/推理相关參數。 | - | - | - |
+| thinking | object | no | 思考/推理相關參數。 | - | - | - |
 | metadata | object | no | 额外元資料。 | - | - | - |
 
 ## Response Body
@@ -45,9 +45,9 @@ Content-Type: `application/json`
 | id | string | 消息 ID。 |
 | type | string | 回應类型，通常为 `message`。 |
 | role | string | 回傳角色，通常为 `assistant`。 |
-| content | array<object> | 回傳内容清單。 |
-| content[].type | string | 内容片段类型。 |
-| content[].text | string | 文本内容。 |
+| content | array<object> | 回傳內容清單。 |
+| content[].type | string | 內容片段类型。 |
+| content[].text | string | 文本內容。 |
 | model | string | 实际使用模型。 |
 | stop_reason | string | 结束原因。 |
 | usage | object | 令牌使用量。 |

@@ -1,8 +1,8 @@
 # 聊天（Chat）
 
-聊天（Chat） 文档导航。
+聊天（Chat） 文件导航。
 
-## 本章内容
+## 本章內容
 
 - [原生Claude格式](claude-native.md)
 - [原生Gemini格式](gemini-native/README.md)

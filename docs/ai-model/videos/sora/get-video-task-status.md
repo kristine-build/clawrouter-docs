@@ -1,12 +1,12 @@
-# 取得视频任務状态
+# 取得影片任務狀態
 
-AI 模型介面视频（Videos）Sora格式
+AI 模型介面影片（Videos）Sora格式
 
-# 取得视频任務状态
+# 取得影片任務狀態
 
-OpenAI 兼容的视频任務状态查詢介面。
+OpenAI 兼容的影片任務狀態查詢介面。
 
-回傳视频任務的详细状态信息。
+回傳影片任務的详细狀態資訊。
 
 
 
@@ -22,7 +22,7 @@ Path
 
 task\_id\*string
 
-视频任務 ID
+影片任務 ID
 
 ## Response Body
 ### 200 application/json

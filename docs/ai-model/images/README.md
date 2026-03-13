@@ -1,8 +1,8 @@
-# 图像（Images）
+# 影像（Images）
 
-图像（Images） 文档导航。
+影像（Images） 文件导航。
 
-## 本章内容
+## 本章內容
 
 - [原生Gemini格式](gemini-native/README.md)
 - [原生OpenAI格式](openai-native/README.md)

@@ -1,10 +1,10 @@
-# Discord OAuth登录
+# Discord OAuth登入
 
 管理介面OAuth
 
-# Discord OAuth登录
+# Discord OAuth登入
 
-🔓 无需鉴权（OAuth回调）
+🔓 無需鑑權（OAuth回调）
 
 
 

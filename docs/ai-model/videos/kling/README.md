@@ -1,8 +1,8 @@
 # 可灵格式
 
-可灵格式 文档导航。
+可灵格式 文件导航。
 
-## 本章内容
+## 本章內容
 
 - [Kling 图生视频](kling-video.md)
 - [Kling 文生视频](kling-video-2.md)

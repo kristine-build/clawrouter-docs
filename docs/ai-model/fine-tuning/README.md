@@ -1,8 +1,8 @@
 # 微调（Fine-tuning）
 
-微调（Fine-tuning） 文档导航。
+微调（Fine-tuning） 文件导航。
 
-## 本章内容
+## 本章內容
 
 - [取消微调任務 (未实现)](task.md)
 - [建立微调任務 (未实现)](create-task.md)

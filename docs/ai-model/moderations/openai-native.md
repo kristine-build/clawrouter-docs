@@ -1,10 +1,10 @@
 # 原生OpenAI格式
 
-AI 模型介面审查（Moderations）
+AI 模型介面稽查（Moderations）
 
 # 原生OpenAI格式
 
-检查文本内容是否违反使用政策
+检查文本內容是否违反使用政策
 
 
 

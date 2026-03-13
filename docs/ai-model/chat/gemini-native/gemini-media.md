@@ -1,8 +1,8 @@
 # Gemini媒体识别
 
-Gemini图像、PDF、音频、视频识别請求
+Gemini影像、PDF、音频、影片识别請求
 
-⚠️注意：仅支援通过 inlineData 以 base64 方式上傳图像、PDF、音频、视频，不支援 fileData.fileUri 或 File API。
+⚠️注意：仅支援透過 inlineData 以 base64 方式上傳影像、PDF、音频、影片，不支援 fileData.fileUri 或 File API。
 
 ## Endpoint
 
@@ -22,10 +22,10 @@ Gemini图像、PDF、音频、视频识别請求
 Content-Type: `application/json`
 | Name | Type | Required | Description |
 | --- | --- | --- | --- |
-| `contents` | `array` | yes | 输入内容清單 |
+| `contents` | `array` | yes | 输入內容清單 |
 | `contents[].parts` | `array` | yes | 每个输入片段清單 |
-| `contents[].parts[].text` | `string` | no | 文本内容片段 |
-| `contents[].parts[].inlineData` | `object` | no | base64 媒体内容 |
+| `contents[].parts[].text` | `string` | no | 文本內容片段 |
+| `contents[].parts[].inlineData` | `object` | no | base64 媒体內容 |
 | `contents[].parts[].inlineData.mimeType` | `string` | yes | 媒体 MIME 类型 |
 | `contents[].parts[].inlineData.data` | `string` | yes | base64 编码的資料 |
 | `generationConfig` | `object` | no | 生成控制參數 |

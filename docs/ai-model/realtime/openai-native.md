@@ -1,10 +1,10 @@
 # 原生OpenAI格式
 
-AI 模型介面实时语音（Realtime）
+AI 模型介面即時语音（Realtime）
 
 # 原生OpenAI格式
 
-建立 WebSocket 连接用于实时对话。
+建立 WebSocket 连接用于即時對話。
 
 **注意**: 这是一个 WebSocket 端点，需要使用 WebSocket 协议连接。
 

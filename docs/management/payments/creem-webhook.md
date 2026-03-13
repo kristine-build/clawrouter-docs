@@ -1,10 +1,10 @@
 # Creem Webhook
 
-管理介面充值
+管理介面儲值
 
 # Creem Webhook
 
-🔓 无需鉴权（Webhook回调）
+🔓 無需鑑權（Webhook回调）
 
 
 

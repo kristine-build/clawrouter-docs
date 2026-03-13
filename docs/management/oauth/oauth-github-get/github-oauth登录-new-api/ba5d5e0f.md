@@ -1,10 +1,10 @@
-# GitHub OAuth登录 | ClawRouter
+# GitHub OAuth登入 | ClawRouter
 
 管理介面OAuth
 
-# GitHub OAuth登录
+# GitHub OAuth登入
 
-🔓 无需鉴权（OAuth回调）
+🔓 無需鑑權（OAuth回调）
 
 
 

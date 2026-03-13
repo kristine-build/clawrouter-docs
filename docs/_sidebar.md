@@ -19,7 +19,7 @@
     - 嵌入 (Embeddings)
       - [原生OpenAI格式 (POST)](/docs/zh__docs__api__ai-model__embeddings__createembedding__原生openai格式-new-api__4ce76862.md)
       - [原生Gemini格式 (POST)](/docs/zh__docs__api__ai-model__embeddings__createengineembedding__原生gemini格式-new-api__b6bd1911.md)
-    - 图像 (Images)
+    - 影像 (Images)
       - 原生Gemini格式
         - Gemini原生格式 (POST)
       - OpenAI聊天格式 (POST)
@@ -27,19 +27,19 @@
         - [編輯图像 (POST)](/docs/zh__docs__api__ai-model__images__openai__post-v1-images-edits__編輯图像-new-api__1bee126d.md)
         - [生成图像 (POST)](/docs/zh__docs__api__ai-model__images__openai__post-v1-images-generations__生成图像-new-api__87ad0fa8.md)
       - 通义千问OpenAI格式
-        - 生成图像 (POST)
-        - 編輯图像 (POST)
+        - 生成影像 (POST)
+        - 編輯影像 (POST)
     - 模型 (Models)
       - 列出模型
         - [原生OpenAI格式 (GET)](/docs/zh__docs__api__ai-model__models__list__listmodels__原生openai格式-new-api__c7766c18.md)
         - [原生Gemini格式 (GET)](/docs/zh__docs__api__ai-model__models__list__listmodelsgemini__原生gemini格式-new-api__49a6ce5b.md)
-    - 审查 (Moderations)
+    - 稽查 (Moderations)
       - [原生OpenAI格式 (POST)](/docs/zh__docs__api__ai-model__moderations__createmoderation__原生openai格式-new-api__888665fa.md)
-    - 实时语音 (Realtime)
+    - 即時语音 (Realtime)
       - [原生OpenAI格式 (GET)](/docs/zh__docs__api__ai-model__realtime__createrealtimesession__原生openai格式-new-api__8b7b4403.md)
     - 重排序 (Rerank)
       - [文档重排序 (POST)](/docs/zh__docs__api__ai-model__rerank__creatererank__文档重排序-new-api__d50d8dad.md)
-    - 未实现 (Unimplemented)
+    - 未實作 (Unimplemented)
       - 檔案 (Files)
         - [上傳檔案 (POST)](/docs/zh__docs__api__ai-model__unimplemented__files__createfile__上傳檔案-未实现-new-api__a97b2763.md)
         - [刪除檔案 (DELETE)](/docs/zh__docs__api__ai-model__unimplemented__files__deletefile__刪除檔案-未实现-new-api__0403d464.md)
@@ -52,16 +52,16 @@
         - 取得微调任務事件 (GET)
         - 列出微调任務 (GET)
         - 取得微调任務詳細 (GET)
-    - 视频 (Videos)
+    - 影片 (Videos)
       - [建立视频生成任務 (POST)](/docs/zh__docs__api__ai-model__videos__createvideogeneration__建立视频生成任務-new-api__24ad2bd7.md)
       - [取得视频生成任務状态 (GET)](/docs/zh__docs__api__ai-model__videos__getvideogeneration__取得视频生成任務状态-new-api__a5d92ec6.md)
       - 即梦格式
-        - 即梦视频生成 (POST)
+        - 即梦影片生成 (POST)
       - 可灵格式
-        - Kling 图生视频 (POST)
-        - Kling 文生视频 (POST)
-        - 取得 Kling 图生视频任務状态 (GET)
-        - 取得 Kling 文生视频任務状态 (GET)
+        - Kling 图生影片 (POST)
+        - Kling 文生影片 (POST)
+        - 取得 Kling 图生影片任務狀態 (GET)
+        - 取得 Kling 文生影片任務狀態 (GET)
       - Sora格式
         - [建立视频 (POST)](/docs/zh__docs__api__ai-model__videos__sora__createvideo__建立视频-new-api__88acfd87.md)
         - [取得视频任務状态 (GET)](/docs/zh__docs__api__ai-model__videos__sora__getvideo__取得视频任務状态-new-api__28022ca1.md)
@@ -132,7 +132,7 @@
     - [Telegram登录 (GET)](/docs/zh__docs__api__management__oauth__oauth-telegram-login-get__telegram登录-new-api__8f81a184.md)
     - [綁定微信 (GET)](/docs/zh__docs__api__management__oauth__oauth-wechat-bind-get__綁定微信-new-api__9435d117.md)
     - [微信OAuth登录 (GET)](/docs/zh__docs__api__management__oauth__oauth-wechat-get__微信oauth登录-new-api__9d4cae14.md)
-  - 充值
+  - 儲值
     - [Creem Webhook (POST)](/docs/zh__docs__api__management__payment__creem-webhook-post__creem-webhook-new-api__3ba6fbcb.md)
     - [Stripe Webhook (POST)](/docs/zh__docs__api__management__payment__stripe-webhook-post__stripe-webhook-new-api__86354afa.md)
     - [取得支付金额 (POST)](/docs/zh__docs__api__management__payment__user-amount-post__取得支付金额-new-api__399f4b1b.md)
@@ -154,10 +154,10 @@
   - 安全驗證
     - [通用安全驗證 (POST)](/docs/zh__docs__api__management__security-verification__verify-post__通用安全驗證-new-api__3aa3adf4.md)
     - [取得驗證状态 (GET)](/docs/zh__docs__api__management__security-verification__verify-status-get__取得驗證状态-new-api__dc8dee2c.md)
-  - 資料统计
+  - 資料統計
     - [取得所有额度資料 (GET)](/docs/zh__docs__api__management__statistics__data-get__取得所有额度資料-new-api__df8b67df.md)
     - [取得个人额度資料 (GET)](/docs/zh__docs__api__management__statistics__data-self-get__取得个人额度資料-new-api__348150ad.md)
-  - 系统
+  - 系統
     - [取得关于信息 (GET)](/docs/zh__docs__api__management__system__about-get__取得关于信息-new-api__acd28027.md)
     - [取得首页内容 (GET)](/docs/zh__docs__api__management__system__home_page_content-get__取得首页内容-new-api__2f9539c3.md)
     - [取得模型清單 (GET)](/docs/zh__docs__api__management__system__models-get__取得模型清單-new-api__66cac42a.md)
@@ -171,7 +171,7 @@
     - [测试系统状态 (GET)](/docs/zh__docs__api__management__system__status-test-get__测试系统状态-new-api__d67dc686.md)
     - [取得Uptime Kuma状态 (GET)](/docs/zh__docs__api__management__system__uptime-status-get__取得uptime-kuma状态-new-api__afab8701.md)
     - [取得使用者协议 (GET)](/docs/zh__docs__api__management__system__user-agreement-get__取得使用者协议-new-api__dbdcee8f.md)
-  - 系统设置
+  - 系統设置
     - [取得系统选项 (GET)](/docs/zh__docs__api__management__system-settings__option-get__取得系统选项-new-api__6c86ded7.md)
     - [迁移控制台设置 (POST)](/docs/zh__docs__api__management__system-settings__option-migrate_console_setting-post__迁移控制台设置-new-api__9bedcf0e.md)
     - [更新系统选项 (PUT)](/docs/zh__docs__api__management__system-settings__option-put__更新系统选项-new-api__3162b6fb.md)
@@ -199,7 +199,7 @@
     - [设置2FA (POST)](/docs/zh__docs__api__management__two-factor-auth__user-2fa-setup-post__设置2fa-new-api__a2bc8f89.md)
     - [取得2FA统计 (GET)](/docs/zh__docs__api__management__two-factor-auth__user-2fa-stats-get__取得2fa统计-new-api__40bc7673.md)
     - [取得2FA状态 (GET)](/docs/zh__docs__api__management__two-factor-auth__user-2fa-status-get__取得2fa状态-new-api__1bab2029.md)
-  - 使用者登陆注册
+  - 使用者登入注册
     - [发送密码重置邮件 (GET)](/docs/zh__docs__api__management__user-auth__reset_password-get__发送密码重置邮件-new-api__c2550ee3.md)
     - [两步驗證登录 (POST)](/docs/zh__docs__api__management__user-auth__user-login-2fa-post__两步驗證登录-new-api__3fe5b04f.md)
     - [使用者登录 (POST)](/docs/zh__docs__api__management__user-auth__user-login-post__使用者登录-new-api__ab67391d.md)
@@ -236,7 +236,7 @@
     - [生成存取令牌 (GET)](/docs/zh__docs__api__management__user-management__user-token-get__生成存取令牌-new-api__c8d0e11b.md)
     - [管理员完成充值 (POST)](/docs/zh__docs__api__management__user-management__user-topup-complete-post__管理员完成充值-new-api__af170294.md)
     - [取得所有充值记录 (GET)](/docs/zh__docs__api__management__user-management__user-topup-get__取得所有充值记录-new-api__53b0977e.md)
-  - 供应商
+  - 供應商
     - [取得所有供应商 (GET)](/docs/zh__docs__api__management__vendors__vendors-get__取得所有供应商-new-api__ceab67f1.md)
     - [刪除供应商 (DELETE)](/docs/zh__docs__api__management__vendors__vendors-id-delete__刪除供应商-new-api__c34f21f4.md)
     - [取得指定供应商 (GET)](/docs/zh__docs__api__management__vendors__vendors-id-get__取得指定供应商-new-api__d2fe9486.md)

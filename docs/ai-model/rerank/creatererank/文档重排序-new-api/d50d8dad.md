@@ -1,10 +1,10 @@
-# 文档重排序 | ClawRouter
+# 文件重排序 | ClawRouter
 
 AI 模型介面重排序（Rerank）
 
-# 文档重排序
+# 文件重排序
 
-根据查詢对文档清單进行相关性重排序
+根据查詢对文件清單进行相關性重排序
 
 
 
@@ -22,8 +22,8 @@ application/json
 | Name | Type | Required | Description |
 |---|---|---|---|
 | model | string | yes |  |
-| query | string | yes | 查詢文本 documents\*array<string \| object> 要重排序的文档清單 |
-| top_n | integer | no | 回傳前 N 个结果 |
+| query | string | yes | 查詢文本 documents\*array<string \| object> 要重排序的文件清單 |
+| top_n | integer | no | 回傳前 N 个結果 |
 | return_documents | boolean | no | Default`false` |## Response Body
 
 ### 200 application/json

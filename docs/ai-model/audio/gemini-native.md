@@ -2,7 +2,7 @@
 
 Gemini 音频生成。
 
-使用 Gemini 模型生成内容（含语音相关設定）。
+使用 Gemini 模型生成內容（含语音相關設定）。
 
 ## Endpoint
 
@@ -16,10 +16,10 @@ Gemini 音频生成。
 Content-Type: `application/json`
 | name | type | required | description | enum | default | range |
 |---|---|---|---|---|---|---|
-| `contents[]` | `array<object>` | yes | 输入内容清單 | - | - | - |
+| `contents[]` | `array<object>` | yes | 输入內容清單 | - | - | - |
 | `contents[].role` | `string` | no | 角色标识 | - | - | - |
 | `contents[].parts[]` | `array<object>` | no | - | - | - | - |
-| `contents[].parts[].text` | `string` | no | 文本内容 | - | - | - |
+| `contents[].parts[].text` | `string` | no | 文本內容 | - | - | - |
 | `contents[].parts[].inlineData` | `object` | no | - | - | - | - |
 | `contents[].parts[].inlineData.mimeType` | `string` | no | - | - | - | - |
 | `contents[].parts[].inlineData.data` | `string` | no | Base64 資料 | - | - | - |
@@ -40,7 +40,7 @@ Content-Type: `application/json`
 | `candidates[].content` | `object` | no | - | - | - | - |
 | `candidates[].content.role` | `string` | no | 角色标识 | - | - | - |
 | `candidates[].content.parts[]` | `array<object>` | no | - | - | - | - |
-| `candidates[].content.parts[].text` | `string` | no | 文本内容 | - | - | - |
+| `candidates[].content.parts[].text` | `string` | no | 文本內容 | - | - | - |
 | `candidates[].content.parts[].inlineData` | `object` | no | - | - | - | - |
 | `candidates[].content.parts[].inlineData.mimeType` | `string` | no | - | - | - | - |
 | `candidates[].content.parts[].inlineData.data` | `string` | no | Base64 資料 | - | - | - |
@@ -81,7 +81,7 @@ Content-Type: `application/json`
 | status | meaning |
 |---|---|
 | `400` | 請求參數錯誤 |
-| `401` | 鉴权失败 |
+| `401` | 鑑權失败 |
 | `429` | 請求过于频繁 |
 | `500` | 服务端錯誤 |
 ## Code Examples

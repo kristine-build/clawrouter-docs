@@ -13,7 +13,7 @@
 
 | Name | Type | Required | Description |
 |---|---|---|---|
-| Authorization | string | yes | Bearer Token 认证。格式：`Authorization: Bearer sk-xxxxxx`。通过 `Authorization` 請求头传递，範例：`Authorization: Bearer YOUR_API_KEY`。 |
+| Authorization | string | yes | Bearer Token 认证。格式：`Authorization: Bearer sk-xxxxxx`。透過 `Authorization` 請求头传递，範例：`Authorization: Bearer YOUR_API_KEY`。 |
 
 ## Request Body
 
@@ -25,9 +25,9 @@
 | temperature | number | no | 采样温度。范围通常为 `0` 到 `2`。 |
 | top_p | number | no | 使用核采样（Top-p）策略时的概率阈值，范围通常为 `0` 到 `1`。 |
 | n | integer | no | 每个提示词回傳的候选数目。 |
-| stream | boolean | no | 是否启用流式回傳。 |
+| stream | boolean | no | 是否啟用流式回傳。 |
 | stop | string \| array<string> | no | 停止生成的词元。 |
-| suffix | string | no | 在补全结果后追加的后缀。 |
+| suffix | string | no | 在补全結果后追加的后缀。 |
 | echo | boolean | no | 是否在回傳文本中回显输入提示词。 |
 | best_of | integer | no | 在未开启流式时，服务端会并行采样并回傳 `n` 个中评分最高的一个。 |
 | frequency_penalty | number | no | 频率惩罚值，用于抑制重复。 |
@@ -51,7 +51,7 @@
 | choices[0].text | string | 本次生成文本。 |
 | choices[0].index | integer | 该候选在清單中的索引。 |
 | choices[0].finish_reason | string | 生成结束原因。 |
-| usage | object | 用量统计。 |
+| usage | object | 用量統計。 |
 | usage.prompt_tokens | integer | 输入 token 数。 |
 | usage.completion_tokens | integer | 输出 token 数。 |
 | usage.total_tokens | integer | 总 token 数。 |

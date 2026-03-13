@@ -1,12 +1,12 @@
-# 建立视频
+# 建立影片
 
-AI 模型介面视频（Videos）Sora格式
+AI 模型介面影片（Videos）Sora格式
 
-# 建立视频
+# 建立影片
 
-OpenAI 兼容的视频生成介面。
+OpenAI 兼容的影片生成介面。
 
-参考文档: <https://platform.openai.com/docs/api-reference/videos/create>
+参考文件: <https://platform.openai.com/docs/api-reference/videos/create>
 
 
 
@@ -26,12 +26,12 @@ multipart/form-data
 | model | string | no | 模型/风格 ID |
 | prompt | string | no | 文本描述提示词 |
 | image | string | no | 图片输入 (URL 或 Base64) |
-| duration | number | no | 视频时长（秒） |
-| width | integer | no | 视频宽度 |
-| height | integer | no | 视频高度 |
-| fps | integer | no | 视频帧率 |
+| duration | number | no | 影片时长（秒） |
+| width | integer | no | 影片宽度 |
+| height | integer | no | 影片高度 |
+| fps | integer | no | 影片帧率 |
 | seed | integer | no | 随机种子 |
-| n | integer | no | 生成视频数量 |
+| n | integer | no | 生成影片数量 |
 | response_format | string | no | 回應格式 |
 | user | string | no | 使用者标识 |
 | metadata | object | no | 扩展參數 (如 negative\_prompt, style, quality\_level 等) |## Response Body

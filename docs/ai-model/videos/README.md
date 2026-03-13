@@ -1,8 +1,8 @@
-# 视频（Videos）
+# 影片（Videos）
 
-视频（Videos） 文档导航。
+影片（Videos） 文件导航。
 
-## 本章内容
+## 本章內容
 
 - [建立视频生成任務](create-video-task.md)
 - [取得视频生成任務状态](get-video-task-status.md)

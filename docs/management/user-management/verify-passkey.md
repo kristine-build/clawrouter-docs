@@ -1,10 +1,10 @@
-# 开始驗證Passkey
+# 開始驗證Passkey
 
 管理介面使用者管理
 
-# 开始驗證Passkey
+# 開始驗證Passkey
 
-🔐 需要登录（User權限）
+🔐 需要登入（User權限）
 
 
 

@@ -27,11 +27,11 @@
 Content-Type: `application/json`
 | Name | Type | Required | Description |
 | --- | --- | --- | --- |
-| `contents` | `array` | yes | 输入内容清單 |
+| `contents` | `array` | yes | 输入內容清單 |
 | `contents[].role` | `string` | no | 角色标识，如 `user` |
-| `contents[].parts` | `array` | yes | 内容片段清單 |
+| `contents[].parts` | `array` | yes | 內容片段清單 |
 | `contents[].parts[].text` | `string` | no | 文本片段 |
-| `contents[].parts[].inlineData` | `object` | no | 内联媒体内容 |
+| `contents[].parts[].inlineData` | `object` | no | 内联媒体內容 |
 | `contents[].parts[].inlineData.mimeType` | `string` | yes | 媒体 MIME 类型 |
 | `contents[].parts[].inlineData.data` | `string` | yes | base64 编码的資料 |
 | `generationConfig` | `object` | no | 生成控制參數 |

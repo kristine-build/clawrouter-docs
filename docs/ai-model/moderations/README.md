@@ -1,7 +1,7 @@
-# 审查（Moderations）
+# 稽查（Moderations）
 
-审查（Moderations） 文档导航。
+稽查（Moderations） 文件导航。
 
-## 本章内容
+## 本章內容
 
 - [原生OpenAI格式](openai-native.md)

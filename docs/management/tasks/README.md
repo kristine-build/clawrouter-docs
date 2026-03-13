@@ -1,8 +1,8 @@
 # 任務
 
-任務 文档导航。
+任務 文件导航。
 
-## 本章内容
+## 本章內容
 
 - [取得所有Midjourney任務](get-midjourney-task.md)
 - [取得个人Midjourney任務](get-midjourney-task-2.md)

@@ -1,8 +1,8 @@
 # OAuth
 
-OAuth 文档导航。
+OAuth 文件导航。
 
-## 本章内容
+## 本章內容
 
 - [Discord OAuth登录](discord-oauth-login.md)
 - [綁定邮箱](item.md)

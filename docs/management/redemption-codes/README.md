@@ -1,8 +1,8 @@
 # 兑换码
 
-兑换码 文档导航。
+兑换码 文件导航。
 
-## 本章内容
+## 本章內容
 
 - [取得所有兑换码](get-redemption-code.md)
 - [刪除兑换码](delete-redemption-code.md)

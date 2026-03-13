@@ -1,8 +1,8 @@
 # Sora格式
 
-Sora格式 文档导航。
+Sora格式 文件导航。
 
-## 本章内容
+## 本章內容
 
 - [建立视频](create-video.md)
 - [取得视频任務状态](get-video-task-status.md)
