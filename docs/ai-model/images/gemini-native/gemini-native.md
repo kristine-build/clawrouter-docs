@@ -71,7 +71,7 @@ string
 {% tab title="cURL" %}
 
 ```bash
-curl -X POST "https://docs.newapi.pro/v1beta/models/string:generateContent/" \
+curl -X POST "https://clawrouter.com/v1beta/models/string:generateContent/" \
   -H "Authorization: Bearer " \
   -H "Content-Type: application/json" \
   -d '{

@@ -4,7 +4,7 @@
 
 # 取得已啟用模型清單
 
-👨💼 需要管理员權限（Admin）
+👨💼 需要管理員權限（Admin）
 
 
 
@@ -23,7 +23,7 @@
 ### C#
 
 ```
-curl -X GET "https://docs.newapi.pro/api/channel/models_enabled"
+curl -X GET "https://clawrouter.com/api/channel/models_enabled"
 ```..
 
 200

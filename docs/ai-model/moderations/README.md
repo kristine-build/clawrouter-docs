@@ -1,6 +1,6 @@
 # 稽查（Moderations）
 
-稽查（Moderations） 文件导航。
+稽查（Moderations） 文件導覽。
 
 ## 本章內容
 

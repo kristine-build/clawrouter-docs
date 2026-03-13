@@ -4,7 +4,7 @@
 
 # 編輯标签通道
 
-👨💼 需要管理员權限（Admin）
+👨💼 需要管理員權限（Admin）
 
 
 
@@ -37,7 +37,7 @@ weight?integer
 ### C#
 
 ```
-curl -X PUT "https://docs.newapi.pro/api/channel/tag" \  -H "Content-Type: application/json" \  -d '{}'
+curl -X PUT "https://clawrouter.com/api/channel/tag" \  -H "Content-Type: application/json" \  -d '{}'
 ```..
 
 200

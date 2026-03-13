@@ -4,7 +4,7 @@
 
 # 更新兌換碼
 
-👨💼 需要管理员權限（Admin）
+👨💼 需要管理員權限（Admin）
 
 
 
@@ -29,7 +29,7 @@ application/json
 ### C#
 
 ```
-curl -X PUT "https://docs.newapi.pro/api/redemption/" \  -H "Content-Type: application/json" \  -d '{}'
+curl -X PUT "https://clawrouter.com/api/redemption/" \  -H "Content-Type: application/json" \  -d '{}'
 ```..
 
 200

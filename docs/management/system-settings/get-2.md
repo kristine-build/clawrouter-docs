@@ -4,7 +4,7 @@
 
 # 取得上游倍率
 
-👑 需要超级管理员權限（Root）
+👑 需要超級管理員權限（Root）
 
 
 
@@ -23,7 +23,7 @@
 ### C#
 
 ```
-curl -X POST "https://docs.newapi.pro/api/ratio_sync/fetch"
+curl -X POST "https://clawrouter.com/api/ratio_sync/fetch"
 ```..
 
 200

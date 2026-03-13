@@ -47,7 +47,7 @@ application/json
 ### C#
 
 ```
-curl -X POST "https://docs.newapi.pro/v1beta/models/string:generateContent" \  -H "Content-Type: application/json" \  -d '{    "contents": [      {}    ],    "generationConfig": {      "responseModalities": [        "string"      ],      "speechConfig": {        "voiceConfig": {          "prebuiltVoiceConfig": {            "voiceName": "string"          }        }      }    }  }'
+curl -X POST "https://clawrouter.com/v1beta/models/string:generateContent" \  -H "Content-Type: application/json" \  -d '{    "contents": [      {}    ],    "generationConfig": {      "responseModalities": [        "string"      ],      "speechConfig": {        "voiceConfig": {          "prebuiltVoiceConfig": {            "voiceName": "string"          }        }      }    }  }'
 ```..
 
 ```

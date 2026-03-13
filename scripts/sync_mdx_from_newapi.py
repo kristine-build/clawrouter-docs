@@ -17,7 +17,7 @@ DOCS = Path("docs")
 SUMMARY = DOCS / "SUMMARY.md"
 MAP_JSON = DOCS / "_mapping.json"
 CACHE_JSON = DOCS / "_newapi_source_map.json"
-BASE = "https://docs.newapi.pro/zh/llms.mdx/"
+BASE = "https://clawrouter.com/zh/llms.mdx/"
 UA = (
     "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
     "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36"

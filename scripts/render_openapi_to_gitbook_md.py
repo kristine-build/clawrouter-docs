@@ -351,7 +351,7 @@ def _js_value(val: Any) -> str:
 
 def render_code_examples(method: str, path: str, content_type: str, request_payload: dict[str, Any], endpoint_params: list[tuple[str, str]]) -> str:
     method = method.upper()
-    url = f"https://docs.newapi.pro{path}"
+    url = f"https://clawrouter.com{path}"
     for k, v in endpoint_params:
         url = url.replace(f"{{{k}}}", str(v))
 

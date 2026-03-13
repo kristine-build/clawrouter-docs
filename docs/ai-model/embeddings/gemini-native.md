@@ -36,7 +36,7 @@ string
 ## Example Request
 
 ```bash
-curl -X POST "https://docs.newapi.pro/v1/engines/string/embeddings" \
+curl -X POST "https://clawrouter.com/v1/engines/string/embeddings" \
   -H "Authorization: Bearer " \
   -H "Content-Type: application/json" \
   -d '{

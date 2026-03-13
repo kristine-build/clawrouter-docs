@@ -4,7 +4,7 @@
 
 # 刪除无效兌換碼
 
-👨💼 需要管理员權限（Admin）
+👨💼 需要管理員權限（Admin）
 
 
 
@@ -23,7 +23,7 @@
 ### C#
 
 ```
-curl -X DELETE "https://docs.newapi.pro/api/redemption/invalid"
+curl -X DELETE "https://clawrouter.com/api/redemption/invalid"
 ```..
 
 200

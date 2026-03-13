@@ -2,9 +2,9 @@
 
 管理介面使用者管理
 
-# 管理员重置使用者Passkey
+# 管理員重置使用者Passkey
 
-👨💼 需要管理员權限（Admin）
+👨💼 需要管理員權限（Admin）
 
 
 
@@ -29,7 +29,7 @@ id\*integer
 ### C#
 
 ```
-curl -X DELETE "https://docs.newapi.pro/api/user/0/reset_passkey"
+curl -X DELETE "https://clawrouter.com/api/user/0/reset_passkey"
 ```..
 
 200

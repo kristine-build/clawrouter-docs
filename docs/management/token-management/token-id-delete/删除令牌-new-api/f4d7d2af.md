@@ -29,7 +29,7 @@ id\*integer
 ### C#
 
 ```
-curl -X DELETE "https://docs.newapi.pro/api/token/0"
+curl -X DELETE "https://clawrouter.com/api/token/0"
 ```..
 
 200

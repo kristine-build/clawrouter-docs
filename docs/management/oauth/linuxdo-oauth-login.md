@@ -4,7 +4,7 @@
 
 # LinuxDO OAuth登入
 
-🔓 無需鑑權（OAuth回调）
+🔓 無需鑑權（OAuth回調）
 
 
 
@@ -23,7 +23,7 @@
 ### C#
 
 ```
-curl -X GET "https://docs.newapi.pro/api/oauth/linuxdo"
+curl -X GET "https://clawrouter.com/api/oauth/linuxdo"
 ```..
 
 200

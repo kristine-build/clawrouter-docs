@@ -29,7 +29,7 @@ application/json
 ### C#
 
 ```
-curl -X PUT "https://docs.newapi.pro/api/token/" \  -H "Content-Type: application/json" \  -d '{}'
+curl -X PUT "https://clawrouter.com/api/token/" \  -H "Content-Type: application/json" \  -d '{}'
 ```..
 
 200

@@ -4,7 +4,7 @@
 
 # 管理使用者狀態
 
-👨💼 需要管理员權限（Admin）
+👨💼 需要管理員權限（Admin）
 
 
 
@@ -35,7 +35,7 @@ Value in`"disable" | "enable" | "delete" | "promote" | "demote"`..
 ### C#
 
 ```
-curl -X POST "https://docs.newapi.pro/api/user/manage" \  -H "Content-Type: application/json" \  -d '{}'
+curl -X POST "https://clawrouter.com/api/user/manage" \  -H "Content-Type: application/json" \  -d '{}'
 ```..
 
 200

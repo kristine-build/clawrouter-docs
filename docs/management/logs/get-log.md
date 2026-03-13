@@ -4,7 +4,7 @@
 
 # 取得所有日誌
 
-👨💼 需要管理员權限（Admin）
+👨💼 需要管理員權限（Admin）
 
 
 
@@ -31,7 +31,7 @@ page\_size?integer
 ### C#
 
 ```
-curl -X GET "https://docs.newapi.pro/api/log/"
+curl -X GET "https://clawrouter.com/api/log/"
 ```..
 
 200

@@ -94,7 +94,7 @@ Content-Type: `application/json`..
 ### cURL
 
 ```bash
-curl -X POST "https://docs.newapi.pro/v1/messages" \
+curl -X POST "https://clawrouter.com/v1/messages" \
   -H "Authorization: Bearer YOUR_API_KEY" \
   -H "anthropic-version: 2023-06-01" \
   -H "Content-Type: application/json" \
@@ -109,7 +109,7 @@ const payload = {
   messages: [{ role: "user", content: "你好，请介绍 API 网关。" }],
   max_tokens: 256
 };
-const response = await fetch("https://docs.newapi.pro/v1/messages", {
+const response = await fetch("https://clawrouter.com/v1/messages", {
   method: "POST",
   headers: {
     "Authorization": "Bearer YOUR_API_KEY",
@@ -137,7 +137,7 @@ func main() {
 	_ = json.Unmarshal([]byte(payloadJSON), &payload)
 	data, _ := json.Marshal(payload)
 
-	req, _ := http.NewRequest("POST", "https://docs.newapi.pro/v1/messages", bytes.NewReader(data))
+	req, _ := http.NewRequest("POST", "https://clawrouter.com/v1/messages", bytes.NewReader(data))
 	req.Header.Set("Authorization", "Bearer YOUR_API_KEY")
 	req.Header.Set("anthropic-version", "2023-06-01")
 	req.Header.Set("Content-Type", "application/json")
@@ -148,7 +148,7 @@ func main() {
 ### Python
 
 ```python
-url = "https://docs.newapi.pro/v1/messages"
+url = "https://clawrouter.com/v1/messages"
 headers = {
     "Authorization": "Bearer YOUR_API_KEY",
     "anthropic-version": "2023-06-01",
@@ -170,7 +170,7 @@ print(resp.text)
 HttpClient client = HttpClient.newHttpClient();
 String json = "{ \"model\": \"claude-3-opus-20240229\", \"messages\": [{\"role\":\"user\",\"content\":\"你好，请介绍 API 网关。\"}], \"max_tokens\":256 }";
 HttpRequest request = HttpRequest.newBuilder()
-    .uri(URI.create("https://docs.newapi.pro/v1/messages"))
+    .uri(URI.create("https://clawrouter.com/v1/messages"))
     .header("Authorization", "Bearer YOUR_API_KEY")
     .header("anthropic-version", "2023-06-01")
     .header("Content-Type", "application/json")
@@ -192,7 +192,7 @@ var payload = new StringContent(
     Encoding.UTF8,
     "application/json"
 );
-var request = new HttpRequestMessage(HttpMethod.Post, "https://docs.newapi.pro/v1/messages") {
+var request = new HttpRequestMessage(HttpMethod.Post, "https://clawrouter.com/v1/messages") {
     Content = payload
 };
 var response = await client.SendAsync(request);

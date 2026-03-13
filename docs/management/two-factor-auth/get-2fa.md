@@ -4,7 +4,7 @@
 
 # 取得2FA統計
 
-👨💼 需要管理员權限（Admin）
+👨💼 需要管理員權限（Admin）
 
 
 
@@ -23,7 +23,7 @@
 ### C#
 
 ```
-curl -X GET "https://docs.newapi.pro/api/user/2fa/stats"
+curl -X GET "https://clawrouter.com/api/user/2fa/stats"
 ```..
 
 200

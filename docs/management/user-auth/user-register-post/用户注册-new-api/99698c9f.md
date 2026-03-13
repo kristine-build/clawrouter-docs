@@ -39,7 +39,7 @@ aff\_code?string
 ### C#
 
 ```
-curl -X POST "https://docs.newapi.pro/api/user/register" \  -H "Content-Type: application/json" \  -d '{}'
+curl -X POST "https://clawrouter.com/api/user/register" \  -H "Content-Type: application/json" \  -d '{}'
 ```..
 
 200

@@ -35,7 +35,7 @@
 | logit_bias | object | no | 词表偏置映射，键为 token，值为偏置分数。 |
 | logprobs | integer | no | 在输出中回傳每个 token 的对数概率个数。 |
 | seed | integer | no | 生成随机种子。 |
-| user | string | no | 终端使用者标识符，用于审计与风控。 |
+| user | string | no | 终端使用者标识符，用于審计與风控。 |
 
 ## Response Body
 
@@ -70,7 +70,7 @@
 ### cURL
 
 ```bash
-curl -X POST "https://docs.newapi.pro/v1/completions" \
+curl -X POST "https://clawrouter.com/v1/completions" \
   -H "Authorization: Bearer YOUR_API_KEY" \
   -H "Content-Type: application/json" \
   -d '{
@@ -82,7 +82,7 @@ curl -X POST "https://docs.newapi.pro/v1/completions" \
 ### JavaScript
 
 ```javascript
-fetch("https://docs.newapi.pro/v1/completions", {
+fetch("https://clawrouter.com/v1/completions", {
   method: "POST",
   headers: {
     "Authorization": "Bearer YOUR_API_KEY",
@@ -104,7 +104,7 @@ func main() {
     "prompt": "Write a short poem about the moon."
   }`))
 
-  req, _ := http.NewRequest("POST", "https://docs.newapi.pro/v1/completions", body)
+  req, _ := http.NewRequest("POST", "https://clawrouter.com/v1/completions", body)
   req.Header.Set("Authorization", "Bearer YOUR_API_KEY")
   req.Header.Set("Content-Type", "application/json")
   http.DefaultClient.Do(req)
@@ -114,7 +114,7 @@ func main() {
 ### Python
 
 ```python
-url = "https://docs.newapi.pro/v1/completions"
+url = "https://clawrouter.com/v1/completions"
 headers = {
     "Authorization": "Bearer YOUR_API_KEY",
     "Content-Type": "application/json",
@@ -132,7 +132,7 @@ print(response.json())
 
 ```java
 HttpRequest request = HttpRequest.newBuilder()
-    .uri(URI.create("https://docs.newapi.pro/v1/completions"))
+    .uri(URI.create("https://clawrouter.com/v1/completions"))
     .header("Authorization", "Bearer YOUR_API_KEY")
     .header("Content-Type", "application/json")
     .POST(HttpRequest.BodyPublishers.ofString("""
@@ -148,7 +148,7 @@ HttpRequest request = HttpRequest.newBuilder()
 
 ```csharp
 var client = new HttpClient();
-var request = new HttpRequestMessage(HttpMethod.Post, "https://docs.newapi.pro/v1/completions");
+var request = new HttpRequestMessage(HttpMethod.Post, "https://clawrouter.com/v1/completions");
 request.Headers.Add("Authorization", "Bearer YOUR_API_KEY");
 request.Content = new StringContent(@"""
 {

@@ -4,7 +4,7 @@
 
 # Creem Webhook
 
-🔓 無需鑑權（Webhook回调）
+🔓 無需鑑權（Webhook回調）
 
 
 
@@ -23,7 +23,7 @@
 ### C#
 
 ```
-curl -X POST "https://docs.newapi.pro/api/creem/webhook"
+curl -X POST "https://clawrouter.com/api/creem/webhook"
 ```..
 
 200

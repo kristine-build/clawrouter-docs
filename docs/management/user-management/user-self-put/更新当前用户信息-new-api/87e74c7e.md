@@ -37,7 +37,7 @@ original\_password?string
 ### C#
 
 ```
-curl -X PUT "https://docs.newapi.pro/api/user/self" \  -H "Content-Type: application/json" \  -d '{}'
+curl -X PUT "https://clawrouter.com/api/user/self" \  -H "Content-Type: application/json" \  -d '{}'
 ```..
 
 200

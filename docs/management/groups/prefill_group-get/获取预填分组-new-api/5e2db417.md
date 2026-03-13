@@ -4,7 +4,7 @@
 
 # 取得预填分组
 
-👨💼 需要管理员權限（Admin）
+👨💼 需要管理員權限（Admin）
 
 
 
@@ -23,7 +23,7 @@
 ### C#
 
 ```
-curl -X GET "https://docs.newapi.pro/api/prefill_group/"
+curl -X GET "https://clawrouter.com/api/prefill_group/"
 ```..
 
 200

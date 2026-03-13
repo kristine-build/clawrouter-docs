@@ -4,7 +4,7 @@
 
 # 批量設定通道标签
 
-👨💼 需要管理员權限（Admin）
+👨💼 需要管理員權限（Admin）
 
 
 
@@ -33,7 +33,7 @@ tag?string
 ### C#
 
 ```
-curl -X POST "https://docs.newapi.pro/api/channel/batch/tag" \  -H "Content-Type: application/json" \  -d '{}'
+curl -X POST "https://clawrouter.com/api/channel/batch/tag" \  -H "Content-Type: application/json" \  -d '{}'
 ```..
 
 200

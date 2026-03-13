@@ -29,7 +29,7 @@ Authorization
 ### C#
 
 ```
-curl -X GET "https://docs.newapi.pro/v1beta/models"
+curl -X GET "https://clawrouter.com/v1beta/models"
 ```..
 
 ```

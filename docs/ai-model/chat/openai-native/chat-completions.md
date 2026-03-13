@@ -138,7 +138,7 @@ Content-Type: `application/json`..
 ### cURL
 
 ```bash
-curl -X POST "https://docs.newapi.pro/v1/chat/completions" \
+curl -X POST "https://clawrouter.com/v1/chat/completions" \
   -H "Authorization: Bearer YOUR_API_KEY" \
   -H "Content-Type: application/json" \
   -d '{
@@ -155,7 +155,7 @@ curl -X POST "https://docs.newapi.pro/v1/chat/completions" \
 ### JavaScript
 
 ```javascript
-const response = await fetch("https://docs.newapi.pro/v1/chat/completions", {
+const response = await fetch("https://clawrouter.com/v1/chat/completions", {
   method: "POST",
   headers: {
     "Authorization": "Bearer YOUR_API_KEY",
@@ -183,7 +183,7 @@ func main() {
     "model":"gpt-4o-mini",
     "messages":[{"role":"user","content":"Hello"}]
   }`))
-	req, _ := http.NewRequest("POST", "https://docs.newapi.pro/v1/chat/completions", body)
+	req, _ := http.NewRequest("POST", "https://clawrouter.com/v1/chat/completions", body)
 	req.Header.Set("Authorization", "Bearer YOUR_API_KEY")
 	req.Header.Set("Content-Type", "application/json")
 	http.DefaultClient.Do(req)
@@ -193,7 +193,7 @@ func main() {
 ### Python
 
 ```python
-url = "https://docs.newapi.pro/v1/chat/completions"
+url = "https://clawrouter.com/v1/chat/completions"
 headers = {
     "Authorization": "Bearer YOUR_API_KEY",
     "Content-Type": "application/json",
@@ -226,7 +226,7 @@ String json = """
 }
 """;
 var request = HttpRequest.newBuilder()
-    .uri(URI.create("https://docs.newapi.pro/v1/chat/completions"))
+    .uri(URI.create("https://clawrouter.com/v1/chat/completions"))
     .header("Authorization", "Bearer YOUR_API_KEY")
     .header("Content-Type", "application/json")
     .POST(HttpRequest.BodyPublishers.ofString(json))
@@ -236,7 +236,7 @@ var request = HttpRequest.newBuilder()
 ### C#
 
 ```csharp
-var request = new HttpRequestMessage(HttpMethod.Post, "https://docs.newapi.pro/v1/chat/completions");
+var request = new HttpRequestMessage(HttpMethod.Post, "https://clawrouter.com/v1/chat/completions");
 request.Headers.Add("Authorization", "Bearer YOUR_API_KEY");
 request.Content = new StringContent("""
 {

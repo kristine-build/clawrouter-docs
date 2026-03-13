@@ -4,7 +4,7 @@
 
 # 測試系統狀態
 
-👨💼 需要管理员權限（Admin）
+👨💼 需要管理員權限（Admin）
 
 
 
@@ -23,7 +23,7 @@
 ### C#
 
 ```
-curl -X GET "https://docs.newapi.pro/api/status/test"
+curl -X GET "https://clawrouter.com/api/status/test"
 ```..
 
 200

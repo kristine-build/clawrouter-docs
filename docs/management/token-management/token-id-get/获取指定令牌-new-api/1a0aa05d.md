@@ -29,7 +29,7 @@ id\*integer
 ### C#
 
 ```
-curl -X GET "https://docs.newapi.pro/api/token/0"
+curl -X GET "https://clawrouter.com/api/token/0"
 ```..
 
 200

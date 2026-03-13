@@ -4,7 +4,7 @@
 
 # 取得指定模型
 
-👨💼 需要管理员權限（Admin）
+👨💼 需要管理員權限（Admin）
 
 
 
@@ -29,7 +29,7 @@ id\*integer
 ### C#
 
 ```
-curl -X GET "https://docs.newapi.pro/api/models/0"
+curl -X GET "https://clawrouter.com/api/models/0"
 ```..
 
 200

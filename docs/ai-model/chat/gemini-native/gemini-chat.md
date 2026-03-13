@@ -62,7 +62,7 @@ Content-Type: `application/json`..
 ### cURL
 
 ```bash
-curl -X POST "https://docs.newapi.pro/v1beta/models/gemini-2.5-pro:generateContent" \
+curl -X POST "https://clawrouter.com/v1beta/models/gemini-2.5-pro:generateContent" \
   -H "Authorization: Bearer YOUR_API_KEY" \
   -H "Content-Type: application/json" \
   -d '{
@@ -82,7 +82,7 @@ curl -X POST "https://docs.newapi.pro/v1beta/models/gemini-2.5-pro:generateConte
 ### JavaScript
 
 ```javascript
-const response = await fetch("https://docs.newapi.pro/v1beta/models/gemini-2.5-pro:generateContent", {
+const response = await fetch("https://clawrouter.com/v1beta/models/gemini-2.5-pro:generateContent", {
   method: "POST",
   headers: {
     "Authorization": "Bearer YOUR_API_KEY",
@@ -121,7 +121,7 @@ func main() {
       }
     ]
   }`))
-	req, _ := http.NewRequest("POST", "https://docs.newapi.pro/v1beta/models/gemini-2.5-pro:generateContent", body)
+	req, _ := http.NewRequest("POST", "https://clawrouter.com/v1beta/models/gemini-2.5-pro:generateContent", body)
 	req.Header.Set("Authorization", "Bearer YOUR_API_KEY")
 	req.Header.Set("Content-Type", "application/json")
 	http.DefaultClient.Do(req)
@@ -131,7 +131,7 @@ func main() {
 ### Python
 
 ```python
-url = "https://docs.newapi.pro/v1beta/models/gemini-2.5-pro:generateContent"
+url = "https://clawrouter.com/v1beta/models/gemini-2.5-pro:generateContent"
 headers = {
     "Authorization": "Bearer YOUR_API_KEY",
     "Content-Type": "application/json",
@@ -157,7 +157,7 @@ print(response.json())
 ```java
 String json = "{\"contents\":[{\"role\":\"user\",\"parts\":[{\"text\":\"请用中文回答这个问题\"}]}]}";
 var request = HttpRequest.newBuilder()
-    .uri(URI.create("https://docs.newapi.pro/v1beta/models/gemini-2.5-pro:generateContent"))
+    .uri(URI.create("https://clawrouter.com/v1beta/models/gemini-2.5-pro:generateContent"))
     .header("Authorization", "Bearer YOUR_API_KEY")
     .header("Content-Type", "application/json")
     .POST(HttpRequest.BodyPublishers.ofString(json))
@@ -167,7 +167,7 @@ var request = HttpRequest.newBuilder()
 ### C#
 
 ```csharp
-var request = new HttpRequestMessage(HttpMethod.Post, "https://docs.newapi.pro/v1beta/models/gemini-2.5-pro:generateContent");
+var request = new HttpRequestMessage(HttpMethod.Post, "https://clawrouter.com/v1beta/models/gemini-2.5-pro:generateContent");
 request.Headers.Add("Authorization", "Bearer YOUR_API_KEY");
 request.Content = new StringContent("{\"contents\":[{\"role\":\"user\",\"parts\":[{\"text\":\"请用中文回答这个问题\"}]}]}", Encoding.UTF8, "application/json");
 await client.SendAsync(request);

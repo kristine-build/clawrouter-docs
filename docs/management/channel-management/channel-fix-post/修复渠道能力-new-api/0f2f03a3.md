@@ -4,7 +4,7 @@
 
 # 修复通道能力
 
-👨💼 需要管理员權限（Admin）
+👨💼 需要管理員權限（Admin）
 
 
 
@@ -23,7 +23,7 @@
 ### C#
 
 ```
-curl -X POST "https://docs.newapi.pro/api/channel/fix"
+curl -X POST "https://clawrouter.com/api/channel/fix"
 ```..
 
 200

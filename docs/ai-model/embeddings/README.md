@@ -1,6 +1,6 @@
 # 嵌入（Embeddings）
 
-嵌入（Embeddings） 文件导航。
+嵌入（Embeddings） 文件導覽。
 
 ## 本章內容
 

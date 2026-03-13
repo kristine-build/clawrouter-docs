@@ -31,7 +31,7 @@ file\_id\*string
 ### C#
 
 ```
-curl -X GET "https://docs.newapi.pro/v1/files/string"
+curl -X GET "https://clawrouter.com/v1/files/string"
 ```..
 
 501

@@ -4,7 +4,7 @@
 
 # 取得指定使用者
 
-👨💼 需要管理员權限（Admin）
+👨💼 需要管理員權限（Admin）
 
 
 
@@ -29,7 +29,7 @@ id\*integer
 ### C#
 
 ```
-curl -X GET "https://docs.newapi.pro/api/user/0"
+curl -X GET "https://clawrouter.com/api/user/0"
 ```..
 
 200

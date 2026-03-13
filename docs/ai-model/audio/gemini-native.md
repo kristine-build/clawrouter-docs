@@ -89,7 +89,7 @@ Content-Type: `application/json`..
 ### cURL
 
 ```bash
-curl -X POST "https://docs.newapi.pro/v1beta/models/gemini-2.5-flash-preview-tts:generateContent" \
+curl -X POST "https://clawrouter.com/v1beta/models/gemini-2.5-flash-preview-tts:generateContent" \
   -H "Authorization: Bearer YOUR_API_KEY" \
   -H "Content-Type: application/json" \
   -d '{"contents": [{"parts": [{"text": "请用中文播报今天的天气摘要"}]}], "generationConfig": {"responseModalities": ["AUDIO"], "speechConfig": {"voiceConfig": {"prebuiltVoiceConfig": {"voiceName": "Kore"}}}}}'
@@ -98,7 +98,7 @@ curl -X POST "https://docs.newapi.pro/v1beta/models/gemini-2.5-flash-preview-tts
 ### Python requests
 
 ```python
-url = "https://docs.newapi.pro/v1beta/models/gemini-2.5-flash-preview-tts:generateContent"
+url = "https://clawrouter.com/v1beta/models/gemini-2.5-flash-preview-tts:generateContent"
 headers = {
     "Authorization": "Bearer YOUR_API_KEY",
     "Content-Type": "application/json"

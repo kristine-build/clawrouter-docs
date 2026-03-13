@@ -46,7 +46,7 @@ application/json
 ### C#
 
 ```
-curl -X POST "https://docs.newapi.pro/v1/completions" \  -H "Content-Type: application/json" \  -d '{    "model": "string",    "prompt": "string"  }'
+curl -X POST "https://clawrouter.com/v1/completions" \  -H "Content-Type: application/json" \  -d '{    "model": "string",    "prompt": "string"  }'
 ```..
 
 ```

@@ -4,7 +4,7 @@
 
 # 取得所有儲值紀錄
 
-👨💼 需要管理员權限（Admin）
+👨💼 需要管理員權限（Admin）
 
 
 
@@ -23,7 +23,7 @@
 ### C#
 
 ```
-curl -X GET "https://docs.newapi.pro/api/user/topup"
+curl -X GET "https://clawrouter.com/api/user/topup"
 ```..
 
 200

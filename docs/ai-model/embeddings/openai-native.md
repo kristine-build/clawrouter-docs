@@ -28,7 +28,7 @@ In: header
 ## Example Request
 
 ```bash
-curl -X POST "https://docs.newapi.pro/v1/embeddings" \
+curl -X POST "https://clawrouter.com/v1/embeddings" \
   -H "Authorization: Bearer " \
   -H "Content-Type: application/json" \
   -d '{

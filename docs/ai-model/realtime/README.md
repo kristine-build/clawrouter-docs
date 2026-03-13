@@ -1,6 +1,6 @@
 # 即時語音（Realtime）
 
-即時語音（Realtime） 文件导航。
+即時語音（Realtime） 文件導覽。
 
 ## 本章內容
 

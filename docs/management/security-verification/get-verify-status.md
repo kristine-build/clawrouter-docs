@@ -23,7 +23,7 @@
 ### C#
 
 ```
-curl -X GET "https://docs.newapi.pro/api/verify/status"
+curl -X GET "https://clawrouter.com/api/verify/status"
 ```..
 
 200

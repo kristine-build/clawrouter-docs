@@ -29,7 +29,7 @@ key?string
 ### C#
 
 ```
-curl -X GET "https://docs.newapi.pro/api/log/token"
+curl -X GET "https://clawrouter.com/api/log/token"
 ```..
 
 200

@@ -4,7 +4,7 @@
 
 # Discord OAuth登入
 
-🔓 無需鑑權（OAuth回调）
+🔓 無需鑑權（OAuth回調）
 
 
 
@@ -29,7 +29,7 @@ code?string
 ### C#
 
 ```
-curl -X GET "https://docs.newapi.pro/api/oauth/discord"
+curl -X GET "https://clawrouter.com/api/oauth/discord"
 ```..
 
 200

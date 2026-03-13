@@ -37,7 +37,7 @@ task\_id\*string
 ### C#
 
 ```
-curl -X GET "https://docs.newapi.pro/v1/videos/string/content"
+curl -X GET "https://clawrouter.com/v1/videos/string/content"
 ```..
 
 200404

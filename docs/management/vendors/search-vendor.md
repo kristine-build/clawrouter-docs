@@ -4,7 +4,7 @@
 
 # 搜索供應商
 
-👨💼 需要管理员權限（Admin）
+👨💼 需要管理員權限（Admin）
 
 
 
@@ -29,7 +29,7 @@ keyword?string
 ### C#
 
 ```
-curl -X GET "https://docs.newapi.pro/api/vendors/search"
+curl -X GET "https://clawrouter.com/api/vendors/search"
 ```..
 
 200

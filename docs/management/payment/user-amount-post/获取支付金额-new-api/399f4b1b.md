@@ -23,7 +23,7 @@
 ### C#
 
 ```
-curl -X POST "https://docs.newapi.pro/api/user/amount"
+curl -X POST "https://clawrouter.com/api/user/amount"
 ```..
 
 200

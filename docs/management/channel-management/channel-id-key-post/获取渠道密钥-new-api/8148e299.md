@@ -4,7 +4,7 @@
 
 # 取得通道密鑰
 
-👑 需要超级管理员權限（Root）+ 安全驗證
+👑 需要超級管理員權限（Root）+ 安全驗證
 
 
 
@@ -29,7 +29,7 @@ id\*integer
 ### C#
 
 ```
-curl -X POST "https://docs.newapi.pro/api/channel/0/key"
+curl -X POST "https://clawrouter.com/api/channel/0/key"
 ```..
 
 200

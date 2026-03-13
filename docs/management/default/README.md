@@ -1,6 +1,6 @@
 # default
 
-default 文件导航。
+default 文件導覽。
 
 ## 本章內容
 

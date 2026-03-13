@@ -4,7 +4,7 @@
 
 # 取得可同步通道
 
-👑 需要超级管理员權限（Root）
+👑 需要超級管理員權限（Root）
 
 
 
@@ -23,7 +23,7 @@
 ### C#
 
 ```
-curl -X GET "https://docs.newapi.pro/api/ratio_sync/channels"
+curl -X GET "https://clawrouter.com/api/ratio_sync/channels"
 ```..
 
 200

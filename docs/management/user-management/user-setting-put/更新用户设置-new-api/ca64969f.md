@@ -37,7 +37,7 @@ notification\_email?string
 ### C#
 
 ```
-curl -X PUT "https://docs.newapi.pro/api/user/setting" \  -H "Content-Type: application/json" \  -d '{}'
+curl -X PUT "https://clawrouter.com/api/user/setting" \  -H "Content-Type: application/json" \  -d '{}'
 ```..
 
 200

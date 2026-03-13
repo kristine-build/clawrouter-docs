@@ -4,7 +4,7 @@
 
 # 搜索使用者
 
-👨💼 需要管理员權限（Admin）
+👨💼 需要管理員權限（Admin）
 
 
 
@@ -31,7 +31,7 @@ group?string
 ### C#
 
 ```
-curl -X GET "https://docs.newapi.pro/api/user/search"
+curl -X GET "https://clawrouter.com/api/user/search"
 ```..
 
 200

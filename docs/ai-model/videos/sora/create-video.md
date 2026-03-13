@@ -48,7 +48,7 @@ multipart/form-data
 ### C#
 
 ```
-curl -X POST "https://docs.newapi.pro/v1/videos"
+curl -X POST "https://clawrouter.com/v1/videos"
 ```..
 
 200400

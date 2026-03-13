@@ -4,7 +4,7 @@
 
 # 刪除已禁用通道
 
-👨💼 需要管理员權限（Admin）
+👨💼 需要管理員權限（Admin）
 
 
 
@@ -23,7 +23,7 @@
 ### C#
 
 ```
-curl -X DELETE "https://docs.newapi.pro/api/channel/disabled"
+curl -X DELETE "https://clawrouter.com/api/channel/disabled"
 ```..
 
 200

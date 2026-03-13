@@ -5,7 +5,7 @@
 ### cURL
 
 ```bash
-curl -X POST "https://docs.newapi.pro/" \
+curl -X POST "https://clawrouter.com/" \
   -H "Authorization: Bearer YOUR_API_KEY" \
   -H "Content-Type: application/json" \
   -d '{   "model": "tts-1",   "input": "请用中文朗读今天的新闻摘要" }'
@@ -18,7 +18,7 @@ const payload = {
   "model": "tts-1",
   "input": "请用中文朗读今天的新闻摘要"
 };
-const response = await fetch("https://docs.newapi.pro/", {
+const response = await fetch("https://clawrouter.com/", {
   method: "POST",
   headers: {
     "Authorization": "Bearer YOUR_API_KEY",
@@ -44,7 +44,7 @@ func main() {
 	var payload map[string]interface{}
 	_ = json.Unmarshal([]byte(payloadJSON), &payload)
 	data, _ := json.Marshal(payload)
-	req, _ := http.NewRequest("POST", "https://docs.newapi.pro/", bytes.NewReader(data))
+	req, _ := http.NewRequest("POST", "https://clawrouter.com/", bytes.NewReader(data))
 	req.Header.Set("Authorization", "Bearer YOUR_API_KEY")
 	req.Header.Set("Content-Type", "application/json")
 	http.DefaultClient.Do(req)
@@ -54,7 +54,7 @@ func main() {
 ### Python
 
 ```python
-url = "https://docs.newapi.pro/"
+url = "https://clawrouter.com/"
 headers = {
     "Authorization": "Bearer YOUR_API_KEY",
     "Content-Type": "application/json",
@@ -74,7 +74,7 @@ print(resp.text)
 HttpClient client = HttpClient.newHttpClient();
     String json = "{  \"model\": \"tts-1\",  \"input\": \"请用中文朗读今天的新闻摘要\"}";
 HttpRequest request = HttpRequest.newBuilder()
-    .uri(URI.create("https://docs.newapi.pro/"))
+    .uri(URI.create("https://clawrouter.com/"))
     .header("Authorization", "Bearer YOUR_API_KEY")
     .header("Content-Type", "application/json")
     .POST(HttpRequest.BodyPublishers.ofString(json))
@@ -90,7 +90,7 @@ System.out.println(response.body());
 var client = new HttpClient();
 client.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", "YOUR_API_KEY");
 var payload = new StringContent(@"{  ""model"": ""tts-1"",  ""input"": ""请用中文朗读今天的新闻摘要""}", Encoding.UTF8, "application/json");
-var request = new HttpRequestMessage(HttpMethod.Post, "https://docs.newapi.pro/") {
+var request = new HttpRequestMessage(HttpMethod.Post, "https://clawrouter.com/") {
 	Content = payload
 };
 var response = await client.SendAsync(request);

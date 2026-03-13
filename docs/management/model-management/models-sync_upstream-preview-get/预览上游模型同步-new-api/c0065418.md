@@ -4,7 +4,7 @@
 
 # 預覽上游模型同步
 
-👨💼 需要管理员權限（Admin）
+👨💼 需要管理員權限（Admin）
 
 
 
@@ -23,7 +23,7 @@
 ### C#
 
 ```
-curl -X GET "https://docs.newapi.pro/api/models/sync_upstream/preview"
+curl -X GET "https://clawrouter.com/api/models/sync_upstream/preview"
 ```..
 
 200

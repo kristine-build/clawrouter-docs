@@ -1,6 +1,6 @@
 # OAuth
 
-OAuth 文件导航。
+OAuth 文件導覽。
 
 ## 本章內容
 

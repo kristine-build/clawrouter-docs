@@ -4,7 +4,7 @@
 
 # 建立模型元資料
 
-👨💼 需要管理员權限（Admin）
+👨💼 需要管理員權限（Admin）
 
 
 
@@ -23,7 +23,7 @@
 ### C#
 
 ```
-curl -X POST "https://docs.newapi.pro/api/models/"
+curl -X POST "https://clawrouter.com/api/models/"
 ```..
 
 200

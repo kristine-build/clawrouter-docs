@@ -4,7 +4,7 @@
 
 # 更新系統选项
 
-👑 需要超级管理员權限（Root）
+👑 需要超級管理員權限（Root）
 
 
 
@@ -23,7 +23,7 @@
 ### C#
 
 ```
-curl -X PUT "https://docs.newapi.pro/api/option/"
+curl -X PUT "https://clawrouter.com/api/option/"
 ```..
 
 200

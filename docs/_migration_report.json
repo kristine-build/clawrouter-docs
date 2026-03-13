@@ -1,5 +1,5 @@
 {
-  "start_url": "https://docs.newapi.pro/zh/docs/api",
+  "start_url": "https://clawrouter.com/zh/docs/api",
   "visited_count": 186,
   "saved_count": 185,
   "skipped_count": 1,
@@ -933,7 +933,7 @@
   ],
   "skipped": [
     {
-      "url": "https://docs.newapi.pro/zh/docs/api",
+      "url": "https://clawrouter.com/zh/docs/api",
       "title": "API 参考 | ClawRouter",
       "reason": "not-leaf"
     }

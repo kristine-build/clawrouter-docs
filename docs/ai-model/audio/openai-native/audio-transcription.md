@@ -36,7 +36,7 @@
 ### cURL
 
 ```bash
-curl -X POST "https://docs.newapi.pro/v1/audio/transcriptions" \
+curl -X POST "https://clawrouter.com/v1/audio/transcriptions" \
   -H "Authorization: Bearer YOUR_API_KEY" \
   -F "text=string"
 ```..
@@ -46,7 +46,7 @@ curl -X POST "https://docs.newapi.pro/v1/audio/transcriptions" \
 ```javascript
 const formData = new FormData();
 formData.append("text", "string");
-const response = await fetch("https://docs.newapi.pro/v1/audio/transcriptions", {
+const response = await fetch("https://clawrouter.com/v1/audio/transcriptions", {
   method: "POST",
   headers: {
     "Authorization": "Bearer YOUR_API_KEY"
@@ -78,7 +78,7 @@ func main() {
 	part, _ := writer.CreateFormFile("file", "audio.mp3")
 	_, _ = io.Copy(part, file)
 	_ = writer.Close()
-	req, _ := http.NewRequest("POST", "https://docs.newapi.pro/v1/audio/transcriptions", &buf)
+	req, _ := http.NewRequest("POST", "https://clawrouter.com/v1/audio/transcriptions", &buf)
 	req.Header.Set("Authorization", "Bearer YOUR_API_KEY")
 	req.Header.Set("Content-Type", writer.FormDataContentType())
 	http.DefaultClient.Do(req)
@@ -88,7 +88,7 @@ func main() {
 ### Python
 
 ```python
-url = "https://docs.newapi.pro/v1/audio/transcriptions"
+url = "https://clawrouter.com/v1/audio/transcriptions"
 headers = {"Authorization": "Bearer YOUR_API_KEY"}
 files = {}
 data = {}
@@ -103,7 +103,7 @@ print(resp.text)
 ```java
 HttpClient client = HttpClient.newHttpClient();
 HttpRequest request = HttpRequest.newBuilder()
-    .uri(URI.create("https://docs.newapi.pro/v1/audio/transcriptions"))
+    .uri(URI.create("https://clawrouter.com/v1/audio/transcriptions"))
     .header("Authorization", "Bearer YOUR_API_KEY")
     .POST(HttpRequest.BodyPublishers.noBody())
     .build();
@@ -120,7 +120,7 @@ client.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.Authent
 var form = new MultipartFormDataContent();
 	form.Add(new StringContent("whisper-1"), "model");
 	form.Add(new ByteArrayContent(File.ReadAllBytes("audio.mp3")), "file", "audio.mp3");
-var request = new HttpRequestMessage(HttpMethod.Post, "https://docs.newapi.pro/v1/audio/transcriptions") {
+var request = new HttpRequestMessage(HttpMethod.Post, "https://clawrouter.com/v1/audio/transcriptions") {
 	Content = form
 };
 var response = await client.SendAsync(request);

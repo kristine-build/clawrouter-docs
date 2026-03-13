@@ -4,7 +4,7 @@
 
 # 刪除预填分组
 
-👨💼 需要管理员權限（Admin）
+👨💼 需要管理員權限（Admin）
 
 
 
@@ -29,7 +29,7 @@ id\*integer
 ### C#
 
 ```
-curl -X DELETE "https://docs.newapi.pro/api/prefill_group/0"
+curl -X DELETE "https://clawrouter.com/api/prefill_group/0"
 ```..
 
 200

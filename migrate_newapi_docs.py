@@ -10,8 +10,8 @@ from bs4 import BeautifulSoup
 from markdownify import markdownify as md
 
 
-START_URL = "https://docs.newapi.pro/zh/docs/api"
-ALLOWED_PREFIX = "https://docs.newapi.pro/zh/docs/api"
+START_URL = "https://clawrouter.com/zh/docs/api"
+ALLOWED_PREFIX = "https://clawrouter.com/zh/docs/api"
 OUT_DIR = "docs"
 SLEEP_SECONDS = 0.8  # be nice to the site
 

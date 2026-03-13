@@ -31,7 +31,7 @@ code?string
 ### C#
 
 ```
-curl -X GET "https://docs.newapi.pro/api/oauth/email/bind"
+curl -X GET "https://clawrouter.com/api/oauth/email/bind"
 ```..
 
 200

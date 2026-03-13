@@ -1,6 +1,6 @@
 # 未實作（Unimplemented）
 
-未實作（Unimplemented） 文件导航。
+未實作（Unimplemented） 文件導覽。
 
 ## 本章內容
 

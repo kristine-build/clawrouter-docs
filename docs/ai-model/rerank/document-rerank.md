@@ -36,7 +36,7 @@ application/json
 ### C#
 
 ```
-curl -X POST "https://docs.newapi.pro/v1/rerank" \  -H "Content-Type: application/json" \  -d '{    "model": "rerank-english-v2.0",    "query": "string",    "documents": [      "string"    ]  }'
+curl -X POST "https://clawrouter.com/v1/rerank" \  -H "Content-Type: application/json" \  -d '{    "model": "rerank-english-v2.0",    "query": "string",    "documents": [      "string"    ]  }'
 ```..
 
 200

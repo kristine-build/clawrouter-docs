@@ -26,7 +26,7 @@ AI 模型介面未實作（Unimplemented）檔案（Files）
 ### C#
 
 ```
-curl -X GET "https://docs.newapi.pro/v1/files"
+curl -X GET "https://clawrouter.com/v1/files"
 ```..
 
 501

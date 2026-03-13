@@ -1,6 +1,6 @@
 # 使用者管理
 
-使用者管理 文件导航。
+使用者管理 文件導覽。
 
 ## 本章內容
 
@@ -23,9 +23,9 @@
 - [更新使用者](update-user.md)
 - [搜索使用者](search-user.md)
 - [注销当前使用者](user.md)
-- [取得当前使用者信息](get-user-3.md)
+- [取得当前使用者資訊](get-user-3.md)
 - [取得当前使用者分组](get-user-4.md)
-- [更新当前使用者信息](update-user-2.md)
+- [更新当前使用者資訊](update-user-2.md)
 - [更新使用者設定](update-user-setting.md)
 - [生成存取令牌](token.md)
 - [管理员完成充值](payment.md)

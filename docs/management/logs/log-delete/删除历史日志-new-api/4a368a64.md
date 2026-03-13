@@ -4,7 +4,7 @@
 
 # 刪除历史日誌
 
-👨💼 需要管理员權限（Admin）
+👨💼 需要管理員權限（Admin）
 
 
 
@@ -23,7 +23,7 @@
 ### C#
 
 ```
-curl -X DELETE "https://docs.newapi.pro/api/log/"
+curl -X DELETE "https://clawrouter.com/api/log/"
 ```..
 
 200

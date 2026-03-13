@@ -1,4 +1,4 @@
-# ClawRouter API 文档
+# ClawRouter API 文檔
 
 
 [TOC]
@@ -213,7 +213,7 @@ multipart/form-data
 
 file\*file
 
-音频文件
+音频文檔
 
 Format`binary`
 
@@ -1087,13 +1087,13 @@ multipart/form-data
 
 image\*file
 
-要编辑的图像。必须是有效的 PNG 文件，小于 4MB，并且是方形的。如果未提供遮罩，图像必须具有透明度，将用作遮罩。
+要编辑的图像。必须是有效的 PNG 文檔，小于 4MB，并且是方形的。如果未提供遮罩，图像必须具有透明度，将用作遮罩。
 
 Format`binary`
 
 mask?file
 
-附加图像，其完全透明区域（例如，alpha 为零的区域）指示image应编辑的位置。必须是有效的 PNG 文件，小于 4MB，并且尺寸与原始image相同。
+附加图像，其完全透明区域（例如，alpha 为零的区域）指示image应编辑的位置。必须是有效的 PNG 文檔，小于 4MB，并且尺寸与原始image相同。
 
 Format`binary`
 
@@ -1481,7 +1481,7 @@ curl -X POST "https://loading/v1/moderations" \  -H "Content-Type: application/j
 
 AI 模型接口实时语音（Realtime）
 
-建立 WebSocket 连接用于实时对话。
+创建 WebSocket 连接用于实时对话。
 
 **注意**: 这是一个 WebSocket 端点，需要使用 WebSocket 协议连接。
 
@@ -1549,12 +1549,12 @@ Empty
 ### rerank
 
 
-#### 文档重排序
+#### 文檔重排序
 
 
 AI 模型接口重排序（Rerank）
 
-根据查询对文档列表进行相关性重排序
+根据查询对文檔列表进行相关性重排序
 
 loading...
 
@@ -1591,7 +1591,7 @@ query\*string
 
 documents\*array<string | object>
 
-要重排序的文档列表
+要重排序的文檔列表
 
 top\_n?integer
 
@@ -1633,10 +1633,10 @@ curl -X POST "https://loading/v1/rerank" \  -H "Content-Type: application/json" 
 ### unimplemented
 
 
-#### 上传文件
+#### 上传文檔
 
 
-AI 模型接口未实现（Unimplemented）文件（Files）
+AI 模型接口未实现（Unimplemented）文檔（Files）
 
 此接口尚未实现
 
@@ -1698,10 +1698,10 @@ curl -X POST "https://loading/v1/files"
 
 ---
 
-#### 删除文件
+#### 删除文檔
 
 
-AI 模型接口未实现（Unimplemented）文件（Files）
+AI 模型接口未实现（Unimplemented）文檔（Files）
 
 此接口尚未实现
 
@@ -1757,10 +1757,10 @@ curl -X DELETE "https://loading/v1/files/string"
 
 ---
 
-#### 获取文件内容
+#### 获取文檔内容
 
 
-AI 模型接口未实现（Unimplemented）文件（Files）
+AI 模型接口未实现（Unimplemented）文檔（Files）
 
 此接口尚未实现
 
@@ -1816,10 +1816,10 @@ curl -X GET "https://loading/v1/files/string/content"
 
 ---
 
-#### 列出文件
+#### 列出文檔
 
 
-AI 模型接口未实现（Unimplemented）文件（Files）
+AI 模型接口未实现（Unimplemented）文檔（Files）
 
 此接口尚未实现
 
@@ -1869,10 +1869,10 @@ curl -X GET "https://loading/v1/files"
 
 ---
 
-#### 获取文件信息
+#### 获取文檔信息
 
 
-AI 模型接口未实现（Unimplemented）文件（Files）
+AI 模型接口未实现（Unimplemented）文檔（Files）
 
 此接口尚未实现
 
@@ -2147,7 +2147,7 @@ AI 模型接口视频（Videos）Sora格式
 
 OpenAI 兼容的视频生成接口。
 
-参考文档: <https://platform.openai.com/docs/api-reference/videos/create>
+参考文檔: <https://platform.openai.com/docs/api-reference/videos/create>
 
 loading...
 
@@ -2353,9 +2353,9 @@ curl -X GET "https://loading/v1/videos/string"
 
 AI 模型接口视频（Videos）Sora格式
 
-获取已完成视频任务的视频文件内容。
+获取已完成视频任务的视频文檔内容。
 
-此接口会代理返回视频文件流。
+此接口会代理返回视频文檔流。
 
 loading...
 

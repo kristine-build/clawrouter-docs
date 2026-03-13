@@ -4,7 +4,7 @@
 
 # 搜索通道
 
-👨💼 需要管理员權限（Admin）
+👨💼 需要管理員權限（Admin）
 
 
 
@@ -33,7 +33,7 @@ model?string
 ### C#
 
 ```
-curl -X GET "https://docs.newapi.pro/api/channel/search"
+curl -X GET "https://clawrouter.com/api/channel/search"
 ```..
 
 200

@@ -29,7 +29,7 @@ keyword?string
 ### C#
 
 ```
-curl -X GET "https://docs.newapi.pro/api/log/self/search"
+curl -X GET "https://clawrouter.com/api/log/self/search"
 ```..
 
 200

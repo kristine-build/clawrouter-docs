@@ -42,7 +42,7 @@ Authorization?string
 ### C#
 
 ```
-curl -X GET "https://docs.newapi.pro/api/usage/token/"
+curl -X GET "https://clawrouter.com/api/usage/token/"
 ```..
 
 200

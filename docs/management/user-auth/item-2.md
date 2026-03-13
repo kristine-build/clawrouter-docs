@@ -35,7 +35,7 @@ password?string
 ### C#
 
 ```
-curl -X POST "https://docs.newapi.pro/api/user/reset" \  -H "Content-Type: application/json" \  -d '{}'
+curl -X POST "https://clawrouter.com/api/user/reset" \  -H "Content-Type: application/json" \  -d '{}'
 ```..
 
 200

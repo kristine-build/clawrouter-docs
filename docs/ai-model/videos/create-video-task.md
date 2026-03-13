@@ -48,7 +48,7 @@ application/json
 ### C#
 
 ```
-curl -X POST "https://docs.newapi.pro/v1/video/generations" \  -H "Content-Type: application/json" \  -d '{}'
+curl -X POST "https://clawrouter.com/v1/video/generations" \  -H "Content-Type: application/json" \  -d '{}'
 ```..
 
 200400

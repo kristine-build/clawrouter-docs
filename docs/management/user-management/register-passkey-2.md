@@ -23,7 +23,7 @@
 ### C#
 
 ```
-curl -X POST "https://docs.newapi.pro/api/user/passkey/register/finish"
+curl -X POST "https://clawrouter.com/api/user/passkey/register/finish"
 ```..
 
 200

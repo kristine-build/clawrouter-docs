@@ -29,7 +29,7 @@ email\*string
 ### C#
 
 ```
-curl -X GET "https://docs.newapi.pro/api/verification?email=string"
+curl -X GET "https://clawrouter.com/api/verification?email=string"
 ```..
 
 200

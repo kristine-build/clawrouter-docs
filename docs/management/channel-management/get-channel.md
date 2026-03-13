@@ -4,7 +4,7 @@
 
 # 取得所有通道
 
-👨💼 需要管理员權限（Admin）
+👨💼 需要管理員權限（Admin）
 
 
 
@@ -39,7 +39,7 @@ type?integer
 ### C#
 
 ```
-curl -X GET "https://docs.newapi.pro/api/channel/"
+curl -X GET "https://clawrouter.com/api/channel/"
 ```..
 
 200

@@ -4,7 +4,7 @@
 
 # 更新指定通道余额
 
-👨💼 需要管理员權限（Admin）
+👨💼 需要管理員權限（Admin）
 
 
 
@@ -29,7 +29,7 @@ id\*integer
 ### C#
 
 ```
-curl -X GET "https://docs.newapi.pro/api/channel/update_balance/0"
+curl -X GET "https://clawrouter.com/api/channel/update_balance/0"
 ```..
 
 200

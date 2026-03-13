@@ -23,7 +23,7 @@
 ### C#
 
 ```
-curl -X DELETE "https://docs.newapi.pro/api/user/passkey"
+curl -X DELETE "https://clawrouter.com/api/user/passkey"
 ```..
 
 200

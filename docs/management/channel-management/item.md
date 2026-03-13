@@ -4,7 +4,7 @@
 
 # 管理多密鑰
 
-👨💼 需要管理员權限（Admin）
+👨💼 需要管理員權限（Admin）
 
 
 
@@ -37,7 +37,7 @@ key\_index?integer
 ### C#
 
 ```
-curl -X POST "https://docs.newapi.pro/api/channel/multi_key/manage" \  -H "Content-Type: application/json" \  -d '{}'
+curl -X POST "https://clawrouter.com/api/channel/multi_key/manage" \  -H "Content-Type: application/json" \  -d '{}'
 ```..
 
 200

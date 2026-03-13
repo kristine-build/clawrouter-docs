@@ -31,7 +31,7 @@ page\_size?integer
 ### C#
 
 ```
-curl -X GET "https://docs.newapi.pro/api/token/"
+curl -X GET "https://clawrouter.com/api/token/"
 ```..
 
 200

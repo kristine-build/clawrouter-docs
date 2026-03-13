@@ -6,7 +6,7 @@ AI 模型介面影片（Videos）Sora格式
 
 OpenAI 兼容的影片任務狀態查詢介面。
 
-回傳影片任務的详细狀態資訊。
+回傳影片任務的詳細狀態資訊。
 
 
 
@@ -37,7 +37,7 @@ task\_id\*string
 ### C#
 
 ```
-curl -X GET "https://docs.newapi.pro/v1/videos/string"
+curl -X GET "https://clawrouter.com/v1/videos/string"
 ```..
 
 200404

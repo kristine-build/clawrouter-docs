@@ -76,7 +76,7 @@ Content-Type: `application/json`..
 ### cURL
 
 ```bash
-curl -X POST "https://docs.newapi.pro/v1beta/models/gemini-2.5-pro-vision:generateContent" \
+curl -X POST "https://clawrouter.com/v1beta/models/gemini-2.5-pro-vision:generateContent" \
   -H "Authorization: Bearer YOUR_API_KEY" \
   -H "Content-Type: application/json" \
   -d '{
@@ -98,7 +98,7 @@ curl -X POST "https://docs.newapi.pro/v1beta/models/gemini-2.5-pro-vision:genera
 ### JavaScript
 
 ```javascript
-const response = await fetch("https://docs.newapi.pro/v1beta/models/gemini-2.5-pro-vision:generateContent", {
+const response = await fetch("https://clawrouter.com/v1beta/models/gemini-2.5-pro-vision:generateContent", {
   method: "POST",
   headers: {
     "Authorization": "Bearer YOUR_API_KEY",
@@ -131,7 +131,7 @@ func main() {
 	var payload map[string]interface{}
 	_ = jsonutil.Unmarshal([]byte(payloadJSON), &payload)
 	data, _ := jsonutil.Marshal(payload)
-	req, _ := http.NewRequest("POST", "https://docs.newapi.pro/v1beta/models/gemini-2.5-pro-vision:generateContent", bytesutil.NewReader(data))
+	req, _ := http.NewRequest("POST", "https://clawrouter.com/v1beta/models/gemini-2.5-pro-vision:generateContent", bytesutil.NewReader(data))
 	req.Header.Set("Authorization", "Bearer YOUR_API_KEY")
 	req.Header.Set("Content-Type", "application/json")
 	http.DefaultClient.Do(req)
@@ -141,7 +141,7 @@ func main() {
 ### Python
 
 ```python
-url = "https://docs.newapi.pro/v1beta/models/gemini-2.5-pro-vision:generateContent"
+url = "https://clawrouter.com/v1beta/models/gemini-2.5-pro-vision:generateContent"
 headers = {
     "Authorization": "Bearer YOUR_API_KEY",
     "Content-Type": "application/json",
@@ -171,7 +171,7 @@ print(resp.text)
 var client = HttpClient.newHttpClient();
 String json = "{\"contents\":[{\"parts\":[{\"inlineData\":{\"mimeType\":\"image/jpeg\",\"data\":\"iVBORw0KGgoAAAANSUhEUgAAAAUA\"}}]]}";
 HttpRequest request = HttpRequest.newBuilder()
-    .uri(URI.create("https://docs.newapi.pro/v1beta/models/gemini-2.5-pro-vision:generateContent"))
+    .uri(URI.create("https://clawrouter.com/v1beta/models/gemini-2.5-pro-vision:generateContent"))
     .header("Authorization", "Bearer YOUR_API_KEY")
     .header("Content-Type", "application/json")
     .POST(HttpRequest.BodyPublishers.ofString(json))
@@ -188,7 +188,7 @@ var client = new HttpClient();
 client.DefaultRequestHeaders.Authorization =
     new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", "YOUR_API_KEY");
 var payload = new StringContent(@"{""contents"":[{""parts"":[{""inlineData"":{""mimeType"":""image/jpeg"",""data"":""iVBORw0KGgoAAAANSUhEUgAAAAUA""}}]}]}", Encoding.UTF8, "application/json");
-var request = new HttpRequestMessage(HttpMethod.Post, "https://docs.newapi.pro/v1beta/models/gemini-2.5-pro-vision:generateContent") {
+var request = new HttpRequestMessage(HttpMethod.Post, "https://clawrouter.com/v1beta/models/gemini-2.5-pro-vision:generateContent") {
     Content = payload
 };
 var response = await client.SendAsync(request);

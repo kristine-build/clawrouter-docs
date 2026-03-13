@@ -23,7 +23,7 @@
 ### C#
 
 ```
-curl -X GET "https://docs.newapi.pro/api/oauth/wechat/bind"
+curl -X GET "https://clawrouter.com/api/oauth/wechat/bind"
 ```..
 
 200

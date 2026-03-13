@@ -31,7 +31,7 @@ ids?array<integer>
 ### C#
 
 ```
-curl -X POST "https://docs.newapi.pro/api/token/batch" \  -H "Content-Type: application/json" \  -d '{}'
+curl -X POST "https://clawrouter.com/api/token/batch" \  -H "Content-Type: application/json" \  -d '{}'
 ```..
 
 200

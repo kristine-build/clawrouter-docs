@@ -29,7 +29,7 @@ application/json
 | n | integer | no | 要生成的影像数量。必須介于 1 到 10 之间。对于 `dall-e-3`..，仅支援 `n=1`..。 |
 | size | string | no | 生成的影像的大小。`对于 gpt-image-1`..，必須是 `1024x1024`..、`1536x1024`..（横向）、`1024x1536`..（纵向）或`自动`..（預設值）之一，`对于 dall-e-2`..，必須是 ``` 256x256、``512x512 ```.. 或 `1024x1024`.. 之一，对于 `dall-e-3`..，必須是 `1024x1024`..、`1792x1024`.. 或 `1024x1792`.. 之一。 |
 | background | string | no | 允许为生成的影像的背景設定透明度。此參數仅支援 `gpt-image-1`..。必須是以下之一 `透明`..、`不透明`..或`自动`..（預設值）。使用`自动`..时，模型将自动确定影像的最佳背景。 如果`是透明`..的，则输出格式需要支援透明度，因此应将其設定为 `png`..（預設值）或 `webp`..。 |
-| moderation | string | no | 控制 `gpt-image-1`.. 生成的影像的內容审核级别。必須为`低，`.. 以进行限制较少的筛选或`自动`..（預設值）。 |
+| moderation | string | no | 控制 `gpt-image-1`.. 生成的影像的內容審核級別。必須为`低，`.. 以进行限制较少的筛选或`自动`..（預設值）。 |
 | quality | string | no | 将生成的影像的质量。 |
 | stream | string | no |  |
 | style | string | no |  |
@@ -46,7 +46,7 @@ application/json
 ### C#
 
 ```
-curl -X POST "https://docs.newapi.pro/v1/images/generations/" \  -H "Content-Type: application/json" \  -d '{    "prompt": "string"  }'
+curl -X POST "https://clawrouter.com/v1/images/generations/" \  -H "Content-Type: application/json" \  -d '{    "prompt": "string"  }'
 ```..
 
 ```

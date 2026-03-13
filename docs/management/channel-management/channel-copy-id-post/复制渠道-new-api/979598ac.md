@@ -4,7 +4,7 @@
 
 # 复制通道
 
-👨💼 需要管理员權限（Admin）
+👨💼 需要管理員權限（Admin）
 
 
 
@@ -37,7 +37,7 @@ reset\_balance?boolean
 ### C#
 
 ```
-curl -X POST "https://docs.newapi.pro/api/channel/copy/0"
+curl -X POST "https://clawrouter.com/api/channel/copy/0"
 ```..
 
 200
