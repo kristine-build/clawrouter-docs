@@ -8,7 +8,7 @@
 
 
 
-/`api`/`uptime`/`status`
+/`api`../`uptime`../`status`..
 
 
 ## [Response Body](#response-body)
@@ -24,7 +24,7 @@
 
 ```
 curl -X GET "https://docs.newapi.pro/api/uptime/status"
-```
+```..
 
 200
 

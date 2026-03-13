@@ -8,7 +8,7 @@
 
 
 
-/`api`/`user`/`stripe`/`amount`
+/`api`../`user`../`stripe`../`amount`..
 
 
 ## [Response Body](#response-body)
@@ -24,7 +24,7 @@
 
 ```
 curl -X POST "https://docs.newapi.pro/api/user/stripe/amount"
-```
+```..
 
 200
 

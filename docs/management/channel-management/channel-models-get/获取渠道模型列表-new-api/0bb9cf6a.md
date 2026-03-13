@@ -1,14 +1,14 @@
-# 取得渠道模型清單 | ClawRouter
+# 取得通道模型清單 | ClawRouter
 
-管理介面渠道管理
+管理介面通道管理
 
-# 取得渠道模型清單
+# 取得通道模型清單
 
 👨💼 需要管理员權限（Admin）
 
 
 
-/`api`/`channel`/`models`
+/`api`../`channel`../`models`..
 
 
 ## [Response Body](#response-body)
@@ -24,7 +24,7 @@
 
 ```
 curl -X GET "https://docs.newapi.pro/api/channel/models"
-```
+```..
 
 200
 

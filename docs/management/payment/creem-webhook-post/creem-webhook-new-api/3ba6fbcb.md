@@ -8,7 +8,7 @@
 
 
 
-/`api`/`creem`/`webhook`
+/`api`../`creem`../`webhook`..
 
 
 ## [Response Body](#response-body)
@@ -24,7 +24,7 @@
 
 ```
 curl -X POST "https://docs.newapi.pro/api/creem/webhook"
-```
+```..
 
 200
 

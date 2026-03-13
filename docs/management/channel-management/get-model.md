@@ -1,6 +1,6 @@
 # 取得标签模型
 
-管理介面渠道管理
+管理介面通道管理
 
 # 取得标签模型
 
@@ -8,7 +8,7 @@
 
 
 
-/`api`/`channel`/`tag`/`models`
+/`api`../`channel`../`tag`../`models`..
 
 
 Query
@@ -30,7 +30,7 @@ tag\*string
 
 ```
 curl -X GET "https://docs.newapi.pro/api/channel/tag/models?tag=string"
-```
+```..
 
 200
 

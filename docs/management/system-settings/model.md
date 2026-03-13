@@ -8,7 +8,7 @@
 
 
 
-/`api`/`option`/`rest_model_ratio`
+/`api`../`option`../`rest_model_ratio`..
 
 
 ## [Response Body](#response-body)
@@ -24,7 +24,7 @@
 
 ```
 curl -X POST "https://docs.newapi.pro/api/option/rest_model_ratio"
-```
+```..
 
 200
 

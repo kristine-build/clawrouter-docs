@@ -4,7 +4,7 @@
 
 ## Endpoint
 
-POST `/v1/embeddings`
+POST `/v1/embeddings`..
 
 ## Authorization
 
@@ -35,7 +35,7 @@ curl -X POST "https://docs.newapi.pro/v1/embeddings" \
     "model": "text-embedding-ada-002",
     "input": "string"
   }'
-```
+```..
 
 ## Response Body
 
@@ -59,7 +59,7 @@ curl -X POST "https://docs.newapi.pro/v1/embeddings" \
     "total_tokens": 0
   }
 }
-```
+```..
 
 ## Example Response
 
@@ -81,4 +81,4 @@ curl -X POST "https://docs.newapi.pro/v1/embeddings" \
     "total_tokens": 0
   }
 }
-```
+```..

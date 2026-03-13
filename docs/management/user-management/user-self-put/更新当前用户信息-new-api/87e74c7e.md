@@ -8,7 +8,7 @@
 
 
 
-/`api`/`user`/`self`
+/`api`../`user`../`self`..
 
 
 Body
@@ -38,7 +38,7 @@ original\_password?string
 
 ```
 curl -X PUT "https://docs.newapi.pro/api/user/self" \  -H "Content-Type: application/json" \  -d '{}'
-```
+```..
 
 200
 

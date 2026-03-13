@@ -8,7 +8,7 @@
 
 
 
-/`api`/`token`/
+/`api`../`token`../
 
 
 Query
@@ -32,7 +32,7 @@ page\_size?integer
 
 ```
 curl -X GET "https://docs.newapi.pro/api/token/"
-```
+```..
 
 200
 

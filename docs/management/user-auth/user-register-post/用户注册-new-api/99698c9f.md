@@ -8,7 +8,7 @@
 
 
 
-/`api`/`user`/`register`
+/`api`../`user`../`register`..
 
 
 Body
@@ -40,7 +40,7 @@ aff\_code?string
 
 ```
 curl -X POST "https://docs.newapi.pro/api/user/register" \  -H "Content-Type: application/json" \  -d '{}'
-```
+```..
 
 200
 

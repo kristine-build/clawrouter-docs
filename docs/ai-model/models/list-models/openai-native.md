@@ -9,7 +9,7 @@ curl -X POST "https://docs.newapi.pro/" \
   -H "Authorization: Bearer YOUR_API_KEY" \
   -H "Content-Type: application/json" \
   -d '{   "model": "tts-1",   "input": "请用中文朗读今天的新闻摘要" }'
-```
+```..
 
 ### JavaScript
 
@@ -27,7 +27,7 @@ const response = await fetch("https://docs.newapi.pro/", {
   body: JSON.stringify(payload),
 });
 console.log(await response.text());
-```
+```..
 
 ### Go
 
@@ -49,7 +49,7 @@ func main() {
 	req.Header.Set("Content-Type", "application/json")
 	http.DefaultClient.Do(req)
 }
-```
+```..
 
 ### Python
 
@@ -66,7 +66,7 @@ payload = {
 resp = requests.request("POST", url, headers=headers, json=payload, timeout=30)
 print(resp.status_code)
 print(resp.text)
-```
+```..
 
 ### Java
 
@@ -82,7 +82,7 @@ HttpRequest request = HttpRequest.newBuilder()
 HttpResponse<String> response = client.send(request, HttpResponse.BodyHandlers.ofString());
 System.out.println(response.statusCode());
 System.out.println(response.body());
-```
+```..
 
 ### C#
 
@@ -96,4 +96,4 @@ var request = new HttpRequestMessage(HttpMethod.Post, "https://docs.newapi.pro/"
 var response = await client.SendAsync(request);
 Console.WriteLine((int)response.StatusCode);
 Console.WriteLine(await response.Content.ReadAsStringAsync());
-```
+```..

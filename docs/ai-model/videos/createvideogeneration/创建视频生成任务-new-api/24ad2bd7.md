@@ -18,7 +18,7 @@ Body
 ## Authorization
 | Name | Type | Required | Description |
 |---|---|---|---|
-| Authorization | string | yes | AuthorizationBearer <token> 使用 Bearer Token 认证。 格式: `Authorization: Bearer sk-xxxxxx` In: `header` |## Request Body
+| Authorization | string | yes | AuthorizationBearer <token> 使用 Bearer Token 认证。 格式: `Authorization: Bearer sk-xxxxxx`.. In: `header`.. |## Request Body
 application/json
 
 | Name | Type | Required | Description |
@@ -49,7 +49,7 @@ application/json
 
 ```
 curl -X POST "https://docs.newapi.pro/v1/video/generations" \  -H "Content-Type: application/json" \  -d '{}'
-```
+```..
 
 200400
 
@@ -58,7 +58,7 @@ curl -X POST "https://docs.newapi.pro/v1/video/generations" \  -H "Content-Type:
   "task_id": "abcd1234efgh",
   "status": "queued"
 }
-```
+```..
 
 ```
 {
@@ -69,4 +69,4 @@ curl -X POST "https://docs.newapi.pro/v1/video/generations" \  -H "Content-Type:
     "code": "string"
   }
 }
-```
+```..

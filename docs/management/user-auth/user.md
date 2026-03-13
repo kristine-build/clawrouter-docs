@@ -8,7 +8,7 @@
 
 
 
-/`api`/`user`/`logout`
+/`api`../`user`../`logout`..
 
 
 ## [Response Body](#response-body)
@@ -24,7 +24,7 @@
 
 ```
 curl -X GET "https://docs.newapi.pro/api/user/logout"
-```
+```..
 
 200
 

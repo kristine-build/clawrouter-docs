@@ -1,14 +1,14 @@
-# 修复渠道能力
+# 修复通道能力
 
-管理介面渠道管理
+管理介面通道管理
 
-# 修复渠道能力
+# 修复通道能力
 
 👨💼 需要管理员權限（Admin）
 
 
 
-/`api`/`channel`/`fix`
+/`api`../`channel`../`fix`..
 
 
 ## [Response Body](#response-body)
@@ -24,7 +24,7 @@
 
 ```
 curl -X POST "https://docs.newapi.pro/api/channel/fix"
-```
+```..
 
 200
 

@@ -18,13 +18,13 @@ Body
 ## Authorization
 | Name | Type | Required | Description |
 |---|---|---|---|
-| Authorization | string | yes | AuthorizationBearer <token> 使用 Bearer Token 认证。 格式: `Authorization: Bearer sk-xxxxxx` In: `header` |
+| Authorization | string | yes | AuthorizationBearer <token> 使用 Bearer Token 认证。 格式: `Authorization: Bearer sk-xxxxxx`.. In: `header`.. |
 ## Request Body
 multipart/form-data
 
 | Name | Type | Required | Description |
 |---|---|---|---|
-| file | file | yes | Format`binary` |
+| file | file | yes | Format`binary`.. |
 | model | string | yes |  |
 | prompt | string | no |  |
 | response_format | string | no |  |
@@ -37,13 +37,13 @@ multipart/form-data
 
 ```
 curl -X POST "https://docs.newapi.pro/v1/audio/translations" \  -F file="string" \  -F model="string"
-```
+```..
 
 ```
 {
   "text": "string"
 }
-```
+```..
 ## Code Examples
 
 ### cURL
@@ -53,7 +53,7 @@ curl -X POST "https://docs.newapi.pro/v1/audio/translations" \
   -H "Authorization: Bearer YOUR_API_KEY" \
   -F "file=@/path/to/audio.mp3" \
   -F "model=whisper-1"
-```
+```..
 
 ### JavaScript
 
@@ -70,7 +70,7 @@ const response = await fetch("https://docs.newapi.pro/v1/audio/translations", {
 });
 const text = await response.text();
 console.log(text);
-```
+```..
 
 ### Go
 
@@ -98,7 +98,7 @@ func main() {
 	req.Header.Set("Content-Type", writer.FormDataContentType())
 	http.DefaultClient.Do(req)
 }
-```
+```..
 
 ### Python
 
@@ -112,7 +112,7 @@ data["model"] = "whisper-1"
 resp = requests.post(url, headers=headers, files=files, data=data, timeout=30)
 print(resp.status_code)
 print(resp.text)
-```
+```..
 
 ### Java
 
@@ -126,7 +126,7 @@ HttpRequest request = HttpRequest.newBuilder()
 HttpResponse<String> response = client.send(request, HttpResponse.BodyHandlers.ofString());
 System.out.println(response.statusCode());
 System.out.println(response.body());
-```
+```..
 
 ### C#
 
@@ -142,4 +142,4 @@ var request = new HttpRequestMessage(HttpMethod.Post, "https://docs.newapi.pro/v
 var response = await client.SendAsync(request);
 Console.WriteLine((int)response.StatusCode);
 Console.WriteLine(await response.Content.ReadAsStringAsync());
-```
+```..

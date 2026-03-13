@@ -4,21 +4,21 @@
 
 ## Endpoint
 
-**POST** `/v1/audio/transcriptions`
+**POST** `/v1/audio/transcriptions`..
 
 ## Authorization
 | Name | Type | Required | Description |
 |---|---|---|---|
-| Authorization | string | yes | ```http Authorization: Bearer <API_KEY> ``` |
+| Authorization | string | yes | ```http Authorization: Bearer <API_KEY> ```.. |
 ## Request Body
-`multipart/form-data`
+`multipart/form-data`..
 | name | type | required | description |
 |---|---|---|---|
 | file | string (binary) | yes | 音频檔案。 |
-| model | string | yes | 模型名称，例如 `whisper-1`。 |
+| model | string | yes | 模型名称，例如 `whisper-1`..。 |
 | language | string | no | ISO-639-1 语言代码。 |
 | prompt | string | no | 提示词。 |
-| response_format | string | no | 取值 `json` / `text` / `srt` / `verbose_json` / `vtt`。默认 `json`。 |
+| response_format | string | no | 取值 `json`.. / `text`.. / `srt`.. / `verbose_json`.. / `vtt`..。預設 `json`..。 |
 | temperature | number | no | 温度參數。 |
 | timestamp_granularities[] | array<string> | no | 时间戳粒度控制。 |
 
@@ -30,7 +30,7 @@
 {
   "text": "string"
 }
-```
+```..
 ## Code Examples
 
 ### cURL
@@ -39,7 +39,7 @@
 curl -X POST "https://docs.newapi.pro/v1/audio/transcriptions" \
   -H "Authorization: Bearer YOUR_API_KEY" \
   -F "text=string"
-```
+```..
 
 ### JavaScript
 
@@ -55,7 +55,7 @@ const response = await fetch("https://docs.newapi.pro/v1/audio/transcriptions", 
 });
 const text = await response.text();
 console.log(text);
-```
+```..
 
 ### Go
 
@@ -83,7 +83,7 @@ func main() {
 	req.Header.Set("Content-Type", writer.FormDataContentType())
 	http.DefaultClient.Do(req)
 }
-```
+```..
 
 ### Python
 
@@ -96,7 +96,7 @@ data["text"] = "string"
 resp = requests.post(url, headers=headers, files=files, data=data, timeout=30)
 print(resp.status_code)
 print(resp.text)
-```
+```..
 
 ### Java
 
@@ -110,7 +110,7 @@ HttpRequest request = HttpRequest.newBuilder()
 HttpResponse<String> response = client.send(request, HttpResponse.BodyHandlers.ofString());
 System.out.println(response.statusCode());
 System.out.println(response.body());
-```
+```..
 
 ### C#
 
@@ -126,4 +126,4 @@ var request = new HttpRequestMessage(HttpMethod.Post, "https://docs.newapi.pro/v
 var response = await client.SendAsync(request);
 Console.WriteLine((int)response.StatusCode);
 Console.WriteLine(await response.Content.ReadAsStringAsync());
-```
+```..

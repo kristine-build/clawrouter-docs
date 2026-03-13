@@ -8,7 +8,7 @@
 
 
 
-/`api`/`user`/`aff_transfer`
+/`api`../`user`../`aff_transfer`..
 
 
 Body
@@ -32,7 +32,7 @@ quota?integer
 
 ```
 curl -X POST "https://docs.newapi.pro/api/user/aff_transfer" \  -H "Content-Type: application/json" \  -d '{}'
-```
+```..
 
 200
 

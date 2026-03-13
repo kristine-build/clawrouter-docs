@@ -8,10 +8,10 @@ AI 模型介面影片（Videos）
 
 任務狀態：
 
-- `queued`: 排队中
-- `in_progress`: 生成中
-- `completed`: 已完成
-- `failed`: 失败
+- `queued`..: 排队中
+- `in_progress`..: 生成中
+- `completed`..: 已完成
+- `failed`..: 失败
 
 
 
@@ -23,7 +23,7 @@ Path
 ## Authorization
 | Name | Type | Required | Description |
 |---|---|---|---|
-| Authorization | string | yes | AuthorizationBearer <token> 使用 Bearer Token 认证。 格式: `Authorization: Bearer sk-xxxxxx` In: `header` |## [Path Parameters](#path-parameters)
+| Authorization | string | yes | AuthorizationBearer <token> 使用 Bearer Token 认证。 格式: `Authorization: Bearer sk-xxxxxx`.. In: `header`.. |## [Path Parameters](#path-parameters)
 
 task\_id\*string
 
@@ -43,7 +43,7 @@ task\_id\*string
 
 ```
 curl -X GET "https://docs.newapi.pro/v1/video/generations/string"
-```
+```..
 
 200404
 
@@ -65,7 +65,7 @@ curl -X GET "https://docs.newapi.pro/v1/video/generations/string"
     "message": "string"
   }
 }
-```
+```..
 
 ```
 {
@@ -76,4 +76,4 @@ curl -X GET "https://docs.newapi.pro/v1/video/generations/string"
     "code": "string"
   }
 }
-```
+```..

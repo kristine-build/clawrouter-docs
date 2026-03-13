@@ -8,7 +8,7 @@
 
 
 
-/`api`/`oauth`/`github`
+/`api`../`oauth`../`github`..
 
 
 Query
@@ -30,7 +30,7 @@ code?string
 
 ```
 curl -X GET "https://docs.newapi.pro/api/oauth/github"
-```
+```..
 
 200
 

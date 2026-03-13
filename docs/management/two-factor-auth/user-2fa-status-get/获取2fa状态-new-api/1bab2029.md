@@ -8,7 +8,7 @@
 
 
 
-/`api`/`user`/`2fa`/`status`
+/`api`../`user`../`2fa`../`status`..
 
 
 ## [Response Body](#response-body)
@@ -24,7 +24,7 @@
 
 ```
 curl -X GET "https://docs.newapi.pro/api/user/2fa/status"
-```
+```..
 
 200
 

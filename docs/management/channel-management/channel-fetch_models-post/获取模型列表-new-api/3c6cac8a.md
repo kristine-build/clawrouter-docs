@@ -1,6 +1,6 @@
 # 取得模型清單 | ClawRouter
 
-管理介面渠道管理
+管理介面通道管理
 
 # 取得模型清單
 
@@ -8,7 +8,7 @@
 
 
 
-/`api`/`channel`/`fetch_models`
+/`api`../`channel`../`fetch_models`..
 
 
 Body
@@ -36,7 +36,7 @@ key?string
 
 ```
 curl -X POST "https://docs.newapi.pro/api/channel/fetch_models" \  -H "Content-Type: application/json" \  -d '{}'
-```
+```..
 
 200
 

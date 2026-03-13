@@ -8,7 +8,7 @@
 
 
 
-/`api`/`prefill_group`/
+/`api`../`prefill_group`../
 
 
 ## [Response Body](#response-body)
@@ -24,7 +24,7 @@
 
 ```
 curl -X GET "https://docs.newapi.pro/api/prefill_group/"
-```
+```..
 
 200
 

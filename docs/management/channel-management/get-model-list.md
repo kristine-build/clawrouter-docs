@@ -1,6 +1,6 @@
 # 取得上游模型清單
 
-管理介面渠道管理
+管理介面通道管理
 
 # 取得上游模型清單
 
@@ -8,7 +8,7 @@
 
 
 
-/`api`/`channel`/`fetch_models`/`{id}`
+/`api`../`channel`../`fetch_models`../`{id}`..
 
 
 Path
@@ -30,7 +30,7 @@ id\*integer
 
 ```
 curl -X GET "https://docs.newapi.pro/api/channel/fetch_models/0"
-```
+```..
 
 200
 

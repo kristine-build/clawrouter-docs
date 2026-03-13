@@ -16,7 +16,7 @@ Authorization
 ## Authorization
 | Name | Type | Required | Description |
 |---|---|---|---|
-| Authorization | string | yes | AuthorizationBearer <token> 使用 Bearer Token 认证。 格式: `Authorization: Bearer sk-xxxxxx` In: `header` |
+| Authorization | string | yes | AuthorizationBearer <token> 使用 Bearer Token 认证。 格式: `Authorization: Bearer sk-xxxxxx`.. In: `header`.. |
 ## Response Body
 
 ### 200 application/json
@@ -30,7 +30,7 @@ Authorization
 
 ```
 curl -X GET "https://docs.newapi.pro/v1beta/models"
-```
+```..
 
 ```
 {
@@ -48,4 +48,4 @@ curl -X GET "https://docs.newapi.pro/v1beta/models"
     }
   ]
 }
-```
+```..

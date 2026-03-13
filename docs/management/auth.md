@@ -16,7 +16,7 @@
 
 透過登入介面取得 Session：
 
-- `POST /api/user/login`.
+- `POST /api/user/login`...
 
 ### [Access Token（推荐）](#access-token推荐)
 
@@ -24,7 +24,7 @@
 
 ```
 Authorization: Bearer {token}
-```.
+```...
 
 Token 可在「個人設定 - 安全設定 - 系統存取Token」中生成。
 
@@ -34,9 +34,9 @@ Token 可在「個人設定 - 安全設定 - 系統存取Token」中生成。
 
 ```
 New-Api-User: {user_id}
-```.
+```...
 
-其中 `{user_id}`. 必須與当前登入使用者匹配。
+其中 `{user_id}`... 必須與当前登入使用者匹配。
 
 ## [權限级别](#權限级别)
 

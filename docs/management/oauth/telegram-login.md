@@ -8,7 +8,7 @@
 
 
 
-/`api`/`oauth`/`telegram`/`login`
+/`api`../`oauth`../`telegram`../`login`..
 
 
 ## [Response Body](#response-body)
@@ -24,7 +24,7 @@
 
 ```
 curl -X GET "https://docs.newapi.pro/api/oauth/telegram/login"
-```
+```..
 
 200
 

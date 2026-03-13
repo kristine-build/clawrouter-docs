@@ -8,7 +8,7 @@
 
 
 
-/`api`/`models`/`sync_upstream`
+/`api`../`models`../`sync_upstream`..
 
 
 ## [Response Body](#response-body)
@@ -24,7 +24,7 @@
 
 ```
 curl -X POST "https://docs.newapi.pro/api/models/sync_upstream"
-```
+```..
 
 200
 

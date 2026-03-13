@@ -8,7 +8,7 @@
 
 
 
-/`api`/`oauth`/`linuxdo`
+/`api`../`oauth`../`linuxdo`..
 
 
 ## [Response Body](#response-body)
@@ -24,7 +24,7 @@
 
 ```
 curl -X GET "https://docs.newapi.pro/api/oauth/linuxdo"
-```
+```..
 
 200
 

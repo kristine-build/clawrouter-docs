@@ -8,7 +8,7 @@
 
 
 
-/`api`/`ratio_config`
+/`api`../`ratio_config`..
 
 
 ## [Response Body](#response-body)
@@ -24,7 +24,7 @@
 
 ```
 curl -X GET "https://docs.newapi.pro/api/ratio_config"
-```
+```..
 
 200
 

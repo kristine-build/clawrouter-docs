@@ -1,14 +1,14 @@
-# 取得所有渠道
+# 取得所有通道
 
-管理介面渠道管理
+管理介面通道管理
 
-# 取得所有渠道
+# 取得所有通道
 
 👨💼 需要管理员權限（Admin）
 
 
 
-/`api`/`channel`/
+/`api`../`channel`../
 
 
 Query
@@ -40,7 +40,7 @@ type?integer
 
 ```
 curl -X GET "https://docs.newapi.pro/api/channel/"
-```
+```..
 
 200
 

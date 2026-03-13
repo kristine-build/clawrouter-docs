@@ -8,7 +8,7 @@
 
 
 
-/`api`/`log`/
+/`api`../`log`../
 
 
 Query
@@ -32,7 +32,7 @@ page\_size?integer
 
 ```
 curl -X GET "https://docs.newapi.pro/api/log/"
-```
+```..
 
 200
 

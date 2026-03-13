@@ -1,6 +1,6 @@
 # 管理多密鑰
 
-管理介面渠道管理
+管理介面通道管理
 
 # 管理多密鑰
 
@@ -8,7 +8,7 @@
 
 
 
-/`api`/`channel`/`multi_key`/`manage`
+/`api`../`channel`../`multi_key`../`manage`..
 
 
 Body
@@ -21,7 +21,7 @@ channel\_id?integer
 
 action?string
 
-Value in`"get_key_status" | "disable_key" | "enable_key" | "delete_key" | "delete_disabled_keys" | "enable_all_keys" | "disable_all_keys"`
+Value in`"get_key_status" | "disable_key" | "enable_key" | "delete_key" | "delete_disabled_keys" | "enable_all_keys" | "disable_all_keys"`..
 
 key\_index?integer
 
@@ -38,7 +38,7 @@ key\_index?integer
 
 ```
 curl -X POST "https://docs.newapi.pro/api/channel/multi_key/manage" \  -H "Content-Type: application/json" \  -d '{}'
-```
+```..
 
 200
 

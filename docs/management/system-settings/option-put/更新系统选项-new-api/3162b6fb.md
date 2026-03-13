@@ -8,7 +8,7 @@
 
 
 
-/`api`/`option`/
+/`api`../`option`../
 
 
 ## [Response Body](#response-body)
@@ -24,7 +24,7 @@
 
 ```
 curl -X PUT "https://docs.newapi.pro/api/option/"
-```
+```..
 
 200
 

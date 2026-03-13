@@ -8,7 +8,7 @@
 
 
 
-/`api`/`prefill_group`/`{id}`
+/`api`../`prefill_group`../`{id}`..
 
 
 Path
@@ -30,7 +30,7 @@ id\*integer
 
 ```
 curl -X DELETE "https://docs.newapi.pro/api/prefill_group/0"
-```
+```..
 
 200
 

@@ -8,7 +8,7 @@
 
 
 
-/`api`/`usage`/`token`/
+/`api`../`usage`../`token`../
 
 
 Authorization
@@ -22,9 +22,9 @@ BearerAuth
 AuthorizationBearer <token>
 
 使用 Bearer Token 认证。
-格式: `Authorization: Bearer sk-xxxxxx`
+格式: `Authorization: Bearer sk-xxxxxx`..
 
-In: `header`
+In: `header`..
 
 ## [Header Parameters](#header-parameters)
 
@@ -43,7 +43,7 @@ Authorization?string
 
 ```
 curl -X GET "https://docs.newapi.pro/api/usage/token/"
-```
+```..
 
 200
 

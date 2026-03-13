@@ -8,7 +8,7 @@
 
 
 
-/`api`/`option`/`migrate_console_setting`
+/`api`../`option`../`migrate_console_setting`..
 
 
 ## [Response Body](#response-body)
@@ -24,7 +24,7 @@
 
 ```
 curl -X POST "https://docs.newapi.pro/api/option/migrate_console_setting"
-```
+```..
 
 200
 

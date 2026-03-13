@@ -8,7 +8,7 @@
 
 
 
-/`api`/`user`/`manage`
+/`api`../`user`../`manage`..
 
 
 Body
@@ -21,7 +21,7 @@ id?integer
 
 action?string
 
-Value in`"disable" | "enable" | "delete" | "promote" | "demote"`
+Value in`"disable" | "enable" | "delete" | "promote" | "demote"`..
 
 ## [Response Body](#response-body)
 
@@ -36,7 +36,7 @@ Value in`"disable" | "enable" | "delete" | "promote" | "demote"`
 
 ```
 curl -X POST "https://docs.newapi.pro/api/user/manage" \  -H "Content-Type: application/json" \  -d '{}'
-```
+```..
 
 200
 

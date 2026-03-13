@@ -8,7 +8,7 @@
 
 
 
-/`api`/`user`/
+/`api`../`user`../
 
 
 Query
@@ -32,7 +32,7 @@ page\_size?integer
 
 ```
 curl -X GET "https://docs.newapi.pro/api/user/"
-```
+```..
 
 200
 

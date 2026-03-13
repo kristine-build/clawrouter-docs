@@ -1,14 +1,14 @@
-# 刪除渠道
+# 刪除通道
 
-管理介面渠道管理
+管理介面通道管理
 
-# 刪除渠道
+# 刪除通道
 
 👨💼 需要管理员權限（Admin）
 
 
 
-/`api`/`channel`/`{id}`
+/`api`../`channel`../`{id}`..
 
 
 Path
@@ -30,7 +30,7 @@ id\*integer
 
 ```
 curl -X DELETE "https://docs.newapi.pro/api/channel/0"
-```
+```..
 
 200
 

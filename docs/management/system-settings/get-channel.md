@@ -1,14 +1,14 @@
-# 取得可同步渠道
+# 取得可同步通道
 
 管理介面系統设置
 
-# 取得可同步渠道
+# 取得可同步通道
 
 👑 需要超级管理员權限（Root）
 
 
 
-/`api`/`ratio_sync`/`channels`
+/`api`../`ratio_sync`../`channels`..
 
 
 ## [Response Body](#response-body)
@@ -24,7 +24,7 @@
 
 ```
 curl -X GET "https://docs.newapi.pro/api/ratio_sync/channels"
-```
+```..
 
 200
 

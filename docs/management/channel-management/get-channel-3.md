@@ -1,14 +1,14 @@
-# 取得渠道密鑰
+# 取得通道密鑰
 
-管理介面渠道管理
+管理介面通道管理
 
-# 取得渠道密鑰
+# 取得通道密鑰
 
 👑 需要超级管理员權限（Root）+ 安全驗證
 
 
 
-/`api`/`channel`/`{id}`/`key`
+/`api`../`channel`../`{id}`../`key`..
 
 
 Path
@@ -30,7 +30,7 @@ id\*integer
 
 ```
 curl -X POST "https://docs.newapi.pro/api/channel/0/key"
-```
+```..
 
 200
 

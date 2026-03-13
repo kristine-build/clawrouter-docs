@@ -8,7 +8,7 @@
 
 
 
-/`api`/`verify`/`status`
+/`api`../`verify`../`status`..
 
 
 ## [Response Body](#response-body)
@@ -24,7 +24,7 @@
 
 ```
 curl -X GET "https://docs.newapi.pro/api/verify/status"
-```
+```..
 
 200
 

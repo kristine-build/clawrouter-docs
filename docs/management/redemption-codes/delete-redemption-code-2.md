@@ -8,7 +8,7 @@
 
 
 
-/`api`/`redemption`/`invalid`
+/`api`../`redemption`../`invalid`..
 
 
 ## [Response Body](#response-body)
@@ -24,7 +24,7 @@
 
 ```
 curl -X DELETE "https://docs.newapi.pro/api/redemption/invalid"
-```
+```..
 
 200
 

@@ -8,7 +8,7 @@
 
 
 
-/`api`/`models`/`missing`
+/`api`../`models`../`missing`..
 
 
 ## [Response Body](#response-body)
@@ -24,7 +24,7 @@
 
 ```
 curl -X GET "https://docs.newapi.pro/api/models/missing"
-```
+```..
 
 200
 

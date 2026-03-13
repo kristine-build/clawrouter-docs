@@ -8,7 +8,7 @@
 
 
 
-/`api`/`oauth`/`state`
+/`api`../`oauth`../`state`..
 
 
 ## [Response Body](#response-body)
@@ -24,7 +24,7 @@
 
 ```
 curl -X GET "https://docs.newapi.pro/api/oauth/state"
-```
+```..
 
 200
 

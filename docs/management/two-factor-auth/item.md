@@ -8,7 +8,7 @@
 
 
 
-/`api`/`user`/`2fa`/`backup_codes`
+/`api`../`user`../`2fa`../`backup_codes`..
 
 
 ## [Response Body](#response-body)
@@ -24,7 +24,7 @@
 
 ```
 curl -X POST "https://docs.newapi.pro/api/user/2fa/backup_codes"
-```
+```..
 
 200
 

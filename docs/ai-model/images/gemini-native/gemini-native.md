@@ -4,7 +4,7 @@ Gemini 图片生成
 
 ## Endpoint
 
-POST `/v1beta/models/{model}:generateContent`
+POST `/v1beta/models/{model}:generateContent`..
 
 ## Authorization
 
@@ -12,7 +12,7 @@ BearerAuth
 
 Header 範例：
 
-`Authorization: Bearer <token>`
+`Authorization: Bearer <token>`..
 
 使用 Bearer Token 认证。 格式: Authorization: Bearer sk-xxxxxx
 
@@ -63,7 +63,7 @@ string
     "totalTokenCount": 0
   }
 }
-```
+```..
 
 ## Example Request
 
@@ -88,42 +88,42 @@ curl -X POST "https://docs.newapi.pro/v1beta/models/string:generateContent/" \
       }
     }
   }'
-```
+```..
 
 {% endtab %}
 {% tab title="JavaScript" %}
 
 ```javascript
 // 範例未提供
-```
+```..
 
 {% endtab %}
 {% tab title="Go" %}
 
 ```go
 // 範例未提供
-```
+```..
 
 {% endtab %}
 {% tab title="Python" %}
 
 ```python
 # 範例未提供
-```
+```..
 
 {% endtab %}
 {% tab title="Java" %}
 
 ```java
 // 範例未提供
-```
+```..
 
 {% endtab %}
 {% tab title="C#" %}
 
 ```csharp
 // 範例未提供
-```
+```..
 
 {% endtab %}
 {% endtabs %}
@@ -152,4 +152,4 @@ curl -X POST "https://docs.newapi.pro/v1beta/models/string:generateContent/" \
     "totalTokenCount": 0
   }
 }
-```
+```..

@@ -8,7 +8,7 @@
 
 
 
-/`api`/`user`/`passkey`
+/`api`../`user`../`passkey`..
 
 
 ## [Response Body](#response-body)
@@ -24,7 +24,7 @@
 
 ```
 curl -X DELETE "https://docs.newapi.pro/api/user/passkey"
-```
+```..
 
 200
 

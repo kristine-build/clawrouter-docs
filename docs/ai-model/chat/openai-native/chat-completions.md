@@ -5,42 +5,42 @@
 
 ## Endpoint
 
-`POST /v1/chat/completions`
+`POST /v1/chat/completions`..
 
 ## Authorization
 | Name | Type | Required | Description |
 |---|---|---|---|
-| Authorization | string | yes | \| --- \| --- \| --- \| --- \| \| `Authorization` \| `string` \| yes \| Bearer API Key，範例：`Authorization: Bearer YOUR_API_KEY` \| |
+| Authorization | string | yes | \| --- \| --- \| --- \| --- \| \| `Authorization`.. \| `string`.. \| yes \| Bearer API Key，範例：`Authorization: Bearer YOUR_API_KEY`.. \| |
 ## Request Body
-Content-Type: `application/json`
+Content-Type: `application/json`..
 | Name | Type | Required | Description |
 | --- | --- | --- | --- |
-| `model` | `string` | yes | 模型 ID |
-| `messages` | `array` | yes | 對話消息清單 |
-| `messages[].role` | `string` | yes | 消息角色，範例：`system` / `user` / `assistant` |
-| `messages[].content` | `string` | yes | 消息內容 |
-| `messages[].name` | `string` | no | （可選）名称 |
-| `messages[].tool_calls` | `array` | no | 工具調用清單 |
-| `temperature` | `number` | no | 采样温度（默认 `1`，范围 `0 <= value <= 2`） |
-| `top_p` | `number` | no | 核采样參數（默认 `1`，范围 `0 <= value <= 1`） |
-| `n` | `integer` | no | 生成数量（默认 `1`，范围 `value >= 1`） |
-| `stream` | `boolean` | no | 是否流式回應（默认 `false`） |
-| `stream_options` | `object` | no | 流式选项 |
-| `stop` | `string / array<string>` | no | 停止序列 |
-| `max_tokens` | `integer` | no | 最大生成 Token 数 |
-| `max_completion_tokens` | `integer` | no | 最大补全 Token 数 |
-| `presence_penalty` | `number` | no | 存在惩罚（默认 `0`，范围 `-2 <= value <= 2`） |
-| `frequency_penalty` | `number` | no | 频率惩罚（默认 `0`，范围 `-2 <= value <= 2`） |
-| `logit_bias` | `object` | no | token 偏置映射 |
-| `user` | `string` | no | 使用者标识 |
-| `tools` | `array` | no | 工具定义清單 |
-| `tool_choice` | `string / object` | no | 工具选择策略 |
-| `response_format` | `object` | no | 回應格式參數 |
-| `response_format.type` | `string` | no | 回應格式类型 |
-| `seed` | `integer` | no | 随机种子 |
-| `reasoning_effort` | `string` | no | 推理强度，枚举：`low` / `medium` / `high` |
-| `modalities` | `array<string>` | no | 模态清單 |
-| `audio` | `object` | no | 音频參數 |
+| `model`.. | `string`.. | yes | 模型 ID |
+| `messages`.. | `array`.. | yes | 對話消息清單 |
+| `messages[].role`.. | `string`.. | yes | 消息角色，範例：`system`.. / `user`.. / `assistant`.. |
+| `messages[].content`.. | `string`.. | yes | 消息內容 |
+| `messages[].name`.. | `string`.. | no | （可選）名称 |
+| `messages[].tool_calls`.. | `array`.. | no | 工具調用清單 |
+| `temperature`.. | `number`.. | no | 采样温度（預設 `1`..，范围 `0 <= value <= 2`..） |
+| `top_p`.. | `number`.. | no | 核采样參數（預設 `1`..，范围 `0 <= value <= 1`..） |
+| `n`.. | `integer`.. | no | 生成数量（預設 `1`..，范围 `value >= 1`..） |
+| `stream`.. | `boolean`.. | no | 是否流式回應（預設 `false`..） |
+| `stream_options`.. | `object`.. | no | 流式选项 |
+| `stop`.. | `string / array<string>`.. | no | 停止序列 |
+| `max_tokens`.. | `integer`.. | no | 最大生成 Token 数 |
+| `max_completion_tokens`.. | `integer`.. | no | 最大补全 Token 数 |
+| `presence_penalty`.. | `number`.. | no | 存在惩罚（預設 `0`..，范围 `-2 <= value <= 2`..） |
+| `frequency_penalty`.. | `number`.. | no | 频率惩罚（預設 `0`..，范围 `-2 <= value <= 2`..） |
+| `logit_bias`.. | `object`.. | no | token 偏置映射 |
+| `user`.. | `string`.. | no | 使用者标识 |
+| `tools`.. | `array`.. | no | 工具定义清單 |
+| `tool_choice`.. | `string / object`.. | no | 工具选择策略 |
+| `response_format`.. | `object`.. | no | 回應格式參數 |
+| `response_format.type`.. | `string`.. | no | 回應格式类型 |
+| `seed`.. | `integer`.. | no | 随机种子 |
+| `reasoning_effort`.. | `string`.. | no | 推理强度，枚举：`low`.. / `medium`.. / `high`.. |
+| `modalities`.. | `array<string>`.. | no | 模态清單 |
+| `audio`.. | `object`.. | no | 音频參數 |
 
 ## Response Body
 
@@ -93,7 +93,7 @@ Content-Type: `application/json`
   },
   "system_fingerprint": "string"
 }
-```
+```..
 ## Error Example
 
 ### 400 application/json
@@ -107,7 +107,7 @@ Content-Type: `application/json`
     "code": "string"
   }
 }
-```
+```..
 
 ### 401 application/json
 
@@ -119,7 +119,7 @@ Content-Type: `application/json`
     "code": "invalid_api_key"
   }
 }
-```
+```..
 
 ### 429 application/json
 
@@ -131,7 +131,7 @@ Content-Type: `application/json`
     "code": "rate_limit"
   }
 }
-```
+```..
 
 ## Code Examples
 
@@ -150,7 +150,7 @@ curl -X POST "https://docs.newapi.pro/v1/chat/completions" \
       }
     ]
   }'
-```
+```..
 
 ### JavaScript
 
@@ -173,7 +173,7 @@ const response = await fetch("https://docs.newapi.pro/v1/chat/completions", {
 });
 console.log(await response.status);
 console.log(await response.text());
-```
+```..
 
 ### Go
 
@@ -188,7 +188,7 @@ func main() {
 	req.Header.Set("Content-Type", "application/json")
 	http.DefaultClient.Do(req)
 }
-```
+```..
 
 ### Python
 
@@ -209,7 +209,7 @@ payload = {
 }
 response = requests.post(url, headers=headers, json=payload)
 print(response.json())
-```
+```..
 
 ### Java
 
@@ -231,7 +231,7 @@ var request = HttpRequest.newBuilder()
     .header("Content-Type", "application/json")
     .POST(HttpRequest.BodyPublishers.ofString(json))
     .build();
-```
+```..
 
 ### C#
 
@@ -250,4 +250,4 @@ request.Content = new StringContent("""
 }
 """, Encoding.UTF8, "application/json");
 await client.SendAsync(request);
-```
+```..

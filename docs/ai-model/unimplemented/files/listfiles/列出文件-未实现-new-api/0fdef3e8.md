@@ -14,7 +14,7 @@ AI 模型介面未實作（Unimplemented）檔案（Files）
 ## Authorization
 | Name | Type | Required | Description |
 |---|---|---|---|
-| Authorization | string | yes | AuthorizationBearer <token> 使用 Bearer Token 认证。 格式: `Authorization: Bearer sk-xxxxxx` In: `header` |## Response Body
+| Authorization | string | yes | AuthorizationBearer <token> 使用 Bearer Token 认证。 格式: `Authorization: Bearer sk-xxxxxx`.. In: `header`.. |## Response Body
 
 ### 501 application/json
 
@@ -27,7 +27,7 @@ AI 模型介面未實作（Unimplemented）檔案（Files）
 
 ```
 curl -X GET "https://docs.newapi.pro/v1/files"
-```
+```..
 
 501
 
@@ -40,4 +40,4 @@ curl -X GET "https://docs.newapi.pro/v1/files"
     "code": "string"
   }
 }
-```
+```..

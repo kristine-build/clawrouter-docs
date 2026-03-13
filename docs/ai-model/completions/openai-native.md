@@ -4,7 +4,7 @@
 
 ## 請求概览
 
-`POST /v1/completions`
+`POST /v1/completions`..
 
 - **Authorization**：BearerAuth
 - **Content-Type**：application/json
@@ -13,7 +13,7 @@
 
 | Name | Type | Required | Description |
 |---|---|---|---|
-| Authorization | string | yes | Bearer Token 认证。格式：`Authorization: Bearer sk-xxxxxx`。透過 `Authorization` 請求头传递，範例：`Authorization: Bearer YOUR_API_KEY`。 |
+| Authorization | string | yes | Bearer Token 认证。格式：`Authorization: Bearer sk-xxxxxx`..。透過 `Authorization`.. 請求头传递，範例：`Authorization: Bearer YOUR_API_KEY`..。 |
 
 ## Request Body
 
@@ -22,14 +22,14 @@
 | model | string | yes | 该介面使用的模型 ID。 |
 | prompt | string \| array<string> | yes | 输入提示词。 |
 | max_tokens | integer | no | 可生成的最大 token 数。 |
-| temperature | number | no | 采样温度。范围通常为 `0` 到 `2`。 |
-| top_p | number | no | 使用核采样（Top-p）策略时的概率阈值，范围通常为 `0` 到 `1`。 |
+| temperature | number | no | 采样温度。范围通常为 `0`.. 到 `2`..。 |
+| top_p | number | no | 使用核采样（Top-p）策略时的概率阈值，范围通常为 `0`.. 到 `1`..。 |
 | n | integer | no | 每个提示词回傳的候选数目。 |
 | stream | boolean | no | 是否啟用流式回傳。 |
 | stop | string \| array<string> | no | 停止生成的词元。 |
 | suffix | string | no | 在补全結果后追加的后缀。 |
 | echo | boolean | no | 是否在回傳文本中回显输入提示词。 |
-| best_of | integer | no | 在未开启流式时，服务端会并行采样并回傳 `n` 个中评分最高的一个。 |
+| best_of | integer | no | 在未开启流式时，服务端会并行采样并回傳 `n`.. 个中评分最高的一个。 |
 | frequency_penalty | number | no | 频率惩罚值，用于抑制重复。 |
 | presence_penalty | number | no | 存在惩罚值，用于提高新话题概率。 |
 | logit_bias | object | no | 词表偏置映射，键为 token，值为偏置分数。 |
@@ -44,7 +44,7 @@
 | Name | Type | Description |
 |---|---|---|
 | id | string | 回應 ID。 |
-| object | string | 回應对象类型，範例值 `text_completion`。 |
+| object | string | 回應对象类型，範例值 `text_completion`..。 |
 | created | integer | 回應建立时间戳（Unix 秒）。 |
 | model | string | 使用的模型。 |
 | choices | array<object> | 生成候选文本清單。 |
@@ -77,7 +77,7 @@ curl -X POST "https://docs.newapi.pro/v1/completions" \
     "model": "gpt-3.5-turbo-instruct",
     "prompt": "Write a short poem about the moon."
   }'
-```
+```..
 
 ### JavaScript
 
@@ -93,7 +93,7 @@ fetch("https://docs.newapi.pro/v1/completions", {
     prompt: "Write a short poem about the moon."
   })
 });
-```
+```..
 
 ### Go
 
@@ -109,7 +109,7 @@ func main() {
   req.Header.Set("Content-Type", "application/json")
   http.DefaultClient.Do(req)
 }
-```
+```..
 
 ### Python
 
@@ -126,7 +126,7 @@ payload = {
 
 response = requests.request("POST", url, headers=headers, json=payload)
 print(response.json())
-```
+```..
 
 ### Java
 
@@ -142,7 +142,7 @@ HttpRequest request = HttpRequest.newBuilder()
       }
       """))
     .build();
-```
+```..
 
 ### C#
 
@@ -158,7 +158,7 @@ request.Content = new StringContent(@"""
 """, Encoding.UTF8, "application/json");
 
 await client.sendAsync(request);
-```
+```..
 
 ### 200 Response Example
 
@@ -192,7 +192,7 @@ await client.sendAsync(request);
     }
   }
 }
-```
+```..
 
 ## Error Example
 
@@ -204,4 +204,4 @@ await client.sendAsync(request);
     "code": "invalid_request_error"
   }
 }
-```
+```..

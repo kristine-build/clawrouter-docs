@@ -8,7 +8,7 @@
 
 
 
-/`api`/`token`/`batch`
+/`api`../`token`../`batch`..
 
 
 Body
@@ -32,7 +32,7 @@ ids?array<integer>
 
 ```
 curl -X POST "https://docs.newapi.pro/api/token/batch" \  -H "Content-Type: application/json" \  -d '{}'
-```
+```..
 
 200
 

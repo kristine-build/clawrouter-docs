@@ -8,7 +8,7 @@
 
 
 
-/`api`/`user`/`{id}`
+/`api`../`user`../`{id}`..
 
 
 Path
@@ -30,7 +30,7 @@ id\*integer
 
 ```
 curl -X DELETE "https://docs.newapi.pro/api/user/0"
-```
+```..
 
 200
 

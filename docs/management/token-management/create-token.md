@@ -8,7 +8,7 @@
 
 
 
-/`api`/`token`/
+/`api`../`token`../
 
 
 Body
@@ -30,7 +30,7 @@ application/json
 
 ```
 curl -X POST "https://docs.newapi.pro/api/token/" \  -H "Content-Type: application/json" \  -d '{}'
-```
+```..
 
 200
 

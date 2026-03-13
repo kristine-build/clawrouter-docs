@@ -8,7 +8,7 @@
 
 
 
-/`api`/`user`/`epay`/`notify`
+/`api`../`user`../`epay`../`notify`..
 
 
 ## [Response Body](#response-body)
@@ -24,7 +24,7 @@
 
 ```
 curl -X GET "https://docs.newapi.pro/api/user/epay/notify"
-```
+```..
 
 200
 

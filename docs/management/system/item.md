@@ -8,7 +8,7 @@
 
 
 
-/`api`/`setup`
+/`api`../`setup`..
 
 
 Body
@@ -34,7 +34,7 @@ password?string
 
 ```
 curl -X POST "https://docs.newapi.pro/api/setup" \  -H "Content-Type: application/json" \  -d '{}'
-```
+```..
 
 200
 

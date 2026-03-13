@@ -8,7 +8,7 @@
 
 
 
-/`api`/`user`/
+/`api`../`user`../
 
 
 Body
@@ -30,7 +30,7 @@ application/json
 
 ```
 curl -X PUT "https://docs.newapi.pro/api/user/" \  -H "Content-Type: application/json" \  -d '{}'
-```
+```..
 
 200
 

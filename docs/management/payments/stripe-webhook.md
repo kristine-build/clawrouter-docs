@@ -8,7 +8,7 @@
 
 
 
-/`api`/`stripe`/`webhook`
+/`api`../`stripe`../`webhook`..
 
 
 ## [Response Body](#response-body)
@@ -24,7 +24,7 @@
 
 ```
 curl -X POST "https://docs.newapi.pro/api/stripe/webhook"
-```
+```..
 
 200
 

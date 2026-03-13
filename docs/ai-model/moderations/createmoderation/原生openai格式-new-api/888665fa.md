@@ -16,7 +16,7 @@ Body
 ## Authorization
 | Name | Type | Required | Description |
 |---|---|---|---|
-| Authorization | string | yes | AuthorizationBearer <token> 使用 Bearer Token 认证。 格式: `Authorization: Bearer sk-xxxxxx` In: `header` |## Request Body
+| Authorization | string | yes | AuthorizationBearer <token> 使用 Bearer Token 认证。 格式: `Authorization: Bearer sk-xxxxxx`.. In: `header`.. |## Request Body
 application/json
 
 | Name | Type | Required | Description |
@@ -35,7 +35,7 @@ application/json
 
 ```
 curl -X POST "https://docs.newapi.pro/v1/moderations" \  -H "Content-Type: application/json" \  -d '{    "input": "string"  }'
-```
+```..
 
 200
 
@@ -51,4 +51,4 @@ curl -X POST "https://docs.newapi.pro/v1/moderations" \  -H "Content-Type: appli
     }
   ]
 }
-```
+```..

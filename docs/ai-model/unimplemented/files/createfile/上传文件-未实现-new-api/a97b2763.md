@@ -16,12 +16,12 @@ Body
 ## Authorization
 | Name | Type | Required | Description |
 |---|---|---|---|
-| Authorization | string | yes | AuthorizationBearer <token> 使用 Bearer Token 认证。 格式: `Authorization: Bearer sk-xxxxxx` In: `header` |## Request Body
+| Authorization | string | yes | AuthorizationBearer <token> 使用 Bearer Token 认证。 格式: `Authorization: Bearer sk-xxxxxx`.. In: `header`.. |## Request Body
 multipart/form-data
 
 | Name | Type | Required | Description |
 |---|---|---|---|
-| file | file | no | Format`binary` |
+| file | file | no | Format`binary`.. |
 | purpose | string | no |  |## Response Body
 
 ### 501 application/json
@@ -35,7 +35,7 @@ multipart/form-data
 
 ```
 curl -X POST "https://docs.newapi.pro/v1/files"
-```
+```..
 
 501
 
@@ -48,4 +48,4 @@ curl -X POST "https://docs.newapi.pro/v1/files"
     "code": "string"
   }
 }
-```
+```..

@@ -6,30 +6,30 @@ Gemini影像、PDF、音频、影片识别請求
 
 ## Endpoint
 
-`POST /v1beta/models/{model}:generateContent`
+`POST /v1beta/models/{model}:generateContent`..
 
 ## Authorization
 | Name | Type | Required | Description |
 |---|---|---|---|
-| Authorization | string | yes | \| --- \| --- \| --- \| --- \| \| `Authorization` \| `string` \| yes \| Bearer API key。範例：`Authorization: Bearer YOUR_API_KEY` \| |
+| Authorization | string | yes | \| --- \| --- \| --- \| --- \| \| `Authorization`.. \| `string`.. \| yes \| Bearer API key。範例：`Authorization: Bearer YOUR_API_KEY`.. \| |
 ## Path Parameters
 
 | Name | Type | Required | Description |
 | --- | --- | --- | --- |
-| `model` | `string` | yes | 模型名称，例如 `gemini-2.5-pro-vision` |
+| `model`.. | `string`.. | yes | 模型名称，例如 `gemini-2.5-pro-vision`.. |
 
 ## Request Body
-Content-Type: `application/json`
+Content-Type: `application/json`..
 | Name | Type | Required | Description |
 | --- | --- | --- | --- |
-| `contents` | `array` | yes | 输入內容清單 |
-| `contents[].parts` | `array` | yes | 每个输入片段清單 |
-| `contents[].parts[].text` | `string` | no | 文本內容片段 |
-| `contents[].parts[].inlineData` | `object` | no | base64 媒体內容 |
-| `contents[].parts[].inlineData.mimeType` | `string` | yes | 媒体 MIME 类型 |
-| `contents[].parts[].inlineData.data` | `string` | yes | base64 编码的資料 |
-| `generationConfig` | `object` | no | 生成控制參數 |
-| `generationConfig.responseModalities` | `array` | no | 期望回傳模态 |
+| `contents`.. | `array`.. | yes | 输入內容清單 |
+| `contents[].parts`.. | `array`.. | yes | 每个输入片段清單 |
+| `contents[].parts[].text`.. | `string`.. | no | 文本內容片段 |
+| `contents[].parts[].inlineData`.. | `object`.. | no | base64 媒体內容 |
+| `contents[].parts[].inlineData.mimeType`.. | `string`.. | yes | 媒体 MIME 类型 |
+| `contents[].parts[].inlineData.data`.. | `string`.. | yes | base64 编码的資料 |
+| `generationConfig`.. | `object`.. | no | 生成控制參數 |
+| `generationConfig.responseModalities`.. | `array`.. | no | 期望回傳模态 |
 
 ## Response Body
 
@@ -59,7 +59,7 @@ Content-Type: `application/json`
     "totalTokenCount": 70
   }
 }
-```
+```..
 ## Error Example
 
 ```json
@@ -69,7 +69,7 @@ Content-Type: `application/json`
     "message": "Invalid request"
   }
 }
-```
+```..
 
 ## Code Examples
 
@@ -93,7 +93,7 @@ curl -X POST "https://docs.newapi.pro/v1beta/models/gemini-2.5-pro-vision:genera
       }
     ]
   }'
-```
+```..
 
 ### JavaScript
 
@@ -121,7 +121,7 @@ const response = await fetch("https://docs.newapi.pro/v1beta/models/gemini-2.5-p
 });
 console.log(await response.status);
 console.log(await response.text());
-```
+```..
 
 ### Go
 
@@ -136,7 +136,7 @@ func main() {
 	req.Header.Set("Content-Type", "application/json")
 	http.DefaultClient.Do(req)
 }
-```
+```..
 
 ### Python
 
@@ -163,7 +163,7 @@ payload = {
 resp = requests.request("POST", url, headers=headers, json=payload, timeout=30)
 print(resp.status_code)
 print(resp.text)
-```
+```..
 
 ### Java
 
@@ -179,7 +179,7 @@ HttpRequest request = HttpRequest.newBuilder()
 HttpResponse<String> response = client.send(request, HttpResponse.BodyHandlers.ofString());
 System.out.println(response.statusCode());
 System.out.println(response.body());
-```
+```..
 
 ### C#
 
@@ -194,4 +194,4 @@ var request = new HttpRequestMessage(HttpMethod.Post, "https://docs.newapi.pro/v
 var response = await client.SendAsync(request);
 Console.WriteLine((int)response.StatusCode);
 Console.WriteLine(await response.Content.ReadAsStringAsync());
-```
+```..

@@ -8,7 +8,7 @@
 
 
 
-/`api`/`oauth`/`discord`
+/`api`../`oauth`../`discord`..
 
 
 Query
@@ -30,7 +30,7 @@ code?string
 
 ```
 curl -X GET "https://docs.newapi.pro/api/oauth/discord"
-```
+```..
 
 200
 

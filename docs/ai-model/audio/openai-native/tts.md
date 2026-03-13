@@ -4,21 +4,21 @@
 
 ## Endpoint
 
-`POST /v1/audio/speech`
+`POST /v1/audio/speech`..
 
 ## Authorization
 | Name | Type | Required | Description |
 |---|---|---|---|
-| Authorization | string | yes | - **位置**：`header` - **範例**：`Authorization: Bearer <token>` - **說明**：使用 Bearer Token 认证。 |
+| Authorization | string | yes | - **位置**：`header`.. - **範例**：`Authorization: Bearer <token>`.. - **說明**：使用 Bearer Token 认证。 |
 ## Request Body
-Content-Type: `application/json`
+Content-Type: `application/json`..
 | name | type | required | description | enum | default | range |
 | --- | --- | --- | --- | --- | --- | --- |
-| model | string | yes | 模型名称 | `string` | - | - |
+| model | string | yes | 模型名称 | `string`.. | - | - |
 | input | string | yes | 要转换的文本 | - | - | length <= 4096 |
-| voice | string | yes | 语音角色名 | `alloy`, `echo`, `fable`, `onyx`, `nova`, `shimmer` | - | - |
-| response_format | string | no | 音频输出格式 | `mp3`, `opus`, `aac`, `flac`, `wav`, `pcm` | `mp3` | - |
-| speed | number | no | 语音速度 | - | `1` | `0.25 <= value <= 4` |
+| voice | string | yes | 语音角色名 | `alloy`.., `echo`.., `fable`.., `onyx`.., `nova`.., `shimmer`.. | - | - |
+| response_format | string | no | 音频输出格式 | `mp3`.., `opus`.., `aac`.., `flac`.., `wav`.., `pcm`.. | `mp3`.. | - |
+| speed | number | no | 语音速度 | - | `1`.. | `0.25 <= value <= 4`.. |
 
 ## Code Examples
 
@@ -29,7 +29,7 @@ curl -X POST "https://docs.newapi.pro/v1/audio/speech" \
   -H "Authorization: Bearer YOUR_API_KEY" \
   -H "Content-Type: application/json" \
   -d '{   "model": "tts-1",   "input": "请用中文朗读今天的新闻摘要" }'
-```
+```..
 
 ### JavaScript
 
@@ -47,7 +47,7 @@ const response = await fetch("https://docs.newapi.pro/v1/audio/speech", {
   body: JSON.stringify(payload),
 });
 console.log(await response.text());
-```
+```..
 
 ### Go
 
@@ -69,7 +69,7 @@ func main() {
 	req.Header.Set("Content-Type", "application/json")
 	http.DefaultClient.Do(req)
 }
-```
+```..
 
 ### Python
 
@@ -86,7 +86,7 @@ payload = {
 resp = requests.request("POST", url, headers=headers, json=payload, timeout=30)
 print(resp.status_code)
 print(resp.text)
-```
+```..
 
 ### Java
 
@@ -102,7 +102,7 @@ HttpRequest request = HttpRequest.newBuilder()
 HttpResponse<String> response = client.send(request, HttpResponse.BodyHandlers.ofString());
 System.out.println(response.statusCode());
 System.out.println(response.body());
-```
+```..
 
 ### C#
 
@@ -116,4 +116,4 @@ var request = new HttpRequestMessage(HttpMethod.Post, "https://docs.newapi.pro/v
 var response = await client.SendAsync(request);
 Console.WriteLine((int)response.StatusCode);
 Console.WriteLine(await response.Content.ReadAsStringAsync());
-```
+```..

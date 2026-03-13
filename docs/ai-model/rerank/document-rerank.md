@@ -16,7 +16,7 @@ Body
 ## Authorization
 | Name | Type | Required | Description |
 |---|---|---|---|
-| Authorization | string | yes | AuthorizationBearer <token> 使用 Bearer Token 认证。 格式: `Authorization: Bearer sk-xxxxxx` In: `header` |## Request Body
+| Authorization | string | yes | AuthorizationBearer <token> 使用 Bearer Token 认证。 格式: `Authorization: Bearer sk-xxxxxx`.. In: `header`.. |## Request Body
 application/json
 
 | Name | Type | Required | Description |
@@ -24,7 +24,7 @@ application/json
 | model | string | yes |  |
 | query | string | yes | 查詢文本 documents\*array<string \| object> 要重排序的文件清單 |
 | top_n | integer | no | 回傳前 N 个結果 |
-| return_documents | boolean | no | Default`false` |## Response Body
+| return_documents | boolean | no | Default`false`.. |## Response Body
 
 ### 200 application/json
 
@@ -37,7 +37,7 @@ application/json
 
 ```
 curl -X POST "https://docs.newapi.pro/v1/rerank" \  -H "Content-Type: application/json" \  -d '{    "model": "rerank-english-v2.0",    "query": "string",    "documents": [      "string"    ]  }'
-```
+```..
 
 200
 
@@ -53,4 +53,4 @@ curl -X POST "https://docs.newapi.pro/v1/rerank" \  -H "Content-Type: applicatio
   ],
   "meta": {}
 }
-```
+```..

@@ -8,7 +8,7 @@
 
 
 
-/`api`/`user`/`setting`
+/`api`../`user`../`setting`..
 
 
 Body
@@ -38,7 +38,7 @@ notification\_email?string
 
 ```
 curl -X PUT "https://docs.newapi.pro/api/user/setting" \  -H "Content-Type: application/json" \  -d '{}'
-```
+```..
 
 200
 

@@ -8,7 +8,7 @@
 
 
 
-/`api`/`user`/`reset`
+/`api`../`user`../`reset`..
 
 
 Body
@@ -36,7 +36,7 @@ password?string
 
 ```
 curl -X POST "https://docs.newapi.pro/api/user/reset" \  -H "Content-Type: application/json" \  -d '{}'
-```
+```..
 
 200
 

@@ -8,7 +8,7 @@
 
 
 
-/`api`/`token`/`{id}`
+/`api`../`token`../`{id}`..
 
 
 Path
@@ -30,7 +30,7 @@ id\*integer
 
 ```
 curl -X GET "https://docs.newapi.pro/api/token/0"
-```
+```..
 
 200
 

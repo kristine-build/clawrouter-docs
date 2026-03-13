@@ -18,7 +18,7 @@ Body
 ## Authorization
 | Name | Type | Required | Description |
 |---|---|---|---|
-| Authorization | string | yes | AuthorizationBearer <token> 使用 Bearer Token 认证。 格式: `Authorization: Bearer sk-xxxxxx` In: `header` |## Request Body
+| Authorization | string | yes | AuthorizationBearer <token> 使用 Bearer Token 认证。 格式: `Authorization: Bearer sk-xxxxxx`.. In: `header`.. |## Request Body
 multipart/form-data
 
 | Name | Type | Required | Description |
@@ -49,7 +49,7 @@ multipart/form-data
 
 ```
 curl -X POST "https://docs.newapi.pro/v1/videos"
-```
+```..
 
 200400
 
@@ -71,7 +71,7 @@ curl -X POST "https://docs.newapi.pro/v1/videos"
   },
   "metadata": {}
 }
-```
+```..
 
 ```
 {
@@ -82,4 +82,4 @@ curl -X POST "https://docs.newapi.pro/v1/videos"
     "code": "string"
   }
 }
-```
+```..

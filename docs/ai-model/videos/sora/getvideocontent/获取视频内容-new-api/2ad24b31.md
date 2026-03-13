@@ -18,7 +18,7 @@ Path
 ## Authorization
 | Name | Type | Required | Description |
 |---|---|---|---|
-| Authorization | string | yes | AuthorizationBearer <token> 使用 Bearer Token 认证。 格式: `Authorization: Bearer sk-xxxxxx` In: `header` |## [Path Parameters](#path-parameters)
+| Authorization | string | yes | AuthorizationBearer <token> 使用 Bearer Token 认证。 格式: `Authorization: Bearer sk-xxxxxx`.. In: `header`.. |## [Path Parameters](#path-parameters)
 
 task\_id\*string
 
@@ -38,13 +38,13 @@ task\_id\*string
 
 ```
 curl -X GET "https://docs.newapi.pro/v1/videos/string/content"
-```
+```..
 
 200404
 
 ```
 "string"
-```
+```..
 
 ```
 {
@@ -55,4 +55,4 @@ curl -X GET "https://docs.newapi.pro/v1/videos/string/content"
     "code": "string"
   }
 }
-```
+```..

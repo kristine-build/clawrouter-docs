@@ -8,7 +8,7 @@
 
 
 
-/`api`/`ratio_sync`/`fetch`
+/`api`../`ratio_sync`../`fetch`..
 
 
 ## [Response Body](#response-body)
@@ -24,7 +24,7 @@
 
 ```
 curl -X POST "https://docs.newapi.pro/api/ratio_sync/fetch"
-```
+```..
 
 200
 

@@ -8,7 +8,7 @@
 
 
 
-/`api`/`oauth`/`email`/`bind`
+/`api`../`oauth`../`email`../`bind`..
 
 
 Query
@@ -32,7 +32,7 @@ code?string
 
 ```
 curl -X GET "https://docs.newapi.pro/api/oauth/email/bind"
-```
+```..
 
 200
 

@@ -8,7 +8,7 @@
 
 
 
-/`api`/`privacy-policy`
+/`api`../`privacy-policy`..
 
 
 ## [Response Body](#response-body)
@@ -24,7 +24,7 @@
 
 ```
 curl -X GET "https://docs.newapi.pro/api/privacy-policy"
-```
+```..
 
 200
 

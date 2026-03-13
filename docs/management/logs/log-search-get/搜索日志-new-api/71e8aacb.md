@@ -8,7 +8,7 @@
 
 
 
-/`api`/`log`/`search`
+/`api`../`log`../`search`..
 
 
 Query
@@ -30,7 +30,7 @@ keyword?string
 
 ```
 curl -X GET "https://docs.newapi.pro/api/log/search"
-```
+```..
 
 200
 

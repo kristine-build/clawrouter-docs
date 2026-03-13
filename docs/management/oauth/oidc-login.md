@@ -8,7 +8,7 @@
 
 
 
-/`api`/`oauth`/`oidc`
+/`api`../`oauth`../`oidc`..
 
 
 ## [Response Body](#response-body)
@@ -24,7 +24,7 @@
 
 ```
 curl -X GET "https://docs.newapi.pro/api/oauth/oidc"
-```
+```..
 
 200
 

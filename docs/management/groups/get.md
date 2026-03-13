@@ -8,7 +8,7 @@
 
 
 
-/`api`/`group`/
+/`api`../`group`../
 
 
 ## [Response Body](#response-body)
@@ -24,7 +24,7 @@
 
 ```
 curl -X GET "https://docs.newapi.pro/api/group/"
-```
+```..
 
 200
 

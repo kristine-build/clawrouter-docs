@@ -8,7 +8,7 @@
 
 
 
-/`api`/`user`/`2fa`/`disable`
+/`api`../`user`../`2fa`../`disable`..
 
 
 Body
@@ -32,7 +32,7 @@ code?string
 
 ```
 curl -X POST "https://docs.newapi.pro/api/user/2fa/disable" \  -H "Content-Type: application/json" \  -d '{}'
-```
+```..
 
 200
 

@@ -8,7 +8,7 @@
 
 
 
-/`api`/`oauth`/`wechat`
+/`api`../`oauth`../`wechat`..
 
 
 ## [Response Body](#response-body)
@@ -24,7 +24,7 @@
 
 ```
 curl -X GET "https://docs.newapi.pro/api/oauth/wechat"
-```
+```..
 
 200
 

@@ -8,7 +8,7 @@
 
 
 
-/`api`/`models`/`sync_upstream`/`preview`
+/`api`../`models`../`sync_upstream`../`preview`..
 
 
 ## [Response Body](#response-body)
@@ -24,7 +24,7 @@
 
 ```
 curl -X GET "https://docs.newapi.pro/api/models/sync_upstream/preview"
-```
+```..
 
 200
 
