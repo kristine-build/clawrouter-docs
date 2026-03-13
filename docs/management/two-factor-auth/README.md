@@ -4,7 +4,7 @@
 
 ## 本章內容
 
-- [重新生成备用码](item.md)
+- [重新生成備用碼](item.md)
 - [禁用2FA](2fa.md)
 - [启用2FA](2fa-2.md)
 - [設定2FA](setting-2fa.md)

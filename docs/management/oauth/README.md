@@ -5,7 +5,7 @@ OAuth 文件導覽。
 ## 本章內容
 
 - [Discord OAuth登入](discord-oauth-login.md)
-- [綁定邮箱](item.md)
+- [綁定郵箱](item.md)
 - [GitHub OAuth登入](github-oauth-login.md)
 - [LinuxDO OAuth登入](linuxdo-oauth-login.md)
 - [OIDC登入](oidc-login.md)

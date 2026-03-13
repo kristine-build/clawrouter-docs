@@ -214,7 +214,7 @@
       - [發送郵件驗證碼](management/user-auth/verify.md)
     - [使用者管理](management/user-management/README.md)
       - [轉換邀請額度](management/user-management/item.md)
-      - [取得邀请码](management/user-management/get.md)
+      - [取得邀請碼](management/user-management/get.md)
       - [取得所有使用者](management/user-management/get-user.md)
       - [管理員禁用使用者2FA](management/user-management/user-2fa.md)
       - [刪除使用者](management/user-management/delete-user.md)

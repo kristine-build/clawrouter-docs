@@ -20,7 +20,7 @@
 - [管理多密鑰](item.md)
 - [新增通道](channel-3.md)
 - [更新通道](update-channel.md)
-- [搜索通道](search-channel.md)
+- [搜尋通道](search-channel.md)
 - [禁用标签通道](channel-4.md)
 - [启用标签通道](channel-5.md)
 - [取得标签模型](get-model.md)

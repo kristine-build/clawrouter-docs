@@ -16,7 +16,7 @@
 |---|---|---|---|
 | file | string (binary) | yes | 音訊檔案。 |
 | model | string | yes | 模型名称，例如 `whisper-1`..。 |
-| language | string | no | ISO-639-1 语言代码。 |
+| language | string | no | ISO-639-1 语言代碼。 |
 | prompt | string | no | 提示词。 |
 | response_format | string | no | 取值 `json`.. / `text`.. / `srt`.. / `verbose_json`.. / `vtt`..。預設 `json`..。 |
 | temperature | number | no | 温度參數。 |

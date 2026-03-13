@@ -1,8 +1,8 @@
-# 搜索日誌 | ClawRouter
+# 搜尋日誌 | ClawRouter
 
 管理介面日誌
 
-# 搜索日誌
+# 搜尋日誌
 
 👨💼 需要管理員權限（Admin）
 

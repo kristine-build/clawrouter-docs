@@ -33,7 +33,7 @@ Content-Type: `application/json`..
 | `contents[].parts[].text`.. | `string`.. | no | 文本片段 |
 | `contents[].parts[].inlineData`.. | `object`.. | no | 内联媒体內容 |
 | `contents[].parts[].inlineData.mimeType`.. | `string`.. | yes | 媒体 MIME 类型 |
-| `contents[].parts[].inlineData.data`.. | `string`.. | yes | base64 编码的資料 |
+| `contents[].parts[].inlineData.data`.. | `string`.. | yes | base64 编碼的資料 |
 | `generationConfig`.. | `object`.. | no | 生成控制參數 |
 | `generationConfig.responseModalities`.. | `array`.. | no | 期望回傳模态 |
 

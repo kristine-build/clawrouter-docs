@@ -13,4 +13,4 @@
 - [完成Passkey登入](passkey-login-2.md)
 - [使用者註冊](user-register.md)
 - [重置密碼](item-2.md)
-- [發送邮箱驗證码](verify.md)
+- [發送郵箱驗證碼](verify.md)

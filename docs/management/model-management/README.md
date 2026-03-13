@@ -10,6 +10,6 @@
 - [取得缺失模型](get-model-3.md)
 - [建立模型元資料](create-model.md)
 - [更新模型元資料](update-model.md)
-- [搜索模型](search-model.md)
+- [搜尋模型](search-model.md)
 - [同步上游模型](model.md)
 - [预览上游模型同步](model-2.md)
