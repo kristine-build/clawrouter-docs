@@ -1,245 +1,289 @@
-- API 参考
-  - AI 模型介面
-    - 音訊 (Audio)
-      - [原生Gemini格式 (POST)](/docs/zh__docs__api__ai-model__audio__geminirelayv1beta-383836364__原生gemini格式-new-api__04afcc5e.md)
-      - 原生OpenAI格式
-        - [文本轉語音 (POST)](/docs/zh__docs__api__ai-model__audio__openai__createspeech__文本转语音-new-api__58cfed05.md)
-        - [音訊轉錄 (POST)](/docs/zh__docs__api__ai-model__audio__openai__createtranscription__音频转录-new-api__9765273b.md)
-        - [音訊翻譯 (POST)](/docs/zh__docs__api__ai-model__audio__openai__createtranslation__音频翻译-new-api__cc653cd5.md)
-    - 聊天 (Chat)
-      - [原生Claude格式 (POST)](/docs/zh__docs__api__ai-model__chat__createmessage__原生claude格式-new-api__32072057.md)
-      - 原生Gemini格式
-        - Gemini媒体辨識 (POST)
-        - Gemini文本聊天 (POST)
-      - 原生OpenAI格式
-        - [ChatCompletions格式 (POST)](/docs/zh__docs__api__ai-model__chat__openai__createchatcompletion__chatcompletions格式-new-api__1f721286.md)
-        - [Responses格式 (POST)](/docs/zh__docs__api__ai-model__chat__openai__createresponse__responses格式-new-api__791dfa47.md)
-    - 補全 (Completions)
-      - [原生OpenAI格式 (POST)](/docs/zh__docs__api__ai-model__completions__createcompletion__原生openai格式-new-api__4dbfcb8b.md)
-    - 嵌入 (Embeddings)
-      - [原生OpenAI格式 (POST)](/docs/zh__docs__api__ai-model__embeddings__createembedding__原生openai格式-new-api__4ce76862.md)
-      - [原生Gemini格式 (POST)](/docs/zh__docs__api__ai-model__embeddings__createengineembedding__原生gemini格式-new-api__b6bd1911.md)
-    - 影像 (Images)
-      - 原生Gemini格式
-        - Gemini原生格式 (POST)
-      - OpenAI聊天格式 (POST)
-      - 原生OpenAI格式
-        - [編輯图像 (POST)](/docs/zh__docs__api__ai-model__images__openai__post-v1-images-edits__編輯图像-new-api__1bee126d.md)
-        - [生成图像 (POST)](/docs/zh__docs__api__ai-model__images__openai__post-v1-images-generations__生成图像-new-api__87ad0fa8.md)
-      - 通义千问OpenAI格式
-        - 生成影像 (POST)
-        - 編輯影像 (POST)
-    - 模型 (Models)
-      - 列出模型
-        - [原生OpenAI格式 (GET)](/docs/zh__docs__api__ai-model__models__list__listmodels__原生openai格式-new-api__c7766c18.md)
-        - [原生Gemini格式 (GET)](/docs/zh__docs__api__ai-model__models__list__listmodelsgemini__原生gemini格式-new-api__49a6ce5b.md)
-    - 稽查 (Moderations)
-      - [原生OpenAI格式 (POST)](/docs/zh__docs__api__ai-model__moderations__createmoderation__原生openai格式-new-api__888665fa.md)
-    - 即時語音 (Realtime)
-      - [原生OpenAI格式 (GET)](/docs/zh__docs__api__ai-model__realtime__createrealtimesession__原生openai格式-new-api__8b7b4403.md)
-    - 重排序 (Rerank)
-      - [文档重排序 (POST)](/docs/zh__docs__api__ai-model__rerank__creatererank__文档重排序-new-api__d50d8dad.md)
-    - 未實作 (Unimplemented)
-      - 檔案 (Files)
-        - [上傳檔案 (POST)](/docs/zh__docs__api__ai-model__unimplemented__files__createfile__上傳檔案-未实现-new-api__a97b2763.md)
-        - [刪除檔案 (DELETE)](/docs/zh__docs__api__ai-model__unimplemented__files__deletefile__刪除檔案-未实现-new-api__0403d464.md)
-        - [取得檔案内容 (GET)](/docs/zh__docs__api__ai-model__unimplemented__files__downloadfile__取得檔案内容-未实现-new-api__1420762c.md)
-        - [列出檔案 (GET)](/docs/zh__docs__api__ai-model__unimplemented__files__listfiles__列出檔案-未实现-new-api__0fdef3e8.md)
-        - [取得檔案信息 (GET)](/docs/zh__docs__api__ai-model__unimplemented__files__retrievefile__取得檔案信息-未实现-new-api__1e4f19cc.md)
-      - 微调 (Fine-tuning)
-        - 取消微调任務 (POST)
-        - 建立微调任務 (POST)
-        - 取得微调任務事件 (GET)
-        - 列出微调任務 (GET)
-        - 取得微调任務詳細 (GET)
-    - 影片 (Videos)
-      - [建立视频生成任務 (POST)](/docs/zh__docs__api__ai-model__videos__createvideogeneration__建立视频生成任務-new-api__24ad2bd7.md)
-      - [取得视频生成任務狀態 (GET)](/docs/zh__docs__api__ai-model__videos__getvideogeneration__取得视频生成任務状态-new-api__a5d92ec6.md)
-      - 即梦格式
-        - 即梦影片生成 (POST)
-      - 可灵格式
-        - Kling 图生影片 (POST)
-        - Kling 文生影片 (POST)
-        - 取得 Kling 图生影片任務狀態 (GET)
-        - 取得 Kling 文生影片任務狀態 (GET)
-      - Sora格式
-        - [建立视频 (POST)](/docs/zh__docs__api__ai-model__videos__sora__createvideo__建立视频-new-api__88acfd87.md)
-        - [取得视频任務狀態 (GET)](/docs/zh__docs__api__ai-model__videos__sora__getvideo__取得视频任務状态-new-api__28022ca1.md)
-        - [取得视频内容 (GET)](/docs/zh__docs__api__ai-model__videos__sora__getvideocontent__取得视频内容-new-api__2ad24b31.md)
-- 管理介面
-  - [鉴权体系說明 (Auth)](/docs/zh__docs__api__management__auth__鉴权体系說明auth-new-api__86362656.md)
-  - 通道管理
-    - [批量刪除通道 (POST)](/docs/zh__docs__api__management__channel-management__channel-batch-post__批量刪除通道-new-api__3245656a.md)
-    - [批量設定通道标签 (POST)](/docs/zh__docs__api__management__channel-management__channel-batch-tag-post__批量设置通道标签-new-api__13732edf.md)
-    - [复制通道 (POST)](/docs/zh__docs__api__management__channel-management__channel-copy-id-post__复制通道-new-api__979598ac.md)
-    - [刪除已禁用通道 (DELETE)](/docs/zh__docs__api__management__channel-management__channel-disabled-delete__刪除已禁用通道-new-api__2703322e.md)
-    - [取得上游模型清單 (GET)](/docs/zh__docs__api__management__channel-management__channel-fetch_models-id-get__取得上游模型清單-new-api__96efa317.md)
-    - [取得模型清單 (POST)](/docs/zh__docs__api__management__channel-management__channel-fetch_models-post__取得模型清單-new-api__3c6cac8a.md)
-    - [修复通道能力 (POST)](/docs/zh__docs__api__management__channel-management__channel-fix-post__修复通道能力-new-api__0f2f03a3.md)
-    - [取得所有通道 (GET)](/docs/zh__docs__api__management__channel-management__channel-get__取得所有通道-new-api__e12dbce7.md)
-    - [刪除通道 (DELETE)](/docs/zh__docs__api__management__channel-management__channel-id-delete__刪除通道-new-api__341972c2.md)
-    - [取得指定通道 (GET)](/docs/zh__docs__api__management__channel-management__channel-id-get__取得指定通道-new-api__3d9b8693.md)
-    - [取得通道密鑰 (POST)](/docs/zh__docs__api__management__channel-management__channel-id-key-post__取得通道密鑰-new-api__8148e299.md)
-    - [取得已启用模型清單 (GET)](/docs/zh__docs__api__management__channel-management__channel-models_enabled-get__取得已启用模型清單-new-api__4abb2a47.md)
-    - [取得通道模型清單 (GET)](/docs/zh__docs__api__management__channel-management__channel-models-get__取得通道模型清單-new-api__0bb9cf6a.md)
-    - [管理多密鑰 (POST)](/docs/zh__docs__api__management__channel-management__channel-multi_key-manage-post__管理多密鑰-new-api__d30da8c8.md)
-    - [新增通道 (POST)](/docs/zh__docs__api__management__channel-management__channel-post__新增通道-new-api__69dc367a.md)
-    - [更新通道 (PUT)](/docs/zh__docs__api__management__channel-management__channel-put__更新通道-new-api__84687460.md)
-    - [搜索通道 (GET)](/docs/zh__docs__api__management__channel-management__channel-search-get__搜索通道-new-api__77154ad5.md)
-    - [禁用标签通道 (POST)](/docs/zh__docs__api__management__channel-management__channel-tag-disabled-post__禁用标签通道-new-api__47c00c0b.md)
-    - [启用标签通道 (POST)](/docs/zh__docs__api__management__channel-management__channel-tag-enabled-post__启用标签通道-new-api__70ad4473.md)
-    - [取得标签模型 (GET)](/docs/zh__docs__api__management__channel-management__channel-tag-models-get__取得标签模型-new-api__77caf02b.md)
-    - [編輯标签通道 (PUT)](/docs/zh__docs__api__management__channel-management__channel-tag-put__編輯标签通道-new-api__d59f652b.md)
-    - [测试所有通道 (GET)](/docs/zh__docs__api__management__channel-management__channel-test-get__测试所有通道-new-api__c7c54ed9.md)
-    - [测试指定通道 (GET)](/docs/zh__docs__api__management__channel-management__channel-test-id-get__测试指定通道-new-api__98ea87fc.md)
-    - [更新所有通道余额 (GET)](/docs/zh__docs__api__management__channel-management__channel-update_balance-get__更新所有通道余额-new-api__4630c220.md)
-    - [更新指定通道余额 (GET)](/docs/zh__docs__api__management__channel-management__channel-update_balance-id-get__更新指定通道余额-new-api__1e3d43be.md)
-  - default
-    - 使用兌換碼 (POST)
-  - 分组
-    - [取得所有分组 (GET)](/docs/zh__docs__api__management__groups__group-get__取得所有分组-new-api__544c6792.md)
-    - [取得预填分组 (GET)](/docs/zh__docs__api__management__groups__prefill_group-get__取得预填分组-new-api__5e2db417.md)
-    - [刪除预填分组 (DELETE)](/docs/zh__docs__api__management__groups__prefill_group-id-delete__刪除预填分组-new-api__425d1947.md)
-    - [建立预填分组 (POST)](/docs/zh__docs__api__management__groups__prefill_group-post__建立预填分组-new-api__1e380309.md)
-    - [更新预填分组 (PUT)](/docs/zh__docs__api__management__groups__prefill_group-put__更新预填分组-new-api__4483ab92.md)
-  - 日誌
-    - [刪除历史日誌 (DELETE)](/docs/zh__docs__api__management__logs__log-delete__刪除历史日誌-new-api__4a368a64.md)
-    - [取得所有日誌 (GET)](/docs/zh__docs__api__management__logs__log-get__取得所有日誌-new-api__3b811e2e.md)
-    - [搜索日誌 (GET)](/docs/zh__docs__api__management__logs__log-search-get__搜索日誌-new-api__71e8aacb.md)
-    - [取得个人日誌 (GET)](/docs/zh__docs__api__management__logs__log-self-get__取得个人日誌-new-api__f6e3dd8f.md)
-    - [搜索个人日誌 (GET)](/docs/zh__docs__api__management__logs__log-self-search-get__搜索个人日誌-new-api__448ca9b5.md)
-    - [取得个人日誌统计 (GET)](/docs/zh__docs__api__management__logs__log-self-stat-get__取得个人日誌统计-new-api__62c202bc.md)
-    - [取得日誌统计 (GET)](/docs/zh__docs__api__management__logs__log-stat-get__取得日誌统计-new-api__4eeba8aa.md)
-    - [通过令牌取得日誌 (GET)](/docs/zh__docs__api__management__logs__log-token-get__通过令牌取得日誌-new-api__bcf8e933.md)
-  - 模型管理
-    - [取得所有模型元資料 (GET)](/docs/zh__docs__api__management__model-management__models-get__取得所有模型元資料-new-api__55c49a22.md)
-    - [刪除模型 (DELETE)](/docs/zh__docs__api__management__model-management__models-id-delete__刪除模型-new-api__887950c9.md)
-    - [取得指定模型 (GET)](/docs/zh__docs__api__management__model-management__models-id-get__取得指定模型-new-api__af3ca8f3.md)
-    - [取得缺失模型 (GET)](/docs/zh__docs__api__management__model-management__models-missing-get__取得缺失模型-new-api__f60a4c2c.md)
-    - [建立模型元資料 (POST)](/docs/zh__docs__api__management__model-management__models-post__建立模型元資料-new-api__548c9b92.md)
-    - [更新模型元資料 (PUT)](/docs/zh__docs__api__management__model-management__models-put__更新模型元資料-new-api__2cbb8174.md)
-    - [搜索模型 (GET)](/docs/zh__docs__api__management__model-management__models-search-get__搜索模型-new-api__4feb0820.md)
-    - [同步上游模型 (POST)](/docs/zh__docs__api__management__model-management__models-sync_upstream-post__同步上游模型-new-api__10c23d2e.md)
-    - [预览上游模型同步 (GET)](/docs/zh__docs__api__management__model-management__models-sync_upstream-preview-get__预览上游模型同步-new-api__c0065418.md)
-  - OAuth
-    - [Discord OAuth登入 (GET)](/docs/zh__docs__api__management__oauth__oauth-discord-get__discord-oauth登录-new-api__35bf6a83.md)
-    - [綁定邮箱 (GET)](/docs/zh__docs__api__management__oauth__oauth-email-bind-get__綁定邮箱-new-api__d1032f5c.md)
-    - [GitHub OAuth登入 (GET)](/docs/zh__docs__api__management__oauth__oauth-github-get__github-oauth登录-new-api__ba5d5e0f.md)
-    - [LinuxDO OAuth登入 (GET)](/docs/zh__docs__api__management__oauth__oauth-linuxdo-get__linuxdo-oauth登录-new-api__b49ffc14.md)
-    - [OIDC登入 (GET)](/docs/zh__docs__api__management__oauth__oauth-oidc-get__oidc登录-new-api__6ad82689.md)
-    - [生成OAuth State (GET)](/docs/zh__docs__api__management__oauth__oauth-state-get__生成oauth-state-new-api__8d87afa2.md)
-    - [綁定Telegram (GET)](/docs/zh__docs__api__management__oauth__oauth-telegram-bind-get__綁定telegram-new-api__fcdf0d85.md)
-    - [Telegram登入 (GET)](/docs/zh__docs__api__management__oauth__oauth-telegram-login-get__telegram登录-new-api__8f81a184.md)
-    - [綁定微信 (GET)](/docs/zh__docs__api__management__oauth__oauth-wechat-bind-get__綁定微信-new-api__9435d117.md)
-    - [微信OAuth登入 (GET)](/docs/zh__docs__api__management__oauth__oauth-wechat-get__微信oauth登录-new-api__9d4cae14.md)
-  - 儲值
-    - [Creem Webhook (POST)](/docs/zh__docs__api__management__payment__creem-webhook-post__creem-webhook-new-api__3ba6fbcb.md)
-    - [Stripe Webhook (POST)](/docs/zh__docs__api__management__payment__stripe-webhook-post__stripe-webhook-new-api__86354afa.md)
-    - [取得支付金额 (POST)](/docs/zh__docs__api__management__payment__user-amount-post__取得支付金额-new-api__399f4b1b.md)
-    - [发起Creem支付 (POST)](/docs/zh__docs__api__management__payment__user-creem-pay-post__发起creem支付-new-api__bc3c80d9.md)
-    - [易支付回调 (GET)](/docs/zh__docs__api__management__payment__user-epay-notify-get__易支付回调-new-api__c00262d8.md)
-    - [发起易支付 (POST)](/docs/zh__docs__api__management__payment__user-pay-post__发起易支付-new-api__a8366005.md)
-    - [取得Stripe支付金额 (POST)](/docs/zh__docs__api__management__payment__user-stripe-amount-post__取得stripe支付金额-new-api__a7d06e04.md)
-    - [发起Stripe支付 (POST)](/docs/zh__docs__api__management__payment__user-stripe-pay-post__发起stripe支付-new-api__beb46b28.md)
-    - [取得充值信息 (GET)](/docs/zh__docs__api__management__payment__user-topup-info-get__取得充值信息-new-api__2e5cd4f4.md)
-    - [取得使用者充值记录 (GET)](/docs/zh__docs__api__management__payment__user-topup-self-get__取得使用者充值记录-new-api__5efb40c1.md)
-  - 兌換碼
-    - [取得所有兌換碼 (GET)](/docs/zh__docs__api__management__redemption__redemption-get__取得所有兑换码-new-api__4525ef6e.md)
-    - [刪除兌換碼 (DELETE)](/docs/zh__docs__api__management__redemption__redemption-id-delete__刪除兑换码-new-api__b656eae4.md)
-    - [取得指定兌換碼 (GET)](/docs/zh__docs__api__management__redemption__redemption-id-get__取得指定兑换码-new-api__0598a20e.md)
-    - [刪除无效兌換碼 (DELETE)](/docs/zh__docs__api__management__redemption__redemption-invalid-delete__刪除无效兑换码-new-api__15fce1d9.md)
-    - [建立兌換碼 (POST)](/docs/zh__docs__api__management__redemption__redemption-post__建立兑换码-new-api__ce536652.md)
-    - [更新兌換碼 (PUT)](/docs/zh__docs__api__management__redemption__redemption-put__更新兑换码-new-api__f83f1cff.md)
-    - [搜索兌換碼 (GET)](/docs/zh__docs__api__management__redemption__redemption-search-get__搜索兑换码-new-api__2587d444.md)
-  - 安全驗證
-    - [通用安全驗證 (POST)](/docs/zh__docs__api__management__security-verification__verify-post__通用安全驗證-new-api__3aa3adf4.md)
-    - [取得驗證狀態 (GET)](/docs/zh__docs__api__management__security-verification__verify-status-get__取得驗證状态-new-api__dc8dee2c.md)
-  - 資料統計
-    - [取得所有额度資料 (GET)](/docs/zh__docs__api__management__statistics__data-get__取得所有额度資料-new-api__df8b67df.md)
-    - [取得个人额度資料 (GET)](/docs/zh__docs__api__management__statistics__data-self-get__取得个人额度資料-new-api__348150ad.md)
-  - 系統
-    - [取得关于信息 (GET)](/docs/zh__docs__api__management__system__about-get__取得关于信息-new-api__acd28027.md)
-    - [取得首页内容 (GET)](/docs/zh__docs__api__management__system__home_page_content-get__取得首页内容-new-api__2f9539c3.md)
-    - [取得模型清單 (GET)](/docs/zh__docs__api__management__system__models-get__取得模型清單-new-api__66cac42a.md)
-    - [取得公告 (GET)](/docs/zh__docs__api__management__system__notice-get__取得公告-new-api__d917bd67.md)
-    - [取得定价信息 (GET)](/docs/zh__docs__api__management__system__pricing-get__取得定价信息-new-api__c7b1e63a.md)
-    - [取得隐私政策 (GET)](/docs/zh__docs__api__management__system__privacy-policy-get__取得隐私政策-new-api__0bad7d3f.md)
-    - [取得倍率設定 (GET)](/docs/zh__docs__api__management__system__ratio_config-get__取得倍率設定-new-api__624830fc.md)
-    - [取得初始化狀態 (GET)](/docs/zh__docs__api__management__system__setup-get__取得初始化状态-new-api__069a178c.md)
-    - [初始化系統 (POST)](/docs/zh__docs__api__management__system__setup-post__初始化系統-new-api__2cd940ec.md)
-    - [取得系統狀態 (GET)](/docs/zh__docs__api__management__system__status-get__取得系統状态-new-api__babce704.md)
-    - [测试系統狀態 (GET)](/docs/zh__docs__api__management__system__status-test-get__测试系統状态-new-api__d67dc686.md)
-    - [取得Uptime Kuma狀態 (GET)](/docs/zh__docs__api__management__system__uptime-status-get__取得uptime-kuma状态-new-api__afab8701.md)
-    - [取得使用者协议 (GET)](/docs/zh__docs__api__management__system__user-agreement-get__取得使用者协议-new-api__dbdcee8f.md)
-  - 系統設定
-    - [取得系統选项 (GET)](/docs/zh__docs__api__management__system-settings__option-get__取得系統选项-new-api__6c86ded7.md)
-    - [迁移控制台設定 (POST)](/docs/zh__docs__api__management__system-settings__option-migrate_console_setting-post__迁移控制台设置-new-api__9bedcf0e.md)
-    - [更新系統选项 (PUT)](/docs/zh__docs__api__management__system-settings__option-put__更新系統选项-new-api__3162b6fb.md)
-    - [重置模型倍率 (POST)](/docs/zh__docs__api__management__system-settings__option-rest_model_ratio-post__重置模型倍率-new-api__82de8a7f.md)
-    - [取得可同步通道 (GET)](/docs/zh__docs__api__management__system-settings__ratio_sync-channels-get__取得可同步通道-new-api__b50a58fe.md)
-    - [取得上游倍率 (POST)](/docs/zh__docs__api__management__system-settings__ratio_sync-fetch-post__取得上游倍率-new-api__395769d5.md)
-  - 任務
-    - [取得所有Midjourney任務 (GET)](/docs/zh__docs__api__management__tasks__mj-get__取得所有midjourney任務-new-api__4caba6fc.md)
-    - [取得个人Midjourney任務 (GET)](/docs/zh__docs__api__management__tasks__mj-self-get__取得个人midjourney任務-new-api__2d070e15.md)
-    - [取得所有任務 (GET)](/docs/zh__docs__api__management__tasks__task-get__取得所有任務-new-api__35db33aa.md)
-    - [取得个人任務 (GET)](/docs/zh__docs__api__management__tasks__task-self-get__取得个人任務-new-api__48510f3a.md)
-  - 令牌管理
-    - [批量刪除令牌 (POST)](/docs/zh__docs__api__management__token-management__token-batch-post__批量刪除令牌-new-api__95b42ca8.md)
-    - [取得所有令牌 (GET)](/docs/zh__docs__api__management__token-management__token-get__取得所有令牌-new-api__ddea2568.md)
-    - [刪除令牌 (DELETE)](/docs/zh__docs__api__management__token-management__token-id-delete__刪除令牌-new-api__f4d7d2af.md)
-    - [取得指定令牌 (GET)](/docs/zh__docs__api__management__token-management__token-id-get__取得指定令牌-new-api__1a0aa05d.md)
-    - [建立令牌 (POST)](/docs/zh__docs__api__management__token-management__token-post__建立令牌-new-api__856abb1e.md)
-    - [更新令牌 (PUT)](/docs/zh__docs__api__management__token-management__token-put__更新令牌-new-api__eb6ae6f0.md)
-    - [搜索令牌 (GET)](/docs/zh__docs__api__management__token-management__token-search-get__搜索令牌-new-api__438e4e76.md)
-    - [取得令牌使用情况 (GET)](/docs/zh__docs__api__management__token-management__usage-token-get__取得令牌使用情况-new-api__62315c76.md)
-  - 两步驗證
-    - [重新生成备用码 (POST)](/docs/zh__docs__api__management__two-factor-auth__user-2fa-backup_codes-post__重新生成备用码-new-api__8cfd5666.md)
-    - [禁用2FA (POST)](/docs/zh__docs__api__management__two-factor-auth__user-2fa-disable-post__禁用2fa-new-api__dce16f2f.md)
-    - [启用2FA (POST)](/docs/zh__docs__api__management__two-factor-auth__user-2fa-enable-post__启用2fa-new-api__1631001b.md)
-    - [設定2FA (POST)](/docs/zh__docs__api__management__two-factor-auth__user-2fa-setup-post__设置2fa-new-api__a2bc8f89.md)
-    - [取得2FA统计 (GET)](/docs/zh__docs__api__management__two-factor-auth__user-2fa-stats-get__取得2fa统计-new-api__40bc7673.md)
-    - [取得2FA狀態 (GET)](/docs/zh__docs__api__management__two-factor-auth__user-2fa-status-get__取得2fa状态-new-api__1bab2029.md)
-  - 使用者登入註冊
-    - [發送密碼重置邮件 (GET)](/docs/zh__docs__api__management__user-auth__reset_password-get__發送密码重置邮件-new-api__c2550ee3.md)
-    - [两步驗證登入 (POST)](/docs/zh__docs__api__management__user-auth__user-login-2fa-post__两步驗證登录-new-api__3fe5b04f.md)
-    - [使用者登入 (POST)](/docs/zh__docs__api__management__user-auth__user-login-post__使用者登录-new-api__ab67391d.md)
-    - [使用者登出 (GET)](/docs/zh__docs__api__management__user-auth__user-logout-get__使用者登出-new-api__8b13b159.md)
-    - [开始Passkey登入 (POST)](/docs/zh__docs__api__management__user-auth__user-passkey-login-begin-post__开始passkey登录-new-api__a9e682fb.md)
-    - [完成Passkey登入 (POST)](/docs/zh__docs__api__management__user-auth__user-passkey-login-finish-post__完成passkey登录-new-api__38980a41.md)
-    - [使用者註冊 (POST)](/docs/zh__docs__api__management__user-auth__user-register-post__使用者注册-new-api__99698c9f.md)
-    - [重置密碼 (POST)](/docs/zh__docs__api__management__user-auth__user-reset-post__重置密码-new-api__a15f99f8.md)
-    - [發送邮箱驗證码 (GET)](/docs/zh__docs__api__management__user-auth__verification-get__發送邮箱驗證码-new-api__4f2841e6.md)
-  - 使用者管理
-    - [转换邀请额度 (POST)](/docs/zh__docs__api__management__user-management__user-aff_transfer-post__转换邀请额度-new-api__f390a053.md)
-    - [取得邀请码 (GET)](/docs/zh__docs__api__management__user-management__user-aff-get__取得邀请码-new-api__af25bdd6.md)
-    - [取得所有使用者 (GET)](/docs/zh__docs__api__management__user-management__user-get__取得所有使用者-new-api__9a0086a0.md)
-    - [管理员禁用使用者2FA (DELETE)](/docs/zh__docs__api__management__user-management__user-id-2fa-delete__管理员禁用使用者2fa-new-api__48a7fb7c.md)
-    - [刪除使用者 (DELETE)](/docs/zh__docs__api__management__user-management__user-id-delete__刪除使用者-new-api__2b347cc6.md)
-    - [取得指定使用者 (GET)](/docs/zh__docs__api__management__user-management__user-id-get__取得指定使用者-new-api__ea6d5215.md)
-    - [管理员重置使用者Passkey (DELETE)](/docs/zh__docs__api__management__user-management__user-id-reset_passkey-delete__管理员重置使用者passkey-new-api__ed65e8e2.md)
-    - [管理使用者狀態 (POST)](/docs/zh__docs__api__management__user-management__user-manage-post__管理使用者状态-new-api__37c3f489.md)
-    - [取得使用者可用模型 (GET)](/docs/zh__docs__api__management__user-management__user-models-get__取得使用者可用模型-new-api__18882210.md)
-    - [刪除Passkey (DELETE)](/docs/zh__docs__api__management__user-management__user-passkey-delete__刪除passkey-new-api__3af7a51e.md)
-    - [取得Passkey狀態 (GET)](/docs/zh__docs__api__management__user-management__user-passkey-get__取得passkey状态-new-api__ac319b9f.md)
-    - [开始註冊Passkey (POST)](/docs/zh__docs__api__management__user-management__user-passkey-register-begin-post__开始注册passkey-new-api__47230b41.md)
-    - [完成註冊Passkey (POST)](/docs/zh__docs__api__management__user-management__user-passkey-register-finish-post__完成注册passkey-new-api__f47b1d7e.md)
-    - [开始驗證Passkey (POST)](/docs/zh__docs__api__management__user-management__user-passkey-verify-begin-post__开始驗證passkey-new-api__c0384b26.md)
-    - [完成驗證Passkey (POST)](/docs/zh__docs__api__management__user-management__user-passkey-verify-finish-post__完成驗證passkey-new-api__9fc7e173.md)
-    - [建立使用者 (POST)](/docs/zh__docs__api__management__user-management__user-post__建立使用者-new-api__51b58d9b.md)
-    - [更新使用者 (PUT)](/docs/zh__docs__api__management__user-management__user-put__更新使用者-new-api__e399454b.md)
-    - [搜索使用者 (GET)](/docs/zh__docs__api__management__user-management__user-search-get__搜索使用者-new-api__a013cba5.md)
-    - [注销当前使用者 (DELETE)](/docs/zh__docs__api__management__user-management__user-self-delete__注销当前使用者-new-api__6585c6bc.md)
-    - [取得当前使用者信息 (GET)](/docs/zh__docs__api__management__user-management__user-self-get__取得当前使用者信息-new-api__bb44f07b.md)
-    - [取得当前使用者分组 (GET)](/docs/zh__docs__api__management__user-management__user-self-groups-get__取得当前使用者分组-new-api__bb9eb7e7.md)
-    - [更新当前使用者信息 (PUT)](/docs/zh__docs__api__management__user-management__user-self-put__更新当前使用者信息-new-api__87e74c7e.md)
-    - [更新使用者設定 (PUT)](/docs/zh__docs__api__management__user-management__user-setting-put__更新使用者设置-new-api__ca64969f.md)
-    - [生成存取令牌 (GET)](/docs/zh__docs__api__management__user-management__user-token-get__生成存取令牌-new-api__c8d0e11b.md)
-    - [管理员完成充值 (POST)](/docs/zh__docs__api__management__user-management__user-topup-complete-post__管理员完成充值-new-api__af170294.md)
-    - [取得所有充值记录 (GET)](/docs/zh__docs__api__management__user-management__user-topup-get__取得所有充值记录-new-api__53b0977e.md)
-  - 供應商
-    - [取得所有供应商 (GET)](/docs/zh__docs__api__management__vendors__vendors-get__取得所有供应商-new-api__ceab67f1.md)
-    - [刪除供应商 (DELETE)](/docs/zh__docs__api__management__vendors__vendors-id-delete__刪除供应商-new-api__c34f21f4.md)
-    - [取得指定供应商 (GET)](/docs/zh__docs__api__management__vendors__vendors-id-get__取得指定供应商-new-api__d2fe9486.md)
-    - [建立供应商 (POST)](/docs/zh__docs__api__management__vendors__vendors-post__建立供应商-new-api__74640776.md)
-    - [更新供应商 (PUT)](/docs/zh__docs__api__management__vendors__vendors-put__更新供应商-new-api__f1b643ce.md)
-    - [搜索供应商 (GET)](/docs/zh__docs__api__management__vendors__vendors-search-get__搜索供应商-new-api__bfb78b86.md)
+* API 參考
+
+  * AI 模型介面
+
+    * 音訊 (Audio)
+
+      * [原生Gemini格式 (POST)](/docs/zh__docs__api__ai-model__audio__geminirelayv1beta-383836364__原生gemini格式-new-api__04afcc5e.md)
+      * 原生OpenAI格式
+
+        * [文本轉語音 (POST)](/docs/zh__docs__api__ai-model__audio__openai__createspeech__文本转语音-new-api__58cfed05.md)
+        * [音訊轉錄 (POST)](/docs/zh__docs__api__ai-model__audio__openai__createtranscription__音频转录-new-api__9765273b.md)
+        * [音訊翻譯 (POST)](/docs/zh__docs__api__ai-model__audio__openai__createtranslation__音频翻译-new-api__cc653cd5.md)
+    * 聊天 (Chat)
+
+      * [原生Claude格式 (POST)](/docs/zh__docs__api__ai-model__chat__createmessage__原生claude格式-new-api__32072057.md)
+      * 原生Gemini格式
+
+        * Gemini媒體辨識 (POST)
+        * Gemini文本聊天 (POST)
+      * 原生OpenAI格式
+
+        * [ChatCompletions格式 (POST)](/docs/zh__docs__api__ai-model__chat__openai__createchatcompletion__chatcompletions格式-new-api__1f721286.md)
+        * [Responses格式 (POST)](/docs/zh__docs__api__ai-model__chat__openai__createresponse__responses格式-new-api__791dfa47.md)
+    * 補全 (Completions)
+
+      * [原生OpenAI格式 (POST)](/docs/zh__docs__api__ai-model__completions__createcompletion__原生openai格式-new-api__4dbfcb8b.md)
+    * 嵌入 (Embeddings)
+
+      * [原生OpenAI格式 (POST)](/docs/zh__docs__api__ai-model__embeddings__createembedding__原生openai格式-new-api__4ce76862.md)
+      * [原生Gemini格式 (POST)](/docs/zh__docs__api__ai-model__embeddings__createengineembedding__原生gemini格式-new-api__b6bd1911.md)
+    * 影像 (Images)
+
+      * 原生Gemini格式
+
+        * Gemini原生格式 (POST)
+      * OpenAI聊天格式 (POST)
+      * 原生OpenAI格式
+
+        * [編輯圖像 (POST)](/docs/zh__docs__api__ai-model__images__openai__post-v1-images-edits__編輯图像-new-api__1bee126d.md)
+        * [生成圖像 (POST)](/docs/zh__docs__api__ai-model__images__openai__post-v1-images-generations__生成图像-new-api__87ad0fa8.md)
+      * 通義千問OpenAI格式
+
+        * 生成影像 (POST)
+        * 編輯影像 (POST)
+    * 模型 (Models)
+
+      * 列出模型
+
+        * [原生OpenAI格式 (GET)](/docs/zh__docs__api__ai-model__models__list__listmodels__原生openai格式-new-api__c7766c18.md)
+        * [原生Gemini格式 (GET)](/docs/zh__docs__api__ai-model__models__list__listmodelsgemini__原生gemini格式-new-api__49a6ce5b.md)
+    * 稽核 (Moderations)
+
+      * [原生OpenAI格式 (POST)](/docs/zh__docs__api__ai-model__moderations__createmoderation__原生openai格式-new-api__888665fa.md)
+    * 即時語音 (Realtime)
+
+      * [原生OpenAI格式 (GET)](/docs/zh__docs__api__ai-model__realtime__createrealtimesession__原生openai格式-new-api__8b7b4403.md)
+    * 重排序 (Rerank)
+
+      * [文件重排序 (POST)](/docs/zh__docs__api__ai-model__rerank__creatererank__文档重排序-new-api__d50d8dad.md)
+    * 未實作 (Unimplemented)
+
+      * 檔案 (Files)
+
+        * [上傳檔案 (POST)](/docs/zh__docs__api__ai-model__unimplemented__files__createfile__上傳檔案-未实现-new-api__a97b2763.md)
+        * [刪除檔案 (DELETE)](/docs/zh__docs__api__ai-model__unimplemented__files__deletefile__刪除檔案-未实现-new-api__0403d464.md)
+        * [取得檔案內容 (GET)](/docs/zh__docs__api__ai-model__unimplemented__files__downloadfile__取得檔案内容-未实现-new-api__1420762c.md)
+        * [列出檔案 (GET)](/docs/zh__docs__api__ai-model__unimplemented__files__listfiles__列出檔案-未实现-new-api__0fdef3e8.md)
+        * [取得檔案資訊 (GET)](/docs/zh__docs__api__ai-model__unimplemented__files__retrievefile__取得檔案信息-未实现-new-api__1e4f19cc.md)
+      * 微調 (Fine-tuning)
+
+        * 取消微調任務 (POST)
+        * 建立微調任務 (POST)
+        * 取得微調任務事件 (GET)
+        * 列出微調任務 (GET)
+        * 取得微調任務詳細資料 (GET)
+    * 影片 (Videos)
+
+      * [建立影片生成任務 (POST)](/docs/zh__docs__api__ai-model__videos__createvideogeneration__建立视频生成任務-new-api__24ad2bd7.md)
+      * [取得影片生成任務狀態 (GET)](/docs/zh__docs__api__ai-model__videos__getvideogeneration__取得视频生成任務状态-new-api__a5d92ec6.md)
+      * 即夢格式
+
+        * 即夢影片生成 (POST)
+      * 可靈格式
+
+        * Kling 圖生影片 (POST)
+        * Kling 文生影片 (POST)
+        * 取得 Kling 圖生影片任務狀態 (GET)
+        * 取得 Kling 文生影片任務狀態 (GET)
+      * Sora格式
+
+        * [建立影片 (POST)](/docs/zh__docs__api__ai-model__videos__sora__createvideo__建立视频-new-api__88acfd87.md)
+        * [取得影片任務狀態 (GET)](/docs/zh__docs__api__ai-model__videos__sora__getvideo__取得视频任務状态-new-api__28022ca1.md)
+        * [取得影片內容 (GET)](/docs/zh__docs__api__ai-model__videos__sora__getvideocontent__取得视频内容-new-api__2ad24b31.md)
+* 管理介面
+
+  * [鑑權體系說明 (Auth)](/docs/zh__docs__api__management__auth__鉴权体系說明auth-new-api__86362656.md)
+  * 通道管理
+
+    * [批量刪除通道 (POST)](/docs/zh__docs__api__management__channel-management__channel-batch-post__批量刪除通道-new-api__3245656a.md)
+    * [批量設定通道標籤 (POST)](/docs/zh__docs__api__management__channel-management__channel-batch-tag-post__批量设置通道标签-new-api__13732edf.md)
+    * [複製通道 (POST)](/docs/zh__docs__api__management__channel-management__channel-copy-id-post__复制通道-new-api__979598ac.md)
+    * [刪除已禁用通道 (DELETE)](/docs/zh__docs__api__management__channel-management__channel-disabled-delete__刪除已禁用通道-new-api__2703322e.md)
+    * [取得上游模型清單 (GET)](/docs/zh__docs__api__management__channel-management__channel-fetch_models-id-get__取得上游模型清單-new-api__96efa317.md)
+    * [取得模型清單 (POST)](/docs/zh__docs__api__management__channel-management__channel-fetch_models-post__取得模型清單-new-api__3c6cac8a.md)
+    * [修復通道能力 (POST)](/docs/zh__docs__api__management__channel-management__channel-fix-post__修复通道能力-new-api__0f2f03a3.md)
+    * [取得所有通道 (GET)](/docs/zh__docs__api__management__channel-management__channel-get__取得所有通道-new-api__e12dbce7.md)
+    * [刪除通道 (DELETE)](/docs/zh__docs__api__management__channel-management__channel-id-delete__刪除通道-new-api__341972c2.md)
+    * [取得指定通道 (GET)](/docs/zh__docs__api__management__channel-management__channel-id-get__取得指定通道-new-api__3d9b8693.md)
+    * [取得通道金鑰 (POST)](/docs/zh__docs__api__management__channel-management__channel-id-key-post__取得通道密鑰-new-api__8148e299.md)
+    * [取得已啟用模型清單 (GET)](/docs/zh__docs__api__management__channel-management__channel-models_enabled-get__取得已启用模型清單-new-api__4abb2a47.md)
+    * [取得通道模型清單 (GET)](/docs/zh__docs__api__management__channel-management__channel-models-get__取得通道模型清單-new-api__0bb9cf6a.md)
+    * [管理多金鑰 (POST)](/docs/zh__docs__api__management__channel-management__channel-multi_key-manage-post__管理多密鑰-new-api__d30da8c8.md)
+    * [新增通道 (POST)](/docs/zh__docs__api__management__channel-management__channel-post__新增通道-new-api__69dc367a.md)
+    * [更新通道 (PUT)](/docs/zh__docs__api__management__channel-management__channel-put__更新通道-new-api__84687460.md)
+    * [搜尋通道 (GET)](/docs/zh__docs__api__management__channel-management__channel-search-get__搜索通道-new-api__77154ad5.md)
+    * [禁用標籤通道 (POST)](/docs/zh__docs__api__management__channel-management__channel-tag-disabled-post__禁用标签通道-new-api__47c00c0b.md)
+    * [啟用標籤通道 (POST)](/docs/zh__docs__api__management__channel-management__channel-tag-enabled-post__启用标签通道-new-api__70ad4473.md)
+    * [取得標籤模型 (GET)](/docs/zh__docs__api__management__channel-management__channel-tag-models-get__取得标签模型-new-api__77caf02b.md)
+    * [編輯標籤通道 (PUT)](/docs/zh__docs__api__management__channel-management__channel-tag-put__編輯标签通道-new-api__d59f652b.md)
+    * [測試所有通道 (GET)](/docs/zh__docs__api__management__channel-management__channel-test-get__测试所有通道-new-api__c7c54ed9.md)
+    * [測試指定通道 (GET)](/docs/zh__docs__api__management__channel-management__channel-test-id-get__测试指定通道-new-api__98ea87fc.md)
+    * [更新所有通道餘額 (GET)](/docs/zh__docs__api__management__channel-management__channel-update_balance-get__更新所有通道余额-new-api__4630c220.md)
+    * [更新指定通道餘額 (GET)](/docs/zh__docs__api__management__channel-management__channel-update_balance-id-get__更新指定通道余额-new-api__1e3d43be.md)
+  * default
+
+    * 使用兌換碼 (POST)
+  * 分組
+
+    * [取得所有分組 (GET)](/docs/zh__docs__api__management__groups__group-get__取得所有分组-new-api__544c6792.md)
+    * [取得預填分組 (GET)](/docs/zh__docs__api__management__groups__prefill_group-get__取得预填分组-new-api__5e2db417.md)
+    * [刪除預填分組 (DELETE)](/docs/zh__docs__api__management__groups__prefill_group-id-delete__刪除预填分组-new-api__425d1947.md)
+    * [建立預填分組 (POST)](/docs/zh__docs__api__management__groups__prefill_group-post__建立预填分组-new-api__1e380309.md)
+    * [更新預填分組 (PUT)](/docs/zh__docs__api__management__groups__prefill_group-put__更新预填分组-new-api__4483ab92.md)
+  * 日誌
+
+    * [刪除歷史日誌 (DELETE)](/docs/zh__docs__api__management__logs__log-delete__刪除历史日誌-new-api__4a368a64.md)
+    * [取得所有日誌 (GET)](/docs/zh__docs__api__management__logs__log-get__取得所有日誌-new-api__3b811e2e.md)
+    * [搜尋日誌 (GET)](/docs/zh__docs__api__management__logs__log-search-get__搜索日誌-new-api__71e8aacb.md)
+    * [取得個人日誌 (GET)](/docs/zh__docs__api__management__logs__log-self-get__取得个人日誌-new-api__f6e3dd8f.md)
+    * [搜尋個人日誌 (GET)](/docs/zh__docs__api__management__logs__log-self-search-get__搜索个人日誌-new-api__448ca9b5.md)
+    * [取得個人日誌統計 (GET)](/docs/zh__docs__api__management__logs__log-self-stat-get__取得个人日誌统计-new-api__62c202bc.md)
+    * [取得日誌統計 (GET)](/docs/zh__docs__api__management__logs__log-stat-get__取得日誌统计-new-api__4eeba8aa.md)
+    * [透過令牌取得日誌 (GET)](/docs/zh__docs__api__management__logs__log-token-get__通过令牌取得日誌-new-api__bcf8e933.md)
+  * 模型管理
+
+    * [取得所有模型中繼資料 (GET)](/docs/zh__docs__api__management__model-management__models-get__取得所有模型元資料-new-api__55c49a22.md)
+    * [刪除模型 (DELETE)](/docs/zh__docs__api__management__model-management__models-id-delete__刪除模型-new-api__887950c9.md)
+    * [取得指定模型 (GET)](/docs/zh__docs__api__management__model-management__models-id-get__取得指定模型-new-api__af3ca8f3.md)
+    * [取得缺失模型 (GET)](/docs/zh__docs__api__management__model-management__models-missing-get__取得缺失模型-new-api__f60a4c2c.md)
+    * [建立模型中繼資料 (POST)](/docs/zh__docs__api__management__model-management__models-post__建立模型元資料-new-api__548c9b92.md)
+    * [更新模型中繼資料 (PUT)](/docs/zh__docs__api__management__model-management__models-put__更新模型元資料-new-api__2cbb8174.md)
+    * [搜尋模型 (GET)](/docs/zh__docs__api__management__model-management__models-search-get__搜索模型-new-api__4feb0820.md)
+    * [同步上游模型 (POST)](/docs/zh__docs__api__management__model-management__models-sync_upstream-post__同步上游模型-new-api__10c23d2e.md)
+    * [預覽上游模型同步 (GET)](/docs/zh__docs__api__management__model-management__models-sync_upstream-preview-get__预览上游模型同步-new-api__c0065418.md)
+  * OAuth
+
+    * [Discord OAuth登入 (GET)](/docs/zh__docs__api__management__oauth__oauth-discord-get__discord-oauth登录-new-api__35bf6a83.md)
+    * [綁定電子郵件 (GET)](/docs/zh__docs__api__management__oauth__oauth-email-bind-get__綁定邮箱-new-api__d1032f5c.md)
+    * [GitHub OAuth登入 (GET)](/docs/zh__docs__api__management__oauth__oauth-github-get__github-oauth登录-new-api__ba5d5e0f.md)
+    * [LinuxDO OAuth登入 (GET)](/docs/zh__docs__api__management__oauth__oauth-linuxdo-get__linuxdo-oauth登录-new-api__b49ffc14.md)
+    * [OIDC登入 (GET)](/docs/zh__docs__api__management__oauth__oauth-oidc-get__oidc登录-new-api__6ad82689.md)
+    * [生成OAuth State (GET)](/docs/zh__docs__api__management__oauth__oauth-state-get__生成oauth-state-new-api__8d87afa2.md)
+    * [綁定Telegram (GET)](/docs/zh__docs__api__management__oauth__oauth-telegram-bind-get__綁定telegram-new-api__fcdf0d85.md)
+    * [Telegram登入 (GET)](/docs/zh__docs__api__management__oauth__oauth-telegram-login-get__telegram登录-new-api__8f81a184.md)
+    * [綁定微信 (GET)](/docs/zh__docs__api__management__oauth__oauth-wechat-bind-get__綁定微信-new-api__9435d117.md)
+    * [微信OAuth登入 (GET)](/docs/zh__docs__api__management__oauth__oauth-wechat-get__微信oauth登录-new-api__9d4cae14.md)
+  * 儲值
+
+    * [Creem Webhook (POST)](/docs/zh__docs__api__management__payment__creem-webhook-post__creem-webhook-new-api__3ba6fbcb.md)
+    * [Stripe Webhook (POST)](/docs/zh__docs__api__management__payment__stripe-webhook-post__stripe-webhook-new-api__86354afa.md)
+    * [取得支付金額 (POST)](/docs/zh__docs__api__management__payment__user-amount-post__取得支付金额-new-api__399f4b1b.md)
+    * [發起Creem支付 (POST)](/docs/zh__docs__api__management__payment__user-creem-pay-post__发起creem支付-new-api__bc3c80d9.md)
+    * [易支付回呼 (GET)](/docs/zh__docs__api__management__payment__user-epay-notify-get__易支付回调-new-api__c00262d8.md)
+    * [發起易支付 (POST)](/docs/zh__docs__api__management__payment__user-pay-post__发起易支付-new-api__a8366005.md)
+    * [取得Stripe支付金額 (POST)](/docs/zh__docs__api__management__payment__user-stripe-amount-post__取得stripe支付金额-new-api__a7d06e04.md)
+    * [發起Stripe支付 (POST)](/docs/zh__docs__api__management__payment__user-stripe-pay-post__发起stripe支付-new-api__beb46b28.md)
+    * [取得儲值資訊 (GET)](/docs/zh__docs__api__management__payment__user-topup-info-get__取得充值信息-new-api__2e5cd4f4.md)
+    * [取得使用者儲值紀錄 (GET)](/docs/zh__docs__api__management__payment__user-topup-self-get__取得使用者充值记录-new-api__5efb40c1.md)
+  * 兌換碼
+
+    * [取得所有兌換碼 (GET)](/docs/zh__docs__api__management__redemption__redemption-get__取得所有兑换码-new-api__4525ef6e.md)
+    * [刪除兌換碼 (DELETE)](/docs/zh__docs__api__management__redemption__redemption-id-delete__刪除兑换码-new-api__b656eae4.md)
+    * [取得指定兌換碼 (GET)](/docs/zh__docs__api__management__redemption__redemption-id-get__取得指定兑换码-new-api__0598a20e.md)
+    * [刪除無效兌換碼 (DELETE)](/docs/zh__docs__api__management__redemption__redemption-invalid-delete__刪除无效兑换码-new-api__15fce1d9.md)
+    * [建立兌換碼 (POST)](/docs/zh__docs__api__management__redemption__redemption-post__建立兑换码-new-api__ce536652.md)
+    * [更新兌換碼 (PUT)](/docs/zh__docs__api__management__redemption__redemption-put__更新兑换码-new-api__f83f1cff.md)
+    * [搜尋兌換碼 (GET)](/docs/zh__docs__api__management__redemption__redemption-search-get__搜索兑换码-new-api__2587d444.md)
+  * 安全驗證
+
+    * [通用安全驗證 (POST)](/docs/zh__docs__api__management__security-verification__verify-post__通用安全驗證-new-api__3aa3adf4.md)
+    * [取得驗證狀態 (GET)](/docs/zh__docs__api__management__security-verification__verify-status-get__取得驗證状态-new-api__dc8dee2c.md)
+  * 資料統計
+
+    * [取得所有額度資料 (GET)](/docs/zh__docs__api__management__statistics__data-get__取得所有额度資料-new-api__df8b67df.md)
+    * [取得個人額度資料 (GET)](/docs/zh__docs__api__management__statistics__data-self-get__取得个人额度資料-new-api__348150ad.md)
+  * 系統
+
+    * [取得關於資訊 (GET)](/docs/zh__docs__api__management__system__about-get__取得关于信息-new-api__acd28027.md)
+    * [取得首頁內容 (GET)](/docs/zh__docs__api__management__system__home_page_content-get__取得首页内容-new-api__2f9539c3.md)
+    * [取得模型清單 (GET)](/docs/zh__docs__api__management__system__models-get__取得模型清單-new-api__66cac42a.md)
+    * [取得公告 (GET)](/docs/zh__docs__api__management__system__notice-get__取得公告-new-api__d917bd67.md)
+    * [取得定價資訊 (GET)](/docs/zh__docs__api__management__system__pricing-get__取得定价信息-new-api__c7b1e63a.md)
+    * [取得隱私政策 (GET)](/docs/zh__docs__api__management__system__privacy-policy-get__取得隐私政策-new-api__0bad7d3f.md)
+    * [取得倍率設定 (GET)](/docs/zh__docs__api__management__system__ratio_config-get__取得倍率設定-new-api__624830fc.md)
+    * [取得初始化狀態 (GET)](/docs/zh__docs__api__management__system__setup-get__取得初始化状态-new-api__069a178c.md)
+    * [初始化系統 (POST)](/docs/zh__docs__api__management__system__setup-post__初始化系統-new-api__2cd940ec.md)
+    * [取得系統狀態 (GET)](/docs/zh__docs__api__management__system__status-get__取得系統状态-new-api__babce704.md)
+    * [測試系統狀態 (GET)](/docs/zh__docs__api__management__system__status-test-get__测试系統状态-new-api__d67dc686.md)
+    * [取得Uptime Kuma狀態 (GET)](/docs/zh__docs__api__management__system__uptime-status-get__取得uptime-kuma状态-new-api__afab8701.md)
+    * [取得使用者協議 (GET)](/docs/zh__docs__api__management__system__user-agreement-get__取得使用者协议-new-api__dbdcee8f.md)
+  * 系統設定
+
+    * [取得系統選項 (GET)](/docs/zh__docs__api__management__system-settings__option-get__取得系統选项-new-api__6c86ded7.md)
+    * [遷移控制台設定 (POST)](/docs/zh__docs__api__management__system-settings__option-migrate_console_setting-post__迁移控制台设置-new-api__9bedcf0e.md)
+    * [更新系統選項 (PUT)](/docs/zh__docs__api__management__system-settings__option-put__更新系統选项-new-api__3162b6fb.md)
+    * [重置模型倍率 (POST)](/docs/zh__docs__api__management__system-settings__option-rest_model_ratio-post__重置模型倍率-new-api__82de8a7f.md)
+    * [取得可同步通道 (GET)](/docs/zh__docs__api__management__system-settings__ratio_sync-channels-get__取得可同步通道-new-api__b50a58fe.md)
+    * [取得上游倍率 (POST)](/docs/zh__docs__api__management__system-settings__ratio_sync-fetch-post__取得上游倍率-new-api__395769d5.md)
+  * 任務
+
+    * [取得所有Midjourney任務 (GET)](/docs/zh__docs__api__management__tasks__mj-get__取得所有midjourney任務-new-api__4caba6fc.md)
+    * [取得個人Midjourney任務 (GET)](/docs/zh__docs__api__management__tasks__mj-self-get__取得个人midjourney任務-new-api__2d070e15.md)
+    * [取得所有任務 (GET)](/docs/zh__docs__api__management__tasks__task-get__取得所有任務-new-api__35db33aa.md)
+    * [取得個人任務 (GET)](/docs/zh__docs__api__management__tasks__task-self-get__取得个人任務-new-api__48510f3a.md)
+  * 令牌管理
+
+    * [批量刪除令牌 (POST)](/docs/zh__docs__api__management__token-management__token-batch-post__批量刪除令牌-new-api__95b42ca8.md)
+    * [取得所有令牌 (GET)](/docs/zh__docs__api__management__token-management__token-get__取得所有令牌-new-api__ddea2568.md)
+    * [刪除令牌 (DELETE)](/docs/zh__docs__api__management__token-management__token-id-delete__刪除令牌-new-api__f4d7d2af.md)
+    * [取得指定令牌 (GET)](/docs/zh__docs__api__management__token-management__token-id-get__取得指定令牌-new-api__1a0aa05d.md)
+    * [建立令牌 (POST)](/docs/zh__docs__api__management__token-management__token-post__建立令牌-new-api__856abb1e.md)
+    * [更新令牌 (PUT)](/docs/zh__docs__api__management__token-management__token-put__更新令牌-new-api__eb6ae6f0.md)
+    * [搜尋令牌 (GET)](/docs/zh__docs__api__management__token-management__token-search-get__搜索令牌-new-api__438e4e76.md)
+    * [取得令牌使用情況 (GET)](/docs/zh__docs__api__management__token-management__usage-token-get__取得令牌使用情况-new-api__62315c76.md)
+  * 兩步驟驗證
+
+    * [重新生成備用碼 (POST)](/docs/zh__docs__api__management__two-factor-auth__user-2fa-backup_codes-post__重新生成备用码-new-api__8cfd5666.md)
+    * [禁用2FA (POST)](/docs/zh__docs__api__management__two-factor-auth__user-2fa-disable-post__禁用2fa-new-api__dce16f2f.md)
+    * [啟用2FA (POST)](/docs/zh__docs__api__management__two-factor-auth__user-2fa-enable-post__启用2fa-new-api__1631001b.md)
+    * [設定2FA (POST)](/docs/zh__docs__api__management__two-factor-auth__user-2fa-setup-post__设置2fa-new-api__a2bc8f89.md)
+    * [取得2FA統計 (GET)](/docs/zh__docs__api__management__two-factor-auth__user-2fa-stats-get__取得2fa统计-new-api__40bc7673.md)
+    * [取得2FA狀態 (GET)](/docs/zh__docs__api__management__two-factor-auth__user-2fa-status-get__取得2fa状态-new-api__1bab2029.md)
+  * 使用者登入註冊
+
+    * [發送密碼重置郵件 (GET)](/docs/zh__docs__api__management__user-auth__reset_password-get__發送密码重置邮件-new-api__c2550ee3.md)
+    * [兩步驟驗證登入 (POST)](/docs/zh__docs__api__management__user-auth__user-login-2fa-post__两步驗證登录-new-api__3fe5b04f.md)
+    * [使用者登入 (POST)](/docs/zh__docs__api__management__user-auth__user-login-post__使用者登录-new-api__ab67391d.md)
+    * [使用者登出 (GET)](/docs/zh__docs__api__management__user-auth__user-logout-get__使用者登出-new-api__8b13b159.md)
+    * [開始Passkey登入 (POST)](/docs/zh__docs__api__management__user-auth__user-passkey-login-begin-post__开始passkey登录-new-api__a9e682fb.md)
+    * [完成Passkey登入 (POST)](/docs/zh__docs__api__management__user-auth__user-passkey-login-finish-post__完成passkey登录-new-api__38980a41.md)
+    * [使用者註冊 (POST)](/docs/zh__docs__api__management__user-auth__user-register-post__使用者注册-new-api__99698c9f.md)
+    * [重置密碼 (POST)](/docs/zh__docs__api__management__user-auth__user-reset-post__重置密码-new-api__a15f99f8.md)
+    * [發送電子郵件驗證碼 (GET)](/docs/zh__docs__api__management__user-auth__verification-get__發送邮箱驗證码-new-api__4f2841e6.md)
+  * 使用者管理
+
+    * [轉換邀請額度 (POST)](/docs/zh__docs__api__management__user-management__user-aff_transfer-post__转换邀请额度-new-api__f390a053.md)
+    * [取得邀請碼 (GET)](/docs/zh__docs__api__management__user-management__user-aff-get__取得邀请码-new-api__af25bdd6.md)
+    * [取得所有使用者 (GET)](/docs/zh__docs__api__management__user-management__user-get__取得所有使用者-new-api__9a0086a0.md)
+    * [管理員禁用使用者2FA (DELETE)](/docs/zh__docs__api__management__user-management__user-id-2fa-delete__管理员禁用使用者2fa-new-api__48a7fb7c.md)
+    * [刪除使用者 (DELETE)](/docs/zh__docs__api__management__user-management__user-id-delete__刪除使用者-new-api__2b347cc6.md)
+    * [取得指定使用者 (GET)](/docs/zh__docs__api__management__user-management__user-id-get__取得指定使用者-new-api__ea6d5215.md)
+    * [管理員重置使用者Passkey (DELETE)](/docs/zh__docs__api__management__user-management__user-id-reset_passkey-delete__管理员重置使用者passkey-new-api__ed65e8e2.md)
+    * [管理使用者狀態 (POST)](/docs/zh__docs__api__management__user-management__user-manage-post__管理使用者状态-new-api__37c3f489.md)
+    * [取得使用者可用模型 (GET)](/docs/zh__docs__api__management__user-management__user-models-get__取得使用者可用模型-new-api__18882210.md)
+    * [刪除Passkey (DELETE)](/docs/zh__docs__api__management__user-management__user-passkey-delete__刪除passkey-new-api__3af7a51e.md)
+    * [取得Passkey狀態 (GET)](/docs/zh__docs__api__management__user-management__user-passkey-get__取得passkey状态-new-api__ac319b9f.md)
+    * [開始註冊Passkey (POST)](/docs/zh__docs__api__management__user-management__user-passkey-register-begin-post__开始注册passkey-new-api__47230b41.md)
+    * [完成註冊Passkey (POST)](/docs/zh__docs__api__management__user-management__user-passkey-register-finish-post__完成注册passkey-new-api__f47b1d7e.md)
+    * [開始驗證Passkey (POST)](/docs/zh__docs__api__management__user-management__user-passkey-verify-begin-post__开始驗證passkey-new-api__c0384b26.md)
+    * [完成驗證Passkey (POST)](/docs/zh__docs__api__management__user-management__user-passkey-verify-finish-post__完成驗證passkey-new-api__9fc7e173.md)
+    * [建立使用者 (POST)](/docs/zh__docs__api__management__user-management__user-post__建立使用者-new-api__51b58d9b.md)
+    * [更新使用者 (PUT)](/docs/zh__docs__api__management__user-management__user-put__更新使用者-new-api__e399454b.md)
+    * [搜尋使用者 (GET)](/docs/zh__docs__api__management__user-management__user-search-get__搜索使用者-new-api__a013cba5.md)
+    * [註銷目前使用者 (DELETE)](/docs/zh__docs__api__management__user-management__user-self-delete__注销当前使用者-new-api__6585c6bc.md)
+    * [取得目前使用者資訊 (GET)](/docs/zh__docs__api__management__user-management__user-self-get__取得当前使用者信息-new-api__bb44f07b.md)
+    * [取得目前使用者分組 (GET)](/docs/zh__docs__api__management__user-management__user-self-groups-get__取得当前使用者分组-new-api__bb9eb7e7.md)
+    * [更新目前使用者資訊 (PUT)](/docs/zh__docs__api__management__user-management__user-self-put__更新当前使用者信息-new-api__87e74c7e.md)
+    * [更新使用者設定 (PUT)](/docs/zh__docs__api__management__user-management__user-setting-put__更新使用者设置-new-api__ca64969f.md)
+    * [生成存取令牌 (GET)](/docs/zh__docs__api__management__user-management__user-token-get__生成存取令牌-new-api__c8d0e11b.md)
+    * [管理員完成儲值 (POST)](/docs/zh__docs__api__management__user-management__user-topup-complete-post__管理员完成充值-new-api__af170294.md)
+    * [取得所有儲值紀錄 (GET)](/docs/zh__docs__api__management__user-management__user-topup-get__取得所有充值记录-new-api__53b0977e.md)
+  * 供應商
+
+    * [取得所有供應商 (GET)](/docs/zh__docs__api__management__vendors__vendors-get__取得所有供应商-new-api__ceab67f1.md)
+    * [刪除供應商 (DELETE)](/docs/zh__docs__api__management__vendors__vendors-id-delete__刪除供应商-new-api__c34f21f4.md)
+    * [取得指定供應商 (GET)](/docs/zh__docs__api__management__vendors__vendors-id-get__取得指定供应商-new-api__d2fe9486.md)
+    * [建立供應商 (POST)](/docs/zh__docs__api__management__vendors__vendors-post__建立供应商-new-api__74640776.md)
+    * [更新供應商 (PUT)](/docs/zh__docs__api__management__vendors__vendors-put__更新供应商-new-api__f1b643ce.md)
+    * [搜尋供應商 (GET)](/docs/zh__docs__api__management__vendors__vendors-search-get__搜索供应商-new-api__bfb78b86.md)
