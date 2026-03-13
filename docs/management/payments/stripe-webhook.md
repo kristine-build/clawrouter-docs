@@ -1,6 +1,6 @@
 # Stripe Webhook
 
-管理接口充值
+管理介面充值
 
 # Stripe Webhook
 

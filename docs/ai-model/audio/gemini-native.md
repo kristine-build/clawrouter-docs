@@ -2,7 +2,7 @@
 
 Gemini 音频生成。
 
-使用 Gemini 模型生成内容（含语音相关配置）。
+使用 Gemini 模型生成内容（含语音相关設定）。
 
 ## Endpoint
 
@@ -11,7 +11,7 @@ Gemini 音频生成。
 ## Authorization
 | Name | Type | Required | Description |
 |---|---|---|---|
-| Authorization | string | yes | 示例请求头：`Authorization: Bearer YOUR_API_KEY` |
+| Authorization | string | yes | 範例請求头：`Authorization: Bearer YOUR_API_KEY` |
 ## Request Body
 Content-Type: `application/json`
 | name | type | required | description | enum | default | range |
@@ -22,7 +22,7 @@ Content-Type: `application/json`
 | `contents[].parts[].text` | `string` | no | 文本内容 | - | - | - |
 | `contents[].parts[].inlineData` | `object` | no | - | - | - | - |
 | `contents[].parts[].inlineData.mimeType` | `string` | no | - | - | - | - |
-| `contents[].parts[].inlineData.data` | `string` | no | Base64 数据 | - | - | - |
+| `contents[].parts[].inlineData.data` | `string` | no | Base64 資料 | - | - | - |
 | `generationConfig` | `object` | no | - | - | - | - |
 | `generationConfig.responseModalities[]` | `array<string>` | no | - | - | - | - |
 | `generationConfig.speechConfig` | `object` | no | - | - | - | - |
@@ -43,7 +43,7 @@ Content-Type: `application/json`
 | `candidates[].content.parts[].text` | `string` | no | 文本内容 | - | - | - |
 | `candidates[].content.parts[].inlineData` | `object` | no | - | - | - | - |
 | `candidates[].content.parts[].inlineData.mimeType` | `string` | no | - | - | - | - |
-| `candidates[].content.parts[].inlineData.data` | `string` | no | Base64 数据 | - | - | - |
+| `candidates[].content.parts[].inlineData.data` | `string` | no | Base64 資料 | - | - | - |
 | `candidates[].finishReason` | `string` | no | - | - | - | - |
 | `usageMetadata` | `object` | no | - | - | - | - |
 | `usageMetadata.promptTokenCount` | `integer` | no | - | - | - | - |
@@ -80,10 +80,10 @@ Content-Type: `application/json`
 
 | status | meaning |
 |---|---|
-| `400` | 请求参数错误 |
+| `400` | 請求參數錯誤 |
 | `401` | 鉴权失败 |
-| `429` | 请求过于频繁 |
-| `500` | 服务端错误 |
+| `429` | 請求过于频繁 |
+| `500` | 服务端錯誤 |
 ## Code Examples
 
 ### cURL

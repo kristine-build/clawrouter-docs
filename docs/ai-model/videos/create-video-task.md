@@ -1,12 +1,12 @@
-# 创建视频生成任务
+# 建立视频生成任务
 
-AI 模型接口视频（Videos）
+AI 模型介面视频（Videos）
 
-# 创建视频生成任务
+# 建立视频生成任务
 
-提交视频生成任务，支持文生视频和图生视频。
+提交视频生成任务，支援文生视频和图生视频。
 
-返回任务 ID，可通过 GET 接口查询任务状态。
+回傳任务 ID，可通过 GET 介面查询任务状态。
 
 
 
@@ -32,9 +32,9 @@ application/json
 | fps | integer | no | 视频帧率 |
 | seed | integer | no | 随机种子 |
 | n | integer | no | 生成视频数量 |
-| response_format | string | no | 响应格式 |
+| response_format | string | no | 回應格式 |
 | user | string | no | 用户标识 |
-| metadata | object | no | 扩展参数 (如 negative\_prompt, style, quality\_level 等) |## Response Body
+| metadata | object | no | 扩展參數 (如 negative\_prompt, style, quality\_level 等) |## Response Body
 
 ### 200 application/json
 

@@ -1,10 +1,10 @@
 # 编辑图像
 
-AI 模型接口图像（Images）原生OpenAI格式
+AI 模型介面图像（Images）原生OpenAI格式
 
 # 编辑图像
 
-在给定原始图像和提示的情况下创建编辑或扩展图像。
+在给定原始图像和提示的情况下建立编辑或扩展图像。
 
 
 
@@ -29,7 +29,7 @@ multipart/form-data
 | prompt | string | yes | 所需图像的文本描述。最大长度为 1000 个字符。 |
 | n | string | no | 要生成的图像数。必须介于 1 和 10 之间。 |
 | size | string | no | 生成图像的大小。必须是`256x256`、`512x512`或 `1024x1024`之一。 |
-| response_format | string | no | 生成的图像返回的格式。必须是`url`或`b64_json`。 |
+| response_format | string | no | 生成的图像回傳的格式。必须是`url`或`b64_json`。 |
 | user | string | no | 代表您的最终用户的唯一标识符，可以帮助 OpenAI 监控和检测滥用行为。[了解更多](https://platform.openai.com/docs/guides/safety-best-practices/end-user-ids)。 |
 | model | string | no |  |
 ## Response Body

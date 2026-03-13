@@ -5,7 +5,7 @@
 ## 本章内容
 
 - [发送密码重置邮件](item.md)
-- [获取用户分组列表](get-user-list.md)
+- [取得用户分组列表](get-user-list.md)
 - [两步验证登录](verify-login.md)
 - [用户登录](user-login.md)
 - [用户登出](user.md)

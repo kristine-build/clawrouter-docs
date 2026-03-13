@@ -1,8 +1,8 @@
 # 原生OpenAI格式
 
-基于给定提示创建文本补全
+基于给定提示建立文本补全
 
-## 请求概览
+## 請求概览
 
 `POST /v1/completions`
 
@@ -13,27 +13,27 @@
 
 | Name | Type | Required | Description |
 |---|---|---|---|
-| Authorization | string | yes | Bearer Token 认证。格式：`Authorization: Bearer sk-xxxxxx`。通过 `Authorization` 请求头传递，示例：`Authorization: Bearer YOUR_API_KEY`。 |
+| Authorization | string | yes | Bearer Token 认证。格式：`Authorization: Bearer sk-xxxxxx`。通过 `Authorization` 請求头传递，範例：`Authorization: Bearer YOUR_API_KEY`。 |
 
 ## Request Body
 
 | Name | Type | Required | Description |
 |---|---|---|---|
-| model | string | yes | 该接口使用的模型 ID。 |
+| model | string | yes | 该介面使用的模型 ID。 |
 | prompt | string \| array<string> | yes | 输入提示词。 |
 | max_tokens | integer | no | 可生成的最大 token 数。 |
 | temperature | number | no | 采样温度。范围通常为 `0` 到 `2`。 |
 | top_p | number | no | 使用核采样（Top-p）策略时的概率阈值，范围通常为 `0` 到 `1`。 |
-| n | integer | no | 每个提示词返回的候选数目。 |
-| stream | boolean | no | 是否启用流式返回。 |
+| n | integer | no | 每个提示词回傳的候选数目。 |
+| stream | boolean | no | 是否启用流式回傳。 |
 | stop | string \| array<string> | no | 停止生成的词元。 |
 | suffix | string | no | 在补全结果后追加的后缀。 |
-| echo | boolean | no | 是否在返回文本中回显输入提示词。 |
-| best_of | integer | no | 在未开启流式时，服务端会并行采样并返回 `n` 个中评分最高的一个。 |
+| echo | boolean | no | 是否在回傳文本中回显输入提示词。 |
+| best_of | integer | no | 在未开启流式时，服务端会并行采样并回傳 `n` 个中评分最高的一个。 |
 | frequency_penalty | number | no | 频率惩罚值，用于抑制重复。 |
 | presence_penalty | number | no | 存在惩罚值，用于提高新话题概率。 |
 | logit_bias | object | no | 词表偏置映射，键为 token，值为偏置分数。 |
-| logprobs | integer | no | 在输出中返回每个 token 的对数概率个数。 |
+| logprobs | integer | no | 在输出中回傳每个 token 的对数概率个数。 |
 | seed | integer | no | 生成随机种子。 |
 | user | string | no | 终端用户标识符，用于审计与风控。 |
 
@@ -43,9 +43,9 @@
 
 | Name | Type | Description |
 |---|---|---|
-| id | string | 响应 ID。 |
-| object | string | 响应对象类型，示例值 `text_completion`。 |
-| created | integer | 响应创建时间戳（Unix 秒）。 |
+| id | string | 回應 ID。 |
+| object | string | 回應对象类型，範例值 `text_completion`。 |
+| created | integer | 回應建立时间戳（Unix 秒）。 |
 | model | string | 使用的模型。 |
 | choices | array<object> | 生成候选文本列表。 |
 | choices[0].text | string | 本次生成文本。 |

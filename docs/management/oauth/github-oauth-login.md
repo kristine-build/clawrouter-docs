@@ -1,6 +1,6 @@
 # GitHub OAuth登录
 
-管理接口OAuth
+管理介面OAuth
 
 # GitHub OAuth登录
 

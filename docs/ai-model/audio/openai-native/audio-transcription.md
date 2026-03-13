@@ -19,7 +19,7 @@
 | language | string | no | ISO-639-1 语言代码。 |
 | prompt | string | no | 提示词。 |
 | response_format | string | no | 取值 `json` / `text` / `srt` / `verbose_json` / `vtt`。默认 `json`。 |
-| temperature | number | no | 温度参数。 |
+| temperature | number | no | 温度參數。 |
 | timestamp_granularities[] | array<string> | no | 时间戳粒度控制。 |
 
 ## Response Body

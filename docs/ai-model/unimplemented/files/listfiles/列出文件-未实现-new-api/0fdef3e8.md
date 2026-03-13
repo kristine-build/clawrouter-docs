@@ -1,10 +1,10 @@
 # 列出文件 (未实现) | ClawRouter
 
-AI 模型接口未实现（Unimplemented）文件（Files）
+AI 模型介面未实现（Unimplemented）文件（Files）
 
 # 列出文件 (未实现)
 
-此接口尚未实现
+此介面尚未实现
 
 
 

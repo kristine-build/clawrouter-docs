@@ -1,10 +1,10 @@
 # 原生Gemini格式 | ClawRouter
 
-AI 模型接口音频（Audio）
+AI 模型介面音频（Audio）
 
 # 原生Gemini格式
 
-Gemini 音频生成接口。
+Gemini 音频生成介面。
 可使用gemini-2.5-flash-preview-tts等模型
 
 

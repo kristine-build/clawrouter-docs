@@ -1,8 +1,8 @@
-# 获取所有Midjourney任务
+# 取得所有Midjourney任务
 
-管理接口任务
+管理介面任务
 
-# 获取所有Midjourney任务
+# 取得所有Midjourney任务
 
 👨💼 需要管理员权限（Admin）
 

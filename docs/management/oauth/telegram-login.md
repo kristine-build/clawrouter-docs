@@ -1,6 +1,6 @@
 # Telegram登录
 
-管理接口OAuth
+管理介面OAuth
 
 # Telegram登录
 

@@ -1,6 +1,6 @@
 # 文档重排序
 
-AI 模型接口重排序（Rerank）
+AI 模型介面重排序（Rerank）
 
 # 文档重排序
 
@@ -23,7 +23,7 @@ application/json
 |---|---|---|---|
 | model | string | yes |  |
 | query | string | yes | 查询文本 documents\*array<string \| object> 要重排序的文档列表 |
-| top_n | integer | no | 返回前 N 个结果 |
+| top_n | integer | no | 回傳前 N 个结果 |
 | return_documents | boolean | no | Default`false` |## Response Body
 
 ### 200 application/json

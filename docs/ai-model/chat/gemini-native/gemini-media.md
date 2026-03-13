@@ -1,8 +1,8 @@
 # Gemini媒体识别
 
-Gemini图像、PDF、音频、视频识别请求
+Gemini图像、PDF、音频、视频识别請求
 
-⚠️注意：仅支持通过 inlineData 以 base64 方式上传图像、PDF、音频、视频，不支持 fileData.fileUri 或 File API。
+⚠️注意：仅支援通过 inlineData 以 base64 方式上传图像、PDF、音频、视频，不支援 fileData.fileUri 或 File API。
 
 ## Endpoint
 
@@ -11,7 +11,7 @@ Gemini图像、PDF、音频、视频识别请求
 ## Authorization
 | Name | Type | Required | Description |
 |---|---|---|---|
-| Authorization | string | yes | \| --- \| --- \| --- \| --- \| \| `Authorization` \| `string` \| yes \| Bearer API key。示例：`Authorization: Bearer YOUR_API_KEY` \| |
+| Authorization | string | yes | \| --- \| --- \| --- \| --- \| \| `Authorization` \| `string` \| yes \| Bearer API key。範例：`Authorization: Bearer YOUR_API_KEY` \| |
 ## Path Parameters
 
 | Name | Type | Required | Description |
@@ -27,9 +27,9 @@ Content-Type: `application/json`
 | `contents[].parts[].text` | `string` | no | 文本内容片段 |
 | `contents[].parts[].inlineData` | `object` | no | base64 媒体内容 |
 | `contents[].parts[].inlineData.mimeType` | `string` | yes | 媒体 MIME 类型 |
-| `contents[].parts[].inlineData.data` | `string` | yes | base64 编码的数据 |
-| `generationConfig` | `object` | no | 生成控制参数 |
-| `generationConfig.responseModalities` | `array` | no | 期望返回模态 |
+| `contents[].parts[].inlineData.data` | `string` | yes | base64 编码的資料 |
+| `generationConfig` | `object` | no | 生成控制參數 |
+| `generationConfig.responseModalities` | `array` | no | 期望回傳模态 |
 
 ## Response Body
 

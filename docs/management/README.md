@@ -1,4 +1,4 @@
-# 管理接口
+# 管理介面
 
 ## 本章内容
 
@@ -12,7 +12,7 @@
 * [充值](payments/)
 * [兑换码](redemption-codes/)
 * [安全验证](security-verification/)
-* [数据统计](statistics/)
+* [資料统计](statistics/)
 * [系统](system/)
 * [系统设置](system-settings/)
 * [任务](tasks/)

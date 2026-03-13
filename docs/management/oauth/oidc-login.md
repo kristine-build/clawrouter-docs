@@ -1,6 +1,6 @@
 # OIDC登录
 
-管理接口OAuth
+管理介面OAuth
 
 # OIDC登录
 

@@ -1,7 +1,7 @@
 # 原生Claude格式
 
-Anthropic Claude Messages API 格式的请求。
-需要在请求头中包含 `anthropic-version`。
+Anthropic Claude Messages API 格式的請求。
+需要在請求头中包含 `anthropic-version`。
 
 ## Endpoint
 
@@ -10,7 +10,7 @@ Anthropic Claude Messages API 格式的请求。
 ## Authorization
 | Name | Type | Required | Description |
 |---|---|---|---|
-| Authorization | string | yes | - **位置**：`header` - **示例**：`Authorization: Bearer YOUR_API_KEY` - **说明**：使用 Bearer Token 认证，不适用时可使用 `x-api-key`。 |
+| Authorization | string | yes | - **位置**：`header` - **範例**：`Authorization: Bearer YOUR_API_KEY` - **说明**：使用 Bearer Token 认证，不适用时可使用 `x-api-key`。 |
 ## Header Parameters
 
 | name | type | required | description | enum | default | range |
@@ -26,15 +26,15 @@ Content-Type: `application/json`
 | messages | array<object> | yes | 对话内容数组。 | - | - | - |
 | system | string \| array<object> | no | 系统提示词/系统上下文。 | - | - | - |
 | max_tokens | integer | yes | 生成最大 token 数。 | - | - | `>= 1` |
-| temperature | number | no | 温度参数。 | - | - | `0 <= value <= 1` |
+| temperature | number | no | 温度參數。 | - | - | `0 <= value <= 1` |
 | top_p | number | no | nucleus sampling 上界。 | - | - | `0 <= value <= 1` |
-| top_k | integer | no | top-k 采样参数。 | - | - | `>= 1` |
-| stream | boolean | no | 是否开启流式响应。 | `true`, `false` | `false` | - |
+| top_k | integer | no | top-k 采样參數。 | - | - | `>= 1` |
+| stream | boolean | no | 是否开启流式回應。 | `true`, `false` | `false` | - |
 | stop_sequences | array<string> | no | 停止词列表。 | - | - | - |
 | tools | array<object> | no | 工具调用定义。 | - | - | - |
 | tool_choice | object | no | 工具选择策略。 | - | - | - |
-| thinking | object | no | 思考/推理相关参数。 | - | - | - |
-| metadata | object | no | 额外元数据。 | - | - | - |
+| thinking | object | no | 思考/推理相关參數。 | - | - | - |
+| metadata | object | no | 额外元資料。 | - | - | - |
 
 ## Response Body
 
@@ -43,9 +43,9 @@ Content-Type: `application/json`
 | name | type | description |
 | --- | --- | --- |
 | id | string | 消息 ID。 |
-| type | string | 响应类型，通常为 `message`。 |
-| role | string | 返回角色，通常为 `assistant`。 |
-| content | array<object> | 返回内容列表。 |
+| type | string | 回應类型，通常为 `message`。 |
+| role | string | 回傳角色，通常为 `assistant`。 |
+| content | array<object> | 回傳内容列表。 |
 | content[].type | string | 内容片段类型。 |
 | content[].text | string | 文本内容。 |
 | model | string | 实际使用模型。 |
@@ -53,7 +53,7 @@ Content-Type: `application/json`
 | usage | object | 令牌使用量。 |
 | usage.input_tokens | integer | 输入 token 数。 |
 | usage.output_tokens | integer | 输出 token 数。 |
-| usage.cache_creation_input_tokens | integer | 缓存创建输入 token 数。 |
+| usage.cache_creation_input_tokens | integer | 缓存建立输入 token 数。 |
 | usage.cache_read_input_tokens | integer | 缓存读取输入 token 数。 |
 
 ```json

@@ -1,8 +1,8 @@
-# 获取Uptime Kuma状态
+# 取得Uptime Kuma状态
 
-管理接口系统
+管理介面系统
 
-# 获取Uptime Kuma状态
+# 取得Uptime Kuma状态
 
 🔓 无需鉴权
 

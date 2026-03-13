@@ -1,6 +1,6 @@
 # 原生OpenAI格式
 
-AI 模型接口审查（Moderations）
+AI 模型介面审查（Moderations）
 
 # 原生OpenAI格式
 

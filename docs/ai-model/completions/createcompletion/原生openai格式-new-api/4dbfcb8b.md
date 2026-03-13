@@ -1,10 +1,10 @@
 # 原生OpenAI格式 | ClawRouter
 
-AI 模型接口补全（Completions）
+AI 模型介面补全（Completions）
 
 # 原生OpenAI格式
 
-基于给定提示创建文本补全
+基于给定提示建立文本补全
 
 
 

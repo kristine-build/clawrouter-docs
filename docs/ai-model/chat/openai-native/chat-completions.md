@@ -1,6 +1,6 @@
 # ChatCompletions格式
 
-根据对话历史创建模型响应。支持流式和非流式响应。  
+根据对话历史建立模型回應。支援流式和非流式回應。  
 兼容 OpenAI Chat Completions API。
 
 ## Endpoint
@@ -10,21 +10,21 @@
 ## Authorization
 | Name | Type | Required | Description |
 |---|---|---|---|
-| Authorization | string | yes | \| --- \| --- \| --- \| --- \| \| `Authorization` \| `string` \| yes \| Bearer API Key，示例：`Authorization: Bearer YOUR_API_KEY` \| |
+| Authorization | string | yes | \| --- \| --- \| --- \| --- \| \| `Authorization` \| `string` \| yes \| Bearer API Key，範例：`Authorization: Bearer YOUR_API_KEY` \| |
 ## Request Body
 Content-Type: `application/json`
 | Name | Type | Required | Description |
 | --- | --- | --- | --- |
 | `model` | `string` | yes | 模型 ID |
 | `messages` | `array` | yes | 对话消息列表 |
-| `messages[].role` | `string` | yes | 消息角色，示例：`system` / `user` / `assistant` |
+| `messages[].role` | `string` | yes | 消息角色，範例：`system` / `user` / `assistant` |
 | `messages[].content` | `string` | yes | 消息内容 |
 | `messages[].name` | `string` | no | （可选）名称 |
 | `messages[].tool_calls` | `array` | no | 工具调用列表 |
 | `temperature` | `number` | no | 采样温度（默认 `1`，范围 `0 <= value <= 2`） |
-| `top_p` | `number` | no | 核采样参数（默认 `1`，范围 `0 <= value <= 1`） |
+| `top_p` | `number` | no | 核采样參數（默认 `1`，范围 `0 <= value <= 1`） |
 | `n` | `integer` | no | 生成数量（默认 `1`，范围 `value >= 1`） |
-| `stream` | `boolean` | no | 是否流式响应（默认 `false`） |
+| `stream` | `boolean` | no | 是否流式回應（默认 `false`） |
 | `stream_options` | `object` | no | 流式选项 |
 | `stop` | `string / array<string>` | no | 停止序列 |
 | `max_tokens` | `integer` | no | 最大生成 Token 数 |
@@ -35,12 +35,12 @@ Content-Type: `application/json`
 | `user` | `string` | no | 用户标识 |
 | `tools` | `array` | no | 工具定义列表 |
 | `tool_choice` | `string / object` | no | 工具选择策略 |
-| `response_format` | `object` | no | 响应格式参数 |
-| `response_format.type` | `string` | no | 响应格式类型 |
+| `response_format` | `object` | no | 回應格式參數 |
+| `response_format.type` | `string` | no | 回應格式类型 |
 | `seed` | `integer` | no | 随机种子 |
 | `reasoning_effort` | `string` | no | 推理强度，枚举：`low` / `medium` / `high` |
 | `modalities` | `array<string>` | no | 模态列表 |
-| `audio` | `object` | no | 音频参数 |
+| `audio` | `object` | no | 音频參數 |
 
 ## Response Body
 

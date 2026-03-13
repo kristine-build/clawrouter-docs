@@ -1,6 +1,6 @@
 # 绑定Telegram
 
-管理接口OAuth
+管理介面OAuth
 
 # 绑定Telegram
 

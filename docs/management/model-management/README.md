@@ -4,12 +4,12 @@
 
 ## 本章内容
 
-- [获取所有模型元数据](get-model.md)
+- [取得所有模型元資料](get-model.md)
 - [删除模型](delete-model.md)
-- [获取指定模型](get-model-2.md)
-- [获取缺失模型](get-model-3.md)
-- [创建模型元数据](create-model.md)
-- [更新模型元数据](update-model.md)
+- [取得指定模型](get-model-2.md)
+- [取得缺失模型](get-model-3.md)
+- [建立模型元資料](create-model.md)
+- [更新模型元資料](update-model.md)
 - [搜索模型](search-model.md)
 - [同步上游模型](model.md)
 - [预览上游模型同步](model-2.md)

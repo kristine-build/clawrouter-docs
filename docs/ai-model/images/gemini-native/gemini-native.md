@@ -10,7 +10,7 @@ POST `/v1beta/models/{model}:generateContent`
 
 BearerAuth
 
-Header 示例：
+Header 範例：
 
 `Authorization: Bearer <token>`
 
@@ -94,35 +94,35 @@ curl -X POST "https://docs.newapi.pro/v1beta/models/string:generateContent/" \
 {% tab title="JavaScript" %}
 
 ```javascript
-// 示例未提供
+// 範例未提供
 ```
 
 {% endtab %}
 {% tab title="Go" %}
 
 ```go
-// 示例未提供
+// 範例未提供
 ```
 
 {% endtab %}
 {% tab title="Python" %}
 
 ```python
-# 示例未提供
+# 範例未提供
 ```
 
 {% endtab %}
 {% tab title="Java" %}
 
 ```java
-// 示例未提供
+// 範例未提供
 ```
 
 {% endtab %}
 {% tab title="C#" %}
 
 ```csharp
-// 示例未提供
+// 範例未提供
 ```
 
 {% endtab %}

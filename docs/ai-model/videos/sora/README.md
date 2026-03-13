@@ -4,6 +4,6 @@ Sora格式 文档导航。
 
 ## 本章内容
 
-- [创建视频](create-video.md)
-- [获取视频任务状态](get-video-task-status.md)
-- [获取视频内容](get-video.md)
+- [建立视频](create-video.md)
+- [取得视频任务状态](get-video-task-status.md)
+- [取得视频内容](get-video.md)
